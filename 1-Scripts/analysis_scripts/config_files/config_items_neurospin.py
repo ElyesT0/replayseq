@@ -1,5 +1,6 @@
 import mne
-from ..modules.params import *
+
+path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/REPLAYSEQ/2-Data/raw"
 
 study_name = "REPLAYSEQ"
 
