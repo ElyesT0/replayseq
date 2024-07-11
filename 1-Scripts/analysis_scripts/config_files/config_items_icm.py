@@ -1,4 +1,5 @@
 import mne
+from modules.params import *
 
 study_name = "REPLAYSEQ"
 
