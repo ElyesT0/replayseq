@@ -1,11 +1,11 @@
 import mne
 
-path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/REPLAYSEQ/2-Data/raw"
+path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/REPLAYSEQ/2-Data/"
 
 study_name = "REPLAYSEQ"
 
-bids_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/BIDS"
-deriv_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items"
+bids_root = path_root+"BIDS"
+deriv_root = path_root+"derivatives/items"
 
 task = "reproduction"
 
