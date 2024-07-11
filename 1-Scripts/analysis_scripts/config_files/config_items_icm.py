@@ -10,7 +10,7 @@ task = "reproduction"
 runs = 'all'
 # Exclude subjects from Neurospin with different parameters
 exclude_subjects = ['03','04','05']
-exclude_subjects.append(['02']) # subject that don't have bad channels annotated yet
+exclude_subjects.extend(['02']) # subject that don't have bad channels annotated yet
 
 
 find_flat_channels_meg = True
@@ -30,7 +30,7 @@ data_type='meg'
 #eeg_template_montage = mne.channels.make_standard_montage("standard_1005")
 # eeg_template_montage = "easycap-M10"
 
-raw_resample_sfrec=250
+raw_resample_sfreq=250
 l_freq = None
 h_freq = 40.0
 

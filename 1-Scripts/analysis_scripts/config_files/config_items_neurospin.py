@@ -9,7 +9,7 @@ task = "reproduction"
 
 runs = 'all'
 exclude_subjects = ['01','02']
-exclude_subjects.append(['04','05']) # subject that don't have bad channels annotated yet
+exclude_subjects.extend(['04', '05']) # subject that don't have bad channels annotated yet
 
 find_flat_channels_meg = True
 find_noisy_channels_meg = True
@@ -22,12 +22,11 @@ ch_types = ["meg"]
 data_type='meg'
 
 
-
 # Trying to give a standard positionning of eeg channels
 #eeg_template_montage = mne.channels.make_standard_montage("standard_1005")
 # eeg_template_montage = "easycap-M10"
 
-raw_resample_sfrec=250
+raw_resample_sfreq=250
 l_freq = None
 h_freq = 40.0
 

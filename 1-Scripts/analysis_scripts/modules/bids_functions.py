@@ -103,9 +103,15 @@ def prepare_data_for_mne_bids_pipeline(sub,base_path = "/Volumes/T5_EVO/1-experi
         write_meg_calibration(calibration=cal_fname,bids_path=bids_path)
         write_meg_crosstalk(fname=ct_fname,bids_path=bids_path)
 
-def inspect_raw(sub_nb, run, path_root=path_root,icm=False):
+def inspect_raw(sub_nb, run, path_root=path_root):
     
-    if icm:
+    # Open JSON bad_channels object
+    with open(path_json_file, 'r') as file:
+        bad_channels_dict = json.load(file)
+    
+    lab=bad_channels_dict[f'sub-{sub_nb:02}']['lab']
+    
+    if lab=='icm':
         path_raw=os.path.join(path_root,'Data_ICM')
         path_raw_file=os.path.join(path_raw,f'sub-{sub_nb:02}/run{run:02}.fif')
         
