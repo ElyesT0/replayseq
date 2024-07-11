@@ -2,12 +2,17 @@ import mne
 from mne_bids import BIDSPath, write_raw_bids, write_meg_calibration, write_meg_crosstalk
 import numpy as np
 import os
-# from params import *
+import json
+from modules.params import *
 
-path_root="/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/raw"
+def extract_events_and_event_IDs_neurospin(raw,event_dict=event_dict):
+    events_presentation=mne.find_events(raw,mask_type = "not_and",mask = 2**6+2**7+2**8+2**9+2**10+2**11+2**12+2**13+2**14+2**15, verbose=False, min_duration=0.1)
+    
+    return events_presentation, event_dict 
+    
+    
 
-
-def extract_events_and_event_IDs(raw):
+def extract_events_and_event_IDs_ICM(raw):
     """
     The trigger codes are
     9 for fixation,
@@ -37,30 +42,63 @@ def extract_events_and_event_IDs(raw):
 
 
 
-def prepare_data_for_mne_bids_pipeline(subject='sub-01',base_path = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ",icm=False):
+def prepare_data_for_mne_bids_pipeline(sub,base_path = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ"):
 
-    original_data_path = base_path + "/1-data_ICM/raw/"
-    root = base_path+'/1-data_ICM/BIDS'
+    # Open JSON bad_channels object
+    with open(path_json_file, 'r') as file:
+        bad_channels_dict = json.load(file)
+
+    subject=f'sub-{sub:02}'
+    
+    lab=bad_channels_dict[f'{subject}']['lab']
+    
+    # Define Path    
+    if lab=='icm':
+        original_data_path=os.path.join(path_root,'Data_ICM/')
+
+        
+    else:
+        original_data_path=os.path.join(path_root,'Data_neurospin/')
+
+        
+    
+    root = base_path+'/2-Data/BIDS'
+
 
     for run in ['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18']:
+        
         print("--- saving in bids format run %s ------")
-        data_path = original_data_path+subject+ '/run%s.fif'%run
+        if lab=='icm':
+            data_path = original_data_path+subject+ '/run%s.fif'%run
+        else:
+            data_path=original_data_path+subject+f'/run{run}_raw.fif'
         raw = mne.io.read_raw_fif(data_path,allow_maxshield=True,preload=True)
         n_chans=raw.get_data().shape[0]
         raw.pick(np.where(['EEG' not in raw.info['ch_names'][i] for i in range(n_chans)])[0])
         
-        if icm:
+        if lab=='icm':
+            raw.set_channel_types({'BIO001': 'eog'})
             raw.set_channel_types({'BIO002': 'eog'})
             raw.set_channel_types({'BIO003': 'ecg'})
-        
-        events, event_ids = extract_events_and_event_IDs(raw)
-        bids_path = BIDSPath(subject=subject[-2:], task='reproduction', run=run, datatype='meg', root=root)
+            events, event_ids = extract_events_and_event_IDs_ICM(raw)
+            
+        else:
+            events, event_ids = extract_events_and_event_IDs_neurospin(raw)
+        bids_path = BIDSPath(subject=f'{sub:02}', task='reproduction', run=run, datatype='meg', root=root)
 
-        write_raw_bids(raw, bids_path=bids_path,allow_preload=True,format='FIF',events_data=events,event_id=event_ids,overwrite=True)
+        # Append bad channels from JSON object
+        raw.info['bads']=bad_channels_dict[subject]['run'+run]
+        
+        write_raw_bids(raw, bids_path=bids_path,allow_preload=True,format='FIF',events=events,event_id=event_ids,overwrite=True)
 
         # write MEG calibration files
-        cal_fname = root+'/system_calibration_files/sss_cal_3101_160108.dat'
-        ct_fname = root+'/system_calibration_files/ct_sparse.fif'
+        if lab=='icm':
+            ct_fname = root + "/calibration_files/calibration_icm/ct_sparse.fif"
+            cal_fname = root + "/calibration_files/calibration_icm/sss_cal_3101_160108.dat"
+        else:
+            ct_fname = root + "/calibration_files/calibration_neurospin/ct_sparse.fif"
+            cal_fname = root + "/calibration_files/calibration_neurospin/sss_cal_3176_20240123_2.dat"
+
 
         write_meg_calibration(calibration=cal_fname,bids_path=bids_path)
         write_meg_crosstalk(fname=ct_fname,bids_path=bids_path)
@@ -69,16 +107,59 @@ def inspect_raw(sub_nb, run, path_root=path_root,icm=False):
     
     if icm:
         path_raw=os.path.join(path_root,'Data_ICM')
+        path_raw_file=os.path.join(path_raw,f'sub-{sub_nb:02}/run{run:02}.fif')
+        
     else:
         path_raw=os.path.join(path_root,'Data_neurospin')
+        path_raw_file=os.path.join(path_raw,f'sub-{sub_nb:02}/run{run:02}_raw.fif')
         
-    path_raw_file=os.path.join(path_raw,f'sub-{sub_nb:02}/run{run:02}.fif')
+        
     
     # Open the raw object
     raw=mne.io.read_raw_fif(path_raw_file, allow_maxshield=True, preload=True)
+    raw_filter = raw.copy().notch_filter(freqs=[50,100,150])
     
     # 1 - Plot the raw object for the given subjet / run.
-    raw.plot()
+    raw_filter.plot()
     
     # 2 - Plot the PSD to note outliers 
-    raw.compute_psd().plot()
+    #raw.pick_types(eeg=False)
+    raw_filter.compute_psd().plot()
+    
+    # eventuellement prendre raw.crop() 100 secondes au milieu
+    
+def prepare_json_bad_channels(path_json_file, sub):
+    # Load the JSON file
+    with open(path_json_file, 'r') as file:
+        bad_channels_dict = json.load(file)
+    
+    # Create the subject key if it doesn't exist
+    for k in range(1, sub + 1):
+        subject_key = f'sub-{k:02}'
+        if subject_key not in bad_channels_dict:
+            bad_channels_dict[subject_key] = {}
+    
+    # Update each subject with 18 runs
+    for subject_key in bad_channels_dict:
+        if 'lab' in bad_channels_dict[subject_key]:
+            lab_value = bad_channels_dict[subject_key]['lab']
+            
+        else:
+            lab_value = 'neurospin'  # Provide a default lab value if needed
+        
+        # Update runs without overwriting existing data
+        for i in range(1, 19):
+            run_key = f'run{str(i).zfill(2)}'
+            if run_key not in bad_channels_dict[subject_key]:
+                bad_channels_dict[subject_key][run_key] = []
+        
+        # Ensure 'lab' value is preserved or set to default
+        bad_channels_dict[subject_key]['lab'] = lab_value
+
+    # Save the modified dictionary back to the JSON file
+    with open(path_json_file, 'w') as file:
+        json.dump(bad_channels_dict, file, indent=4)
+        
+
+
+
