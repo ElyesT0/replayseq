@@ -1,6 +1,6 @@
 import mne
 
-path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/REPLAYSEQ/2-Data/"
+path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/replayseq/2-Data/"
 
 study_name = "REPLAYSEQ"
 
