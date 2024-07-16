@@ -6,6 +6,7 @@ study_name = "REPLAYSEQ"
 
 bids_root = path_root+"BIDS"
 deriv_root = path_root+"derivatives/items"
+# subjects_dir=
 
 task = "reproduction"
 
