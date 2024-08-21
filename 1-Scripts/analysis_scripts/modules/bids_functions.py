@@ -126,7 +126,7 @@ def inspect_raw(sub_nb, run, path_root=path_root):
     raw_filter = raw.copy().notch_filter(freqs=[50,100,150])
     
     # 1 - Plot the raw object for the given subjet / run.
-    raw_filter.plot()
+    raw_filter.plot(n_channels=30)
     
     # 2 - Plot the PSD to note outliers 
     #raw.pick_types(eeg=False)
