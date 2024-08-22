@@ -103,7 +103,7 @@ def prepare_data_for_mne_bids_pipeline(sub,base_path = "/Volumes/T5_EVO/1-experi
         write_meg_calibration(calibration=cal_fname,bids_path=bids_path)
         write_meg_crosstalk(fname=ct_fname,bids_path=bids_path)
 
-def inspect_raw(sub_nb, run, path_root=path_root):
+def inspect_raw(sub_nb, run, path_root=path_root,verbose=False):
     
     # Open JSON bad_channels object
     with open(path_json_file, 'r') as file:
@@ -122,7 +122,7 @@ def inspect_raw(sub_nb, run, path_root=path_root):
         
     
     # Open the raw object
-    raw=mne.io.read_raw_fif(path_raw_file, allow_maxshield=True, preload=True)
+    raw=mne.io.read_raw_fif(path_raw_file, allow_maxshield=True, preload=True,verbose=verbose)
     raw_filter = raw.copy().notch_filter(freqs=[50,100,150])
     
     # 1 - Plot the raw object for the given subjet / run.
