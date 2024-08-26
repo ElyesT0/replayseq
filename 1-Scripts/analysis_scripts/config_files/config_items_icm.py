@@ -12,8 +12,8 @@ task = "reproduction"
 
 runs = 'all'
 # Exclude subjects from Neurospin with different parameters
-exclude_subjects = ['03','04','05']
-exclude_subjects.extend(['02']) # subject that don't have bad channels annotated yet
+exclude_subjects = ['00','01','02']
+exclude_subjects.extend(['03', '04', '05', '06', '07']) # subject that don't have bad channels annotated yet
 
 
 find_flat_channels_meg = True
