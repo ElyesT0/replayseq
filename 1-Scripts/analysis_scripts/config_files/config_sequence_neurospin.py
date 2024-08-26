@@ -1,7 +1,7 @@
 import mne
 
 # Boolean that indicates if script is ran on neurospin server or personnal computer
-server=True
+server=False
 hard_drive=True
 id_pc='fill'
 
@@ -16,7 +16,7 @@ else:
 study_name = "REPLAYSEQ"
 
 bids_root = path_root+"BIDS"
-deriv_root = path_root+"derivatives/replay"
+deriv_root = path_root+"derivatives/sequence"
 
 task = "reproduction"
 
