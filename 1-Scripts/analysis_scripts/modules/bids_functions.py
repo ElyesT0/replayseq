@@ -42,8 +42,11 @@ def extract_events_and_event_IDs_ICM(raw):
 
 
 
-def prepare_data_for_mne_bids_pipeline(sub,base_path = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ"):
+def prepare_data_for_mne_bids_pipeline(sub,path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ"):
 
+    path_data_raw=os.path.join(path_root,"2-Data/raw")
+    path_BIDS=os.path.join(path_root,"2-Data/BIDS")
+    
     # Open JSON bad_channels object
     with open(path_json_file, 'r') as file:
         bad_channels_dict = json.load(file)
@@ -54,15 +57,11 @@ def prepare_data_for_mne_bids_pipeline(sub,base_path = "/Volumes/T5_EVO/1-experi
     
     # Define Path    
     if lab=='icm':
-        original_data_path=os.path.join(path_root,'Data_ICM/')
-
+        original_data_path=os.path.join(path_data_raw,'Data_ICM/')
+    #path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/raw"
         
     else:
-        original_data_path=os.path.join(path_root,'Data_neurospin/')
-
-        
-    
-    root = base_path+'/2-Data/BIDS'
+        original_data_path=os.path.join(path_data_raw,'Data_neurospin/')
 
 
     for run in ['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18']:
@@ -84,7 +83,7 @@ def prepare_data_for_mne_bids_pipeline(sub,base_path = "/Volumes/T5_EVO/1-experi
             
         else:
             events, event_ids = extract_events_and_event_IDs_neurospin(raw)
-        bids_path = BIDSPath(subject=f'{sub:02}', task='reproduction', run=run, datatype='meg', root=root)
+        bids_path = BIDSPath(subject=f'{sub:02}', task='reproduction', run=run, datatype='meg', root=path_BIDS)
 
         # Append bad channels from JSON object
         raw.info['bads']=bad_channels_dict[subject]['run'+run]
@@ -93,11 +92,11 @@ def prepare_data_for_mne_bids_pipeline(sub,base_path = "/Volumes/T5_EVO/1-experi
 
         # write MEG calibration files
         if lab=='icm':
-            ct_fname = root + "/calibration_files/calibration_icm/ct_sparse.fif"
-            cal_fname = root + "/calibration_files/calibration_icm/sss_cal_3101_160108.dat"
+            ct_fname = path_BIDS + "/calibration_files/calibration_icm/ct_sparse.fif"
+            cal_fname = path_BIDS + "/calibration_files/calibration_icm/sss_cal_3101_160108.dat"
         else:
-            ct_fname = root + "/calibration_files/calibration_neurospin/ct_sparse.fif"
-            cal_fname = root + "/calibration_files/calibration_neurospin/sss_cal_3176_20240123_2.dat"
+            ct_fname = path_BIDS + "/calibration_files/calibration_neurospin/ct_sparse.fif"
+            cal_fname = path_BIDS + "/calibration_files/calibration_neurospin/sss_cal_3176_20240123_2.dat"
 
 
         write_meg_calibration(calibration=cal_fname,bids_path=bids_path)
