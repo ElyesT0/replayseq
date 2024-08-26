@@ -50,7 +50,7 @@ def prepare_data_for_mne_bids_pipeline(sub,path_exp = "/Volumes/T5_EVO/1-experim
         path_json_file = os.path.join(path_exp,"replayseq/1-Scripts/analysis_scripts/modules/objects/bad_channels.json")
     else:
         path_root=os.path.join(path_exp,"replayseq")
-        path_json_file = os.path.join(path_exp,"1-Scripts/analysis_scripts/modules/objects/bad_channels.json")
+        path_json_file = os.path.join(path_root,"1-Scripts/analysis_scripts/modules/objects/bad_channels.json")
         
     path_data_raw=os.path.join(path_root,"2-Data/raw")
     path_BIDS=os.path.join(path_root,"2-Data/BIDS")
