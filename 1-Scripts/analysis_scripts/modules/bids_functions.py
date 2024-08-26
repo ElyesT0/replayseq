@@ -42,10 +42,19 @@ def extract_events_and_event_IDs_ICM(raw):
 
 
 
-def prepare_data_for_mne_bids_pipeline(sub,path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ"):
-
+def prepare_data_for_mne_bids_pipeline(sub,path_exp = "/Volumes/T5_EVO/1-experiments",local=True):
+    # local (bool): If True, works for my local machine. If false, works on remote machine that pulled the script from github.
+    
+    if local:
+        path_root=os.path.join(path_exp,"REPLAYSEQ")
+        path_json_file = os.path.join(path_exp,"replayseq/1-Scripts/analysis_scripts/modules/objects/bad_channels.json")
+    else:
+        path_root=os.path.join(path_exp,"replayseq")
+        path_json_file = os.path.join(path_exp,"1-Scripts/analysis_scripts/modules/objects/bad_channels.json")
+        
     path_data_raw=os.path.join(path_root,"2-Data/raw")
     path_BIDS=os.path.join(path_root,"2-Data/BIDS")
+    
     
     # Open JSON bad_channels object
     with open(path_json_file, 'r') as file:
