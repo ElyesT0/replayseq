@@ -11,7 +11,7 @@ else:
     if hard_drive:
         path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/"
     else:
-        path_root=f"/volatile/home/{id_pc}/Documents/data-meg"
+        path_root=f"/volatile/home/{id_pc}/Documents/replayseq/2-Data/"
 
 study_name = "REPLAYSEQ"
 
