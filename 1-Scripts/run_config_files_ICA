@@ -1,0 +1,69 @@
+#!/bin/bash
+
+# Function to run a command, check if it was successful, and log the output
+run_command() {
+    local cmd="$1"
+    local description="$2"
+    local logfile="$3"
+    
+    echo "Running: $description" | tee -a "$logfile"
+    eval "$cmd" 2>&1 | tee -a "$logfile"
+    if [ $? -ne 0 ]; then
+        echo "$description failed, proceeding to the next one." | tee -a "$logfile"
+    else
+        echo "$description succeeded." | tee -a "$logfile"
+    fi
+}
+
+# Get the directory of the script
+script_dir=$(dirname "$0")
+
+# Define the BIDS root directory
+bids_root="/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/BIDS"
+
+# Define the base log directory
+log_base_dir="$bids_root/mne_bids_logs"
+
+# Define the configurations and steps
+configs=("config_sequences.py" "config_items.py" "config_resting_stage.py")
+steps=("01" "02" "03" "04" "05" "06a1" "06a2" "07")
+
+# Get the current date
+current_date=$(date +"%Y-%m-%d")
+
+# Run the commands
+total_commands=0
+count=0
+
+# Find all participant directories (sub-*)
+participants=$(find "$bids_root" -maxdepth 1 -type d -name "sub-*")
+
+for participant in $participants; do
+    participant_id=$(basename "$participant")  # Extract participant ID (e.g., sub-08)
+    
+    for config in "${configs[@]}"; do
+        # Determine the config name without the .py extension
+        config_name=$(basename "$config" .py)
+        
+        # Define the log directory for the specific participant and configuration
+        log_dir="$log_base_dir/$participant_id/$config_name"
+        
+        # Create the log directory if it doesn't exist
+        mkdir -p "$log_dir"
+        
+        for step in "${steps[@]}"; do
+            count=$((count + 1))
+            
+            # Define the log file for this specific run
+            logfile="$log_dir/pipeline_log_$current_date.txt"
+            
+            cmd="mne_bids_pipeline --config $script_dir/$config --steps=preprocessing/$step --participant_label $participant_id"
+            description="Running $config with step preprocessing/$step for participant $participant_id"
+            run_command "$cmd" "$description" "$logfile"
+            
+            echo -e "\n=======================================" | tee -a "$logfile"
+            echo -e "Command $count completed." | tee -a "$logfile"
+            echo -e "=======================================\n" | tee -a "$logfile"
+        done
+    done
+done
