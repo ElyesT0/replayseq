@@ -1,6 +1,19 @@
 import mne
 
-path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/replayseq/2-Data/"
+# Boolean that indicates if script is ran on neurospin server or personnal computer
+server=False
+hard_drive=True
+id_pc='fill'
+
+if server:
+    path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/replayseq/2-Data/"
+else:
+    if hard_drive:
+        path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/"
+    else:
+        path_root=f"/volatile/home/{id_pc}/Documents/data-meg"
+        
+
 
 study_name = "REPLAYSEQ"
 
