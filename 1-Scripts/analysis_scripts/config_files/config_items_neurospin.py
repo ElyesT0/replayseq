@@ -3,7 +3,7 @@ import mne
 
 # Boolean that indicates if script is ran on neurospin server or personnal computer
 server=False
-hard_drive=False
+hard_drive=True
 pc_id="pc_id"
 
 
@@ -25,7 +25,7 @@ task = "reproduction"
 
 runs = 'all'
 exclude_subjects = ['01','02']
-exclude_subjects.extend([]) # subject that don't have bad channels annotated yet
+exclude_subjects.extend(['03','04','05','06','07']) # subject that don't have bad channels annotated yet
 
 find_flat_channels_meg = True
 find_noisy_channels_meg = True

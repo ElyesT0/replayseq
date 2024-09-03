@@ -3,7 +3,7 @@ import mne
 
 # Boolean that indicates if script is ran on neurospin server or personnal computer
 server=False
-hard_drive=False
+hard_drive=True
 pc_id="pc_id"
 
 if server:
