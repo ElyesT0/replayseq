@@ -17,19 +17,19 @@ else:
 study_name = "REPLAYSEQ"
 
 bids_root = path_root+"BIDS"
-deriv_root = path_root+"derivatives/fixation"
+deriv_root = path_root+"derivatives/sequence"
 
 task = "reproduction"
 
 runs = 'all'
-exclude_subjects = ['01','02']
+exclude_subjects = ['03','04','05','06','07','08','09']
 exclude_subjects.extend([]) # subject that don't have bad channels annotated yet
 
 find_flat_channels_meg = True
 find_noisy_channels_meg = True
 use_maxwell_filter = True
-mf_ctc_fname = bids_root + "/calibration_files/calibration_neurospin/ct_sparse.fif"
-mf_cal_fname = bids_root + "/calibration_files/calibration_neurospin/sss_cal_3176_20240123_2.dat"
+mf_ctc_fname = bids_root + "/calibration_files/calibration_icm/ct_sparse.fif"
+mf_cal_fname = bids_root + "/calibration_files/calibration_icm/sss_cal_3101_160108.dat"
 
 # ch_types = ["meg","eeg"] # No numerization points for EEG so it outputs an error.
 ch_types = ["meg"]
@@ -54,11 +54,14 @@ ica_n_components=0.99
 
 reject="autoreject_global"
 
+
+
 # Epochs
-epochs_tmin = -1
-epochs_tmax = 0.5
+epochs_tmin = -0.2
+epochs_tmax = 1 + 0.4*12+6+0.5  #durée de la croix de fixation + SOA * nb_items + durée de pause (compression time) + un petit délais (pour avoir fixation bleue)
 epochs_decim = 4
-baseline = (None,None)
+baseline = (None,0)
+
 
 # Conditions / events to consider when epoching
 conditions = ['fixation']
