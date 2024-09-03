@@ -6,7 +6,7 @@ appnope==0.1.2  # Updated to a standard pip installable version
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
 arrow==1.3.0
-asttokens==2.0.5  # Removed path, using the latest version available via pip
+asttokens==2.1.0  # Removed path, using the latest version available via pip
 async-lru==2.0.4
 async-timeout==4.0.3
 attrs==23.2.0
