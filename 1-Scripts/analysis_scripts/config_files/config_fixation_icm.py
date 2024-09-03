@@ -5,6 +5,7 @@ import config
 server=False
 hard_drive=True
 id_pc=config.pc_id
+# This is the code for neurospin laptop
 
 if server:
     path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/replayseq/2-Data/"
