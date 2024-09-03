@@ -1,10 +1,10 @@
 import mne
-from config import pc_id
+
 
 # Boolean that indicates if script is ran on neurospin server or personnal computer
 server=False
 hard_drive=True
-id_pc=pc_id
+id_pc="pc_id"
 if server:
     path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/replayseq/2-Data/"
 else:
