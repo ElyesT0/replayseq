@@ -1,8 +1,4 @@
-import mne
-from mne_bids import BIDSPath, write_raw_bids, write_meg_calibration, write_meg_crosstalk
-import numpy as np
-import os
-import json
+
 from modules.params import *
 
 def extract_events_and_event_IDs_neurospin(raw,event_dict=event_dict):

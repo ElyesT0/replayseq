@@ -1,5 +1,11 @@
 import os
 import platform
+import mne
+from mne_bids import BIDSPath, write_raw_bids, write_meg_calibration, write_meg_crosstalk
+import numpy as np
+import os
+import json
+from mne.preprocessing import ICA, corrmap, create_ecg_epochs, create_eog_epochs
 
 # Original paths
 path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/raw"
