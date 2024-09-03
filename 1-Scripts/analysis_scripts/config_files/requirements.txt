@@ -2,17 +2,17 @@ aiohttp==3.9.5
 aiosignal==1.3.1
 annotated-types==0.7.0
 anyio==4.4.0
-appnope @ file:///Users/ktietz/demo/mc3/conda-bld/appnope_1629146036738/work
+appnope==0.1.2  # Updated to a standard pip installable version
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
 arrow==1.3.0
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+asttokens==2.0.5  # Removed path, using the latest version available via pip
 async-lru==2.0.4
 async-timeout==4.0.3
 attrs==23.2.0
 autoreject==0.4.3
 Babel==2.15.0
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backcall==0.2.0  # Removed path, using the latest version available via pip
 beautifulsoup4==4.12.3
 bleach==6.1.0
 bokeh==2.4.3
@@ -22,20 +22,20 @@ chardet==5.2.0
 charset-normalizer==3.3.2
 click==8.1.7
 cloudpickle==3.0.0
-comm @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3doui0bmzb/croot/comm_1709322861485/work
+comm==0.1.4  # Removed path, using a standard version
 contourpy==1.2.1
 cycler==0.12.1
 dask==2024.6.2
-debugpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_563_nwtkoc/croot/debugpy_1690905063850/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+debugpy==1.6.7  # Removed path, using a standard version
+decorator==5.1.1  # Removed path, using a standard version
 defusedxml==0.7.1
 distributed==2024.6.2
 edfio==0.4.3
 EDFlib-Python==1.0.8
 eeglabio==0.0.2.post4
 et-xmlfile==1.1.0
-exceptiongroup @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b2258scr33/croot/exceptiongroup_1706031391815/work
-executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+exceptiongroup==1.1.3  # Removed path, using a standard version
+executing==2.1.2  # Removed path, using a standard version
 fastjsonschema==2.19.1
 filelock==3.15.4
 fonttools==4.53.0
@@ -48,12 +48,12 @@ h5py==3.11.0
 httpcore==1.0.5
 httpx==0.27.0
 idna==3.7
-importlib-metadata @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_5498c88e7n/croot/importlib_metadata-suite_1704813534254/work
+importlib-metadata==7.0.1  # Removed path, using a standard version
 importlib_resources==6.4.0
-ipykernel @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f428_5tjvx/croot/ipykernel_1705933835534/work
-ipython @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6599f73fa7/croot/ipython_1694181355402/work
+ipykernel==6.24.0  # Removed path, using a standard version
+ipython==8.16.0  # Removed path, using a standard version
 isoduration==20.11.0
-jedi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/croot-f1t6hma6/jedi_1644315882177/work
+jedi==0.19.0  # Removed path, using a standard version
 Jinja2==3.1.4
 joblib==1.4.2
 json-tricks==3.17.3
@@ -63,8 +63,8 @@ jsonschema==4.22.0
 jsonschema-specifications==2023.12.1
 jupyter-events==0.10.0
 jupyter-lsp==2.2.5
-jupyter_client @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_58w2siozyz/croot/jupyter_client_1699455907045/work
-jupyter_core @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_782yoyc_98/croot/jupyter_core_1698937318631/work
+jupyter_client==8.3.1  # Removed path, using a standard version
+jupyter_core==6.1.1  # Removed path, using a standard version
 jupyter_server==2.14.1
 jupyter_server_proxy==4.3.0
 jupyter_server_terminals==0.5.3
@@ -78,7 +78,7 @@ Markdown==3.6
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 matplotlib==3.9.0
-matplotlib-inline @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f6fdc0hldi/croots/recipe/matplotlib-inline_1662014472341/work
+matplotlib-inline==0.1.6  # Removed path, using a standard version
 mdurl==0.1.2
 mistune==3.0.2
 mne==1.7.0
@@ -89,7 +89,7 @@ multidict==6.0.5
 nbclient==0.10.0
 nbconvert==7.16.4
 nbformat==5.10.4
-nest-asyncio @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_310vb5e2a0/croot/nest-asyncio_1708532678212/work
+nest-asyncio==1.5.7  # Removed path, using a standard version
 nibabel==5.2.1
 notebook==7.2.1
 notebook_shim==0.2.4
@@ -97,40 +97,40 @@ numexpr==2.10.1
 numpy==1.26.4
 openpyxl==3.1.5
 overrides==7.7.0
-packaging @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a6lqg7at4g/croot/packaging_1710807410750/work
+packaging==24.0  # Removed path, using a standard version
 pandas==2.2.2
 pandocfilters==1.5.1
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+parso==0.8.3  # Removed path, using a standard version
 partd==1.4.2
-pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+pexpect==4.8.0  # Removed path, using a standard version
+pickleshare==0.7.5  # Removed path, using a standard version
 pillow==10.3.0
-platformdirs @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a8u4fy8k9o/croot/platformdirs_1692205661656/work
+platformdirs==3.11.0  # Removed path, using a standard version
 pooch==1.8.2
 prometheus_client==0.20.0
-prompt-toolkit @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_c63v4kqjzr/croot/prompt-toolkit_1704404354115/work
-psutil @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_1310b568-21f4-4cb0-b0e3-2f3d31e39728k9coaga5/croots/recipe/psutil_1656431280844/work
-ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
-pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+prompt-toolkit==3.0.39  # Removed path, using a standard version
+psutil==5.9.0  # Removed path, using a standard version
+ptyprocess==0.7.0  # Removed path, using a standard version
+pure-eval==0.2.2  # Removed path, using a standard version
 pyarrow==16.1.0
 pybv==0.7.5
 pycparser==2.22
 pydantic==2.7.4
 pydantic_core==2.18.4
-Pygments @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_29bs9f_dh9/croot/pygments_1684279974747/work
+Pygments==2.16.1  # Removed path, using a standard version
 pymatreader==0.0.32
 pyparsing==3.1.2
 PyQt5==5.15.10
 PyQt5-Qt5==5.15.14
 PyQt5-sip==12.13.0
-python-dateutil @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_66ud1l42_h/croot/python-dateutil_1716495741162/work
+python-dateutil==2.8.2  # Removed path, using a standard version
 python-json-logger==2.0.7
 python-picard==0.7
 pytz==2024.1
 pyvista==0.43.10
 pyvistaqt==0.11.1
 PyYAML==6.0.1
-pyzmq @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_43pxpbos3z/croot/pyzmq_1705605108344/work
+pyzmq==25.1.0  # Removed path, using a standard version
 QtPy==2.4.1
 referencing==0.35.1
 requests==2.32.3
@@ -144,31 +144,31 @@ scooby==0.10.0
 seaborn==0.13.2
 Send2Trash==1.8.3
 simpervisor==1.0.0
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+six==1.16.0  # Removed path, using a standard version
 sniffio==1.3.1
 sortedcontainers==2.4.0
 soupsieve==2.5
-stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+stack-data==0.6.2  # Removed path, using a standard version
 tblib==3.0.0
 terminado==0.18.1
 threadpoolctl==3.5.0
 tinycss2==1.3.0
 tomli==2.0.1
 toolz==0.12.1
-tornado @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_3a5nrn2jeh/croot/tornado_1696936974091/work
+tornado==6.3.3  # Removed path, using a standard version
 tqdm==4.66.4
-traitlets @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6301rd5qbe/croot/traitlets_1671143894285/work
+traitlets==5.10.0  # Removed path, using a standard version
 types-python-dateutil==2.9.0.20240316
-typing_extensions @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_93dg13ilv4/croot/typing_extensions_1715268840722/work
+typing_extensions==4.9.0  # Removed path, using a standard version
 tzdata==2024.1
 uri-template==1.3.0
 urllib3==2.2.1
 vtk==9.3.1
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+wcwidth==0.2.6  # Removed path, using a standard version
 webcolors==24.6.0
 webencodings==0.5.1
 websocket-client==1.8.0
 xmltodict==0.13.0
 yarl==1.9.4
 zict==3.0.0
-zipp @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_31jm3q76eq/croot/zipp_1704206913245/work
+zipp==3.17.1  # Removed path, using a standard version
