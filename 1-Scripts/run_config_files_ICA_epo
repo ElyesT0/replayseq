@@ -46,13 +46,43 @@ run_command() {
 log_base_dir="$bids_root/mne_bids_logs"
 
 # Define the merged configurations and steps
-configs=("config_fixation_neurospin.py" "config_sequence_neurospin.py" "config_items_neurospin.py"
-         "config_fixation_icm.py" "config_sequence_icm.py" "config_items_icm.py")
+configs0=("config_fixation_neurospin.py" "config_items_neurospin.py")
+
+configs=("config_sequence_neurospin.py" "config_fixation_icm.py" "config_sequence_icm.py" "config_items_icm.py")
+
+steps0=("06a1" "06a2" "07")
 
 steps=("01" "02" "03" "04" "05" "06a1" "06a2" "07")
 
 # Get the current date
 current_date=$(date +"%Y-%m-%d")
+
+# Run commands for all configurations
+for config in "${configs0[@]}"; do
+    # Determine the config name without the .py extension
+    config_name=$(basename "$config" .py)
+    
+    # Define the log directory for the specific configuration
+    log_dir="$log_base_dir/$config_name"
+    
+    # Create the log directory if it doesn't exist
+    mkdir -p "$log_dir"
+    
+    for step in "${steps0[@]}"; do
+        count=$((count + 1))
+        
+        # Define the log file for this specific run
+        logfile="$log_dir/pipeline_log_$current_date.txt"
+        
+        cmd="mne_bids_pipeline --config $script_dir/$config --steps=preprocessing/$step"
+        description="Running $config with step preprocessing/$step"
+        run_command "$cmd" "$description" "$logfile"
+        
+        echo -e "\n=======================================" | tee -a "$logfile"
+        echo -e "Command $count completed." | tee -a "$logfile"
+        echo -e "=======================================\n" | tee -a "$logfile"
+    done
+done
 
 # Run commands for all configurations
 for config in "${configs[@]}"; do
