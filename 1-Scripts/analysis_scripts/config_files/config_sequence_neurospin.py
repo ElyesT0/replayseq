@@ -59,7 +59,7 @@ reject="autoreject_global"
 # Epochs
 epochs_tmin = -0.2
 epochs_tmax = 1 + 0.4*12+6+0.5  #durée de la croix de fixation + SOA * nb_items + durée de pause (compression time) + un petit délais (pour avoir fixation bleue)
-epochs_decim = 4
+epochs_decim = 1
 baseline = (None,0)
 
 

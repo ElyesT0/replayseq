@@ -57,7 +57,7 @@ reject="autoreject_global"
 # Epochs
 epochs_tmin = -1
 epochs_tmax = 0.5
-epochs_decim = 4
+epochs_decim = 1
 baseline = (None,None)
 
 # Conditions / events to consider when epoching

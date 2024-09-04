@@ -1,0 +1,599 @@
+(mne_python) et@macbook-pro analysis_scripts % mne_bids_pipeline --config config_files/config_items_neurospin.py 
+┌────────┬ Welcome aboard MNE-BIDS-Pipeline! 👋 ────────────────────────────────
+│20:19:29│ 📝 Using configuration: config_files/config_items_neurospin.py
+└────────┴ 
+┌────────┬ init/_01_init_derivatives_dir ───────────────────────────────────────
+│20:19:29│ ✅ Output directories already exist …
+└────────┴ done (1s)
+┌────────┬ init/_02_find_empty_room ────────────────────────────────────────────
+│20:19:29│ ⏳️ sub-08 run-01 Nearest-date matching empty-room files
+│20:19:31│ ✅ sub-08 run-01 Computation unnecessary (cached) …
+└────────┴ done (2s)
+┌────────┬ preprocessing/_01_data_quality ──────────────────────────────────────
+│20:19:31│ ⏳️ sub-08 run-01 Finding flat channels and noisy channels using Maxwell filtering.
+│20:41:24│ ⏳️ sub-08 run-01 Found no flat channels.
+│20:41:24│ ⏳️ sub-08 run-01 Found 3 noisy channels: MEG1412, MEG1423, MEG1433
+│20:41:24│ ⏳️ sub-08 run-01 Found 11 channels as bad.
+│20:41:24│ ⏳️ sub-08 run-01 Adding original raw data to report
+│20:41:31│ ⏳️ sub-08 run-01 Adding noisy channel detection to report
+│20:41:32│ ⏳️ sub-08 run-01 Adding config and sys info to report
+│20:41:35│ ⏳️ sub-08 run-01 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│20:41:37│ ✅ sub-08 run-01 Computation unnecessary (cached) …
+│20:41:37│ ⏳️ sub-08 run-02 Finding flat channels and noisy channels using Maxwell filtering.
+│21:03:31│ ⏳️ sub-08 run-02 Found no flat channels.
+│21:03:31│ ⏳️ sub-08 run-02 Found 3 noisy channels: MEG1412, MEG1423, MEG1433
+│21:03:31│ ⏳️ sub-08 run-02 Found 13 channels as bad.
+│21:03:31│ ⏳️ sub-08 run-02 Adding original raw data to report
+│21:03:37│ ⏳️ sub-08 run-02 Adding noisy channel detection to report
+│21:03:39│ ⏳️ sub-08 run-02 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│21:03:40│ ⏳️ sub-08 run-03 Finding flat channels and noisy channels using Maxwell filtering.
+│21:20:32│ ⏳️ sub-08 run-03 Found no flat channels.
+│21:20:32│ ⏳️ sub-08 run-03 Found 2 noisy channels: MEG1423, MEG1433
+│21:20:32│ ⏳️ sub-08 run-03 Found 12 channels as bad.
+│21:20:33│ ⏳️ sub-08 run-03 Adding original raw data to report
+│21:20:38│ ⏳️ sub-08 run-03 Adding noisy channel detection to report
+│21:20:40│ ⏳️ sub-08 run-03 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│21:20:41│ ⏳️ sub-08 run-04 Finding flat channels and noisy channels using Maxwell filtering.
+│21:39:13│ ⏳️ sub-08 run-04 Found no flat channels.
+│21:39:13│ ⏳️ sub-08 run-04 Found 3 noisy channels: MEG1412, MEG1423, MEG1433
+│21:39:13│ ⏳️ sub-08 run-04 Found 12 channels as bad.
+│21:39:13│ ⏳️ sub-08 run-04 Adding original raw data to report
+│21:39:17│ ⏳️ sub-08 run-04 Adding noisy channel detection to report
+│21:39:19│ ⏳️ sub-08 run-04 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│21:39:20│ ⏳️ sub-08 run-05 Finding flat channels and noisy channels using Maxwell filtering.
+│22:32:26│ ⏳️ sub-08 run-05 Found no flat channels.
+│22:32:26│ ⏳️ sub-08 run-05 Found 3 noisy channels: MEG1412, MEG1423, MEG1433
+│22:32:26│ ⏳️ sub-08 run-05 Found 11 channels as bad.
+│22:32:26│ ⏳️ sub-08 run-05 Adding original raw data to report
+│22:32:32│ ⏳️ sub-08 run-05 Adding noisy channel detection to report
+│22:32:34│ ⏳️ sub-08 run-05 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│22:32:35│ ⏳️ sub-08 run-06 Finding flat channels and noisy channels using Maxwell filtering.
+│22:52:53│ ⏳️ sub-08 run-06 Found no flat channels.
+│22:52:53│ ⏳️ sub-08 run-06 Found 3 noisy channels: MEG1412, MEG1423, MEG1433
+│22:52:53│ ⏳️ sub-08 run-06 Found 12 channels as bad.
+│22:52:53│ ⏳️ sub-08 run-06 Adding original raw data to report
+│22:52:59│ ⏳️ sub-08 run-06 Adding noisy channel detection to report
+│22:53:00│ ⏳️ sub-08 run-06 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│22:53:02│ ⏳️ sub-08 run-07 Finding flat channels and noisy channels using Maxwell filtering.
+│23:12:21│ ⏳️ sub-08 run-07 Found no flat channels.
+│23:12:21│ ⏳️ sub-08 run-07 Found 3 noisy channels: MEG1412, MEG1423, MEG1433
+│23:12:21│ ⏳️ sub-08 run-07 Found 12 channels as bad.
+│23:12:21│ ⏳️ sub-08 run-07 Adding original raw data to report
+│23:12:26│ ⏳️ sub-08 run-07 Adding noisy channel detection to report
+│23:12:28│ ⏳️ sub-08 run-07 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│23:12:29│ ⏳️ sub-08 run-08 Finding flat channels and noisy channels using Maxwell filtering.
+│23:30:30│ ⏳️ sub-08 run-08 Found no flat channels.
+│23:30:30│ ⏳️ sub-08 run-08 Found 3 noisy channels: MEG1412, MEG1423, MEG1433
+│23:30:30│ ⏳️ sub-08 run-08 Found 12 channels as bad.
+│23:30:30│ ⏳️ sub-08 run-08 Adding original raw data to report
+│23:30:35│ ⏳️ sub-08 run-08 Adding noisy channel detection to report
+│23:30:37│ ⏳️ sub-08 run-08 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│23:30:38│ ⏳️ sub-08 run-09 Finding flat channels and noisy channels using Maxwell filtering.
+│23:52:05│ ⏳️ sub-08 run-09 Found no flat channels.
+│23:52:05│ ⏳️ sub-08 run-09 Found 2 noisy channels: MEG1423, MEG1433
+│23:52:05│ ⏳️ sub-08 run-09 Found 10 channels as bad.
+│23:52:06│ ⏳️ sub-08 run-09 Adding original raw data to report
+│23:52:12│ ⏳️ sub-08 run-09 Adding noisy channel detection to report
+│23:52:13│ ⏳️ sub-08 run-09 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│23:52:14│ ⏳️ sub-08 run-10 Finding flat channels and noisy channels using Maxwell filtering.
+│00:12:29│ ⏳️ sub-08 run-10 Found no flat channels.
+│00:12:29│ ⏳️ sub-08 run-10 Found 3 noisy channels: MEG1412, MEG1423, MEG1433
+│00:12:29│ ⏳️ sub-08 run-10 Found 11 channels as bad.
+│00:12:29│ ⏳️ sub-08 run-10 Adding original raw data to report
+│00:12:34│ ⏳️ sub-08 run-10 Adding noisy channel detection to report
+│00:12:36│ ⏳️ sub-08 run-10 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│00:12:37│ ⏳️ sub-08 run-11 Finding flat channels and noisy channels using Maxwell filtering.
+│00:28:34│ ⏳️ sub-08 run-11 Found no flat channels.
+│00:28:34│ ⏳️ sub-08 run-11 Found 2 noisy channels: MEG1412, MEG1433
+│00:28:34│ ⏳️ sub-08 run-11 Found 10 channels as bad.
+│00:28:35│ ⏳️ sub-08 run-11 Adding original raw data to report
+│00:28:40│ ⏳️ sub-08 run-11 Adding noisy channel detection to report
+│00:28:42│ ⏳️ sub-08 run-11 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│00:28:43│ ⏳️ sub-08 run-12 Finding flat channels and noisy channels using Maxwell filtering.
+│00:44:26│ ⏳️ sub-08 run-12 Found no flat channels.
+│00:44:26│ ⏳️ sub-08 run-12 Found 1 noisy channel: MEG1433
+│00:44:26│ ⏳️ sub-08 run-12 Found 12 channels as bad.
+│00:44:27│ ⏳️ sub-08 run-12 Adding original raw data to report
+│00:44:31│ ⏳️ sub-08 run-12 Adding noisy channel detection to report
+│00:44:33│ ⏳️ sub-08 run-12 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│00:44:34│ ⏳️ sub-08 run-13 Finding flat channels and noisy channels using Maxwell filtering.
+│01:01:33│ ⏳️ sub-08 run-13 Found no flat channels.
+│01:01:33│ ⏳️ sub-08 run-13 Found 3 noisy channels: MEG1412, MEG1433, MEG2623
+│01:01:33│ ⏳️ sub-08 run-13 Found 13 channels as bad.
+│01:01:33│ ⏳️ sub-08 run-13 Adding original raw data to report
+│01:01:38│ ⏳️ sub-08 run-13 Adding noisy channel detection to report
+│01:01:39│ ⏳️ sub-08 run-13 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│01:17:42│ ⏳️ sub-08 run-14 Finding flat channels and noisy channels using Maxwell filtering.
+│01:46:52│ ⏳️ sub-08 run-14 Found no flat channels.
+│01:46:52│ ⏳️ sub-08 run-14 Found 3 noisy channels: MEG0113, MEG1423, MEG1433
+│01:46:52│ ⏳️ sub-08 run-14 Found 12 channels as bad.
+│01:46:53│ ⏳️ sub-08 run-14 Adding original raw data to report
+│01:47:01│ ⏳️ sub-08 run-14 Adding noisy channel detection to report
+│01:47:04│ ⏳️ sub-08 run-14 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│01:47:06│ ⏳️ sub-08 run-15 Finding flat channels and noisy channels using Maxwell filtering.
+│01:58:31│ ⏳️ sub-08 run-15 Found no flat channels.
+│01:58:31│ ⏳️ sub-08 run-15 Found 1 noisy channel: MEG1433
+│01:58:31│ ⏳️ sub-08 run-15 Found 8 channels as bad.
+│01:58:31│ ⏳️ sub-08 run-15 Adding original raw data to report
+│01:58:38│ ⏳️ sub-08 run-15 Adding noisy channel detection to report
+│01:58:40│ ⏳️ sub-08 run-15 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│01:58:41│ ⏳️ sub-08 run-16 Finding flat channels and noisy channels using Maxwell filtering.
+│02:12:16│ ⏳️ sub-08 run-16 Found no flat channels.
+│02:12:16│ ⏳️ sub-08 run-16 Found no noisy channels.
+│02:12:16│ ⏳️ sub-08 run-16 Found 8 channels as bad.
+│02:12:17│ ⏳️ sub-08 run-16 Adding original raw data to report
+│02:12:23│ ⏳️ sub-08 run-16 Adding noisy channel detection to report
+│02:12:26│ ⏳️ sub-08 run-16 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:12:27│ ⏳️ sub-08 run-17 Finding flat channels and noisy channels using Maxwell filtering.
+│02:23:09│ ⏳️ sub-08 run-17 Found no flat channels.
+│02:23:09│ ⏳️ sub-08 run-17 Found no noisy channels.
+│02:23:09│ ⏳️ sub-08 run-17 Found 7 channels as bad.
+│02:23:10│ ⏳️ sub-08 run-17 Adding original raw data to report
+│02:23:17│ ⏳️ sub-08 run-17 Adding noisy channel detection to report
+│02:23:19│ ⏳️ sub-08 run-17 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:23:20│ ⏳️ sub-08 run-18 Finding flat channels and noisy channels using Maxwell filtering.
+│02:38:37│ ⏳️ sub-08 run-18 Found no flat channels.
+│02:38:37│ ⏳️ sub-08 run-18 Found 3 noisy channels: MEG0113, MEG1423, MEG1433
+│02:38:37│ ⏳️ sub-08 run-18 Found 10 channels as bad.
+│02:38:38│ ⏳️ sub-08 run-18 Adding original raw data to report
+│02:38:45│ ⏳️ sub-08 run-18 Adding noisy channel detection to report
+│02:38:47│ ⏳️ sub-08 run-18 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+└────────┴ done (6h 19m 18s)
+┌────────┬ preprocessing/_02_head_pos ────────────────────────────────────────────────────
+│02:38:48│ ⏩ Skipping …
+└────────┴ done (1s)
+┌────────┬ preprocessing/_03_maxfilter ───────────────────────────────────────────────────
+│02:38:48│ ⏳️ sub-08 run-01 Loading reference run: 01.
+│02:38:50│ ⏳️ sub-08 run-01 Applying SSS to experimental data
+│02:38:51│ ⏳️ sub-08 run-01 Marking 11 channels as bad.
+│02:38:51│ ⏳️ sub-08 run-01 Destination is 0.0 mm and 0.0° from the original head position
+│02:39:02│ ⏳️ sub-08 run-01 Writing sub-08/meg/sub-08_task-reproduction_run-01_proc-sss_raw.fif
+│02:39:05│ ⏳️ sub-08 run-01 Adding Maxwell filtered raw data to report.
+│02:39:10│ ⏳️ sub-08 run-01 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:39:12│ ⏳️ sub-08 run-02 Loading reference run: 01.
+│02:39:13│ ⏳️ sub-08 run-02 Applying SSS to experimental data
+│02:39:15│ ⏳️ sub-08 run-02 Marking 13 channels as bad.
+│02:39:15│ ⏳️ sub-08 run-02 Destination is 1.2 mm and 1.9° from the original head position
+│02:39:26│ ⏳️ sub-08 run-02 Writing sub-08/meg/sub-08_task-reproduction_run-02_proc-sss_raw.fif
+│02:39:30│ ⏳️ sub-08 run-02 Adding Maxwell filtered raw data to report.
+│02:39:34│ ⏳️ sub-08 run-02 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:39:36│ ⏳️ sub-08 run-03 Loading reference run: 01.
+│02:39:37│ ⏳️ sub-08 run-03 Applying SSS to experimental data
+│02:39:39│ ⏳️ sub-08 run-03 Marking 12 channels as bad.
+│02:39:39│ ⏳️ sub-08 run-03 Destination is 1.7 mm and 1.6° from the original head position
+│02:39:48│ ⏳️ sub-08 run-03 Writing sub-08/meg/sub-08_task-reproduction_run-03_proc-sss_raw.fif
+│02:39:51│ ⏳️ sub-08 run-03 Adding Maxwell filtered raw data to report.
+│02:39:56│ ⏳️ sub-08 run-03 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:39:57│ ⏳️ sub-08 run-04 Loading reference run: 01.
+│02:39:59│ ⏳️ sub-08 run-04 Applying SSS to experimental data
+│02:40:01│ ⏳️ sub-08 run-04 Marking 12 channels as bad.
+│02:40:01│ ⏳️ sub-08 run-04 Destination is 0.8 mm and 1.8° from the original head position
+│02:40:12│ ⏳️ sub-08 run-04 Writing sub-08/meg/sub-08_task-reproduction_run-04_proc-sss_raw.fif
+│02:40:15│ ⏳️ sub-08 run-04 Adding Maxwell filtered raw data to report.
+│02:40:19│ ⏳️ sub-08 run-04 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:40:20│ ⏳️ sub-08 run-05 Loading reference run: 01.
+│02:40:22│ ⏳️ sub-08 run-05 Applying SSS to experimental data
+│02:40:24│ ⏳️ sub-08 run-05 Marking 11 channels as bad.
+│02:40:24│ ⏳️ sub-08 run-05 Destination is 1.7 mm and 1.2° from the original head position
+│02:40:34│ ⏳️ sub-08 run-05 Writing sub-08/meg/sub-08_task-reproduction_run-05_proc-sss_raw.fif
+│02:40:38│ ⏳️ sub-08 run-05 Adding Maxwell filtered raw data to report.
+│02:40:42│ ⏳️ sub-08 run-05 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:40:43│ ⏳️ sub-08 run-06 Loading reference run: 01.
+│02:40:45│ ⏳️ sub-08 run-06 Applying SSS to experimental data
+│02:40:47│ ⏳️ sub-08 run-06 Marking 12 channels as bad.
+│02:40:47│ ⏳️ sub-08 run-06 Destination is 2.2 mm and 1.8° from the original head position
+│02:40:57│ ⏳️ sub-08 run-06 Writing sub-08/meg/sub-08_task-reproduction_run-06_proc-sss_raw.fif
+│02:41:00│ ⏳️ sub-08 run-06 Adding Maxwell filtered raw data to report.
+│02:41:05│ ⏳️ sub-08 run-06 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:41:06│ ⏳️ sub-08 run-07 Loading reference run: 01.
+│02:41:08│ ⏳️ sub-08 run-07 Applying SSS to experimental data
+│02:41:10│ ⏳️ sub-08 run-07 Marking 12 channels as bad.
+│02:41:10│ ⏳️ sub-08 run-07 Destination is 3.5 mm and 2.1° from the original head position
+│02:41:20│ ⏳️ sub-08 run-07 Writing sub-08/meg/sub-08_task-reproduction_run-07_proc-sss_raw.fif
+│02:41:23│ ⏳️ sub-08 run-07 Adding Maxwell filtered raw data to report.
+│02:41:27│ ⏳️ sub-08 run-07 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:41:29│ ⏳️ sub-08 run-08 Loading reference run: 01.
+│02:41:30│ ⏳️ sub-08 run-08 Applying SSS to experimental data
+│02:41:32│ ⏳️ sub-08 run-08 Marking 12 channels as bad.
+│02:41:32│ ⏳️ sub-08 run-08 Destination is 3.4 mm and 2.2° from the original head position
+│02:41:42│ ⏳️ sub-08 run-08 Writing sub-08/meg/sub-08_task-reproduction_run-08_proc-sss_raw.fif
+│02:41:45│ ⏳️ sub-08 run-08 Adding Maxwell filtered raw data to report.
+│02:41:50│ ⏳️ sub-08 run-08 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:41:51│ ⏳️ sub-08 run-09 Loading reference run: 01.
+│02:41:53│ ⏳️ sub-08 run-09 Applying SSS to experimental data
+│02:41:55│ ⏳️ sub-08 run-09 Marking 10 channels as bad.
+│02:41:55│ ⏳️ sub-08 run-09 Destination is 2.1 mm and 2.2° from the original head position
+│02:42:07│ ⏳️ sub-08 run-09 Writing sub-08/meg/sub-08_task-reproduction_run-09_proc-sss_raw.fif
+│02:42:10│ ⏳️ sub-08 run-09 Adding Maxwell filtered raw data to report.
+│02:42:15│ ⏳️ sub-08 run-09 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:42:16│ ⏳️ sub-08 run-10 Loading reference run: 01.
+│02:42:18│ ⏳️ sub-08 run-10 Applying SSS to experimental data
+│02:42:20│ ⏳️ sub-08 run-10 Marking 11 channels as bad.
+│02:42:20│ ⏳️ sub-08 run-10 Destination is 3.8 mm and 2.5° from the original head position
+│02:42:31│ ⏳️ sub-08 run-10 Writing sub-08/meg/sub-08_task-reproduction_run-10_proc-sss_raw.fif
+│02:42:34│ ⏳️ sub-08 run-10 Adding Maxwell filtered raw data to report.
+│02:42:39│ ⏳️ sub-08 run-10 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:42:41│ ⏳️ sub-08 run-11 Loading reference run: 01.
+│02:42:42│ ⏳️ sub-08 run-11 Applying SSS to experimental data
+│02:42:44│ ⏳️ sub-08 run-11 Marking 10 channels as bad.
+│02:42:44│ ⏳️ sub-08 run-11 Destination is 4.6 mm and 2.4° from the original head position
+│02:42:55│ ⏳️ sub-08 run-11 Writing sub-08/meg/sub-08_task-reproduction_run-11_proc-sss_raw.fif
+│02:42:58│ ⏳️ sub-08 run-11 Adding Maxwell filtered raw data to report.
+│02:43:03│ ⏳️ sub-08 run-11 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:43:04│ ⏳️ sub-08 run-12 Loading reference run: 01.
+│02:43:06│ ⏳️ sub-08 run-12 Applying SSS to experimental data
+│02:43:08│ ⏳️ sub-08 run-12 Marking 12 channels as bad.
+│02:43:08│ ⏳️ sub-08 run-12 Destination is 4.6 mm and 2.3° from the original head position
+│02:43:19│ ⏳️ sub-08 run-12 Writing sub-08/meg/sub-08_task-reproduction_run-12_proc-sss_raw.fif
+│02:43:22│ ⏳️ sub-08 run-12 Adding Maxwell filtered raw data to report.
+│02:43:27│ ⏳️ sub-08 run-12 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:43:29│ ⏳️ sub-08 run-13 Loading reference run: 01.
+│02:43:30│ ⏳️ sub-08 run-13 Applying SSS to experimental data
+│02:43:32│ ⏳️ sub-08 run-13 Marking 13 channels as bad.
+│02:43:32│ ⏳️ sub-08 run-13 Destination is 2.2 mm and 3.1° from the original head position
+│02:43:42│ ⏳️ sub-08 run-13 Writing sub-08/meg/sub-08_task-reproduction_run-13_proc-sss_raw.fif
+│02:43:45│ ⏳️ sub-08 run-13 Adding Maxwell filtered raw data to report.
+│02:43:50│ ⏳️ sub-08 run-13 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:43:51│ ⏳️ sub-08 run-14 Loading reference run: 01.
+│02:43:53│ ⏳️ sub-08 run-14 Applying SSS to experimental data
+│02:43:55│ ⏳️ sub-08 run-14 Marking 12 channels as bad.
+│02:43:55│ ⏳️ sub-08 run-14 Destination is 7.7 mm and 2.9° from the original head position
+│02:44:05│ ⏳️ sub-08 run-14 Writing sub-08/meg/sub-08_task-reproduction_run-14_proc-sss_raw.fif
+│02:44:08│ ⏳️ sub-08 run-14 Adding Maxwell filtered raw data to report.
+│02:44:13│ ⏳️ sub-08 run-14 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:44:15│ ⏳️ sub-08 run-15 Loading reference run: 01.
+│02:44:16│ ⏳️ sub-08 run-15 Applying SSS to experimental data
+│02:44:18│ ⏳️ sub-08 run-15 Marking 8 channels as bad.
+│02:44:18│ ⏳️ sub-08 run-15 Destination is 7.1 mm and 2.3° from the original head position
+│02:44:28│ ⏳️ sub-08 run-15 Writing sub-08/meg/sub-08_task-reproduction_run-15_proc-sss_raw.fif
+│02:44:31│ ⏳️ sub-08 run-15 Adding Maxwell filtered raw data to report.
+│02:44:36│ ⏳️ sub-08 run-15 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:44:37│ ⏳️ sub-08 run-16 Loading reference run: 01.
+│02:44:39│ ⏳️ sub-08 run-16 Applying SSS to experimental data
+│02:44:41│ ⏳️ sub-08 run-16 Marking 8 channels as bad.
+│02:44:41│ ⏳️ sub-08 run-16 Destination is 9.2 mm and 1.6° from the original head position
+│02:44:52│ ⏳️ sub-08 run-16 Writing sub-08/meg/sub-08_task-reproduction_run-16_proc-sss_raw.fif
+│02:44:55│ ⏳️ sub-08 run-16 Adding Maxwell filtered raw data to report.
+│02:45:00│ ⏳️ sub-08 run-16 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:45:01│ ⏳️ sub-08 run-17 Loading reference run: 01.
+│02:45:03│ ⏳️ sub-08 run-17 Applying SSS to experimental data
+│02:45:04│ ⏳️ sub-08 run-17 Marking 7 channels as bad.
+│02:45:04│ ⏳️ sub-08 run-17 Destination is 8.2 mm and 1.5° from the original head position
+│02:45:15│ ⏳️ sub-08 run-17 Writing sub-08/meg/sub-08_task-reproduction_run-17_proc-sss_raw.fif
+│02:45:18│ ⏳️ sub-08 run-17 Adding Maxwell filtered raw data to report.
+│02:45:22│ ⏳️ sub-08 run-17 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:45:24│ ⏳️ sub-08 run-18 Loading reference run: 01.
+│02:45:26│ ⏳️ sub-08 run-18 Applying SSS to experimental data
+│02:45:27│ ⏳️ sub-08 run-18 Marking 10 channels as bad.
+│02:45:27│ ⏳️ sub-08 run-18 Destination is 3.7 mm and 2.0° from the original head position
+│02:45:38│ ⏳️ sub-08 run-18 Writing sub-08/meg/sub-08_task-reproduction_run-18_proc-sss_raw.fif
+│02:45:41│ ⏳️ sub-08 run-18 Adding Maxwell filtered raw data to report.
+│02:45:45│ ⏳️ sub-08 run-18 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+└────────┴ done (6m 59s)
+┌────────┬ preprocessing/_04_frequency_filter ────────────────────────────────────────────
+│02:45:47│ ⏳️ sub-08 run-01 Reading experimental recording: sub-08_task-reproduction_run-01_proc-sss_raw.fif
+│02:45:49│ ⏳️ sub-08 run-01 Not applying notch filter to experimental data.
+│02:45:49│ ⏳️ sub-08 run-01 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:45:51│ ⏳️ sub-08 run-01 Resampling experimental data to 250.0 Hz
+│02:45:55│ ⏳️ sub-08 run-01 Adding filtered raw data to report
+│02:45:59│ ⏳️ sub-08 run-01 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:46:00│ ⏳️ sub-08 run-02 Reading experimental recording: sub-08_task-reproduction_run-02_proc-sss_raw.fif
+│02:46:02│ ⏳️ sub-08 run-02 Not applying notch filter to experimental data.
+│02:46:02│ ⏳️ sub-08 run-02 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:46:04│ ⏳️ sub-08 run-02 Resampling experimental data to 250.0 Hz
+│02:46:09│ ⏳️ sub-08 run-02 Adding filtered raw data to report
+│02:46:12│ ⏳️ sub-08 run-02 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:46:13│ ⏳️ sub-08 run-03 Reading experimental recording: sub-08_task-reproduction_run-03_proc-sss_raw.fif
+│02:46:15│ ⏳️ sub-08 run-03 Not applying notch filter to experimental data.
+│02:46:15│ ⏳️ sub-08 run-03 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:46:17│ ⏳️ sub-08 run-03 Resampling experimental data to 250.0 Hz
+│02:46:21│ ⏳️ sub-08 run-03 Adding filtered raw data to report
+│02:46:24│ ⏳️ sub-08 run-03 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:46:26│ ⏳️ sub-08 run-04 Reading experimental recording: sub-08_task-reproduction_run-04_proc-sss_raw.fif
+│02:46:27│ ⏳️ sub-08 run-04 Not applying notch filter to experimental data.
+│02:46:27│ ⏳️ sub-08 run-04 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:46:29│ ⏳️ sub-08 run-04 Resampling experimental data to 250.0 Hz
+│02:46:33│ ⏳️ sub-08 run-04 Adding filtered raw data to report
+│02:46:36│ ⏳️ sub-08 run-04 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:46:37│ ⏳️ sub-08 run-05 Reading experimental recording: sub-08_task-reproduction_run-05_proc-sss_raw.fif
+│02:46:39│ ⏳️ sub-08 run-05 Not applying notch filter to experimental data.
+│02:46:39│ ⏳️ sub-08 run-05 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:46:41│ ⏳️ sub-08 run-05 Resampling experimental data to 250.0 Hz
+│02:46:45│ ⏳️ sub-08 run-05 Adding filtered raw data to report
+│02:46:49│ ⏳️ sub-08 run-05 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:46:50│ ⏳️ sub-08 run-06 Reading experimental recording: sub-08_task-reproduction_run-06_proc-sss_raw.fif
+│02:46:52│ ⏳️ sub-08 run-06 Not applying notch filter to experimental data.
+│02:46:52│ ⏳️ sub-08 run-06 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:46:53│ ⏳️ sub-08 run-06 Resampling experimental data to 250.0 Hz
+│02:46:58│ ⏳️ sub-08 run-06 Adding filtered raw data to report
+│02:47:01│ ⏳️ sub-08 run-06 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:47:02│ ⏳️ sub-08 run-07 Reading experimental recording: sub-08_task-reproduction_run-07_proc-sss_raw.fif
+│02:47:04│ ⏳️ sub-08 run-07 Not applying notch filter to experimental data.
+│02:47:04│ ⏳️ sub-08 run-07 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:47:05│ ⏳️ sub-08 run-07 Resampling experimental data to 250.0 Hz
+│02:47:10│ ⏳️ sub-08 run-07 Adding filtered raw data to report
+│02:47:13│ ⏳️ sub-08 run-07 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:47:15│ ⏳️ sub-08 run-08 Reading experimental recording: sub-08_task-reproduction_run-08_proc-sss_raw.fif
+│02:47:16│ ⏳️ sub-08 run-08 Not applying notch filter to experimental data.
+│02:47:16│ ⏳️ sub-08 run-08 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:47:18│ ⏳️ sub-08 run-08 Resampling experimental data to 250.0 Hz
+│02:47:21│ ⏳️ sub-08 run-08 Adding filtered raw data to report
+│02:47:25│ ⏳️ sub-08 run-08 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:47:26│ ⏳️ sub-08 run-09 Reading experimental recording: sub-08_task-reproduction_run-09_proc-sss_raw.fif
+│02:47:28│ ⏳️ sub-08 run-09 Not applying notch filter to experimental data.
+│02:47:28│ ⏳️ sub-08 run-09 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:47:30│ ⏳️ sub-08 run-09 Resampling experimental data to 250.0 Hz
+│02:47:34│ ⏳️ sub-08 run-09 Adding filtered raw data to report
+│02:47:38│ ⏳️ sub-08 run-09 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:47:39│ ⏳️ sub-08 run-10 Reading experimental recording: sub-08_task-reproduction_run-10_proc-sss_raw.fif
+│02:47:41│ ⏳️ sub-08 run-10 Not applying notch filter to experimental data.
+│02:47:41│ ⏳️ sub-08 run-10 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:47:43│ ⏳️ sub-08 run-10 Resampling experimental data to 250.0 Hz
+│02:47:48│ ⏳️ sub-08 run-10 Adding filtered raw data to report
+│02:47:51│ ⏳️ sub-08 run-10 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:47:53│ ⏳️ sub-08 run-11 Reading experimental recording: sub-08_task-reproduction_run-11_proc-sss_raw.fif
+│02:47:54│ ⏳️ sub-08 run-11 Not applying notch filter to experimental data.
+│02:47:54│ ⏳️ sub-08 run-11 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:47:56│ ⏳️ sub-08 run-11 Resampling experimental data to 250.0 Hz
+│02:48:01│ ⏳️ sub-08 run-11 Adding filtered raw data to report
+│02:48:04│ ⏳️ sub-08 run-11 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:48:06│ ⏳️ sub-08 run-12 Reading experimental recording: sub-08_task-reproduction_run-12_proc-sss_raw.fif
+│02:48:08│ ⏳️ sub-08 run-12 Not applying notch filter to experimental data.
+│02:48:08│ ⏳️ sub-08 run-12 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:48:09│ ⏳️ sub-08 run-12 Resampling experimental data to 250.0 Hz
+│02:48:14│ ⏳️ sub-08 run-12 Adding filtered raw data to report
+│02:48:17│ ⏳️ sub-08 run-12 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:48:19│ ⏳️ sub-08 run-13 Reading experimental recording: sub-08_task-reproduction_run-13_proc-sss_raw.fif
+│02:48:20│ ⏳️ sub-08 run-13 Not applying notch filter to experimental data.
+│02:48:20│ ⏳️ sub-08 run-13 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:48:22│ ⏳️ sub-08 run-13 Resampling experimental data to 250.0 Hz
+│02:48:26│ ⏳️ sub-08 run-13 Adding filtered raw data to report
+│02:48:30│ ⏳️ sub-08 run-13 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:48:31│ ⏳️ sub-08 run-14 Reading experimental recording: sub-08_task-reproduction_run-14_proc-sss_raw.fif
+│02:48:33│ ⏳️ sub-08 run-14 Not applying notch filter to experimental data.
+│02:48:33│ ⏳️ sub-08 run-14 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:48:35│ ⏳️ sub-08 run-14 Resampling experimental data to 250.0 Hz
+│02:48:39│ ⏳️ sub-08 run-14 Adding filtered raw data to report
+│02:48:42│ ⏳️ sub-08 run-14 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:48:44│ ⏳️ sub-08 run-15 Reading experimental recording: sub-08_task-reproduction_run-15_proc-sss_raw.fif
+│02:48:45│ ⏳️ sub-08 run-15 Not applying notch filter to experimental data.
+│02:48:45│ ⏳️ sub-08 run-15 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:48:47│ ⏳️ sub-08 run-15 Resampling experimental data to 250.0 Hz
+│02:48:51│ ⏳️ sub-08 run-15 Adding filtered raw data to report
+│02:48:55│ ⏳️ sub-08 run-15 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:48:56│ ⏳️ sub-08 run-16 Reading experimental recording: sub-08_task-reproduction_run-16_proc-sss_raw.fif
+│02:48:58│ ⏳️ sub-08 run-16 Not applying notch filter to experimental data.
+│02:48:58│ ⏳️ sub-08 run-16 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:48:59│ ⏳️ sub-08 run-16 Resampling experimental data to 250.0 Hz
+│02:49:03│ ⏳️ sub-08 run-16 Adding filtered raw data to report
+│02:49:07│ ⏳️ sub-08 run-16 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:49:08│ ⏳️ sub-08 run-17 Reading experimental recording: sub-08_task-reproduction_run-17_proc-sss_raw.fif
+│02:49:10│ ⏳️ sub-08 run-17 Not applying notch filter to experimental data.
+│02:49:10│ ⏳️ sub-08 run-17 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:49:11│ ⏳️ sub-08 run-17 Resampling experimental data to 250.0 Hz
+│02:49:16│ ⏳️ sub-08 run-17 Adding filtered raw data to report
+│02:49:20│ ⏳️ sub-08 run-17 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:49:22│ ⏳️ sub-08 run-18 Reading experimental recording: sub-08_task-reproduction_run-18_proc-sss_raw.fif
+│02:49:23│ ⏳️ sub-08 run-18 Not applying notch filter to experimental data.
+│02:49:23│ ⏳️ sub-08 run-18 Low-pass filtering experimental data; upper bound: 40.0 Hz
+│02:49:25│ ⏳️ sub-08 run-18 Resampling experimental data to 250.0 Hz
+│02:49:30│ ⏳️ sub-08 run-18 Adding filtered raw data to report
+│02:49:33│ ⏳️ sub-08 run-18 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+└────────┴ done (3m 49s)
+┌────────┬ preprocessing/_05_regress_artifact ────────────────────────────────────────────
+│02:49:35│ ⏩ Skipping …
+└────────┴ done (1s)
+┌────────┬ preprocessing/_06a1_fit_ica ───────────────────────────────────────────────────
+│02:49:41│ ⏳️ sub-08 run-01 Processing raw data from sub-08_task-reproduction_run-01_proc-filt_raw.fif
+│02:49:41│ ⏳️ sub-08 run-01 Applying high-pass filter with 1.0 Hz cutoff …
+│02:49:42│ ⏳️ sub-08 run-01 Creating task-related epochs …
+│02:49:42│ ⏳️ sub-08 run-02 Processing raw data from sub-08_task-reproduction_run-02_proc-filt_raw.fif
+│02:49:42│ ⏳️ sub-08 run-03 Processing raw data from sub-08_task-reproduction_run-03_proc-filt_raw.fif
+│02:49:43│ ⏳️ sub-08 run-04 Processing raw data from sub-08_task-reproduction_run-04_proc-filt_raw.fif
+│02:49:43│ ⏳️ sub-08 run-05 Processing raw data from sub-08_task-reproduction_run-05_proc-filt_raw.fif
+│02:49:44│ ⏳️ sub-08 run-06 Processing raw data from sub-08_task-reproduction_run-06_proc-filt_raw.fif
+│02:49:45│ ⏳️ sub-08 run-07 Processing raw data from sub-08_task-reproduction_run-07_proc-filt_raw.fif
+│02:49:45│ ⏳️ sub-08 run-08 Processing raw data from sub-08_task-reproduction_run-08_proc-filt_raw.fif
+│02:49:46│ ⏳️ sub-08 run-09 Processing raw data from sub-08_task-reproduction_run-09_proc-filt_raw.fif
+│02:49:46│ ⏳️ sub-08 run-10 Processing raw data from sub-08_task-reproduction_run-10_proc-filt_raw.fif
+│02:49:47│ ⏳️ sub-08 run-11 Processing raw data from sub-08_task-reproduction_run-11_proc-filt_raw.fif
+│02:49:48│ ⏳️ sub-08 run-12 Processing raw data from sub-08_task-reproduction_run-12_proc-filt_raw.fif
+│02:49:48│ ⏳️ sub-08 run-13 Processing raw data from sub-08_task-reproduction_run-13_proc-filt_raw.fif
+│02:49:49│ ⏳️ sub-08 run-14 Processing raw data from sub-08_task-reproduction_run-14_proc-filt_raw.fif
+│02:49:50│ ⏳️ sub-08 run-15 Processing raw data from sub-08_task-reproduction_run-15_proc-filt_raw.fif
+│02:49:50│ ⏳️ sub-08 run-16 Processing raw data from sub-08_task-reproduction_run-16_proc-filt_raw.fif
+│02:49:51│ ⏳️ sub-08 run-17 Processing raw data from sub-08_task-reproduction_run-17_proc-filt_raw.fif
+│02:49:51│ ⏳️ sub-08 run-18 Processing raw data from sub-08_task-reproduction_run-18_proc-filt_raw.fif
+│02:49:52│ ⏳️ sub-08 Using PTP rejection thresholds: {'grad': 4e-10, 'mag': 4e-12}
+│02:49:52│ ⏳️ sub-08 Saving ICA epochs to disk.
+│02:49:53│ ⏳️ sub-08 Calculating ICA solution using method: fastica.
+│02:50:07│ ⏳️ sub-08 Fit 31 components (explaining 99.1% of the variance) in 49 iterations.
+│02:50:07│ ⏳️ sub-08 Saving ICA solution to disk.
+│02:50:32│ ⏳️ sub-08 Saving ICA.fit report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_proc-icafit_report.html
+└────────┴ done (58s)
+┌────────┬ preprocessing/_06a2_find_ica_artifacts ────────────────────────────────────────
+│02:50:32│ ⏳️ sub-08 Loading ICA solution
+│02:50:33│ ⏳️ sub-08 Creating ECG epochs …
+│02:50:41│ ⏳️ sub-08 Performing automated ECG artifact detection …
+│02:50:42│ ⏳️ sub-08 Detected 20 ECG-related ICs in 261 ECG epochs.
+│02:50:42│ ⏳️ sub-08 Creating EOG epochs …
+│02:50:57│ ⏳️ sub-08 Performing automated EOG artifact detection …
+│02:50:58│ ⏳️ sub-08 No EOG-related ICs detected, this is highly suspicious. A manual check is suggested. You may wish to lower "ica_eog_threshold".
+│02:50:58│ ⏳️ sub-08 Saving ICA solution and detected artifacts to disk.
+│02:52:20│ ⏳️ sub-08 Saving ICA report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_proc-ica+components_report.html
+│02:52:21│ ⏳️ sub-08 ICA completed. Please carefully review the extracted ICs in the report sub-08_task-reproduction_proc-ica+components_report.h5, and mark all components you wish to reject as 'bad' in sub-08_task-reproduction_proc-ica_components.tsv
+└────────┴ done (1m 50s)
+┌────────┬ preprocessing/_06b_run_ssp ────────────────────────────────────────────────────
+│02:52:21│ ⏩ Skipping …
+└────────┴ done (1s)
+┌────────┬ preprocessing/_07_make_epochs ─────────────────────────────────────────────────
+│02:52:24│ ⏳️ sub-08 run-01 Loading filtered raw data from sub-08_task-reproduction_run-01_proc-filt_raw.fif
+│02:52:24│ ⏳️ sub-08 run-01 Creating task-related epochs …
+│02:52:24│ ⏳️ sub-08 run-02 Loading filtered raw data from sub-08_task-reproduction_run-02_proc-filt_raw.fif
+│02:52:24│ ⏳️ sub-08 run-02 Creating task-related epochs …
+│02:52:25│ ⏳️ sub-08 run-03 Loading filtered raw data from sub-08_task-reproduction_run-03_proc-filt_raw.fif
+│02:52:25│ ⏳️ sub-08 run-03 Creating task-related epochs …
+│02:52:25│ ⏳️ sub-08 run-04 Loading filtered raw data from sub-08_task-reproduction_run-04_proc-filt_raw.fif
+│02:52:25│ ⏳️ sub-08 run-04 Creating task-related epochs …
+│02:52:25│ ⏳️ sub-08 run-05 Loading filtered raw data from sub-08_task-reproduction_run-05_proc-filt_raw.fif
+│02:52:25│ ⏳️ sub-08 run-05 Creating task-related epochs …
+│02:52:25│ ⏳️ sub-08 run-06 Loading filtered raw data from sub-08_task-reproduction_run-06_proc-filt_raw.fif
+│02:52:26│ ⏳️ sub-08 run-06 Creating task-related epochs …
+│02:52:26│ ⏳️ sub-08 run-07 Loading filtered raw data from sub-08_task-reproduction_run-07_proc-filt_raw.fif
+│02:52:26│ ⏳️ sub-08 run-07 Creating task-related epochs …
+│02:52:26│ ⏳️ sub-08 run-08 Loading filtered raw data from sub-08_task-reproduction_run-08_proc-filt_raw.fif
+│02:52:26│ ⏳️ sub-08 run-08 Creating task-related epochs …
+│02:52:26│ ⏳️ sub-08 run-09 Loading filtered raw data from sub-08_task-reproduction_run-09_proc-filt_raw.fif
+│02:52:26│ ⏳️ sub-08 run-09 Creating task-related epochs …
+│02:52:27│ ⏳️ sub-08 run-10 Loading filtered raw data from sub-08_task-reproduction_run-10_proc-filt_raw.fif
+│02:52:27│ ⏳️ sub-08 run-10 Creating task-related epochs …
+│02:52:27│ ⏳️ sub-08 run-11 Loading filtered raw data from sub-08_task-reproduction_run-11_proc-filt_raw.fif
+│02:52:27│ ⏳️ sub-08 run-11 Creating task-related epochs …
+│02:52:27│ ⏳️ sub-08 run-12 Loading filtered raw data from sub-08_task-reproduction_run-12_proc-filt_raw.fif
+│02:52:27│ ⏳️ sub-08 run-12 Creating task-related epochs …
+│02:52:28│ ⏳️ sub-08 run-13 Loading filtered raw data from sub-08_task-reproduction_run-13_proc-filt_raw.fif
+│02:52:28│ ⏳️ sub-08 run-13 Creating task-related epochs …
+│02:52:28│ ⏳️ sub-08 run-14 Loading filtered raw data from sub-08_task-reproduction_run-14_proc-filt_raw.fif
+│02:52:28│ ⏳️ sub-08 run-14 Creating task-related epochs …
+│02:52:28│ ⏳️ sub-08 run-15 Loading filtered raw data from sub-08_task-reproduction_run-15_proc-filt_raw.fif
+│02:52:28│ ⏳️ sub-08 run-15 Creating task-related epochs …
+│02:52:28│ ⏳️ sub-08 run-16 Loading filtered raw data from sub-08_task-reproduction_run-16_proc-filt_raw.fif
+│02:52:28│ ⏳️ sub-08 run-16 Creating task-related epochs …
+│02:52:29│ ⏳️ sub-08 run-17 Loading filtered raw data from sub-08_task-reproduction_run-17_proc-filt_raw.fif
+│02:52:29│ ⏳️ sub-08 run-17 Creating task-related epochs …
+│02:52:29│ ⏳️ sub-08 run-18 Loading filtered raw data from sub-08_task-reproduction_run-18_proc-filt_raw.fif
+│02:52:29│ ⏳️ sub-08 run-18 Creating task-related epochs …
+│02:52:29│ ⏳️ sub-08 The MEG rank of the "reproduction" epochs is now: 66
+│02:52:29│ ⏳️ sub-08 Created 3240 epochs with time interval: -0.192 – 0.592 sec.
+│02:52:29│ ⏳️ sub-08 Selected 3240 epochs via metadata query: None
+│02:52:29│ ⏳️ sub-08 Writing 3240 epochs to disk.
+│02:52:31│ ⏳️ sub-08 Adding events plot to report.
+│02:52:32│ ⏳️ sub-08 Adding uncleaned epochs to report.
+│02:52:45│ ⏳️ sub-08 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+└────────┴ done (27s)
+┌────────┬ preprocessing/_08a_apply_ica ──────────────────────────────────────────────────
+│02:52:47│ ⏳️ sub-08 Input: sub-08_task-reproduction_epo.fif
+│02:52:47│ ⏳️ sub-08 Output: sub-08_task-reproduction_proc-ica_epo.fif
+│02:52:48│ ⏳️ sub-08 Rejecting ICs: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 16, 18, 19, 20, 23, 24, 27
+│02:52:49│ ⏳️ sub-08 Saving reconstructed epochs after ICA.
+│02:53:44│ ⏳️ sub-08 Adding ICA to report.
+│02:54:37│ ⏳️ sub-08 Saving ICA.apply report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:54:39│ ⏳️ sub-08 run-01 Writing sub-08_task-reproduction_run-01_proc-clean_raw.fif …
+│02:54:41│ ⏳️ sub-08 run-01 Adding cleaned raw data to report
+│02:54:44│ ⏳️ sub-08 run-01 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:54:46│ ⏳️ sub-08 run-02 Writing sub-08_task-reproduction_run-02_proc-clean_raw.fif …
+│02:54:49│ ⏳️ sub-08 run-02 Adding cleaned raw data to report
+│02:54:52│ ⏳️ sub-08 run-02 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│02:54:54│ ⏳️ sub-08 run-03 Writing sub-08_task-reproduction_run-03_proc-clean_raw.fif …
+│03:04:16│ ⏳️ sub-08 run-03 Adding cleaned raw data to report
+│03:04:19│ ⏳️ sub-08 run-03 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:04:20│ ⏳️ sub-08 run-04 Writing sub-08_task-reproduction_run-04_proc-clean_raw.fif …
+│03:04:22│ ⏳️ sub-08 run-04 Adding cleaned raw data to report
+│03:04:24│ ⏳️ sub-08 run-04 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:04:26│ ⏳️ sub-08 run-05 Writing sub-08_task-reproduction_run-05_proc-clean_raw.fif …
+│03:04:27│ ⏳️ sub-08 run-05 Adding cleaned raw data to report
+│03:04:30│ ⏳️ sub-08 run-05 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:04:32│ ⏳️ sub-08 run-06 Writing sub-08_task-reproduction_run-06_proc-clean_raw.fif …
+│03:04:34│ ⏳️ sub-08 run-06 Adding cleaned raw data to report
+│03:04:36│ ⏳️ sub-08 run-06 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:04:38│ ⏳️ sub-08 run-07 Writing sub-08_task-reproduction_run-07_proc-clean_raw.fif …
+│03:04:39│ ⏳️ sub-08 run-07 Adding cleaned raw data to report
+│03:04:42│ ⏳️ sub-08 run-07 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:04:43│ ⏳️ sub-08 run-08 Writing sub-08_task-reproduction_run-08_proc-clean_raw.fif …
+│03:04:45│ ⏳️ sub-08 run-08 Adding cleaned raw data to report
+│03:04:48│ ⏳️ sub-08 run-08 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:04:49│ ⏳️ sub-08 run-09 Writing sub-08_task-reproduction_run-09_proc-clean_raw.fif …
+│03:04:51│ ⏳️ sub-08 run-09 Adding cleaned raw data to report
+│03:04:53│ ⏳️ sub-08 run-09 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:04:55│ ⏳️ sub-08 run-10 Writing sub-08_task-reproduction_run-10_proc-clean_raw.fif …
+│03:04:56│ ⏳️ sub-08 run-10 Adding cleaned raw data to report
+│03:04:59│ ⏳️ sub-08 run-10 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:05:00│ ⏳️ sub-08 run-11 Writing sub-08_task-reproduction_run-11_proc-clean_raw.fif …
+│03:15:02│ ⏳️ sub-08 run-11 Adding cleaned raw data to report
+│03:15:05│ ⏳️ sub-08 run-11 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:15:06│ ⏳️ sub-08 run-12 Writing sub-08_task-reproduction_run-12_proc-clean_raw.fif …
+│03:15:08│ ⏳️ sub-08 run-12 Adding cleaned raw data to report
+│03:15:11│ ⏳️ sub-08 run-12 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:15:12│ ⏳️ sub-08 run-13 Writing sub-08_task-reproduction_run-13_proc-clean_raw.fif …
+│03:15:14│ ⏳️ sub-08 run-13 Adding cleaned raw data to report
+│03:15:16│ ⏳️ sub-08 run-13 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:15:18│ ⏳️ sub-08 run-14 Writing sub-08_task-reproduction_run-14_proc-clean_raw.fif …
+│03:15:19│ ⏳️ sub-08 run-14 Adding cleaned raw data to report
+│03:15:22│ ⏳️ sub-08 run-14 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:15:24│ ⏳️ sub-08 run-15 Writing sub-08_task-reproduction_run-15_proc-clean_raw.fif …
+│03:15:25│ ⏳️ sub-08 run-15 Adding cleaned raw data to report
+│03:15:28│ ⏳️ sub-08 run-15 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:15:29│ ⏳️ sub-08 run-16 Writing sub-08_task-reproduction_run-16_proc-clean_raw.fif …
+│03:15:31│ ⏳️ sub-08 run-16 Adding cleaned raw data to report
+│03:15:34│ ⏳️ sub-08 run-16 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:15:35│ ⏳️ sub-08 run-17 Writing sub-08_task-reproduction_run-17_proc-clean_raw.fif …
+│03:15:37│ ⏳️ sub-08 run-17 Adding cleaned raw data to report
+│03:15:39│ ⏳️ sub-08 run-17 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+│03:15:41│ ⏳️ sub-08 run-18 Writing sub-08_task-reproduction_run-18_proc-clean_raw.fif …
+│03:15:43│ ⏳️ sub-08 run-18 Adding cleaned raw data to report
+│03:15:45│ ⏳️ sub-08 run-18 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+└────────┴ done (23m 1s)
+┌────────┬ preprocessing/_08b_apply_ssp ──────────────────────────────────────────────────
+│03:15:47│ ⏩ Skipping …
+└────────┴ done (1s)
+┌────────┬ preprocessing/_09_ptp_reject ──────────────────────────────────────────────────
+│03:15:47│ ⏳️ sub-08 Input:  sub-08_task-reproduction_proc-ica_epo.fif
+│03:15:47│ ⏳️ sub-08 Output: sub-08_task-reproduction_proc-clean_epo.fif
+│03:15:48│ ⏳️ sub-08 Generating rejection thresholds using autoreject …
+│03:15:57│ ⏳️ sub-08 Using PTP rejection thresholds: {'mag': 1.9167925095997523e-12, 'grad': 5.184273651807162e-11}
+│03:15:58│ ⏳️ sub-08 Adding cleaned epochs to report.
+│03:16:06│ ⏳️ sub-08 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+└────────┴ done (21s)
+┌────────┬ sensor/_01_make_evoked ────────────────────────────────────────────────────────
+│03:16:08│ ⏳️ sub-08 Input: sub-08_task-reproduction_proc-clean_epo.fif
+│03:16:08│ ⏳️ sub-08 Output: sub-08_task-reproduction_ave.fif
+│03:16:08│ ⏳️ sub-08 Creating evoked data based on experimental conditions …
+│03:16:11│ ⏳️ sub-08 Adding 54 evoked responses and 0 contrasts to the report.
+│03:41:53│ ⏳️ sub-08 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+└────────┴ done (25m 51s)
+┌────────┬ sensor/_02_decoding_full_epochs ───────────────────────────────────────────────
+│03:41:58│ ⏩ No contrasts specified; not performing decoding.
+└────────┴ done (1s)
+┌────────┬ sensor/_03_decoding_time_by_time ──────────────────────────────────────────────
+│03:41:58│ ⏩ No contrasts specified; not performing decoding.
+└────────┴ done (1s)
+┌────────┬ sensor/_04_time_frequency ─────────────────────────────────────────────────────
+│03:41:58│ ⏩ Skipping …
+└────────┴ done (1s)
+┌────────┬ sensor/_05_decoding_csp ───────────────────────────────────────────────────────
+│03:41:58│ ⏩ No contrasts specified. Skipping …
+└────────┴ done (1s)
+┌────────┬ sensor/_06_make_cov ───────────────────────────────────────────────────────────
+│03:41:58│ ⏳️ sub-08 Computing regularized covariance based on epochs' baseline periods.
+│03:41:58│ ⏳️ sub-08 Input:  sub-08_task-reproduction_proc-clean_epo.fif
+│03:41:58│ ⏳️ sub-08 Output: sub-08_task-reproduction_proc-clean_cov.fif
+│03:43:34│ ⏳️ sub-08 Rendering noise covariance matrix and corresponding SVD.
+│03:43:36│ ⏳️ sub-08 Rendering whitened evoked data.
+│03:45:12│ ⏳️ sub-08 Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-08/meg/sub-08_task-reproduction_report.html
+└────────┴ done (3m 23s)
+┌────────┬ sensor/_99_group_average ──────────────────────────────────────────────────────
+│03:45:20│ ⏳️ sub-average Creating grand averages
+│03:45:21│ ⏳️ sub-average Saving grand-averaged evoked sensor data: sub-average_task-reproduction_proc-clean_ave.fif
+│03:45:22│ ⏳️ sub-average Initializing report HDF5 file
+│03:45:22│ ⏳️ sub-average Adding event counts to report …
+│03:45:23│ ⏳️ sub-average Adding 54 evoked responses and 0 contrasts to the report.
+│04:17:54│ ⏳️ sub-average Saving report: /Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/derivatives/items/sub-average/meg/sub-average_task-reproduction_report.html
+└────────┴ done (32m 37s)
+┌────────┬ source/_01_make_bem_surfaces ──────────────────────────────────────────────────
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mne_python/bin/mne_bids_pipeline", line 8, in <module>
+    sys.exit(main())
+  File "/opt/anaconda3/envs/mne_python/lib/python3.9/site-packages/mne_bids_pipeline/_main.py", line 234, in main
+    step_module.main(config=config_imported)
+  File "/opt/anaconda3/envs/mne_python/lib/python3.9/site-packages/mne_bids_pipeline/steps/source/_01_make_bem_surfaces.py", line 159, in main
+    logs = parallel(
+  File "/opt/anaconda3/envs/mne_python/lib/python3.9/site-packages/mne_bids_pipeline/steps/source/_01_make_bem_surfaces.py", line 161, in <genexpr>
+    cfg=get_config(
+  File "/opt/anaconda3/envs/mne_python/lib/python3.9/site-packages/mne_bids_pipeline/steps/source/_01_make_bem_surfaces.py", line 129, in get_config
+    fs_subject=get_fs_subject(config=config, subject=subject),
+  File "/opt/anaconda3/envs/mne_python/lib/python3.9/site-packages/mne_bids_pipeline/_config_utils.py", line 40, in get_fs_subject
+    subjects_dir = get_fs_subjects_dir(config)
+  File "/opt/anaconda3/envs/mne_python/lib/python3.9/site-packages/mne_bids_pipeline/_config_utils.py", line 29, in get_fs_subjects_dir
+    raise ValueError(
+ValueError: When specifying a "deriv_root", you must also supply a "subjects_dir".
+(mne_python) et@macbook-pro analysis_scripts % 
