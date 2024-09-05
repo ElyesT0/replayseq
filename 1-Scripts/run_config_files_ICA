@@ -13,7 +13,7 @@ if [ "$which_computer" == "local" ]; then
 
 elif [ "$which_computer" == "remote" ]; then
     script_dir=$(dirname "$0")
-    bids_root="/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/BIDS"
+    bids_root="/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/replayseq/2-Data/BIDS"
     
 
 elif [ "$which_computer" == "neurospin" ]; then
