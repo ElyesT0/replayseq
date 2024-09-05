@@ -46,9 +46,9 @@ run_command() {
 log_base_dir="$bids_root/mne_bids_logs"
 
 # Define the merged configurations and steps
-configs0=("config_fixation_neurospin.py" "config_items_neurospin.py")
+configs0=("config_sequence_icm.py")
 
-configs=("config_sequence_neurospin.py" "config_fixation_icm.py" "config_sequence_icm.py" "config_items_icm.py")
+configs=()
 
 steps0=("06a1" "06a2" "07")
 
