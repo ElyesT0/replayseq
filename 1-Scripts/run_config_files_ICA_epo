@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Prompt the user to set the value for the which_computer variable
-echo "Please enter the computer type (e.g., 'local', 'neurospin', 'remote'):"
+echo "Please enter the computer type (e.g., 'local', 'neurospin', 'remote', 'Fosca_neurospin'):"
 read which_computer
 
 # Set the script_dir based on the value of which_computer
@@ -19,6 +19,10 @@ elif [ "$which_computer" == "remote" ]; then
 elif [ "$which_computer" == "neurospin" ]; then
     script_dir="$(dirname "$0")/analysis_scripts/config_files"
     bids_root="$(dirname "$(dirname "$0")")/2-Data/BIDS"
+
+elif [ "$which_computer" == "Fosca_neurospin" ]; then
+    script_dir="$(dirname "$0")/analysis_scripts/config_files"
+    bids_root="/Volumes/$(dirname "$(dirname "$0")")/2-Data/BIDS"
 
 else
     echo "Invalid input. Please enter 'local', 'remote', or 'neurospin'."
