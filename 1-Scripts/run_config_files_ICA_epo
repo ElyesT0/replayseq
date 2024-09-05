@@ -21,8 +21,8 @@ elif [ "$which_computer" == "neurospin" ]; then
     bids_root="$(dirname "$(dirname "$0")")/2-Data/BIDS"
 
 elif [ "$which_computer" == "Fosca_neurospin" ]; then
-    script_dir="$(dirname "$0")/analysis_scripts/config_files"
-    bids_root="/Volumes/$(dirname "$(dirname "$0")")/2-Data/BIDS"
+    script_dir="/Volumes/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/replayseq/1-Scripts/analysis_scripts/config_files"
+    bids_root="/Volumes/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/replayseq/2-Data/BIDS"
 
 else
     echo "Invalid input. Please enter 'local', 'remote', or 'neurospin'."
