@@ -64,7 +64,7 @@ baseline = (None,0)
 
 
 # Conditions / events to consider when epoching
-conditions = ['fixation']
+conditions = ['Fixation']
 
 # This is often helpful when doing multiple subjects.  If 1 subject fails processing stops
 #on_error = 'continue'
