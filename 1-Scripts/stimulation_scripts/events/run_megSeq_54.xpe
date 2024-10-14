@@ -1,0 +1,548 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 19:16:38
+#sha1: 8d929b
+#modules: response_funcs.py (7176c3)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1777,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_block,block_sequenceName,trial_cnt,trial_id,trial,block,PresentedSequence,sequenceName
+#design: 0,0,0,CRep2,0,0,0,0,[2, 1, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1],CRep2
+#design: 0,0,0,CRep2,1,1,1,0,[2, 4, 4, 4, 4, 2, 2, 4, 2, 2, 2, 4],CRep2
+#design: 1,1,1,CRep2,0,0,0,1,[5, 2, 2, 2, 2, 5, 5, 2, 5, 5, 5, 2],CRep2
+#design: 1,1,1,CRep2,1,1,1,1,[1, 3, 3, 3, 3, 1, 1, 3, 1, 1, 1, 3],CRep2
+#design: 2,2,2,Rep3,0,0,0,2,[4, 0, 1, 4, 0, 1, 4, 0, 1, 4, 0, 1],Rep3
+#design: 2,2,2,Rep3,1,1,1,2,[1, 3, 4, 1, 3, 4, 1, 3, 4, 1, 3, 4],Rep3
+#design: 3,3,3,Rep3,0,0,0,3,[5, 2, 3, 5, 2, 3, 5, 2, 3, 5, 2, 3],Rep3
+#design: 3,3,3,Rep3,1,1,1,3,[4, 5, 1, 4, 5, 1, 4, 5, 1, 4, 5, 1],Rep3
+#design: 4,4,4,Rep2,0,0,0,4,[0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3],Rep2
+#design: 4,4,4,Rep2,1,1,1,4,[3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2],Rep2
+#design: 5,5,5,Rep2,0,0,0,5,[3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2],Rep2
+#design: 5,5,5,Rep2,1,1,1,5,[3, 5, 3, 5, 3, 5, 3, 5, 3, 5, 3, 5],Rep2
+1777,design,logged,
+1777,Experiment,started
+1784,Stimulus,presented,26
+3024,Keyboard,received,32,wait
+3043,Stimulus,presented,4
+3546,Stimulus,presented,4
+3546,Stimulus,presented,2
+3546,Stimulus,presented,20
+3547,stdout,received,'trigger_key =  CRep2-3'
+3547,stdout,received,'trigger =  14'
+3749,Stimulus,presented,4
+3945,Stimulus,presented,4
+3945,Stimulus,presented,2
+3945,Stimulus,presented,19
+3945,stdout,received,'trigger_key =  CRep2-2'
+3946,stdout,received,'trigger =  13'
+4148,Stimulus,presented,4
+4345,Stimulus,presented,4
+4345,Stimulus,presented,2
+4345,Stimulus,presented,19
+4345,stdout,received,'trigger_key =  CRep2-2'
+4345,stdout,received,'trigger =  13'
+4548,Stimulus,presented,4
+4743,Stimulus,presented,4
+4743,Stimulus,presented,2
+4744,Stimulus,presented,19
+4744,stdout,received,'trigger_key =  CRep2-2'
+4744,stdout,received,'trigger =  13'
+4944,Stimulus,presented,4
+5144,Stimulus,presented,4
+5144,Stimulus,presented,2
+5144,Stimulus,presented,19
+5144,stdout,received,'trigger_key =  CRep2-2'
+5144,stdout,received,'trigger =  13'
+5344,Stimulus,presented,4
+5548,Stimulus,presented,4
+5548,Stimulus,presented,2
+5548,Stimulus,presented,20
+5549,stdout,received,'trigger_key =  CRep2-3'
+5549,stdout,received,'trigger =  14'
+5751,Stimulus,presented,4
+5943,Stimulus,presented,4
+5943,Stimulus,presented,2
+5944,Stimulus,presented,20
+5944,stdout,received,'trigger_key =  CRep2-3'
+5944,stdout,received,'trigger =  14'
+6144,Stimulus,presented,4
+6345,Stimulus,presented,4
+6345,Stimulus,presented,2
+6345,Stimulus,presented,19
+6345,stdout,received,'trigger_key =  CRep2-2'
+6345,stdout,received,'trigger =  13'
+6545,Stimulus,presented,4
+6744,Stimulus,presented,4
+6745,Stimulus,presented,2
+6745,Stimulus,presented,20
+6745,stdout,received,'trigger_key =  CRep2-3'
+6745,stdout,received,'trigger =  14'
+6946,Stimulus,presented,4
+7145,Stimulus,presented,4
+7145,Stimulus,presented,2
+7146,Stimulus,presented,20
+7146,stdout,received,'trigger_key =  CRep2-3'
+7146,stdout,received,'trigger =  14'
+7347,Stimulus,presented,4
+7544,Stimulus,presented,4
+7545,Stimulus,presented,2
+7545,Stimulus,presented,20
+7545,stdout,received,'trigger_key =  CRep2-3'
+7545,stdout,received,'trigger =  14'
+7746,Stimulus,presented,4
+7945,Stimulus,presented,4
+7945,Stimulus,presented,2
+7947,Stimulus,presented,19
+7947,stdout,received,'trigger_key =  CRep2-2'
+7947,stdout,received,'trigger =  13'
+8148,Stimulus,presented,4
+8544,Keyboard,received,None,wait_char
+8745,Stimulus,presented,11
+8745,Stimulus,presented,11
+14747,Keyboard,received,None,wait_char
+14747,stdout,received,'None key detected or wrong key :  None'
+14753,Stimulus,presented,11
+20754,Keyboard,received,None,wait_char
+20755,stdout,received,'None key detected or wrong key :  None'
+20761,Stimulus,presented,11
+22571,Keyboard,received,k,wait_char
+22571,Stimulus,presented,2
+22573,Stimulus,presented,20
+22674,Stimulus,presented,11
+22674,stdout,received,'BUTTON NUMBER 2 PRESSED'
+22674,stdout,received,''
+22675,Stimulus,presented,11
+22758,Keyboard,received,k,wait_char
+22758,Stimulus,presented,2
+22759,Stimulus,presented,20
+22860,Stimulus,presented,11
+22860,stdout,received,'BUTTON NUMBER 2 PRESSED'
+22860,stdout,received,''
+22860,Stimulus,presented,11
+22912,Keyboard,received,k,wait_char
+22912,Stimulus,presented,2
+22912,Stimulus,presented,20
+23013,Stimulus,presented,11
+23013,stdout,received,'BUTTON NUMBER 2 PRESSED'
+23013,stdout,received,''
+23013,Stimulus,presented,11
+23071,Keyboard,received,k,wait_char
+23071,Stimulus,presented,2
+23072,Stimulus,presented,20
+23173,Stimulus,presented,11
+23173,stdout,received,'BUTTON NUMBER 2 PRESSED'
+23173,stdout,received,''
+23173,Stimulus,presented,11
+23252,Keyboard,received,k,wait_char
+23252,Stimulus,presented,2
+23253,Stimulus,presented,20
+23354,Stimulus,presented,11
+23354,stdout,received,'BUTTON NUMBER 2 PRESSED'
+23354,stdout,received,''
+23355,Stimulus,presented,11
+23452,Keyboard,received,k,wait_char
+23453,Stimulus,presented,2
+23454,Stimulus,presented,20
+23555,Stimulus,presented,11
+23555,stdout,received,'BUTTON NUMBER 2 PRESSED'
+23555,stdout,received,''
+23556,Stimulus,presented,11
+23684,Keyboard,received,k,wait_char
+23685,Stimulus,presented,2
+23686,Stimulus,presented,20
+23787,Stimulus,presented,11
+23787,stdout,received,'BUTTON NUMBER 2 PRESSED'
+23787,stdout,received,''
+23788,Stimulus,presented,11
+24282,Keyboard,received,k,wait_char
+24283,Stimulus,presented,2
+24284,Stimulus,presented,20
+24385,Stimulus,presented,11
+24385,stdout,received,'BUTTON NUMBER 2 PRESSED'
+24385,stdout,received,''
+24385,Stimulus,presented,11
+24489,Keyboard,received,k,wait_char
+24489,Stimulus,presented,2
+24490,Stimulus,presented,20
+24591,Stimulus,presented,11
+24591,stdout,received,'BUTTON NUMBER 2 PRESSED'
+24591,stdout,received,''
+24591,Stimulus,presented,11
+24691,Keyboard,received,k,wait_char
+24691,Stimulus,presented,2
+24692,Stimulus,presented,20
+24793,Stimulus,presented,11
+24793,stdout,received,'BUTTON NUMBER 2 PRESSED'
+24793,stdout,received,''
+24993,Stimulus,played,b'./auditory_feedback/neg1.wav'
+24996,Stimulus,presented,28
+25498,Stimulus,presented,3
+25798,stdout,received,'---------------------------------------'
+25800,Stimulus,presented,4
+26301,Stimulus,presented,4
+26301,Stimulus,presented,2
+26301,Stimulus,presented,20
+26301,stdout,received,'trigger_key =  CRep2-3'
+26301,stdout,received,'trigger =  14'
+26502,Stimulus,presented,4
+26701,Stimulus,presented,4
+26702,Stimulus,presented,2
+26702,Stimulus,presented,22
+26702,stdout,received,'trigger_key =  CRep2-5'
+26702,stdout,received,'trigger =  16'
+26904,Stimulus,presented,4
+27103,Stimulus,presented,4
+27103,Stimulus,presented,2
+27104,Stimulus,presented,22
+27104,stdout,received,'trigger_key =  CRep2-5'
+27104,stdout,received,'trigger =  16'
+27305,Stimulus,presented,4
+27501,Stimulus,presented,4
+27501,Stimulus,presented,2
+27501,Stimulus,presented,22
+27502,stdout,received,'trigger_key =  CRep2-5'
+27502,stdout,received,'trigger =  16'
+27703,Stimulus,presented,4
+27901,Stimulus,presented,4
+27901,Stimulus,presented,2
+27902,Stimulus,presented,22
+27902,stdout,received,'trigger_key =  CRep2-5'
+27902,stdout,received,'trigger =  16'
+28103,Stimulus,presented,4
+28301,Stimulus,presented,4
+28301,Stimulus,presented,2
+28301,Stimulus,presented,20
+28301,stdout,received,'trigger_key =  CRep2-3'
+28301,stdout,received,'trigger =  14'
+28502,Stimulus,presented,4
+28701,Stimulus,presented,4
+28701,Stimulus,presented,2
+28701,Stimulus,presented,20
+28701,stdout,received,'trigger_key =  CRep2-3'
+28701,stdout,received,'trigger =  14'
+28902,Stimulus,presented,4
+29101,Stimulus,presented,4
+29101,Stimulus,presented,2
+29101,Stimulus,presented,22
+29102,stdout,received,'trigger_key =  CRep2-5'
+29102,stdout,received,'trigger =  16'
+29303,Stimulus,presented,4
+29501,Stimulus,presented,4
+29501,Stimulus,presented,2
+29502,Stimulus,presented,20
+29502,stdout,received,'trigger_key =  CRep2-3'
+29502,stdout,received,'trigger =  14'
+29703,Stimulus,presented,4
+29901,Stimulus,presented,4
+29901,Stimulus,presented,2
+29901,Stimulus,presented,20
+29901,stdout,received,'trigger_key =  CRep2-3'
+29901,stdout,received,'trigger =  14'
+30102,Stimulus,presented,4
+30301,Stimulus,presented,4
+30301,Stimulus,presented,2
+30302,Stimulus,presented,20
+30302,stdout,received,'trigger_key =  CRep2-3'
+30302,stdout,received,'trigger =  14'
+30503,Stimulus,presented,4
+30701,Stimulus,presented,4
+30701,Stimulus,presented,2
+30701,Stimulus,presented,22
+30701,stdout,received,'trigger_key =  CRep2-5'
+30701,stdout,received,'trigger =  16'
+30902,Stimulus,presented,4
+31300,Keyboard,received,None,wait_char
+31500,Stimulus,presented,11
+31501,Stimulus,presented,11
+37502,Keyboard,received,None,wait_char
+37502,stdout,received,'None key detected or wrong key :  None'
+37511,Stimulus,presented,11
+43512,Keyboard,received,None,wait_char
+43512,stdout,received,'None key detected or wrong key :  None'
+43517,Stimulus,presented,11
+49518,Keyboard,received,None,wait_char
+49518,stdout,received,'None key detected or wrong key :  None'
+49528,Stimulus,presented,11
+55529,Keyboard,received,None,wait_char
+55530,stdout,received,'None key detected or wrong key :  None'
+55536,Stimulus,presented,11
+61537,Keyboard,received,None,wait_char
+61537,stdout,received,'None key detected or wrong key :  None'
+61538,Stimulus,presented,11
+67539,Keyboard,received,None,wait_char
+67539,stdout,received,'None key detected or wrong key :  None'
+67541,Stimulus,presented,11
+73542,Keyboard,received,None,wait_char
+73542,stdout,received,'None key detected or wrong key :  None'
+73543,Stimulus,presented,11
+79544,Keyboard,received,None,wait_char
+79544,stdout,received,'None key detected or wrong key :  None'
+79546,Stimulus,presented,11
+85547,Keyboard,received,None,wait_char
+85547,stdout,received,'None key detected or wrong key :  None'
+85549,Stimulus,presented,11
+91549,Keyboard,received,None,wait_char
+91550,stdout,received,'None key detected or wrong key :  None'
+91551,Stimulus,presented,11
+97552,Keyboard,received,None,wait_char
+97552,stdout,received,'None key detected or wrong key :  None'
+97560,Stimulus,presented,11
+103561,Keyboard,received,None,wait_char
+103561,stdout,received,'None key detected or wrong key :  None'
+103761,Stimulus,played,b'./auditory_feedback/neg1.wav'
+103764,Stimulus,presented,29
+104265,Stimulus,presented,3
+104565,stdout,received,'---------------------------------------'
+104565,stdout,received,'We are in the resting state break'
+104569,Stimulus,presented,30
+105069,Stimulus,presented,3
+106170,Keyboard,received,None,wait_char
+106172,Stimulus,presented,31
+319351,Keyboard,received,n,wait_char
+319359,Stimulus,presented,32
+319861,Stimulus,presented,4
+320864,Stimulus,presented,4
+321365,Stimulus,presented,4
+321365,Stimulus,presented,2
+321366,Stimulus,presented,23
+321366,stdout,received,'trigger_key =  CRep2-6'
+321366,stdout,received,'trigger =  17'
+321567,Stimulus,presented,4
+321765,Stimulus,presented,4
+321765,Stimulus,presented,2
+321766,Stimulus,presented,20
+321766,stdout,received,'trigger_key =  CRep2-3'
+321766,stdout,received,'trigger =  14'
+321967,Stimulus,presented,4
+322165,Stimulus,presented,4
+322165,Stimulus,presented,2
+322165,Stimulus,presented,20
+322165,stdout,received,'trigger_key =  CRep2-3'
+322165,stdout,received,'trigger =  14'
+322366,Stimulus,presented,4
+322565,Stimulus,presented,4
+322565,Stimulus,presented,2
+322566,Stimulus,presented,20
+322566,stdout,received,'trigger_key =  CRep2-3'
+322566,stdout,received,'trigger =  14'
+322767,Stimulus,presented,4
+322965,Stimulus,presented,4
+322965,Stimulus,presented,2
+322966,Stimulus,presented,20
+322966,stdout,received,'trigger_key =  CRep2-3'
+322966,stdout,received,'trigger =  14'
+323167,Stimulus,presented,4
+323365,Stimulus,presented,4
+323365,Stimulus,presented,2
+323365,Stimulus,presented,23
+323365,stdout,received,'trigger_key =  CRep2-6'
+323365,stdout,received,'trigger =  17'
+323566,Stimulus,presented,4
+323765,Stimulus,presented,4
+323765,Stimulus,presented,2
+323766,Stimulus,presented,23
+323766,stdout,received,'trigger_key =  CRep2-6'
+323766,stdout,received,'trigger =  17'
+323967,Stimulus,presented,4
+324165,Stimulus,presented,4
+324165,Stimulus,presented,2
+324165,Stimulus,presented,20
+324165,stdout,received,'trigger_key =  CRep2-3'
+324165,stdout,received,'trigger =  14'
+324366,Stimulus,presented,4
+324565,Stimulus,presented,4
+324565,Stimulus,presented,2
+324566,Stimulus,presented,23
+324566,stdout,received,'trigger_key =  CRep2-6'
+324566,stdout,received,'trigger =  17'
+324767,Stimulus,presented,4
+324965,Stimulus,presented,4
+324965,Stimulus,presented,2
+324966,Stimulus,presented,23
+324966,stdout,received,'trigger_key =  CRep2-6'
+324966,stdout,received,'trigger =  17'
+325167,Stimulus,presented,4
+325365,Stimulus,presented,4
+325365,Stimulus,presented,2
+325366,Stimulus,presented,23
+325366,stdout,received,'trigger_key =  CRep2-6'
+325366,stdout,received,'trigger =  17'
+325567,Stimulus,presented,4
+325765,Stimulus,presented,4
+325765,Stimulus,presented,2
+325766,Stimulus,presented,20
+325766,stdout,received,'trigger_key =  CRep2-3'
+325766,stdout,received,'trigger =  14'
+325967,Stimulus,presented,4
+326365,Keyboard,received,None,wait_char
+326565,Stimulus,presented,11
+326566,Stimulus,presented,11
+332567,Keyboard,received,None,wait_char
+332567,stdout,received,'None key detected or wrong key :  None'
+332572,Stimulus,presented,11
+338573,Keyboard,received,None,wait_char
+338574,stdout,received,'None key detected or wrong key :  None'
+338581,Stimulus,presented,11
+344582,Keyboard,received,None,wait_char
+344582,stdout,received,'None key detected or wrong key :  None'
+344587,Stimulus,presented,11
+350588,Keyboard,received,None,wait_char
+350588,stdout,received,'None key detected or wrong key :  None'
+350593,Stimulus,presented,11
+356594,Keyboard,received,None,wait_char
+356594,stdout,received,'None key detected or wrong key :  None'
+356597,Stimulus,presented,11
+362597,Keyboard,received,None,wait_char
+362597,stdout,received,'None key detected or wrong key :  None'
+362599,Stimulus,presented,11
+368600,Keyboard,received,None,wait_char
+368600,stdout,received,'None key detected or wrong key :  None'
+368602,Stimulus,presented,11
+374602,Keyboard,received,None,wait_char
+374602,stdout,received,'None key detected or wrong key :  None'
+374606,Stimulus,presented,11
+380607,Keyboard,received,None,wait_char
+380607,stdout,received,'None key detected or wrong key :  None'
+380613,Stimulus,presented,11
+386614,Keyboard,received,None,wait_char
+386614,stdout,received,'None key detected or wrong key :  None'
+386618,Stimulus,presented,11
+392619,Keyboard,received,None,wait_char
+392619,stdout,received,'None key detected or wrong key :  None'
+392621,Stimulus,presented,11
+398622,Keyboard,received,None,wait_char
+398622,stdout,received,'None key detected or wrong key :  None'
+398823,Stimulus,played,b'./auditory_feedback/neg1.wav'
+398827,Stimulus,presented,33
+399328,Stimulus,presented,3
+399628,stdout,received,'---------------------------------------'
+399630,Stimulus,presented,4
+400131,Stimulus,presented,4
+400131,Stimulus,presented,2
+400131,Stimulus,presented,19
+400131,stdout,received,'trigger_key =  CRep2-2'
+400131,stdout,received,'trigger =  13'
+400332,Stimulus,presented,4
+400531,Stimulus,presented,4
+400531,Stimulus,presented,2
+400532,Stimulus,presented,21
+400532,stdout,received,'trigger_key =  CRep2-4'
+400532,stdout,received,'trigger =  15'
+400733,Stimulus,presented,4
+400931,Stimulus,presented,4
+400931,Stimulus,presented,2
+400931,Stimulus,presented,21
+400932,stdout,received,'trigger_key =  CRep2-4'
+400932,stdout,received,'trigger =  15'
+401133,Stimulus,presented,4
+401331,Stimulus,presented,4
+401331,Stimulus,presented,2
+401332,Stimulus,presented,21
+401332,stdout,received,'trigger_key =  CRep2-4'
+401332,stdout,received,'trigger =  15'
+401533,Stimulus,presented,4
+401730,Stimulus,presented,4
+401730,Stimulus,presented,2
+401731,Stimulus,presented,21
+401731,stdout,received,'trigger_key =  CRep2-4'
+401731,stdout,received,'trigger =  15'
+401931,Stimulus,presented,4
+402131,Stimulus,presented,4
+402131,Stimulus,presented,2
+402131,Stimulus,presented,19
+402132,stdout,received,'trigger_key =  CRep2-2'
+402132,stdout,received,'trigger =  13'
+402332,Stimulus,presented,4
+402530,Stimulus,presented,4
+402530,Stimulus,presented,2
+402531,Stimulus,presented,19
+402531,stdout,received,'trigger_key =  CRep2-2'
+402531,stdout,received,'trigger =  13'
+402731,Stimulus,presented,4
+402930,Stimulus,presented,4
+402930,Stimulus,presented,2
+402931,Stimulus,presented,21
+402931,stdout,received,'trigger_key =  CRep2-4'
+402931,stdout,received,'trigger =  15'
+403131,Stimulus,presented,4
+403330,Stimulus,presented,4
+403330,Stimulus,presented,2
+403330,Stimulus,presented,19
+403331,stdout,received,'trigger_key =  CRep2-2'
+403331,stdout,received,'trigger =  13'
+403531,Stimulus,presented,4
+403731,Stimulus,presented,4
+403731,Stimulus,presented,2
+403731,Stimulus,presented,19
+403731,stdout,received,'trigger_key =  CRep2-2'
+403731,stdout,received,'trigger =  13'
+403931,Stimulus,presented,4
+404130,Stimulus,presented,4
+404131,Stimulus,presented,2
+404131,Stimulus,presented,19
+404131,stdout,received,'trigger_key =  CRep2-2'
+404131,stdout,received,'trigger =  13'
+404332,Stimulus,presented,4
+404530,Stimulus,presented,4
+404532,Stimulus,presented,2
+404532,Stimulus,presented,21
+404532,stdout,received,'trigger_key =  CRep2-4'
+404532,stdout,received,'trigger =  15'
+404732,Stimulus,presented,4
+405130,Keyboard,received,None,wait_char
+405330,Stimulus,presented,11
+405331,Stimulus,presented,11
+411331,Keyboard,received,None,wait_char
+411332,stdout,received,'None key detected or wrong key :  None'
+411334,Stimulus,presented,11
+417335,Keyboard,received,None,wait_char
+417335,stdout,received,'None key detected or wrong key :  None'
+417340,Stimulus,presented,11
+423341,Keyboard,received,None,wait_char
+423341,stdout,received,'None key detected or wrong key :  None'
+423349,Stimulus,presented,11
+429350,Keyboard,received,None,wait_char
+429350,stdout,received,'None key detected or wrong key :  None'
+429354,Stimulus,presented,11
+435355,Keyboard,received,None,wait_char
+435356,stdout,received,'None key detected or wrong key :  None'
+435363,Stimulus,presented,11
+441364,Keyboard,received,None,wait_char
+441364,stdout,received,'None key detected or wrong key :  None'
+441370,Stimulus,presented,11
+447371,Keyboard,received,None,wait_char
+447371,stdout,received,'None key detected or wrong key :  None'
+447378,Stimulus,presented,11
+453379,Keyboard,received,None,wait_char
+453379,stdout,received,'None key detected or wrong key :  None'
+453386,Stimulus,presented,11
+459387,Keyboard,received,None,wait_char
+459387,stdout,received,'None key detected or wrong key :  None'
+459388,Stimulus,presented,11
+465389,Keyboard,received,None,wait_char
+465389,stdout,received,'None key detected or wrong key :  None'
+465391,Stimulus,presented,11
+471392,Keyboard,received,None,wait_char
+471393,stdout,received,'None key detected or wrong key :  None'
+471399,Stimulus,presented,11
+477400,Keyboard,received,None,wait_char
+477400,stdout,received,'None key detected or wrong key :  None'
+477600,Stimulus,played,b'./auditory_feedback/neg1.wav'
+477603,Stimulus,presented,34
+478105,Stimulus,presented,3
+478405,stdout,received,'---------------------------------------'
+478405,stdout,received,'We are in the resting state break'
+478409,Stimulus,presented,35
+478910,Stimulus,presented,3
+480010,Keyboard,received,None,wait_char
+480016,Stimulus,presented,36
+1345265,stderr,received,'Traceback (most recent call last):'
+1345265,stderr,received,'  File "/Users/et/Documents/UNICOG/2-b-MEG_experiments/MegSeq/code_megSeq/run_megSeq.py", line 512, in <module>'
+1345268,stderr,received,"    # print('nb_trials_per_sequence : ',nb_trials_per_sequence)"
+1345268,stderr,received,'                                        ^^^^^^^^^^^^^^^^^^^^^^^^'
+1345268,stderr,received,'  File "/opt/anaconda3/envs/meg_exp/lib/python3.11/site-packages/expyriment/io/_keyboard.py", line 425, in wait_char'
+1345268,stderr,received,'    time.sleep(0.0005)'
+1345269,stderr,received,'KeyboardInterrupt'
+1345272,Data,saved

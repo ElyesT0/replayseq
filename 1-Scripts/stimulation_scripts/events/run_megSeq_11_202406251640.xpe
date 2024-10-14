@@ -1,0 +1,68 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 16:40:23
+#sha1: 1560b3
+#modules: 
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro-9.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+11392,design,log,
+#design: #exp: MegSeq
+#design: #dvn: SequenceID,PresentedPositions,Mapping,MappingResponse,ProducedSequence,RTs,Score
+#design: block_cnt,block_id,trial_cnt,trial_id
+11392,design,logged,
+11392,Experiment,started
+11410,Stimulus,presented,0
+12223,Keyboard,received,13,wait
+12223,stdout,received,'Running trial number 0'
+12223,stdout,received,''
+12234,Stimulus,presented,4
+12734,stdout,received,'PRESENTING SEQUENCE'
+12736,Stimulus,presented,4
+12738,Stimulus,presented,21
+12940,Stimulus,presented,4
+13136,Stimulus,presented,4
+13138,Stimulus,presented,23
+13339,Stimulus,presented,4
+13535,Stimulus,presented,4
+13538,Stimulus,presented,20
+13739,Stimulus,presented,4
+13935,Stimulus,presented,4
+13938,Stimulus,presented,22
+14139,Stimulus,presented,4
+14335,Stimulus,presented,4
+14338,Stimulus,presented,21
+14539,Stimulus,presented,4
+14735,Stimulus,presented,4
+14738,Stimulus,presented,23
+14939,Stimulus,presented,4
+15136,Stimulus,presented,4
+15139,Stimulus,presented,20
+15340,Stimulus,presented,4
+15536,Stimulus,presented,4
+15538,Stimulus,presented,22
+15740,Stimulus,presented,4
+15936,Stimulus,presented,4
+15939,Stimulus,presented,21
+16141,Stimulus,presented,4
+16338,Stimulus,presented,4
+16342,Stimulus,presented,23
+16543,Stimulus,presented,4
+16739,Stimulus,presented,4
+16742,Stimulus,presented,20
+16943,Stimulus,presented,4
+17139,Stimulus,presented,4
+17141,Stimulus,presented,22
+17343,Stimulus,presented,4
+17538,stdout,received,'BREAK TO COMPRESS'
+18139,Keyboard,received,None,wait_char
+18139,stdout,received,'RESPONSE SCREEN'
+18149,Stimulus,presented,26
+22150,Keyboard,received,None,wait_char
+22158,Stimulus,presented,4
+22158,stdout,received,'WAIT FOR RESPONSE'
+22168,Stimulus,presented,11
+23633,Experiment,paused
+23639,Stimulus,presented,39
+24608,Keyboard,received,y,wait_char
+24608,Experiment,ended
+24619,Stimulus,presented,39

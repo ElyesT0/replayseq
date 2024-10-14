@@ -1,0 +1,37 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 19:10:40
+#sha1: 46c8fe
+#modules: response_funcs.py (7176c3)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1884,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_sequenceName,block_block,trial_cnt,trial_id,sequenceName,PresentedSequence,trial,block
+#design: 0,0,Rep2,0,0,0,Rep2,[2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4],0,0
+#design: 0,0,Rep2,0,1,1,Rep2,[0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3],1,0
+#design: 1,1,Rep2,1,0,0,Rep2,[1, 5, 1, 5, 1, 5, 1, 5, 1, 5, 1, 5],0,1
+#design: 1,1,Rep2,1,1,1,Rep2,[3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0],1,1
+#design: 2,2,Rep3,2,0,0,Rep3,[2, 1, 5, 2, 1, 5, 2, 1, 5, 2, 1, 5],0,2
+#design: 2,2,Rep3,2,1,1,Rep3,[4, 5, 2, 4, 5, 2, 4, 5, 2, 4, 5, 2],1,2
+#design: 3,3,Rep3,3,0,0,Rep3,[4, 5, 2, 4, 5, 2, 4, 5, 2, 4, 5, 2],0,3
+#design: 3,3,Rep3,3,1,1,Rep3,[2, 4, 0, 2, 4, 0, 2, 4, 0, 2, 4, 0],1,3
+#design: 4,4,CRep2,4,0,0,CRep2,[0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1],0,4
+#design: 4,4,CRep2,4,1,1,CRep2,[4, 5, 5, 5, 5, 4, 4, 5, 4, 4, 4, 5],1,4
+#design: 5,5,CRep2,5,0,0,CRep2,[1, 4, 4, 4, 4, 1, 1, 4, 1, 1, 1, 4],0,5
+#design: 5,5,CRep2,5,1,1,CRep2,[4, 3, 3, 3, 3, 4, 4, 3, 4, 4, 4, 3],1,5
+1884,design,logged,
+1884,Experiment,started
+1897,Stimulus,presented,26
+24615,Keyboard,received,32,wait
+24622,Stimulus,presented,4
+25124,Stimulus,presented,4
+25124,Stimulus,presented,2
+25124,Stimulus,presented,20
+25124,stdout,received,'trial.stimuli[k] : <expyriment.stimuli._circle.Circle object at 0x107cc59d0>'
+25125,stderr,received,'Traceback (most recent call last):'
+25125,stderr,received,'  File "/Users/et/Documents/UNICOG/2-b-MEG_experiments/MegSeq/code_megSeq/run_megSeq.py", line 371, in <module>'
+25126,stderr,received,"    print('trial.index ',trial.index)"
+25126,stderr,received,'                         ^^^^^^^^^^^'
+25126,stderr,received,"AttributeError: 'Trial' object has no attribute 'index'"

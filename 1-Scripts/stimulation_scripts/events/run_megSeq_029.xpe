@@ -1,0 +1,17 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 14:33:09
+#sha1: be8570
+#modules: response_funcs.py (625041)
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-113-generic', version='#123~20.04.1-Ubuntu SMP Wed Jun 12 17:33:13 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+10790,stderr,received,'Traceback (most recent call last):'
+10790,stderr,received,'  File "/home/neurostim/MEG_studies/ReplaySeq_2024_ElyesFosca/1-transfer_stim/run_megSeq.py", line 327, in <module>'
+10791,stderr,received,'    control.start()'
+10791,stderr,received,'  File "/home/neurostim/.pyenv/versions/3.8.19/envs/replayseq/lib/python3.8/site-packages/expyriment/control/_experiment_control.py", line 208, in start'
+10791,stderr,received,'    experiment.keyboard.wait()'
+10791,stderr,received,'  File "/home/neurostim/.pyenv/versions/3.8.19/envs/replayseq/lib/python3.8/site-packages/expyriment/io/_keyboard.py", line 284, in wait'
+10791,stderr,received,'    if _internals.active_exp.is_initialized:'
+10791,stderr,received,'  File "/home/neurostim/.pyenv/versions/3.8.19/envs/replayseq/lib/python3.8/site-packages/expyriment/design/_structure.py", line 203, in is_initialized'
+10791,stderr,received,'    return self._is_initialized'
+10791,stderr,received,'KeyboardInterrupt'

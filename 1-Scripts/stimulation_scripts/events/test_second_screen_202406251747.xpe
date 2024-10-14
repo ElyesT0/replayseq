@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 17:47:46
+#sha1: ff681b
+#modules: 
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro-9.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+2825,Stimulus,presented,0
+2825,stderr,received,'Traceback (most recent call last):'
+2825,stderr,received,'  File "/Users/et/Documents/UNICOG/2-b-MEG_experiments/MegSeq/code_megStim/test_second_screen.py", line 29, in <module>'
+2825,stderr,received,'    exp.keyboard.wait(exp.misc.constants.K_SPACE)'
+2825,stderr,received,'    ^^^^^^^^^^^^'
+2825,stderr,received,"AttributeError: module 'expyriment' has no attribute 'keyboard'"

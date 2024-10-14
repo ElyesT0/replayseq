@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 16:38:02
+#sha1: e7e842
+#modules: 
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro-9.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+2806,stderr,received,'Traceback (most recent call last):'
+2806,stderr,received,'  File "/Users/et/Documents/UNICOG/2-b-MEG_experiments/MegSeq/code_megStim/run_megSeq.py", line 128, in <module>'
+2806,stderr,received,'    c.plot(hexagone_placeholder)'
+2806,stderr,received,'  File "/opt/anaconda3/envs/meg_exp/lib/python3.11/site-packages/expyriment/stimuli/_visual.py", line 925, in plot'
+2806,stderr,received,'    raise RuntimeError(Visual._exception_message.format('
+2806,stderr,received,'RuntimeError: Cannot call plot() on preloaded or compressed stimulus!'

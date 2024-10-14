@@ -107,7 +107,8 @@ def prepare_data_for_mne_bids_pipeline(sub,path_exp = "/Volumes/T5_EVO/1-experim
         write_meg_calibration(calibration=cal_fname,bids_path=bids_path)
         write_meg_crosstalk(fname=ct_fname,bids_path=bids_path)
 
-def inspect_raw(sub_nb, run, path_root=path_root,verbose=False):
+def inspect_raw(sub_nb, run, path_root=path_root,verbose=False,bad_channels_test=[]):
+    # bad_channels_test : enter group of usually recognized bad channels. Makes it easier to check if they are still bad accross runs.
     
     # Open JSON bad_channels object
     with open(path_json_file, 'r') as file:
@@ -127,6 +128,7 @@ def inspect_raw(sub_nb, run, path_root=path_root,verbose=False):
     
     # Open the raw object
     raw=mne.io.read_raw_fif(path_raw_file, allow_maxshield=True, preload=True,verbose=verbose)
+    raw.info['bads']=bad_channels_test
     raw_filter = raw.copy().notch_filter(freqs=[50,100,150])
     
     # 1 - Plot the raw object for the given subjet / run.
@@ -135,6 +137,7 @@ def inspect_raw(sub_nb, run, path_root=path_root,verbose=False):
     # 2 - Plot the PSD to note outliers 
     #raw.pick_types(eeg=False)
     raw_filter.compute_psd().plot()
+    
     
     # eventuellement prendre raw.crop() 100 secondes au milieu
     

@@ -1,0 +1,159 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 14:54:06
+#sha1: cee3b4
+#modules: response_funcs.py (625041)
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-113-generic', version='#123~20.04.1-Ubuntu SMP Wed Jun 12 17:33:13 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+3597,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_block,block_sequenceName,trial_cnt,trial_id,PresentedSequence,block,sequenceName,trial
+#design: 0,0,0,Rep3,0,0,[2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1],0,Rep3,0
+#design: 0,0,0,Rep3,1,1,[0, 2, 4, 0, 2, 4, 0, 2, 4, 0, 2, 4],0,Rep3,1
+#design: 1,1,1,Rep3,0,0,[4, 2, 3, 4, 2, 3, 4, 2, 3, 4, 2, 3],1,Rep3,0
+#design: 1,1,1,Rep3,1,1,[1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0],1,Rep3,1
+#design: 2,2,2,CRep2,0,0,[2, 4, 4, 4, 4, 2, 2, 4, 2, 2, 2, 4],2,CRep2,0
+#design: 2,2,2,CRep2,1,1,[0, 5, 5, 5, 5, 0, 0, 5, 0, 0, 0, 5],2,CRep2,1
+#design: 3,3,3,CRep2,0,0,[5, 2, 2, 2, 2, 5, 5, 2, 5, 5, 5, 2],3,CRep2,0
+#design: 3,3,3,CRep2,1,1,[1, 4, 4, 4, 4, 1, 1, 4, 1, 1, 1, 4],3,CRep2,1
+#design: 4,4,4,Rep2,0,0,[4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3],4,Rep2,0
+#design: 4,4,4,Rep2,1,1,[5, 1, 5, 1, 5, 1, 5, 1, 5, 1, 5, 1],4,Rep2,1
+#design: 5,5,5,Rep2,0,0,[5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4],5,Rep2,0
+#design: 5,5,5,Rep2,1,1,[5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0],5,Rep2,1
+3597,design,logged,
+3598,Experiment,started
+3620,Stimulus,presented,26
+3772,Keyboard,received,32,wait
+3786,Stimulus,presented,4
+4295,Stimulus,presented,4
+4295,Stimulus,presented,2
+4305,Stimulus,presented,20
+4512,Stimulus,presented,4
+4695,Stimulus,presented,4
+4695,Stimulus,presented,2
+4704,Stimulus,presented,21
+4912,Stimulus,presented,4
+5095,Stimulus,presented,4
+5095,Stimulus,presented,2
+5105,Stimulus,presented,19
+5312,Stimulus,presented,4
+5495,Stimulus,presented,4
+5495,Stimulus,presented,2
+5505,Stimulus,presented,20
+5712,Stimulus,presented,4
+5895,Stimulus,presented,4
+5895,Stimulus,presented,2
+5905,Stimulus,presented,21
+6112,Stimulus,presented,4
+6295,Stimulus,presented,4
+6295,Stimulus,presented,2
+6305,Stimulus,presented,19
+6512,Stimulus,presented,4
+6695,Stimulus,presented,4
+6695,Stimulus,presented,2
+6705,Stimulus,presented,20
+6912,Stimulus,presented,4
+7095,Stimulus,presented,4
+7095,Stimulus,presented,2
+7105,Stimulus,presented,21
+7312,Stimulus,presented,4
+7495,Stimulus,presented,4
+7495,Stimulus,presented,2
+7505,Stimulus,presented,19
+7712,Stimulus,presented,4
+7895,Stimulus,presented,4
+7896,Stimulus,presented,2
+7905,Stimulus,presented,20
+8112,Stimulus,presented,4
+8295,Stimulus,presented,4
+8296,Stimulus,presented,2
+8305,Stimulus,presented,21
+8512,Stimulus,presented,4
+8695,Stimulus,presented,4
+8695,Stimulus,presented,2
+8705,Stimulus,presented,19
+8912,Stimulus,presented,4
+9286,Keyboard,received,None,wait_char
+9495,Stimulus,presented,11
+9505,Stimulus,presented,11
+10512,Stimulus,presented,28
+10512,Stimulus,played,b'./auditory_feedback/neg1.wav'
+11012,stdout,received,'no response registered'
+11012,stdout,received,'------------------------------------------------------'
+11012,stdout,received,'None key detected or wrong key :  None'
+11512,stdout,received,'Blankscreen'
+11520,Stimulus,presented,3
+11820,stdout,received,'---------------------------------------'
+11838,Stimulus,presented,4
+12345,Stimulus,presented,4
+12345,Stimulus,presented,2
+12355,Stimulus,presented,18
+12562,Stimulus,presented,4
+12745,Stimulus,presented,4
+12745,Stimulus,presented,2
+12754,Stimulus,presented,20
+12962,Stimulus,presented,4
+13145,Stimulus,presented,4
+13145,Stimulus,presented,2
+13154,Stimulus,presented,22
+13362,Stimulus,presented,4
+13545,Stimulus,presented,4
+13545,Stimulus,presented,2
+13555,Stimulus,presented,18
+13762,Stimulus,presented,4
+13945,Stimulus,presented,4
+13945,Stimulus,presented,2
+13955,Stimulus,presented,20
+14162,Stimulus,presented,4
+14345,Stimulus,presented,4
+14345,Stimulus,presented,2
+14355,Stimulus,presented,22
+14562,Stimulus,presented,4
+14745,Stimulus,presented,4
+14745,Stimulus,presented,2
+14754,Stimulus,presented,18
+14962,Stimulus,presented,4
+15145,Stimulus,presented,4
+15145,Stimulus,presented,2
+15154,Stimulus,presented,20
+15362,Stimulus,presented,4
+15545,Stimulus,presented,4
+15545,Stimulus,presented,2
+15554,Stimulus,presented,22
+15762,Stimulus,presented,4
+15945,Stimulus,presented,4
+15945,Stimulus,presented,2
+15954,Stimulus,presented,18
+16162,Stimulus,presented,4
+16345,Stimulus,presented,4
+16345,Stimulus,presented,2
+16354,Stimulus,presented,20
+16562,Stimulus,presented,4
+16745,Stimulus,presented,4
+16745,Stimulus,presented,2
+16754,Stimulus,presented,22
+16962,Stimulus,presented,4
+17338,Keyboard,received,None,wait_char
+17545,Stimulus,presented,11
+17554,Stimulus,presented,11
+18562,Stimulus,presented,29
+18562,Stimulus,played,b'./auditory_feedback/neg1.wav'
+19062,stdout,received,'no response registered'
+19062,stdout,received,'------------------------------------------------------'
+19062,stdout,received,'None key detected or wrong key :  None'
+19562,stdout,received,'Blankscreen'
+19570,Stimulus,presented,3
+19870,stdout,received,'---------------------------------------'
+19870,stdout,received,'We are in the resting state break'
+19897,Stimulus,presented,30
+21903,Stimulus,presented,0
+24504,Keyboard,received,None,wait_char
+24512,Stimulus,presented,31
+27711,stderr,received,'Traceback (most recent call last):'
+27711,stderr,received,'  File "run_megSeq.py", line 495, in <module>'
+27711,stderr,received,"    key_next_block, rt_next_block = exp.keyboard.wait_char(['n'])"
+27711,stderr,received,'  File "/home/neurostim/.pyenv/versions/3.8.19/envs/replayseq/lib/python3.8/site-packages/expyriment/io/_keyboard.py", line 384, in wait_char'
+27712,stderr,received,'    for event in pygame.event.get([pygame.KEYUP, pygame.KEYDOWN]):'
+27712,stderr,received,'KeyboardInterrupt'
+27712,Data,saved

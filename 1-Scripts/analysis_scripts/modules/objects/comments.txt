@@ -1,2 +1,5 @@
 SUB-04:
 - RUN-06: 48 seconds at the start are unusable since we reset the channels.
+
+SUB-09:
+- RUN-04/06/07/08/09/10/11: All sensors have a high frequency signal.

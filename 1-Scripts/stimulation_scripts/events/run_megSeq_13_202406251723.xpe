@@ -1,0 +1,84 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 17:23:02
+#sha1: d06849
+#modules: 
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro-9.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+11763,design,log,
+#design: #exp: MegSeq
+#design: #dvn: SequenceID,PresentedPositions,Mapping,MappingResponse,ProducedSequence,RTs,Score
+#design: block_cnt,block_id,trial_cnt,trial_id
+11763,design,logged,
+11763,Experiment,started
+11785,Stimulus,presented,0
+17908,Keyboard,received,32,wait
+17908,stdout,received,'Running trial number 0'
+17908,stdout,received,''
+17920,Stimulus,presented,4
+18421,stdout,received,'PRESENTING SEQUENCE'
+18422,Stimulus,presented,4
+18422,stdout,received,'--- Presenting: stim 0 : <expyriment.stimuli._circle.Circle object at 0x104793310>'
+18424,Stimulus,presented,22
+18625,Stimulus,presented,4
+18822,Stimulus,presented,4
+18822,stdout,received,'--- Presenting: stim 1 : <expyriment.stimuli._circle.Circle object at 0x104793310>'
+18825,Stimulus,presented,22
+19026,Stimulus,presented,4
+19223,Stimulus,presented,4
+19223,stdout,received,'--- Presenting: stim 2 : <expyriment.stimuli._circle.Circle object at 0x1047929d0>'
+19225,Stimulus,presented,21
+19426,Stimulus,presented,4
+19621,Stimulus,presented,4
+19621,stdout,received,'--- Presenting: stim 3 : <expyriment.stimuli._circle.Circle object at 0x1047929d0>'
+19623,Stimulus,presented,21
+19824,Stimulus,presented,4
+20020,Stimulus,presented,4
+20020,stdout,received,'--- Presenting: stim 4 : <expyriment.stimuli._circle.Circle object at 0x10496df50>'
+20022,Stimulus,presented,19
+20223,Stimulus,presented,4
+20420,Stimulus,presented,4
+20420,stdout,received,'--- Presenting: stim 5 : <expyriment.stimuli._circle.Circle object at 0x10496df50>'
+20423,Stimulus,presented,19
+20623,Stimulus,presented,4
+20819,Stimulus,presented,4
+20819,stdout,received,'--- Presenting: stim 6 : <expyriment.stimuli._circle.Circle object at 0x1047929d0>'
+20822,Stimulus,presented,21
+21023,Stimulus,presented,4
+21219,Stimulus,presented,4
+21219,stdout,received,'--- Presenting: stim 7 : <expyriment.stimuli._circle.Circle object at 0x1047929d0>'
+21222,Stimulus,presented,21
+21423,Stimulus,presented,4
+21619,Stimulus,presented,4
+21619,stdout,received,'--- Presenting: stim 8 : <expyriment.stimuli._circle.Circle object at 0x104793310>'
+21621,Stimulus,presented,22
+21822,Stimulus,presented,4
+22018,Stimulus,presented,4
+22018,stdout,received,'--- Presenting: stim 9 : <expyriment.stimuli._circle.Circle object at 0x104793310>'
+22021,Stimulus,presented,22
+22222,Stimulus,presented,4
+22418,Stimulus,presented,4
+22418,stdout,received,'--- Presenting: stim 10 : <expyriment.stimuli._circle.Circle object at 0x10496df50>'
+22420,Stimulus,presented,19
+22621,Stimulus,presented,4
+22817,Stimulus,presented,4
+22817,stdout,received,'--- Presenting: stim 11 : <expyriment.stimuli._circle.Circle object at 0x10496df50>'
+22819,Stimulus,presented,19
+23020,Stimulus,presented,4
+23215,stdout,received,'BREAK TO COMPRESS'
+23815,Keyboard,received,None,wait_char
+23816,stdout,received,'RESPONSE SCREEN'
+23821,Stimulus,presented,4
+23821,stdout,received,'WAIT FOR RESPONSE'
+23824,Stimulus,presented,11
+35819,Keyboard,received,e,wait_char
+35819,stdout,received,'BUTTON NUMBER 5 PRESSED'
+35819,stdout,received,''
+36705,Keyboard,received,o,wait_char
+36705,stdout,received,'BUTTON NUMBER 0 PRESSED'
+36705,stdout,received,''
+37114,Experiment,paused
+37124,Stimulus,presented,26
+38012,Keyboard,received,y,wait_char
+38012,Experiment,ended
+38021,Stimulus,presented,26

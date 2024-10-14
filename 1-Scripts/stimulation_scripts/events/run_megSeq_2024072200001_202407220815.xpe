@@ -1,0 +1,906 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Mon Jul 22 2024 08:15:17
+#sha1: ff086e
+#modules: response_funcs.py (7176c3)
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-116-generic', version='#126~20.04.1-Ubuntu SMP Mon Jul 1 15:40:07 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+49535,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_block,block_sequenceName,trial_cnt,trial_id,PresentedSequence,block,sequenceName,trial
+#design: 0,0,0,Rep3,0,0,[1, 4, 2, 1, 4, 2, 1, 4, 2, 1, 4, 2],0,Rep3,0
+#design: 0,0,0,Rep3,1,1,[3, 4, 2, 3, 4, 2, 3, 4, 2, 3, 4, 2],0,Rep3,1
+#design: 0,0,0,Rep3,2,2,[2, 0, 3, 2, 0, 3, 2, 0, 3, 2, 0, 3],0,Rep3,2
+#design: 0,0,0,Rep3,3,3,[1, 4, 2, 1, 4, 2, 1, 4, 2, 1, 4, 2],0,Rep3,3
+#design: 0,0,0,Rep3,4,4,[1, 4, 3, 1, 4, 3, 1, 4, 3, 1, 4, 3],0,Rep3,4
+#design: 0,0,0,Rep3,5,5,[2, 0, 4, 2, 0, 4, 2, 0, 4, 2, 0, 4],0,Rep3,5
+#design: 0,0,0,Rep3,6,6,[5, 3, 2, 5, 3, 2, 5, 3, 2, 5, 3, 2],0,Rep3,6
+#design: 0,0,0,Rep3,7,7,[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1],0,Rep3,7
+#design: 0,0,0,Rep3,8,8,[4, 3, 5, 4, 3, 5, 4, 3, 5, 4, 3, 5],0,Rep3,8
+#design: 0,0,0,Rep3,9,9,[0, 5, 3, 0, 5, 3, 0, 5, 3, 0, 5, 3],0,Rep3,9
+#design: 0,0,0,Rep3,10,10,[2, 1, 0, 2, 1, 0, 2, 1, 0, 2, 1, 0],0,Rep3,10
+#design: 0,0,0,Rep3,11,11,[5, 2, 3, 5, 2, 3, 5, 2, 3, 5, 2, 3],0,Rep3,11
+#design: 0,0,0,Rep3,12,12,[2, 0, 3, 2, 0, 3, 2, 0, 3, 2, 0, 3],0,Rep3,12
+#design: 0,0,0,Rep3,13,13,[1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2],0,Rep3,13
+#design: 0,0,0,Rep3,14,14,[2, 5, 3, 2, 5, 3, 2, 5, 3, 2, 5, 3],0,Rep3,14
+#design: 1,1,1,Rep3,0,0,[5, 1, 3, 5, 1, 3, 5, 1, 3, 5, 1, 3],1,Rep3,0
+#design: 1,1,1,Rep3,1,1,[5, 2, 4, 5, 2, 4, 5, 2, 4, 5, 2, 4],1,Rep3,1
+#design: 1,1,1,Rep3,2,2,[2, 4, 0, 2, 4, 0, 2, 4, 0, 2, 4, 0],1,Rep3,2
+#design: 1,1,1,Rep3,3,3,[1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0],1,Rep3,3
+#design: 1,1,1,Rep3,4,4,[3, 4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5],1,Rep3,4
+#design: 1,1,1,Rep3,5,5,[5, 0, 2, 5, 0, 2, 5, 0, 2, 5, 0, 2],1,Rep3,5
+#design: 1,1,1,Rep3,6,6,[0, 4, 2, 0, 4, 2, 0, 4, 2, 0, 4, 2],1,Rep3,6
+#design: 1,1,1,Rep3,7,7,[5, 1, 4, 5, 1, 4, 5, 1, 4, 5, 1, 4],1,Rep3,7
+#design: 1,1,1,Rep3,8,8,[0, 4, 2, 0, 4, 2, 0, 4, 2, 0, 4, 2],1,Rep3,8
+#design: 1,1,1,Rep3,9,9,[1, 4, 5, 1, 4, 5, 1, 4, 5, 1, 4, 5],1,Rep3,9
+#design: 1,1,1,Rep3,10,10,[1, 4, 2, 1, 4, 2, 1, 4, 2, 1, 4, 2],1,Rep3,10
+#design: 1,1,1,Rep3,11,11,[4, 2, 0, 4, 2, 0, 4, 2, 0, 4, 2, 0],1,Rep3,11
+#design: 1,1,1,Rep3,12,12,[5, 2, 1, 5, 2, 1, 5, 2, 1, 5, 2, 1],1,Rep3,12
+#design: 1,1,1,Rep3,13,13,[3, 4, 1, 3, 4, 1, 3, 4, 1, 3, 4, 1],1,Rep3,13
+#design: 1,1,1,Rep3,14,14,[1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2],1,Rep3,14
+#design: 2,2,2,C2RepEmbed,0,0,[5, 3, 2, 3, 5, 2, 5, 3, 2, 3, 5, 2],2,C2RepEmbed,0
+#design: 2,2,2,C2RepEmbed,1,1,[2, 0, 1, 0, 2, 1, 2, 0, 1, 0, 2, 1],2,C2RepEmbed,1
+#design: 2,2,2,C2RepEmbed,2,2,[1, 2, 3, 2, 1, 3, 1, 2, 3, 2, 1, 3],2,C2RepEmbed,2
+#design: 2,2,2,C2RepEmbed,3,3,[1, 5, 2, 5, 1, 2, 1, 5, 2, 5, 1, 2],2,C2RepEmbed,3
+#design: 2,2,2,C2RepEmbed,4,4,[0, 2, 5, 2, 0, 5, 0, 2, 5, 2, 0, 5],2,C2RepEmbed,4
+#design: 2,2,2,C2RepEmbed,5,5,[0, 5, 1, 5, 0, 1, 0, 5, 1, 5, 0, 1],2,C2RepEmbed,5
+#design: 2,2,2,C2RepEmbed,6,6,[4, 1, 5, 1, 4, 5, 4, 1, 5, 1, 4, 5],2,C2RepEmbed,6
+#design: 2,2,2,C2RepEmbed,7,7,[2, 1, 0, 1, 2, 0, 2, 1, 0, 1, 2, 0],2,C2RepEmbed,7
+#design: 2,2,2,C2RepEmbed,8,8,[4, 0, 1, 0, 4, 1, 4, 0, 1, 0, 4, 1],2,C2RepEmbed,8
+#design: 2,2,2,C2RepEmbed,9,9,[4, 1, 2, 1, 4, 2, 4, 1, 2, 1, 4, 2],2,C2RepEmbed,9
+#design: 2,2,2,C2RepEmbed,10,10,[1, 5, 0, 5, 1, 0, 1, 5, 0, 5, 1, 0],2,C2RepEmbed,10
+#design: 2,2,2,C2RepEmbed,11,11,[0, 2, 3, 2, 0, 3, 0, 2, 3, 2, 0, 3],2,C2RepEmbed,11
+#design: 2,2,2,C2RepEmbed,12,12,[5, 1, 0, 1, 5, 0, 5, 1, 0, 1, 5, 0],2,C2RepEmbed,12
+#design: 2,2,2,C2RepEmbed,13,13,[0, 5, 3, 5, 0, 3, 0, 5, 3, 5, 0, 3],2,C2RepEmbed,13
+#design: 2,2,2,C2RepEmbed,14,14,[4, 1, 2, 1, 4, 2, 4, 1, 2, 1, 4, 2],2,C2RepEmbed,14
+#design: 3,3,3,C2RepEmbed,0,0,[2, 5, 1, 5, 2, 1, 2, 5, 1, 5, 2, 1],3,C2RepEmbed,0
+#design: 3,3,3,C2RepEmbed,1,1,[4, 2, 5, 2, 4, 5, 4, 2, 5, 2, 4, 5],3,C2RepEmbed,1
+#design: 3,3,3,C2RepEmbed,2,2,[4, 5, 2, 5, 4, 2, 4, 5, 2, 5, 4, 2],3,C2RepEmbed,2
+#design: 3,3,3,C2RepEmbed,3,3,[2, 5, 3, 5, 2, 3, 2, 5, 3, 5, 2, 3],3,C2RepEmbed,3
+#design: 3,3,3,C2RepEmbed,4,4,[2, 0, 3, 0, 2, 3, 2, 0, 3, 0, 2, 3],3,C2RepEmbed,4
+#design: 3,3,3,C2RepEmbed,5,5,[5, 3, 2, 3, 5, 2, 5, 3, 2, 3, 5, 2],3,C2RepEmbed,5
+#design: 3,3,3,C2RepEmbed,6,6,[1, 0, 5, 0, 1, 5, 1, 0, 5, 0, 1, 5],3,C2RepEmbed,6
+#design: 3,3,3,C2RepEmbed,7,7,[0, 2, 5, 2, 0, 5, 0, 2, 5, 2, 0, 5],3,C2RepEmbed,7
+#design: 3,3,3,C2RepEmbed,8,8,[3, 0, 5, 0, 3, 5, 3, 0, 5, 0, 3, 5],3,C2RepEmbed,8
+#design: 3,3,3,C2RepEmbed,9,9,[1, 0, 2, 0, 1, 2, 1, 0, 2, 0, 1, 2],3,C2RepEmbed,9
+#design: 3,3,3,C2RepEmbed,10,10,[2, 0, 1, 0, 2, 1, 2, 0, 1, 0, 2, 1],3,C2RepEmbed,10
+#design: 3,3,3,C2RepEmbed,11,11,[1, 2, 0, 2, 1, 0, 1, 2, 0, 2, 1, 0],3,C2RepEmbed,11
+#design: 3,3,3,C2RepEmbed,12,12,[4, 3, 2, 3, 4, 2, 4, 3, 2, 3, 4, 2],3,C2RepEmbed,12
+#design: 3,3,3,C2RepEmbed,13,13,[2, 5, 3, 5, 2, 3, 2, 5, 3, 5, 2, 3],3,C2RepEmbed,13
+#design: 3,3,3,C2RepEmbed,14,14,[1, 4, 5, 4, 1, 5, 1, 4, 5, 4, 1, 5],3,C2RepEmbed,14
+#design: 4,4,4,C1RepEmbed,0,0,[2, 2, 4, 4, 3, 3, 4, 4, 2, 2, 3, 3],4,C1RepEmbed,0
+#design: 4,4,4,C1RepEmbed,1,1,[1, 1, 3, 3, 2, 2, 3, 3, 1, 1, 2, 2],4,C1RepEmbed,1
+#design: 4,4,4,C1RepEmbed,2,2,[2, 2, 1, 1, 3, 3, 1, 1, 2, 2, 3, 3],4,C1RepEmbed,2
+#design: 4,4,4,C1RepEmbed,3,3,[1, 1, 4, 4, 2, 2, 4, 4, 1, 1, 2, 2],4,C1RepEmbed,3
+#design: 4,4,4,C1RepEmbed,4,4,[4, 4, 1, 1, 5, 5, 1, 1, 4, 4, 5, 5],4,C1RepEmbed,4
+#design: 4,4,4,C1RepEmbed,5,5,[1, 1, 4, 4, 0, 0, 4, 4, 1, 1, 0, 0],4,C1RepEmbed,5
+#design: 4,4,4,C1RepEmbed,6,6,[4, 4, 0, 0, 2, 2, 0, 0, 4, 4, 2, 2],4,C1RepEmbed,6
+#design: 4,4,4,C1RepEmbed,7,7,[4, 4, 2, 2, 3, 3, 2, 2, 4, 4, 3, 3],4,C1RepEmbed,7
+#design: 4,4,4,C1RepEmbed,8,8,[2, 2, 5, 5, 4, 4, 5, 5, 2, 2, 4, 4],4,C1RepEmbed,8
+#design: 4,4,4,C1RepEmbed,9,9,[3, 3, 5, 5, 1, 1, 5, 5, 3, 3, 1, 1],4,C1RepEmbed,9
+#design: 4,4,4,C1RepEmbed,10,10,[5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 4, 4],4,C1RepEmbed,10
+#design: 4,4,4,C1RepEmbed,11,11,[4, 4, 0, 0, 2, 2, 0, 0, 4, 4, 2, 2],4,C1RepEmbed,11
+#design: 4,4,4,C1RepEmbed,12,12,[1, 1, 4, 4, 3, 3, 4, 4, 1, 1, 3, 3],4,C1RepEmbed,12
+#design: 4,4,4,C1RepEmbed,13,13,[0, 0, 5, 5, 1, 1, 5, 5, 0, 0, 1, 1],4,C1RepEmbed,13
+#design: 4,4,4,C1RepEmbed,14,14,[1, 1, 5, 5, 2, 2, 5, 5, 1, 1, 2, 2],4,C1RepEmbed,14
+#design: 5,5,5,C1RepEmbed,0,0,[0, 0, 1, 1, 4, 4, 1, 1, 0, 0, 4, 4],5,C1RepEmbed,0
+#design: 5,5,5,C1RepEmbed,1,1,[5, 5, 1, 1, 0, 0, 1, 1, 5, 5, 0, 0],5,C1RepEmbed,1
+#design: 5,5,5,C1RepEmbed,2,2,[4, 4, 0, 0, 2, 2, 0, 0, 4, 4, 2, 2],5,C1RepEmbed,2
+#design: 5,5,5,C1RepEmbed,3,3,[2, 2, 0, 0, 1, 1, 0, 0, 2, 2, 1, 1],5,C1RepEmbed,3
+#design: 5,5,5,C1RepEmbed,4,4,[4, 4, 0, 0, 1, 1, 0, 0, 4, 4, 1, 1],5,C1RepEmbed,4
+#design: 5,5,5,C1RepEmbed,5,5,[4, 4, 1, 1, 0, 0, 1, 1, 4, 4, 0, 0],5,C1RepEmbed,5
+#design: 5,5,5,C1RepEmbed,6,6,[5, 5, 1, 1, 4, 4, 1, 1, 5, 5, 4, 4],5,C1RepEmbed,6
+#design: 5,5,5,C1RepEmbed,7,7,[1, 1, 5, 5, 3, 3, 5, 5, 1, 1, 3, 3],5,C1RepEmbed,7
+#design: 5,5,5,C1RepEmbed,8,8,[5, 5, 1, 1, 4, 4, 1, 1, 5, 5, 4, 4],5,C1RepEmbed,8
+#design: 5,5,5,C1RepEmbed,9,9,[5, 5, 2, 2, 0, 0, 2, 2, 5, 5, 0, 0],5,C1RepEmbed,9
+#design: 5,5,5,C1RepEmbed,10,10,[0, 0, 3, 3, 1, 1, 3, 3, 0, 0, 1, 1],5,C1RepEmbed,10
+#design: 5,5,5,C1RepEmbed,11,11,[1, 1, 5, 5, 0, 0, 5, 5, 1, 1, 0, 0],5,C1RepEmbed,11
+#design: 5,5,5,C1RepEmbed,12,12,[5, 5, 2, 2, 1, 1, 2, 2, 5, 5, 1, 1],5,C1RepEmbed,12
+#design: 5,5,5,C1RepEmbed,13,13,[2, 2, 1, 1, 0, 0, 1, 1, 2, 2, 0, 0],5,C1RepEmbed,13
+#design: 5,5,5,C1RepEmbed,14,14,[2, 2, 4, 4, 1, 1, 4, 4, 2, 2, 1, 1],5,C1RepEmbed,14
+#design: 6,6,6,Rep2,0,0,[1, 4, 1, 4, 1, 4, 1, 4, 1, 4, 1, 4],6,Rep2,0
+#design: 6,6,6,Rep2,1,1,[0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],6,Rep2,1
+#design: 6,6,6,Rep2,2,2,[0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1],6,Rep2,2
+#design: 6,6,6,Rep2,3,3,[1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2],6,Rep2,3
+#design: 6,6,6,Rep2,4,4,[1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 1, 3],6,Rep2,4
+#design: 6,6,6,Rep2,5,5,[1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2],6,Rep2,5
+#design: 6,6,6,Rep2,6,6,[0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5],6,Rep2,6
+#design: 6,6,6,Rep2,7,7,[0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],6,Rep2,7
+#design: 6,6,6,Rep2,8,8,[0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1],6,Rep2,8
+#design: 6,6,6,Rep2,9,9,[0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],6,Rep2,9
+#design: 6,6,6,Rep2,10,10,[5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0],6,Rep2,10
+#design: 6,6,6,Rep2,11,11,[5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0],6,Rep2,11
+#design: 6,6,6,Rep2,12,12,[0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1],6,Rep2,12
+#design: 6,6,6,Rep2,13,13,[1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2],6,Rep2,13
+#design: 6,6,6,Rep2,14,14,[1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 1, 3],6,Rep2,14
+#design: 7,7,7,Rep2,0,0,[0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1],7,Rep2,0
+#design: 7,7,7,Rep2,1,1,[0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5],7,Rep2,1
+#design: 7,7,7,Rep2,2,2,[5, 3, 5, 3, 5, 3, 5, 3, 5, 3, 5, 3],7,Rep2,2
+#design: 7,7,7,Rep2,3,3,[3, 1, 3, 1, 3, 1, 3, 1, 3, 1, 3, 1],7,Rep2,3
+#design: 7,7,7,Rep2,4,4,[4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2],7,Rep2,4
+#design: 7,7,7,Rep2,5,5,[2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0],7,Rep2,5
+#design: 7,7,7,Rep2,6,6,[1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2],7,Rep2,6
+#design: 7,7,7,Rep2,7,7,[5, 2, 5, 2, 5, 2, 5, 2, 5, 2, 5, 2],7,Rep2,7
+#design: 7,7,7,Rep2,8,8,[5, 2, 5, 2, 5, 2, 5, 2, 5, 2, 5, 2],7,Rep2,8
+#design: 7,7,7,Rep2,9,9,[5, 2, 5, 2, 5, 2, 5, 2, 5, 2, 5, 2],7,Rep2,9
+#design: 7,7,7,Rep2,10,10,[2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3],7,Rep2,10
+#design: 7,7,7,Rep2,11,11,[3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0],7,Rep2,11
+#design: 7,7,7,Rep2,12,12,[4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2],7,Rep2,12
+#design: 7,7,7,Rep2,13,13,[0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5],7,Rep2,13
+#design: 7,7,7,Rep2,14,14,[4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5],7,Rep2,14
+#design: 8,8,8,CRep4,0,0,[3, 5, 4, 2, 4, 5, 2, 3, 3, 5, 2, 4],8,CRep4,0
+#design: 8,8,8,CRep4,1,1,[0, 4, 1, 5, 1, 4, 5, 0, 0, 4, 5, 1],8,CRep4,1
+#design: 8,8,8,CRep4,2,2,[5, 0, 1, 3, 1, 0, 3, 5, 5, 0, 3, 1],8,CRep4,2
+#design: 8,8,8,CRep4,3,3,[3, 4, 5, 2, 5, 4, 2, 3, 3, 4, 2, 5],8,CRep4,3
+#design: 8,8,8,CRep4,4,4,[4, 0, 1, 5, 1, 0, 5, 4, 4, 0, 5, 1],8,CRep4,4
+#design: 8,8,8,CRep4,5,5,[3, 1, 4, 2, 4, 1, 2, 3, 3, 1, 2, 4],8,CRep4,5
+#design: 8,8,8,CRep4,6,6,[5, 3, 0, 2, 0, 3, 2, 5, 5, 3, 2, 0],8,CRep4,6
+#design: 8,8,8,CRep4,7,7,[0, 2, 1, 5, 1, 2, 5, 0, 0, 2, 5, 1],8,CRep4,7
+#design: 8,8,8,CRep4,8,8,[0, 5, 2, 3, 2, 5, 3, 0, 0, 5, 3, 2],8,CRep4,8
+#design: 8,8,8,CRep4,9,9,[3, 2, 4, 1, 4, 2, 1, 3, 3, 2, 1, 4],8,CRep4,9
+#design: 8,8,8,CRep4,10,10,[0, 5, 1, 4, 1, 5, 4, 0, 0, 5, 4, 1],8,CRep4,10
+#design: 8,8,8,CRep4,11,11,[4, 5, 0, 1, 0, 5, 1, 4, 4, 5, 1, 0],8,CRep4,11
+#design: 8,8,8,CRep4,12,12,[2, 4, 0, 5, 0, 4, 5, 2, 2, 4, 5, 0],8,CRep4,12
+#design: 8,8,8,CRep4,13,13,[0, 3, 1, 2, 1, 3, 2, 0, 0, 3, 2, 1],8,CRep4,13
+#design: 8,8,8,CRep4,14,14,[1, 4, 0, 5, 0, 4, 5, 1, 1, 4, 5, 0],8,CRep4,14
+#design: 9,9,9,CRep4,0,0,[3, 1, 0, 4, 0, 1, 4, 3, 3, 1, 4, 0],9,CRep4,0
+#design: 9,9,9,CRep4,1,1,[5, 4, 2, 3, 2, 4, 3, 5, 5, 4, 3, 2],9,CRep4,1
+#design: 9,9,9,CRep4,2,2,[3, 4, 2, 1, 2, 4, 1, 3, 3, 4, 1, 2],9,CRep4,2
+#design: 9,9,9,CRep4,3,3,[5, 2, 4, 3, 4, 2, 3, 5, 5, 2, 3, 4],9,CRep4,3
+#design: 9,9,9,CRep4,4,4,[3, 2, 0, 1, 0, 2, 1, 3, 3, 2, 1, 0],9,CRep4,4
+#design: 9,9,9,CRep4,5,5,[2, 1, 0, 4, 0, 1, 4, 2, 2, 1, 4, 0],9,CRep4,5
+#design: 9,9,9,CRep4,6,6,[0, 3, 2, 4, 2, 3, 4, 0, 0, 3, 4, 2],9,CRep4,6
+#design: 9,9,9,CRep4,7,7,[0, 1, 5, 4, 5, 1, 4, 0, 0, 1, 4, 5],9,CRep4,7
+#design: 9,9,9,CRep4,8,8,[5, 3, 4, 0, 4, 3, 0, 5, 5, 3, 0, 4],9,CRep4,8
+#design: 9,9,9,CRep4,9,9,[4, 0, 5, 1, 5, 0, 1, 4, 4, 0, 1, 5],9,CRep4,9
+#design: 9,9,9,CRep4,10,10,[2, 1, 5, 3, 5, 1, 3, 2, 2, 1, 3, 5],9,CRep4,10
+#design: 9,9,9,CRep4,11,11,[0, 5, 1, 3, 1, 5, 3, 0, 0, 5, 3, 1],9,CRep4,11
+#design: 9,9,9,CRep4,12,12,[1, 3, 2, 4, 2, 3, 4, 1, 1, 3, 4, 2],9,CRep4,12
+#design: 9,9,9,CRep4,13,13,[1, 5, 2, 3, 2, 5, 3, 1, 1, 5, 3, 2],9,CRep4,13
+#design: 9,9,9,CRep4,14,14,[0, 2, 3, 1, 3, 2, 1, 0, 0, 2, 1, 3],9,CRep4,14
+#design: 10,10,10,CRep3,0,0,[5, 1, 2, 5, 2, 1, 1, 2, 5, 1, 5, 2],10,CRep3,0
+#design: 10,10,10,CRep3,1,1,[1, 2, 4, 1, 4, 2, 2, 4, 1, 2, 1, 4],10,CRep3,1
+#design: 10,10,10,CRep3,2,2,[5, 1, 2, 5, 2, 1, 1, 2, 5, 1, 5, 2],10,CRep3,2
+#design: 10,10,10,CRep3,3,3,[0, 1, 3, 0, 3, 1, 1, 3, 0, 1, 0, 3],10,CRep3,3
+#design: 10,10,10,CRep3,4,4,[2, 1, 0, 2, 0, 1, 1, 0, 2, 1, 2, 0],10,CRep3,4
+#design: 10,10,10,CRep3,5,5,[1, 0, 5, 1, 5, 0, 0, 5, 1, 0, 1, 5],10,CRep3,5
+#design: 10,10,10,CRep3,6,6,[1, 3, 5, 1, 5, 3, 3, 5, 1, 3, 1, 5],10,CRep3,6
+#design: 10,10,10,CRep3,7,7,[3, 2, 4, 3, 4, 2, 2, 4, 3, 2, 3, 4],10,CRep3,7
+#design: 10,10,10,CRep3,8,8,[1, 3, 4, 1, 4, 3, 3, 4, 1, 3, 1, 4],10,CRep3,8
+#design: 10,10,10,CRep3,9,9,[5, 3, 0, 5, 0, 3, 3, 0, 5, 3, 5, 0],10,CRep3,9
+#design: 10,10,10,CRep3,10,10,[4, 2, 5, 4, 5, 2, 2, 5, 4, 2, 4, 5],10,CRep3,10
+#design: 10,10,10,CRep3,11,11,[4, 3, 5, 4, 5, 3, 3, 5, 4, 3, 4, 5],10,CRep3,11
+#design: 10,10,10,CRep3,12,12,[0, 4, 2, 0, 2, 4, 4, 2, 0, 4, 0, 2],10,CRep3,12
+#design: 10,10,10,CRep3,13,13,[4, 3, 2, 4, 2, 3, 3, 2, 4, 3, 4, 2],10,CRep3,13
+#design: 10,10,10,CRep3,14,14,[1, 3, 2, 1, 2, 3, 3, 2, 1, 3, 1, 2],10,CRep3,14
+#design: 11,11,11,CRep3,0,0,[0, 1, 5, 0, 5, 1, 1, 5, 0, 1, 0, 5],11,CRep3,0
+#design: 11,11,11,CRep3,1,1,[0, 5, 1, 0, 1, 5, 5, 1, 0, 5, 0, 1],11,CRep3,1
+#design: 11,11,11,CRep3,2,2,[5, 0, 3, 5, 3, 0, 0, 3, 5, 0, 5, 3],11,CRep3,2
+#design: 11,11,11,CRep3,3,3,[3, 4, 5, 3, 5, 4, 4, 5, 3, 4, 3, 5],11,CRep3,3
+#design: 11,11,11,CRep3,4,4,[0, 1, 4, 0, 4, 1, 1, 4, 0, 1, 0, 4],11,CRep3,4
+#design: 11,11,11,CRep3,5,5,[4, 3, 1, 4, 1, 3, 3, 1, 4, 3, 4, 1],11,CRep3,5
+#design: 11,11,11,CRep3,6,6,[5, 1, 2, 5, 2, 1, 1, 2, 5, 1, 5, 2],11,CRep3,6
+#design: 11,11,11,CRep3,7,7,[5, 4, 0, 5, 0, 4, 4, 0, 5, 4, 5, 0],11,CRep3,7
+#design: 11,11,11,CRep3,8,8,[0, 1, 4, 0, 4, 1, 1, 4, 0, 1, 0, 4],11,CRep3,8
+#design: 11,11,11,CRep3,9,9,[4, 2, 1, 4, 1, 2, 2, 1, 4, 2, 4, 1],11,CRep3,9
+#design: 11,11,11,CRep3,10,10,[0, 3, 5, 0, 5, 3, 3, 5, 0, 3, 0, 5],11,CRep3,10
+#design: 11,11,11,CRep3,11,11,[5, 0, 3, 5, 3, 0, 0, 3, 5, 0, 5, 3],11,CRep3,11
+#design: 11,11,11,CRep3,12,12,[1, 5, 0, 1, 0, 5, 5, 0, 1, 5, 1, 0],11,CRep3,12
+#design: 11,11,11,CRep3,13,13,[4, 2, 1, 4, 1, 2, 2, 1, 4, 2, 4, 1],11,CRep3,13
+#design: 11,11,11,CRep3,14,14,[5, 4, 1, 5, 1, 4, 4, 1, 5, 4, 5, 1],11,CRep3,14
+#design: 12,12,12,CRep2,0,0,[2, 3, 3, 3, 3, 2, 2, 3, 2, 2, 2, 3],12,CRep2,0
+#design: 12,12,12,CRep2,1,1,[0, 2, 2, 2, 2, 0, 0, 2, 0, 0, 0, 2],12,CRep2,1
+#design: 12,12,12,CRep2,2,2,[5, 1, 1, 1, 1, 5, 5, 1, 5, 5, 5, 1],12,CRep2,2
+#design: 12,12,12,CRep2,3,3,[4, 3, 3, 3, 3, 4, 4, 3, 4, 4, 4, 3],12,CRep2,3
+#design: 12,12,12,CRep2,4,4,[2, 0, 0, 0, 0, 2, 2, 0, 2, 2, 2, 0],12,CRep2,4
+#design: 12,12,12,CRep2,5,5,[3, 5, 5, 5, 5, 3, 3, 5, 3, 3, 3, 5],12,CRep2,5
+#design: 12,12,12,CRep2,6,6,[3, 0, 0, 0, 0, 3, 3, 0, 3, 3, 3, 0],12,CRep2,6
+#design: 12,12,12,CRep2,7,7,[0, 2, 2, 2, 2, 0, 0, 2, 0, 0, 0, 2],12,CRep2,7
+#design: 12,12,12,CRep2,8,8,[1, 5, 5, 5, 5, 1, 1, 5, 1, 1, 1, 5],12,CRep2,8
+#design: 12,12,12,CRep2,9,9,[2, 1, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1],12,CRep2,9
+#design: 12,12,12,CRep2,10,10,[0, 2, 2, 2, 2, 0, 0, 2, 0, 0, 0, 2],12,CRep2,10
+#design: 12,12,12,CRep2,11,11,[5, 2, 2, 2, 2, 5, 5, 2, 5, 5, 5, 2],12,CRep2,11
+#design: 12,12,12,CRep2,12,12,[5, 2, 2, 2, 2, 5, 5, 2, 5, 5, 5, 2],12,CRep2,12
+#design: 12,12,12,CRep2,13,13,[2, 4, 4, 4, 4, 2, 2, 4, 2, 2, 2, 4],12,CRep2,13
+#design: 12,12,12,CRep2,14,14,[2, 1, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1],12,CRep2,14
+#design: 13,13,13,CRep2,0,0,[4, 0, 0, 0, 0, 4, 4, 0, 4, 4, 4, 0],13,CRep2,0
+#design: 13,13,13,CRep2,1,1,[2, 4, 4, 4, 4, 2, 2, 4, 2, 2, 2, 4],13,CRep2,1
+#design: 13,13,13,CRep2,2,2,[4, 3, 3, 3, 3, 4, 4, 3, 4, 4, 4, 3],13,CRep2,2
+#design: 13,13,13,CRep2,3,3,[3, 4, 4, 4, 4, 3, 3, 4, 3, 3, 3, 4],13,CRep2,3
+#design: 13,13,13,CRep2,4,4,[3, 1, 1, 1, 1, 3, 3, 1, 3, 3, 3, 1],13,CRep2,4
+#design: 13,13,13,CRep2,5,5,[2, 0, 0, 0, 0, 2, 2, 0, 2, 2, 2, 0],13,CRep2,5
+#design: 13,13,13,CRep2,6,6,[5, 4, 4, 4, 4, 5, 5, 4, 5, 5, 5, 4],13,CRep2,6
+#design: 13,13,13,CRep2,7,7,[4, 5, 5, 5, 5, 4, 4, 5, 4, 4, 4, 5],13,CRep2,7
+#design: 13,13,13,CRep2,8,8,[5, 2, 2, 2, 2, 5, 5, 2, 5, 5, 5, 2],13,CRep2,8
+#design: 13,13,13,CRep2,9,9,[0, 4, 4, 4, 4, 0, 0, 4, 0, 0, 0, 4],13,CRep2,9
+#design: 13,13,13,CRep2,10,10,[1, 4, 4, 4, 4, 1, 1, 4, 1, 1, 1, 4],13,CRep2,10
+#design: 13,13,13,CRep2,11,11,[2, 3, 3, 3, 3, 2, 2, 3, 2, 2, 2, 3],13,CRep2,11
+#design: 13,13,13,CRep2,12,12,[3, 2, 2, 2, 2, 3, 3, 2, 3, 3, 3, 2],13,CRep2,12
+#design: 13,13,13,CRep2,13,13,[3, 5, 5, 5, 5, 3, 3, 5, 3, 3, 3, 5],13,CRep2,13
+#design: 13,13,13,CRep2,14,14,[2, 3, 3, 3, 3, 2, 2, 3, 2, 2, 2, 3],13,CRep2,14
+#design: 14,14,14,Rep4,0,0,[3, 0, 2, 4, 3, 0, 2, 4, 3, 0, 2, 4],14,Rep4,0
+#design: 14,14,14,Rep4,1,1,[3, 4, 2, 5, 3, 4, 2, 5, 3, 4, 2, 5],14,Rep4,1
+#design: 14,14,14,Rep4,2,2,[4, 0, 1, 2, 4, 0, 1, 2, 4, 0, 1, 2],14,Rep4,2
+#design: 14,14,14,Rep4,3,3,[5, 2, 3, 0, 5, 2, 3, 0, 5, 2, 3, 0],14,Rep4,3
+#design: 14,14,14,Rep4,4,4,[5, 4, 2, 3, 5, 4, 2, 3, 5, 4, 2, 3],14,Rep4,4
+#design: 14,14,14,Rep4,5,5,[4, 3, 0, 1, 4, 3, 0, 1, 4, 3, 0, 1],14,Rep4,5
+#design: 14,14,14,Rep4,6,6,[3, 0, 2, 5, 3, 0, 2, 5, 3, 0, 2, 5],14,Rep4,6
+#design: 14,14,14,Rep4,7,7,[3, 1, 5, 4, 3, 1, 5, 4, 3, 1, 5, 4],14,Rep4,7
+#design: 14,14,14,Rep4,8,8,[2, 1, 3, 0, 2, 1, 3, 0, 2, 1, 3, 0],14,Rep4,8
+#design: 14,14,14,Rep4,9,9,[0, 1, 4, 3, 0, 1, 4, 3, 0, 1, 4, 3],14,Rep4,9
+#design: 14,14,14,Rep4,10,10,[5, 2, 3, 4, 5, 2, 3, 4, 5, 2, 3, 4],14,Rep4,10
+#design: 14,14,14,Rep4,11,11,[3, 0, 2, 5, 3, 0, 2, 5, 3, 0, 2, 5],14,Rep4,11
+#design: 14,14,14,Rep4,12,12,[0, 4, 5, 3, 0, 4, 5, 3, 0, 4, 5, 3],14,Rep4,12
+#design: 14,14,14,Rep4,13,13,[1, 5, 4, 2, 1, 5, 4, 2, 1, 5, 4, 2],14,Rep4,13
+#design: 14,14,14,Rep4,14,14,[1, 0, 2, 5, 1, 0, 2, 5, 1, 0, 2, 5],14,Rep4,14
+#design: 15,15,15,Rep4,0,0,[1, 3, 5, 2, 1, 3, 5, 2, 1, 3, 5, 2],15,Rep4,0
+#design: 15,15,15,Rep4,1,1,[2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1],15,Rep4,1
+#design: 15,15,15,Rep4,2,2,[2, 4, 5, 0, 2, 4, 5, 0, 2, 4, 5, 0],15,Rep4,2
+#design: 15,15,15,Rep4,3,3,[3, 2, 1, 4, 3, 2, 1, 4, 3, 2, 1, 4],15,Rep4,3
+#design: 15,15,15,Rep4,4,4,[0, 3, 5, 4, 0, 3, 5, 4, 0, 3, 5, 4],15,Rep4,4
+#design: 15,15,15,Rep4,5,5,[3, 4, 5, 1, 3, 4, 5, 1, 3, 4, 5, 1],15,Rep4,5
+#design: 15,15,15,Rep4,6,6,[0, 4, 1, 5, 0, 4, 1, 5, 0, 4, 1, 5],15,Rep4,6
+#design: 15,15,15,Rep4,7,7,[1, 0, 3, 4, 1, 0, 3, 4, 1, 0, 3, 4],15,Rep4,7
+#design: 15,15,15,Rep4,8,8,[3, 5, 0, 2, 3, 5, 0, 2, 3, 5, 0, 2],15,Rep4,8
+#design: 15,15,15,Rep4,9,9,[1, 4, 0, 5, 1, 4, 0, 5, 1, 4, 0, 5],15,Rep4,9
+#design: 15,15,15,Rep4,10,10,[4, 0, 3, 1, 4, 0, 3, 1, 4, 0, 3, 1],15,Rep4,10
+#design: 15,15,15,Rep4,11,11,[4, 1, 0, 5, 4, 1, 0, 5, 4, 1, 0, 5],15,Rep4,11
+#design: 15,15,15,Rep4,12,12,[3, 0, 2, 4, 3, 0, 2, 4, 3, 0, 2, 4],15,Rep4,12
+#design: 15,15,15,Rep4,13,13,[3, 1, 4, 2, 3, 1, 4, 2, 3, 1, 4, 2],15,Rep4,13
+#design: 15,15,15,Rep4,14,14,[2, 4, 1, 3, 2, 4, 1, 3, 2, 4, 1, 3],15,Rep4,14
+#design: 16,16,16,RepEmbed,0,0,[1, 1, 4, 4, 2, 2, 1, 1, 4, 4, 2, 2],16,RepEmbed,0
+#design: 16,16,16,RepEmbed,1,1,[5, 5, 3, 3, 2, 2, 5, 5, 3, 3, 2, 2],16,RepEmbed,1
+#design: 16,16,16,RepEmbed,2,2,[2, 2, 0, 0, 1, 1, 2, 2, 0, 0, 1, 1],16,RepEmbed,2
+#design: 16,16,16,RepEmbed,3,3,[2, 2, 0, 0, 4, 4, 2, 2, 0, 0, 4, 4],16,RepEmbed,3
+#design: 16,16,16,RepEmbed,4,4,[4, 4, 3, 3, 2, 2, 4, 4, 3, 3, 2, 2],16,RepEmbed,4
+#design: 16,16,16,RepEmbed,5,5,[0, 0, 3, 3, 2, 2, 0, 0, 3, 3, 2, 2],16,RepEmbed,5
+#design: 16,16,16,RepEmbed,6,6,[2, 2, 4, 4, 1, 1, 2, 2, 4, 4, 1, 1],16,RepEmbed,6
+#design: 16,16,16,RepEmbed,7,7,[4, 4, 2, 2, 5, 5, 4, 4, 2, 2, 5, 5],16,RepEmbed,7
+#design: 16,16,16,RepEmbed,8,8,[0, 0, 4, 4, 2, 2, 0, 0, 4, 4, 2, 2],16,RepEmbed,8
+#design: 16,16,16,RepEmbed,9,9,[0, 0, 1, 1, 4, 4, 0, 0, 1, 1, 4, 4],16,RepEmbed,9
+#design: 16,16,16,RepEmbed,10,10,[4, 4, 3, 3, 0, 0, 4, 4, 3, 3, 0, 0],16,RepEmbed,10
+#design: 16,16,16,RepEmbed,11,11,[3, 3, 1, 1, 2, 2, 3, 3, 1, 1, 2, 2],16,RepEmbed,11
+#design: 16,16,16,RepEmbed,12,12,[2, 2, 5, 5, 0, 0, 2, 2, 5, 5, 0, 0],16,RepEmbed,12
+#design: 16,16,16,RepEmbed,13,13,[1, 1, 2, 2, 4, 4, 1, 1, 2, 2, 4, 4],16,RepEmbed,13
+#design: 16,16,16,RepEmbed,14,14,[2, 2, 1, 1, 0, 0, 2, 2, 1, 1, 0, 0],16,RepEmbed,14
+#design: 17,17,17,RepEmbed,0,0,[5, 5, 2, 2, 0, 0, 5, 5, 2, 2, 0, 0],17,RepEmbed,0
+#design: 17,17,17,RepEmbed,1,1,[5, 5, 1, 1, 4, 4, 5, 5, 1, 1, 4, 4],17,RepEmbed,1
+#design: 17,17,17,RepEmbed,2,2,[3, 3, 1, 1, 2, 2, 3, 3, 1, 1, 2, 2],17,RepEmbed,2
+#design: 17,17,17,RepEmbed,3,3,[5, 5, 2, 2, 1, 1, 5, 5, 2, 2, 1, 1],17,RepEmbed,3
+#design: 17,17,17,RepEmbed,4,4,[4, 4, 1, 1, 0, 0, 4, 4, 1, 1, 0, 0],17,RepEmbed,4
+#design: 17,17,17,RepEmbed,5,5,[0, 0, 5, 5, 1, 1, 0, 0, 5, 5, 1, 1],17,RepEmbed,5
+#design: 17,17,17,RepEmbed,6,6,[3, 3, 2, 2, 5, 5, 3, 3, 2, 2, 5, 5],17,RepEmbed,6
+#design: 17,17,17,RepEmbed,7,7,[4, 4, 1, 1, 2, 2, 4, 4, 1, 1, 2, 2],17,RepEmbed,7
+#design: 17,17,17,RepEmbed,8,8,[5, 5, 3, 3, 1, 1, 5, 5, 3, 3, 1, 1],17,RepEmbed,8
+#design: 17,17,17,RepEmbed,9,9,[4, 4, 3, 3, 2, 2, 4, 4, 3, 3, 2, 2],17,RepEmbed,9
+#design: 17,17,17,RepEmbed,10,10,[3, 3, 1, 1, 4, 4, 3, 3, 1, 1, 4, 4],17,RepEmbed,10
+#design: 17,17,17,RepEmbed,11,11,[2, 2, 5, 5, 4, 4, 2, 2, 5, 5, 4, 4],17,RepEmbed,11
+#design: 17,17,17,RepEmbed,12,12,[4, 4, 2, 2, 0, 0, 4, 4, 2, 2, 0, 0],17,RepEmbed,12
+#design: 17,17,17,RepEmbed,13,13,[0, 0, 1, 1, 4, 4, 0, 0, 1, 1, 4, 4],17,RepEmbed,13
+#design: 17,17,17,RepEmbed,14,14,[0, 0, 2, 2, 4, 4, 0, 0, 2, 2, 4, 4],17,RepEmbed,14
+49538,design,logged,
+49538,Experiment,started
+49600,Stimulus,presented,26
+50847,Keyboard,received,13,wait
+50858,Stimulus,presented,4
+51367,Stimulus,presented,4
+51375,Stimulus,presented,19
+51583,Stimulus,presented,4
+51767,Stimulus,presented,4
+51775,Stimulus,presented,22
+51983,Stimulus,presented,4
+52167,Stimulus,presented,4
+52175,Stimulus,presented,20
+52383,Stimulus,presented,4
+52567,Stimulus,presented,4
+52575,Stimulus,presented,19
+52783,Stimulus,presented,4
+52967,Stimulus,presented,4
+52975,Stimulus,presented,22
+53183,Stimulus,presented,4
+53367,Stimulus,presented,4
+53375,Stimulus,presented,20
+53583,Stimulus,presented,4
+53766,Stimulus,presented,4
+53775,Stimulus,presented,19
+53983,Stimulus,presented,4
+54166,Stimulus,presented,4
+54175,Stimulus,presented,22
+54383,Stimulus,presented,4
+54566,Stimulus,presented,4
+54575,Stimulus,presented,20
+54783,Stimulus,presented,4
+54966,Stimulus,presented,4
+54975,Stimulus,presented,19
+55183,Stimulus,presented,4
+55366,Stimulus,presented,4
+55375,Stimulus,presented,22
+55583,Stimulus,presented,4
+55766,Stimulus,presented,4
+55775,Stimulus,presented,20
+55983,Stimulus,presented,4
+62159,Keyboard,received,None,wait_char
+62166,Stimulus,presented,11
+62183,Stimulus,presented,11
+74191,Stimulus,presented,29
+74192,Stimulus,played,b'./auditory_feedback/neg1.wav'
+74692,stdout,received,'no response registered'
+74692,stdout,received,'None key detected or wrong key :  None'
+75200,Stimulus,presented,3
+76200,stdout,received,'---------------------------------------'
+76217,Stimulus,presented,4
+76724,Stimulus,presented,4
+76733,Stimulus,presented,21
+76941,Stimulus,presented,4
+77124,Stimulus,presented,4
+77133,Stimulus,presented,22
+77341,Stimulus,presented,4
+77524,Stimulus,presented,4
+77533,Stimulus,presented,20
+77741,Stimulus,presented,4
+77924,Stimulus,presented,4
+77933,Stimulus,presented,21
+78141,Stimulus,presented,4
+78324,Stimulus,presented,4
+78333,Stimulus,presented,22
+78541,Stimulus,presented,4
+78724,Stimulus,presented,4
+78733,Stimulus,presented,20
+78941,Stimulus,presented,4
+79124,Stimulus,presented,4
+79133,Stimulus,presented,21
+79341,Stimulus,presented,4
+79524,Stimulus,presented,4
+79533,Stimulus,presented,22
+79741,Stimulus,presented,4
+79924,Stimulus,presented,4
+79933,Stimulus,presented,20
+80141,Stimulus,presented,4
+80324,Stimulus,presented,4
+80333,Stimulus,presented,21
+80541,Stimulus,presented,4
+80724,Stimulus,presented,4
+80733,Stimulus,presented,22
+80941,Stimulus,presented,4
+81125,Stimulus,presented,4
+81133,Stimulus,presented,20
+81341,Stimulus,presented,4
+87517,Keyboard,received,None,wait_char
+87524,Stimulus,presented,11
+87541,Stimulus,presented,11
+88145,stdout,received,'FROM Response_funcs module::: port2_8'
+88145,stdout,received,'Key =  RY'
+88149,Stimulus,presented,19
+88258,Stimulus,presented,11
+88258,stdout,received,'BUTTON NUMBER 1 PRESSED'
+88258,stdout,received,''
+88266,Stimulus,presented,11
+88568,stdout,received,'FROM Response_funcs module::: port2_4'
+88568,stdout,received,'Key =  RG'
+88574,Stimulus,presented,20
+88683,Stimulus,presented,11
+88683,stdout,received,'BUTTON NUMBER 2 PRESSED'
+88683,stdout,received,''
+88691,Stimulus,presented,11
+88957,stdout,received,'FROM Response_funcs module::: port2_2'
+88957,stdout,received,'Key =  RR'
+88966,Stimulus,presented,21
+89074,Stimulus,presented,11
+89074,stdout,received,'BUTTON NUMBER 3 PRESSED'
+89074,stdout,received,''
+89083,Stimulus,presented,11
+89351,stdout,received,'FROM Response_funcs module::: port1_4'
+89351,stdout,received,'Key =  LR'
+89358,Stimulus,presented,22
+89466,Stimulus,presented,11
+89466,stdout,received,'BUTTON NUMBER 4 PRESSED'
+89466,stdout,received,''
+89474,Stimulus,presented,11
+89483,stdout,received,'FROM Response_funcs module::: port1_4'
+89483,stdout,received,'too quick: double tap'
+89491,Stimulus,presented,11
+89663,stdout,received,'FROM Response_funcs module::: port1_8'
+89663,stdout,received,'Key =  LG'
+89666,Stimulus,presented,23
+89774,Stimulus,presented,11
+89774,stdout,received,'BUTTON NUMBER 5 PRESSED'
+89774,stdout,received,''
+89783,Stimulus,presented,11
+90024,stdout,received,'FROM Response_funcs module::: port1_2'
+90024,stdout,received,'Key =  LY'
+90033,Stimulus,presented,18
+90141,Stimulus,presented,11
+90141,stdout,received,'BUTTON NUMBER 0 PRESSED'
+90141,stdout,received,''
+90150,Stimulus,presented,11
+90358,stdout,received,'FROM Response_funcs module::: port2_8'
+90358,stdout,received,'Key =  RY'
+90366,Stimulus,presented,19
+90474,Stimulus,presented,11
+90474,stdout,received,'BUTTON NUMBER 1 PRESSED'
+90474,stdout,received,''
+90483,Stimulus,presented,11
+90710,stdout,received,'FROM Response_funcs module::: port2_4'
+90710,stdout,received,'Key =  RG'
+90716,Stimulus,presented,20
+90824,Stimulus,presented,11
+90824,stdout,received,'BUTTON NUMBER 2 PRESSED'
+90824,stdout,received,''
+90833,Stimulus,presented,11
+91045,stdout,received,'FROM Response_funcs module::: port2_2'
+91045,stdout,received,'Key =  RR'
+91049,Stimulus,presented,21
+91158,Stimulus,presented,11
+91158,stdout,received,'BUTTON NUMBER 3 PRESSED'
+91158,stdout,received,''
+91166,Stimulus,presented,11
+91388,stdout,received,'FROM Response_funcs module::: port1_4'
+91389,stdout,received,'Key =  LR'
+91391,Stimulus,presented,22
+91499,Stimulus,presented,11
+91499,stdout,received,'BUTTON NUMBER 4 PRESSED'
+91499,stdout,received,''
+91508,Stimulus,presented,11
+91727,stdout,received,'FROM Response_funcs module::: port1_8'
+91727,stdout,received,'Key =  LG'
+91733,Stimulus,presented,23
+91841,Stimulus,presented,11
+91841,stdout,received,'BUTTON NUMBER 5 PRESSED'
+91841,stdout,received,''
+91849,Stimulus,presented,11
+92043,stdout,received,'FROM Response_funcs module::: port1_2'
+92043,stdout,received,'Key =  LY'
+92049,Stimulus,presented,18
+92158,Stimulus,presented,11
+92158,stdout,received,'BUTTON NUMBER 0 PRESSED'
+92158,stdout,received,''
+92358,Stimulus,played,b'./auditory_feedback/neg1.wav'
+92366,Stimulus,presented,30
+92874,Stimulus,presented,3
+93874,stdout,received,'---------------------------------------'
+93891,Stimulus,presented,4
+94399,Stimulus,presented,4
+94408,Stimulus,presented,20
+94616,Stimulus,presented,4
+94799,Stimulus,presented,4
+94808,Stimulus,presented,18
+95016,Stimulus,presented,4
+95199,Stimulus,presented,4
+95208,Stimulus,presented,21
+95416,Stimulus,presented,4
+95599,Stimulus,presented,4
+95608,Stimulus,presented,20
+95816,Stimulus,presented,4
+95999,Stimulus,presented,4
+96007,Stimulus,presented,18
+96216,Stimulus,presented,4
+96399,Stimulus,presented,4
+96407,Stimulus,presented,21
+96616,Stimulus,presented,4
+96799,Stimulus,presented,4
+96807,Stimulus,presented,20
+97016,Stimulus,presented,4
+97199,Stimulus,presented,4
+97208,Stimulus,presented,18
+97416,Stimulus,presented,4
+97599,Stimulus,presented,4
+97607,Stimulus,presented,21
+97816,Stimulus,presented,4
+97999,Stimulus,presented,4
+98007,Stimulus,presented,20
+98216,Stimulus,presented,4
+98399,Stimulus,presented,4
+98407,Stimulus,presented,18
+98616,Stimulus,presented,4
+98799,Stimulus,presented,4
+98807,Stimulus,presented,21
+99016,Stimulus,presented,4
+105191,Keyboard,received,None,wait_char
+105199,Stimulus,presented,11
+105216,Stimulus,presented,11
+106331,stdout,received,'FROM Response_funcs module::: port2_8'
+106331,stdout,received,'Key =  RY'
+106341,Stimulus,presented,19
+106449,Stimulus,presented,11
+106449,stdout,received,'BUTTON NUMBER 1 PRESSED'
+106449,stdout,received,''
+106457,Stimulus,presented,11
+106468,stdout,received,'FROM Response_funcs module::: port2_8'
+106468,stdout,received,'too quick: double tap'
+106474,Stimulus,presented,11
+106755,stdout,received,'FROM Response_funcs module::: port2_4'
+106755,stdout,received,'Key =  RG'
+106758,Stimulus,presented,20
+106866,Stimulus,presented,11
+106866,stdout,received,'BUTTON NUMBER 2 PRESSED'
+106866,stdout,received,''
+106874,Stimulus,presented,11
+107159,stdout,received,'FROM Response_funcs module::: port2_2'
+107159,stdout,received,'Key =  RR'
+107166,Stimulus,presented,21
+107274,Stimulus,presented,11
+107274,stdout,received,'BUTTON NUMBER 3 PRESSED'
+107274,stdout,received,''
+107282,Stimulus,presented,11
+107550,stdout,received,'FROM Response_funcs module::: port2_8'
+107550,stdout,received,'Key =  RY'
+107557,Stimulus,presented,19
+107666,Stimulus,presented,11
+107666,stdout,received,'BUTTON NUMBER 1 PRESSED'
+107666,stdout,received,''
+107674,Stimulus,presented,11
+107928,stdout,received,'FROM Response_funcs module::: port2_4'
+107928,stdout,received,'Key =  RG'
+107932,Stimulus,presented,20
+108041,Stimulus,presented,11
+108041,stdout,received,'BUTTON NUMBER 2 PRESSED'
+108041,stdout,received,''
+108049,Stimulus,presented,11
+108333,stdout,received,'FROM Response_funcs module::: port2_2'
+108333,stdout,received,'Key =  RR'
+108341,Stimulus,presented,21
+108449,Stimulus,presented,11
+108449,stdout,received,'BUTTON NUMBER 3 PRESSED'
+108449,stdout,received,''
+108457,Stimulus,presented,11
+108707,stdout,received,'FROM Response_funcs module::: port1_2'
+108707,stdout,received,'Key =  LY'
+108716,Stimulus,presented,18
+108824,Stimulus,presented,11
+108824,stdout,received,'BUTTON NUMBER 0 PRESSED'
+108824,stdout,received,''
+108832,Stimulus,presented,11
+109142,stdout,received,'FROM Response_funcs module::: port1_8'
+109142,stdout,received,'Key =  LG'
+109149,Stimulus,presented,23
+109257,Stimulus,presented,11
+109257,stdout,received,'BUTTON NUMBER 5 PRESSED'
+109257,stdout,received,''
+109266,Stimulus,presented,11
+109555,stdout,received,'FROM Response_funcs module::: port1_4'
+109555,stdout,received,'Key =  LR'
+109558,Stimulus,presented,22
+109666,Stimulus,presented,11
+109666,stdout,received,'BUTTON NUMBER 4 PRESSED'
+109666,stdout,received,''
+109674,Stimulus,presented,11
+109945,stdout,received,'FROM Response_funcs module::: port1_2'
+109945,stdout,received,'Key =  LY'
+109949,Stimulus,presented,18
+110057,Stimulus,presented,11
+110057,stdout,received,'BUTTON NUMBER 0 PRESSED'
+110057,stdout,received,''
+110066,Stimulus,presented,11
+110297,stdout,received,'FROM Response_funcs module::: port1_8'
+110297,stdout,received,'Key =  LG'
+110299,Stimulus,presented,23
+110407,Stimulus,presented,11
+110407,stdout,received,'BUTTON NUMBER 5 PRESSED'
+110407,stdout,received,''
+110416,Stimulus,presented,11
+110734,stdout,received,'FROM Response_funcs module::: port1_4'
+110734,stdout,received,'Key =  LR'
+110741,Stimulus,presented,22
+110849,Stimulus,presented,11
+110849,stdout,received,'BUTTON NUMBER 4 PRESSED'
+110849,stdout,received,''
+111049,Stimulus,played,b'./auditory_feedback/neg1.wav'
+111057,Stimulus,presented,31
+111566,Stimulus,presented,3
+112566,stdout,received,'---------------------------------------'
+112583,Stimulus,presented,4
+113091,Stimulus,presented,4
+113099,Stimulus,presented,19
+113307,Stimulus,presented,4
+113491,Stimulus,presented,4
+113499,Stimulus,presented,22
+113707,Stimulus,presented,4
+113891,Stimulus,presented,4
+113899,Stimulus,presented,20
+114107,Stimulus,presented,4
+114291,Stimulus,presented,4
+114299,Stimulus,presented,19
+114507,Stimulus,presented,4
+114691,Stimulus,presented,4
+114699,Stimulus,presented,22
+114907,Stimulus,presented,4
+115091,Stimulus,presented,4
+115099,Stimulus,presented,20
+115307,Stimulus,presented,4
+115491,Stimulus,presented,4
+115499,Stimulus,presented,19
+115707,Stimulus,presented,4
+115891,Stimulus,presented,4
+115899,Stimulus,presented,22
+116107,Stimulus,presented,4
+116291,Stimulus,presented,4
+116299,Stimulus,presented,20
+116507,Stimulus,presented,4
+116691,Stimulus,presented,4
+116699,Stimulus,presented,19
+116907,Stimulus,presented,4
+117091,Stimulus,presented,4
+117099,Stimulus,presented,22
+117307,Stimulus,presented,4
+117491,Stimulus,presented,4
+117499,Stimulus,presented,20
+117707,Stimulus,presented,4
+123883,Keyboard,received,None,wait_char
+123890,Stimulus,presented,11
+123907,Stimulus,presented,11
+124390,stdout,received,'FROM Response_funcs module::: port2_8'
+124390,stdout,received,'Key =  RY'
+124399,Stimulus,presented,19
+124507,Stimulus,presented,11
+124507,stdout,received,'BUTTON NUMBER 1 PRESSED'
+124507,stdout,received,''
+124516,Stimulus,presented,11
+124901,stdout,received,'FROM Response_funcs module::: port1_2'
+124901,stdout,received,'Key =  LY'
+124907,Stimulus,presented,18
+125015,Stimulus,presented,11
+125015,stdout,received,'BUTTON NUMBER 0 PRESSED'
+125015,stdout,received,''
+125024,Stimulus,presented,11
+125289,stdout,received,'FROM Response_funcs module::: port2_4'
+125289,stdout,received,'Key =  RG'
+125291,Stimulus,presented,20
+125399,Stimulus,presented,11
+125399,stdout,received,'BUTTON NUMBER 2 PRESSED'
+125399,stdout,received,''
+125407,Stimulus,presented,11
+125615,stdout,received,'FROM Response_funcs module::: port1_8'
+125615,stdout,received,'Key =  LG'
+125624,Stimulus,presented,23
+125732,Stimulus,presented,11
+125732,stdout,received,'BUTTON NUMBER 5 PRESSED'
+125732,stdout,received,''
+125741,Stimulus,presented,11
+125747,stdout,received,'FROM Response_funcs module::: port1_8'
+125747,stdout,received,'too quick: double tap'
+125757,Stimulus,presented,11
+125995,stdout,received,'FROM Response_funcs module::: port2_2'
+125995,stdout,received,'Key =  RR'
+125999,Stimulus,presented,21
+126107,Stimulus,presented,11
+126107,stdout,received,'BUTTON NUMBER 3 PRESSED'
+126107,stdout,received,''
+126115,Stimulus,presented,11
+126318,stdout,received,'FROM Response_funcs module::: port1_4'
+126318,stdout,received,'Key =  LR'
+126324,Stimulus,presented,22
+126432,Stimulus,presented,11
+126432,stdout,received,'BUTTON NUMBER 4 PRESSED'
+126432,stdout,received,''
+126440,Stimulus,presented,11
+126640,stdout,received,'FROM Response_funcs module::: port2_8'
+126640,stdout,received,'Key =  RY'
+126649,Stimulus,presented,19
+126757,Stimulus,presented,11
+126757,stdout,received,'BUTTON NUMBER 1 PRESSED'
+126757,stdout,received,''
+126766,Stimulus,presented,11
+126942,stdout,received,'FROM Response_funcs module::: port1_2'
+126942,stdout,received,'Key =  LY'
+126949,Stimulus,presented,18
+127057,Stimulus,presented,11
+127057,stdout,received,'BUTTON NUMBER 0 PRESSED'
+127057,stdout,received,''
+127066,Stimulus,presented,11
+127231,stdout,received,'FROM Response_funcs module::: port2_4'
+127231,stdout,received,'Key =  RG'
+127240,Stimulus,presented,20
+127349,Stimulus,presented,11
+127349,stdout,received,'BUTTON NUMBER 2 PRESSED'
+127349,stdout,received,''
+127357,Stimulus,presented,11
+127536,stdout,received,'FROM Response_funcs module::: port1_8'
+127536,stdout,received,'Key =  LG'
+127541,Stimulus,presented,23
+127649,Stimulus,presented,11
+127649,stdout,received,'BUTTON NUMBER 5 PRESSED'
+127649,stdout,received,''
+127657,Stimulus,presented,11
+127875,stdout,received,'FROM Response_funcs module::: port2_2'
+127875,stdout,received,'Key =  RR'
+127882,Stimulus,presented,21
+127990,Stimulus,presented,11
+127991,stdout,received,'BUTTON NUMBER 3 PRESSED'
+127991,stdout,received,''
+127999,Stimulus,presented,11
+128204,stdout,received,'FROM Response_funcs module::: port1_4'
+128204,stdout,received,'Key =  LR'
+128207,Stimulus,presented,22
+128315,Stimulus,presented,11
+128315,stdout,received,'BUTTON NUMBER 4 PRESSED'
+128315,stdout,received,''
+128515,Stimulus,played,b'./auditory_feedback/neg1.wav'
+128524,Stimulus,presented,32
+129032,Stimulus,presented,3
+130032,stdout,received,'---------------------------------------'
+130049,Stimulus,presented,4
+130557,Stimulus,presented,4
+130565,Stimulus,presented,19
+130774,Stimulus,presented,4
+130957,Stimulus,presented,4
+130965,Stimulus,presented,22
+131174,Stimulus,presented,4
+131357,Stimulus,presented,4
+131365,Stimulus,presented,21
+131574,Stimulus,presented,4
+131757,Stimulus,presented,4
+131765,Stimulus,presented,19
+131974,Stimulus,presented,4
+132157,Stimulus,presented,4
+132165,Stimulus,presented,22
+132374,Stimulus,presented,4
+132557,Stimulus,presented,4
+132565,Stimulus,presented,21
+132774,Stimulus,presented,4
+132957,Stimulus,presented,4
+132965,Stimulus,presented,19
+133174,Stimulus,presented,4
+133357,Stimulus,presented,4
+133365,Stimulus,presented,22
+133574,Stimulus,presented,4
+133757,Stimulus,presented,4
+133765,Stimulus,presented,21
+133974,Stimulus,presented,4
+134157,Stimulus,presented,4
+134165,Stimulus,presented,19
+134374,Stimulus,presented,4
+134557,Stimulus,presented,4
+134565,Stimulus,presented,22
+134774,Stimulus,presented,4
+134957,Stimulus,presented,4
+134965,Stimulus,presented,21
+135174,Stimulus,presented,4
+141349,Keyboard,received,None,wait_char
+141357,Stimulus,presented,11
+141373,Stimulus,presented,11
+141829,stdout,received,'FROM Response_funcs module::: port2_2'
+141829,stdout,received,'Key =  RR'
+141832,Stimulus,presented,21
+141940,Stimulus,presented,11
+141940,stdout,received,'BUTTON NUMBER 3 PRESSED'
+141940,stdout,received,''
+141948,Stimulus,presented,11
+142193,stdout,received,'FROM Response_funcs module::: port2_2'
+142193,stdout,received,'Key =  RR'
+142199,Stimulus,presented,21
+142307,Stimulus,presented,11
+142307,stdout,received,'BUTTON NUMBER 3 PRESSED'
+142307,stdout,received,''
+142315,Stimulus,presented,11
+142558,stdout,received,'FROM Response_funcs module::: port2_2'
+142558,stdout,received,'Key =  RR'
+142565,Stimulus,presented,21
+142673,Stimulus,presented,11
+142673,stdout,received,'BUTTON NUMBER 3 PRESSED'
+142673,stdout,received,''
+142682,Stimulus,presented,11
+142700,stdout,received,'FROM Response_funcs module::: port2_2'
+142700,stdout,received,'too quick: double tap'
+142707,Stimulus,presented,11
+142925,stdout,received,'FROM Response_funcs module::: port2_2'
+142925,stdout,received,'Key =  RR'
+142932,Stimulus,presented,21
+143040,Stimulus,presented,11
+143040,stdout,received,'BUTTON NUMBER 3 PRESSED'
+143040,stdout,received,''
+143048,Stimulus,presented,11
+143299,stdout,received,'FROM Response_funcs module::: port2_2'
+143299,stdout,received,'Key =  RR'
+143307,Stimulus,presented,21
+143415,Stimulus,presented,11
+143415,stdout,received,'BUTTON NUMBER 3 PRESSED'
+143415,stdout,received,''
+143423,Stimulus,presented,11
+143658,stdout,received,'FROM Response_funcs module::: port2_2'
+143658,stdout,received,'Key =  RR'
+143665,Stimulus,presented,21
+143774,Stimulus,presented,11
+143774,stdout,received,'BUTTON NUMBER 3 PRESSED'
+143774,stdout,received,''
+143782,Stimulus,presented,11
+144014,stdout,received,'FROM Response_funcs module::: port1_4'
+144014,stdout,received,'Key =  LR'
+144023,Stimulus,presented,22
+144132,Stimulus,presented,11
+144132,stdout,received,'BUTTON NUMBER 4 PRESSED'
+144132,stdout,received,''
+144140,Stimulus,presented,11
+144391,stdout,received,'FROM Response_funcs module::: port1_4'
+144391,stdout,received,'Key =  LR'
+144398,Stimulus,presented,22
+144507,Stimulus,presented,11
+144507,stdout,received,'BUTTON NUMBER 4 PRESSED'
+144507,stdout,received,''
+144515,Stimulus,presented,11
+144741,stdout,received,'FROM Response_funcs module::: port1_4'
+144741,stdout,received,'Key =  LR'
+144748,Stimulus,presented,22
+144857,Stimulus,presented,11
+144857,stdout,received,'BUTTON NUMBER 4 PRESSED'
+144857,stdout,received,''
+144865,Stimulus,presented,11
+144922,stdout,received,'FROM Response_funcs module::: port1_4'
+144922,stdout,received,'too quick: double tap'
+144932,Stimulus,presented,11
+145063,stdout,received,'FROM Response_funcs module::: port1_4'
+145063,stdout,received,'too quick: double tap'
+145073,Stimulus,presented,11
+145172,stdout,received,'FROM Response_funcs module::: port1_4'
+145172,stdout,received,'too quick: double tap'
+145182,Stimulus,presented,11
+145408,stdout,received,'FROM Response_funcs module::: port1_4'
+145408,stdout,received,'Key =  LR'
+145415,Stimulus,presented,22
+145523,Stimulus,presented,11
+145523,stdout,received,'BUTTON NUMBER 4 PRESSED'
+145523,stdout,received,''
+145532,Stimulus,presented,11
+145644,stdout,received,'FROM Response_funcs module::: port1_4'
+145644,stdout,received,'too quick: double tap'
+145649,Stimulus,presented,11
+145819,stdout,received,'FROM Response_funcs module::: port1_4'
+145819,stdout,received,'Key =  LR'
+145824,Stimulus,presented,22
+145932,Stimulus,presented,11
+145932,stdout,received,'BUTTON NUMBER 4 PRESSED'
+145932,stdout,received,''
+145940,Stimulus,presented,11
+146242,stdout,received,'FROM Response_funcs module::: port1_4'
+146242,stdout,received,'Key =  LR'
+146248,Stimulus,presented,22
+146357,Stimulus,presented,11
+146357,stdout,received,'BUTTON NUMBER 4 PRESSED'
+146357,stdout,received,''
+146557,Stimulus,played,b'./auditory_feedback/neg1.wav'
+146565,Stimulus,presented,33
+147073,Stimulus,presented,3
+148073,stdout,received,'---------------------------------------'
+148090,Stimulus,presented,4
+148598,Stimulus,presented,4
+148607,Stimulus,presented,20
+148815,Stimulus,presented,4
+148998,Stimulus,presented,4
+149007,Stimulus,presented,18
+149215,Stimulus,presented,4
+149398,Stimulus,presented,4
+149407,Stimulus,presented,22
+149615,Stimulus,presented,4
+149798,Stimulus,presented,4
+149807,Stimulus,presented,20
+150015,Stimulus,presented,4
+150198,Stimulus,presented,4
+150207,Stimulus,presented,18
+150415,Stimulus,presented,4
+150598,Stimulus,presented,4
+150607,Stimulus,presented,22
+150815,Stimulus,presented,4
+150998,Stimulus,presented,4
+151007,Stimulus,presented,20
+151215,Stimulus,presented,4
+151399,Stimulus,presented,4
+151407,Stimulus,presented,18
+151615,Stimulus,presented,4
+151798,Stimulus,presented,4
+151807,Stimulus,presented,22
+152015,Stimulus,presented,4
+152198,Stimulus,presented,4
+152207,Stimulus,presented,20
+152415,Stimulus,presented,4
+152598,Stimulus,presented,4
+152607,Stimulus,presented,18
+152815,Stimulus,presented,4
+152998,Stimulus,presented,4
+153007,Stimulus,presented,22
+153215,Stimulus,presented,4
+156399,Experiment,paused
+156407,Stimulus,presented,34
+157535,Keyboard,received,y,wait_char
+157535,Experiment,ended
+157537,Data,saved
+157548,Stimulus,presented,34

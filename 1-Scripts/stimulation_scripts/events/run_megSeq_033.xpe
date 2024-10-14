@@ -1,0 +1,87 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 14:48:14
+#sha1: 166a98
+#modules: response_funcs.py (625041)
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-113-generic', version='#123~20.04.1-Ubuntu SMP Wed Jun 12 17:33:13 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2533,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_block,block_sequenceName,trial_cnt,trial_id,PresentedSequence,block,sequenceName,trial
+#design: 0,0,0,CRep2,0,0,[1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0],0,CRep2,0
+#design: 0,0,0,CRep2,1,1,[5, 3, 3, 3, 3, 5, 5, 3, 5, 5, 5, 3],0,CRep2,1
+#design: 1,1,1,CRep2,0,0,[1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2],1,CRep2,0
+#design: 1,1,1,CRep2,1,1,[1, 5, 5, 5, 5, 1, 1, 5, 1, 1, 1, 5],1,CRep2,1
+#design: 2,2,2,Rep2,0,0,[4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5],2,Rep2,0
+#design: 2,2,2,Rep2,1,1,[5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4],2,Rep2,1
+#design: 3,3,3,Rep2,0,0,[3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2],3,Rep2,0
+#design: 3,3,3,Rep2,1,1,[0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3],3,Rep2,1
+#design: 4,4,4,Rep3,0,0,[5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1],4,Rep3,0
+#design: 4,4,4,Rep3,1,1,[1, 0, 2, 1, 0, 2, 1, 0, 2, 1, 0, 2],4,Rep3,1
+#design: 5,5,5,Rep3,0,0,[1, 0, 5, 1, 0, 5, 1, 0, 5, 1, 0, 5],5,Rep3,0
+#design: 5,5,5,Rep3,1,1,[4, 0, 3, 4, 0, 3, 4, 0, 3, 4, 0, 3],5,Rep3,1
+2534,design,logged,
+2534,Experiment,started
+2554,Stimulus,presented,26
+2716,Keyboard,received,32,wait
+2729,Stimulus,presented,4
+3238,Stimulus,presented,4
+3238,Stimulus,presented,2
+3246,Stimulus,presented,19
+3454,Stimulus,presented,4
+3638,Stimulus,presented,4
+3638,Stimulus,presented,2
+3646,Stimulus,presented,18
+3854,Stimulus,presented,4
+4038,Stimulus,presented,4
+4038,Stimulus,presented,2
+4046,Stimulus,presented,18
+4254,Stimulus,presented,4
+4437,Stimulus,presented,4
+4438,Stimulus,presented,2
+4446,Stimulus,presented,18
+4654,Stimulus,presented,4
+4838,Stimulus,presented,4
+4838,Stimulus,presented,2
+4846,Stimulus,presented,18
+5054,Stimulus,presented,4
+5238,Stimulus,presented,4
+5238,Stimulus,presented,2
+5246,Stimulus,presented,19
+5454,Stimulus,presented,4
+5629,Stimulus,presented,4
+5629,Stimulus,presented,2
+5637,Stimulus,presented,19
+5837,Stimulus,presented,4
+6030,Stimulus,presented,4
+6030,Stimulus,presented,2
+6038,Stimulus,presented,18
+6246,Stimulus,presented,4
+6438,Stimulus,presented,4
+6438,Stimulus,presented,2
+6446,Stimulus,presented,19
+6655,Stimulus,presented,4
+6838,Stimulus,presented,4
+6838,Stimulus,presented,2
+6846,Stimulus,presented,19
+7055,Stimulus,presented,4
+7238,Stimulus,presented,4
+7238,Stimulus,presented,2
+7246,Stimulus,presented,19
+7457,Stimulus,presented,4
+7644,Stimulus,presented,4
+7644,Stimulus,presented,2
+7655,Stimulus,presented,18
+7863,Stimulus,presented,4
+8229,Keyboard,received,None,wait_char
+8438,Stimulus,presented,11
+8446,Stimulus,presented,11
+9456,Stimulus,presented,28
+9456,Stimulus,played,b'./auditory_feedback/neg1.wav'
+9956,stdout,received,'no response registered'
+9956,stdout,received,'------------------------------------------------------'
+9956,stderr,received,'Traceback (most recent call last):'
+9956,stderr,received,'  File "run_megSeq.py", line 409, in <module>'
+9957,stderr,received,'    if key is not None and key in response_mappings.keys():'
+9957,stderr,received,"NameError: name 'key' is not defined"

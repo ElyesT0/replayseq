@@ -1,0 +1,1310 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 16:00:45
+#sha1: 62de54
+#modules: response_funcs.py (2904be)
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-113-generic', version='#123~20.04.1-Ubuntu SMP Wed Jun 12 17:33:13 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1156,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_block,block_sequenceName,trial_cnt,trial_id,PresentedSequence,block,sequenceName,trial
+#design: 0,0,0,Rep2,0,0,[5, 1, 5, 1, 5, 1, 5, 1, 5, 1, 5, 1],0,Rep2,0
+#design: 0,0,0,Rep2,1,1,[0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5],0,Rep2,1
+#design: 1,1,1,Rep2,0,0,[1, 4, 1, 4, 1, 4, 1, 4, 1, 4, 1, 4],1,Rep2,0
+#design: 1,1,1,Rep2,1,1,[2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3],1,Rep2,1
+#design: 2,2,2,Rep3,0,0,[2, 3, 0, 2, 3, 0, 2, 3, 0, 2, 3, 0],2,Rep3,0
+#design: 2,2,2,Rep3,1,1,[1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2],2,Rep3,1
+#design: 3,3,3,Rep3,0,0,[0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1, 5],3,Rep3,0
+#design: 3,3,3,Rep3,1,1,[2, 0, 4, 2, 0, 4, 2, 0, 4, 2, 0, 4],3,Rep3,1
+#design: 4,4,4,CRep2,0,0,[2, 3, 3, 3, 3, 2, 2, 3, 2, 2, 2, 3],4,CRep2,0
+#design: 4,4,4,CRep2,1,1,[1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2],4,CRep2,1
+#design: 5,5,5,CRep2,0,0,[4, 2, 2, 2, 2, 4, 4, 2, 4, 4, 4, 2],5,CRep2,0
+#design: 5,5,5,CRep2,1,1,[2, 0, 0, 0, 0, 2, 2, 0, 2, 2, 2, 0],5,CRep2,1
+1156,design,logged,
+1156,Experiment,started
+1176,Stimulus,presented,26
+1467,Keyboard,received,32,wait
+1484,Stimulus,presented,4
+1992,Stimulus,presented,4
+1992,Stimulus,presented,2
+2001,Stimulus,presented,23
+2209,Stimulus,presented,4
+2392,Stimulus,presented,4
+2392,Stimulus,presented,2
+2401,Stimulus,presented,19
+2609,Stimulus,presented,4
+2792,Stimulus,presented,4
+2792,Stimulus,presented,2
+2801,Stimulus,presented,23
+3009,Stimulus,presented,4
+3192,Stimulus,presented,4
+3192,Stimulus,presented,2
+3201,Stimulus,presented,19
+3409,Stimulus,presented,4
+3592,Stimulus,presented,4
+3592,Stimulus,presented,2
+3601,Stimulus,presented,23
+3810,Stimulus,presented,4
+3993,Stimulus,presented,4
+3993,Stimulus,presented,2
+4002,Stimulus,presented,19
+4210,Stimulus,presented,4
+4393,Stimulus,presented,4
+4393,Stimulus,presented,2
+4402,Stimulus,presented,23
+4610,Stimulus,presented,4
+4793,Stimulus,presented,4
+4793,Stimulus,presented,2
+4802,Stimulus,presented,19
+5010,Stimulus,presented,4
+5193,Stimulus,presented,4
+5193,Stimulus,presented,2
+5202,Stimulus,presented,23
+5409,Stimulus,presented,4
+5593,Stimulus,presented,4
+5593,Stimulus,presented,2
+5602,Stimulus,presented,19
+5809,Stimulus,presented,4
+5993,Stimulus,presented,4
+5993,Stimulus,presented,2
+6002,Stimulus,presented,23
+6210,Stimulus,presented,4
+6393,Stimulus,presented,4
+6393,Stimulus,presented,2
+6402,Stimulus,presented,19
+6610,Stimulus,presented,4
+6984,Keyboard,received,None,wait_char
+7193,Stimulus,presented,11
+7202,Stimulus,presented,11
+8042,stdout,received,'FROM Response_funcs module::: port1_1'
+8043,stdout,received,'Key =  RB'
+8043,stdout,received,'None key detected or wrong key :  RB'
+8051,Stimulus,presented,11
+8073,stdout,received,'FROM Response_funcs module::: port1_1'
+8073,stdout,received,'too quick: double tap'
+8076,Stimulus,presented,11
+8099,stdout,received,'FROM Response_funcs module::: port1_1'
+8099,stdout,received,'too quick: double tap'
+8111,Stimulus,presented,11
+8127,stdout,received,'FROM Response_funcs module::: port1_1'
+8127,stdout,received,'too quick: double tap'
+8138,Stimulus,presented,11
+8152,stdout,received,'FROM Response_funcs module::: port1_1'
+8152,stdout,received,'Key =  RB'
+8152,stdout,received,'None key detected or wrong key :  RB'
+8163,Stimulus,presented,11
+8181,stdout,received,'FROM Response_funcs module::: port1_1'
+8181,stdout,received,'too quick: double tap'
+8190,Stimulus,presented,11
+8207,stdout,received,'FROM Response_funcs module::: port1_1'
+8207,stdout,received,'too quick: double tap'
+8221,Stimulus,presented,11
+8257,stdout,received,'FROM Response_funcs module::: port1_1'
+8257,stdout,received,'Key =  RB'
+8257,stdout,received,'None key detected or wrong key :  RB'
+8259,Stimulus,presented,11
+8262,stdout,received,'FROM Response_funcs module::: port1_1'
+8263,stdout,received,'too quick: double tap'
+8268,Stimulus,presented,11
+8288,stdout,received,'FROM Response_funcs module::: port1_1'
+8288,stdout,received,'too quick: double tap'
+8293,Stimulus,presented,11
+8318,stdout,received,'FROM Response_funcs module::: port1_1'
+8318,stdout,received,'too quick: double tap'
+8326,Stimulus,presented,11
+8342,stdout,received,'FROM Response_funcs module::: port1_1'
+8342,stdout,received,'too quick: double tap'
+8351,Stimulus,presented,11
+8426,stdout,received,'FROM Response_funcs module::: port1_1'
+8426,stdout,received,'Key =  RB'
+8426,stdout,received,'None key detected or wrong key :  RB'
+8434,Stimulus,presented,11
+8448,stdout,received,'FROM Response_funcs module::: port1_1'
+8448,stdout,received,'too quick: double tap'
+8450,Stimulus,presented,11
+8475,stdout,received,'FROM Response_funcs module::: port1_1'
+8476,stdout,received,'too quick: double tap'
+8484,Stimulus,presented,11
+8506,stdout,received,'FROM Response_funcs module::: port1_1'
+8506,stdout,received,'too quick: double tap'
+8509,Stimulus,presented,11
+8605,stdout,received,'FROM Response_funcs module::: port1_1'
+8605,stdout,received,'Key =  RB'
+8605,stdout,received,'None key detected or wrong key :  RB'
+8609,Stimulus,presented,11
+8610,stdout,received,'FROM Response_funcs module::: port1_1'
+8610,stdout,received,'too quick: double tap'
+8617,Stimulus,presented,11
+8638,stdout,received,'FROM Response_funcs module::: port1_1'
+8638,stdout,received,'too quick: double tap'
+8643,Stimulus,presented,11
+8664,stdout,received,'FROM Response_funcs module::: port1_1'
+8664,stdout,received,'too quick: double tap'
+8667,Stimulus,presented,11
+8733,stdout,received,'FROM Response_funcs module::: port1_1'
+8733,stdout,received,'Key =  RB'
+8733,stdout,received,'None key detected or wrong key :  RB'
+8734,Stimulus,presented,11
+8745,stdout,received,'FROM Response_funcs module::: port1_1'
+8745,stdout,received,'too quick: double tap'
+8751,Stimulus,presented,11
+8774,stdout,received,'FROM Response_funcs module::: port1_1'
+8774,stdout,received,'too quick: double tap'
+8776,Stimulus,presented,11
+8776,stdout,received,'FROM Response_funcs module::: port1_1'
+8776,stdout,received,'too quick: double tap'
+8784,Stimulus,presented,11
+8799,stdout,received,'FROM Response_funcs module::: port1_1'
+8799,stdout,received,'too quick: double tap'
+8801,Stimulus,presented,11
+8802,stdout,received,'FROM Response_funcs module::: port1_1'
+8802,stdout,received,'too quick: double tap'
+8809,Stimulus,presented,11
+8827,stdout,received,'FROM Response_funcs module::: port1_1'
+8827,stdout,received,'too quick: double tap'
+8834,Stimulus,presented,11
+8897,stdout,received,'FROM Response_funcs module::: port1_1'
+8897,stdout,received,'Key =  RB'
+8897,stdout,received,'None key detected or wrong key :  RB'
+8900,Stimulus,presented,11
+8907,stdout,received,'FROM Response_funcs module::: port1_1'
+8907,stdout,received,'too quick: double tap'
+8909,Stimulus,presented,11
+8909,stdout,received,'FROM Response_funcs module::: port1_1'
+8909,stdout,received,'too quick: double tap'
+8917,Stimulus,presented,11
+8935,stdout,received,'FROM Response_funcs module::: port1_1'
+8935,stdout,received,'too quick: double tap'
+8942,Stimulus,presented,11
+8961,stdout,received,'FROM Response_funcs module::: port1_1'
+8961,stdout,received,'too quick: double tap'
+8968,Stimulus,presented,11
+8990,stdout,received,'FROM Response_funcs module::: port1_1'
+8990,stdout,received,'too quick: double tap'
+8993,Stimulus,presented,11
+9014,stdout,received,'FROM Response_funcs module::: port1_1'
+9014,stdout,received,'Key =  RB'
+9014,stdout,received,'None key detected or wrong key :  RB'
+9018,Stimulus,presented,11
+9074,stdout,received,'FROM Response_funcs module::: port1_1'
+9074,stdout,received,'too quick: double tap'
+9076,Stimulus,presented,11
+9096,stdout,received,'FROM Response_funcs module::: port1_1'
+9096,stdout,received,'too quick: double tap'
+9101,Stimulus,presented,11
+9122,stdout,received,'FROM Response_funcs module::: port1_1'
+9122,stdout,received,'Key =  RB'
+9122,stdout,received,'None key detected or wrong key :  RB'
+9126,Stimulus,presented,11
+9127,stdout,received,'FROM Response_funcs module::: port1_1'
+9127,stdout,received,'too quick: double tap'
+9134,Stimulus,presented,11
+9149,stdout,received,'FROM Response_funcs module::: port1_1'
+9149,stdout,received,'too quick: double tap'
+9151,Stimulus,presented,11
+9153,stdout,received,'FROM Response_funcs module::: port1_1'
+9153,stdout,received,'too quick: double tap'
+9159,Stimulus,presented,11
+9177,stdout,received,'FROM Response_funcs module::: port1_1'
+9177,stdout,received,'too quick: double tap'
+9184,Stimulus,presented,11
+9261,stdout,received,'FROM Response_funcs module::: port1_1'
+9261,stdout,received,'Key =  RB'
+9261,stdout,received,'None key detected or wrong key :  RB'
+9267,Stimulus,presented,11
+9283,stdout,received,'FROM Response_funcs module::: port1_1'
+9283,stdout,received,'too quick: double tap'
+9292,Stimulus,presented,11
+9312,stdout,received,'FROM Response_funcs module::: port1_1'
+9312,stdout,received,'too quick: double tap'
+9317,Stimulus,presented,11
+9340,stdout,received,'FROM Response_funcs module::: port1_1'
+9340,stdout,received,'too quick: double tap'
+9342,Stimulus,presented,11
+9677,stdout,received,'FROM Response_funcs module::: port1_1'
+9677,stdout,received,'Key =  RB'
+9677,stdout,received,'None key detected or wrong key :  RB'
+9684,Stimulus,presented,11
+9687,stdout,received,'FROM Response_funcs module::: port1_1'
+9687,stdout,received,'too quick: double tap'
+9692,Stimulus,presented,11
+9694,stdout,received,'FROM Response_funcs module::: port1_1'
+9694,stdout,received,'too quick: double tap'
+9701,Stimulus,presented,11
+9714,stdout,received,'FROM Response_funcs module::: port1_1'
+9714,stdout,received,'too quick: double tap'
+9718,Stimulus,presented,11
+9742,stdout,received,'FROM Response_funcs module::: port1_1'
+9742,stdout,received,'too quick: double tap'
+9751,Stimulus,presented,11
+10203,stdout,received,'FROM Response_funcs module::: port1_1'
+10203,stdout,received,'Key =  RB'
+10203,stdout,received,'None key detected or wrong key :  RB'
+10404,Stimulus,played,b'./auditory_feedback/neg1.wav'
+10409,Stimulus,presented,28
+10918,Stimulus,presented,3
+11218,stdout,received,'---------------------------------------'
+11235,Stimulus,presented,4
+11743,Stimulus,presented,4
+11743,Stimulus,presented,2
+11752,Stimulus,presented,18
+11959,Stimulus,presented,4
+12143,Stimulus,presented,4
+12143,Stimulus,presented,2
+12152,Stimulus,presented,23
+12359,Stimulus,presented,4
+12543,Stimulus,presented,4
+12543,Stimulus,presented,2
+12552,Stimulus,presented,18
+12760,Stimulus,presented,4
+12943,Stimulus,presented,4
+12943,Stimulus,presented,2
+12952,Stimulus,presented,23
+13159,Stimulus,presented,4
+13343,Stimulus,presented,4
+13343,Stimulus,presented,2
+13352,Stimulus,presented,18
+13560,Stimulus,presented,4
+13743,Stimulus,presented,4
+13743,Stimulus,presented,2
+13752,Stimulus,presented,23
+13960,Stimulus,presented,4
+14143,Stimulus,presented,4
+14143,Stimulus,presented,2
+14152,Stimulus,presented,18
+14359,Stimulus,presented,4
+14543,Stimulus,presented,4
+14543,Stimulus,presented,2
+14552,Stimulus,presented,23
+14759,Stimulus,presented,4
+14943,Stimulus,presented,4
+14943,Stimulus,presented,2
+14952,Stimulus,presented,18
+15159,Stimulus,presented,4
+15343,Stimulus,presented,4
+15343,Stimulus,presented,2
+15352,Stimulus,presented,23
+15560,Stimulus,presented,4
+15743,Stimulus,presented,4
+15743,Stimulus,presented,2
+15752,Stimulus,presented,18
+15959,Stimulus,presented,4
+16143,Stimulus,presented,4
+16143,Stimulus,presented,2
+16152,Stimulus,presented,23
+16360,Stimulus,presented,4
+16737,Keyboard,received,None,wait_char
+16943,Stimulus,presented,11
+16952,Stimulus,presented,11
+22959,Stimulus,presented,29
+22959,Stimulus,played,b'./auditory_feedback/neg1.wav'
+23459,stdout,received,'no response registered'
+23459,stdout,received,'None key detected or wrong key :  None'
+23968,Stimulus,presented,3
+24268,stdout,received,'---------------------------------------'
+24268,stdout,received,'We are in the resting state break'
+24284,Stimulus,presented,30
+24793,Stimulus,presented,3
+25893,Keyboard,received,None,wait_char
+25901,Stimulus,presented,31
+51179,Keyboard,received,n,wait_char
+51183,Stimulus,presented,32
+51692,Stimulus,presented,4
+52710,Stimulus,presented,4
+53217,Stimulus,presented,4
+53217,Stimulus,presented,2
+53226,Stimulus,presented,19
+53434,Stimulus,presented,4
+53617,Stimulus,presented,4
+53617,Stimulus,presented,2
+53626,Stimulus,presented,22
+53834,Stimulus,presented,4
+54017,Stimulus,presented,4
+54017,Stimulus,presented,2
+54026,Stimulus,presented,19
+54234,Stimulus,presented,4
+54417,Stimulus,presented,4
+54417,Stimulus,presented,2
+54426,Stimulus,presented,22
+54634,Stimulus,presented,4
+54817,Stimulus,presented,4
+54817,Stimulus,presented,2
+54826,Stimulus,presented,19
+55034,Stimulus,presented,4
+55217,Stimulus,presented,4
+55217,Stimulus,presented,2
+55226,Stimulus,presented,22
+55434,Stimulus,presented,4
+55617,Stimulus,presented,4
+55617,Stimulus,presented,2
+55626,Stimulus,presented,19
+55834,Stimulus,presented,4
+56017,Stimulus,presented,4
+56017,Stimulus,presented,2
+56026,Stimulus,presented,22
+56234,Stimulus,presented,4
+56417,Stimulus,presented,4
+56417,Stimulus,presented,2
+56426,Stimulus,presented,19
+56634,Stimulus,presented,4
+56817,Stimulus,presented,4
+56817,Stimulus,presented,2
+56826,Stimulus,presented,22
+57034,Stimulus,presented,4
+57217,Stimulus,presented,4
+57217,Stimulus,presented,2
+57226,Stimulus,presented,19
+57434,Stimulus,presented,4
+57617,Stimulus,presented,4
+57617,Stimulus,presented,2
+57626,Stimulus,presented,22
+57834,Stimulus,presented,4
+58210,Keyboard,received,None,wait_char
+58417,Stimulus,presented,11
+58427,Stimulus,presented,11
+58740,stdout,received,'FROM Response_funcs module::: port3_8'
+58751,Stimulus,presented,33
+58751,Stimulus,played,b'./auditory_feedback/neg1.wav'
+59251,stdout,received,'no response registered'
+59251,stdout,received,'None key detected or wrong key :  None'
+59759,Stimulus,presented,3
+60059,stdout,received,'---------------------------------------'
+60077,Stimulus,presented,4
+60584,Stimulus,presented,4
+60584,Stimulus,presented,2
+60593,Stimulus,presented,20
+60800,Stimulus,presented,4
+60984,Stimulus,presented,4
+60984,Stimulus,presented,2
+60993,Stimulus,presented,21
+61200,Stimulus,presented,4
+61384,Stimulus,presented,4
+61384,Stimulus,presented,2
+61393,Stimulus,presented,20
+61600,Stimulus,presented,4
+61784,Stimulus,presented,4
+61784,Stimulus,presented,2
+61793,Stimulus,presented,21
+62000,Stimulus,presented,4
+62184,Stimulus,presented,4
+62184,Stimulus,presented,2
+62193,Stimulus,presented,20
+62400,Stimulus,presented,4
+62584,Stimulus,presented,4
+62584,Stimulus,presented,2
+62593,Stimulus,presented,21
+62800,Stimulus,presented,4
+62984,Stimulus,presented,4
+62984,Stimulus,presented,2
+62993,Stimulus,presented,20
+63200,Stimulus,presented,4
+63384,Stimulus,presented,4
+63384,Stimulus,presented,2
+63393,Stimulus,presented,21
+63600,Stimulus,presented,4
+63784,Stimulus,presented,4
+63784,Stimulus,presented,2
+63793,Stimulus,presented,20
+64000,Stimulus,presented,4
+64184,Stimulus,presented,4
+64184,Stimulus,presented,2
+64193,Stimulus,presented,21
+64400,Stimulus,presented,4
+64584,Stimulus,presented,4
+64584,Stimulus,presented,2
+64593,Stimulus,presented,20
+64800,Stimulus,presented,4
+64984,Stimulus,presented,4
+64984,Stimulus,presented,2
+64993,Stimulus,presented,21
+65200,Stimulus,presented,4
+65577,Keyboard,received,None,wait_char
+65784,Stimulus,presented,11
+65793,Stimulus,presented,11
+71800,Stimulus,presented,34
+71801,Stimulus,played,b'./auditory_feedback/neg1.wav'
+72301,stdout,received,'no response registered'
+72301,stdout,received,'None key detected or wrong key :  None'
+72809,Stimulus,presented,3
+73109,stdout,received,'---------------------------------------'
+73109,stdout,received,'We are in the resting state break'
+73136,Stimulus,presented,35
+73642,Stimulus,presented,3
+74742,Keyboard,received,None,wait_char
+74750,Stimulus,presented,36
+169011,Keyboard,received,n,wait_char
+169015,Stimulus,presented,37
+169523,Stimulus,presented,4
+170541,Stimulus,presented,4
+171049,Stimulus,presented,4
+171049,Stimulus,presented,2
+171057,Stimulus,presented,20
+171265,Stimulus,presented,4
+171449,Stimulus,presented,4
+171449,Stimulus,presented,2
+171457,Stimulus,presented,21
+171666,Stimulus,presented,4
+171849,Stimulus,presented,4
+171849,Stimulus,presented,2
+171858,Stimulus,presented,18
+172065,Stimulus,presented,4
+172249,Stimulus,presented,4
+172249,Stimulus,presented,2
+172258,Stimulus,presented,20
+172465,Stimulus,presented,4
+172649,Stimulus,presented,4
+172649,Stimulus,presented,2
+172658,Stimulus,presented,21
+172865,Stimulus,presented,4
+173049,Stimulus,presented,4
+173049,Stimulus,presented,2
+173058,Stimulus,presented,18
+173265,Stimulus,presented,4
+173449,Stimulus,presented,4
+173449,Stimulus,presented,2
+173458,Stimulus,presented,20
+173665,Stimulus,presented,4
+173849,Stimulus,presented,4
+173849,Stimulus,presented,2
+173858,Stimulus,presented,21
+174065,Stimulus,presented,4
+174249,Stimulus,presented,4
+174249,Stimulus,presented,2
+174258,Stimulus,presented,18
+174465,Stimulus,presented,4
+174649,Stimulus,presented,4
+174649,Stimulus,presented,2
+174658,Stimulus,presented,20
+174865,Stimulus,presented,4
+175049,Stimulus,presented,4
+175049,Stimulus,presented,2
+175058,Stimulus,presented,21
+175265,Stimulus,presented,4
+175449,Stimulus,presented,4
+175449,Stimulus,presented,2
+175458,Stimulus,presented,18
+175665,Stimulus,presented,4
+176041,Keyboard,received,None,wait_char
+176249,Stimulus,presented,11
+176258,Stimulus,presented,11
+176875,stdout,received,'FROM Response_funcs module::: port2_8'
+176875,stdout,received,'Key =  RY'
+176875,Stimulus,presented,2
+176882,Stimulus,presented,19
+176990,Stimulus,presented,11
+176990,stdout,received,'BUTTON NUMBER 1 PRESSED'
+176990,stdout,received,''
+177002,Stimulus,presented,11
+177010,stdout,received,'FROM Response_funcs module::: port2_8'
+177010,stdout,received,'Key =  RY'
+177010,Stimulus,presented,2
+177020,Stimulus,presented,19
+177124,Stimulus,presented,11
+177124,stdout,received,'BUTTON NUMBER 1 PRESSED'
+177124,stdout,received,''
+177135,Stimulus,presented,11
+177146,stdout,received,'FROM Response_funcs module::: port2_8'
+177146,stdout,received,'Key =  RY'
+177146,Stimulus,presented,2
+177153,Stimulus,presented,19
+177256,Stimulus,presented,11
+177256,stdout,received,'BUTTON NUMBER 1 PRESSED'
+177256,stdout,received,''
+177265,Stimulus,presented,11
+177307,stdout,received,'FROM Response_funcs module::: port2_8'
+177307,stdout,received,'Key =  RY'
+177307,Stimulus,presented,2
+177315,Stimulus,presented,19
+177423,Stimulus,presented,11
+177423,stdout,received,'BUTTON NUMBER 1 PRESSED'
+177423,stdout,received,''
+177431,Stimulus,presented,11
+177513,stdout,received,'FROM Response_funcs module::: port2_8'
+177513,stdout,received,'Key =  RY'
+177513,Stimulus,presented,2
+177515,Stimulus,presented,19
+177623,Stimulus,presented,11
+177623,stdout,received,'BUTTON NUMBER 1 PRESSED'
+177623,stdout,received,''
+177631,Stimulus,presented,11
+177693,stdout,received,'FROM Response_funcs module::: port2_8'
+177693,stdout,received,'Key =  RY'
+177693,Stimulus,presented,2
+177698,Stimulus,presented,19
+177806,Stimulus,presented,11
+177806,stdout,received,'BUTTON NUMBER 1 PRESSED'
+177806,stdout,received,''
+177815,Stimulus,presented,11
+177869,stdout,received,'FROM Response_funcs module::: port2_8'
+177869,stdout,received,'Key =  RY'
+177869,Stimulus,presented,2
+177873,Stimulus,presented,19
+177981,Stimulus,presented,11
+177981,stdout,received,'BUTTON NUMBER 1 PRESSED'
+177981,stdout,received,''
+177990,Stimulus,presented,11
+178053,stdout,received,'FROM Response_funcs module::: port2_8'
+178053,stdout,received,'Key =  RY'
+178053,Stimulus,presented,2
+178056,Stimulus,presented,19
+178156,Stimulus,presented,11
+178156,stdout,received,'BUTTON NUMBER 1 PRESSED'
+178156,stdout,received,''
+178165,Stimulus,presented,11
+178228,stdout,received,'FROM Response_funcs module::: port2_8'
+178228,stdout,received,'Key =  RY'
+178228,Stimulus,presented,2
+178231,Stimulus,presented,19
+178331,Stimulus,presented,11
+178331,stdout,received,'BUTTON NUMBER 1 PRESSED'
+178331,stdout,received,''
+178340,Stimulus,presented,11
+178415,stdout,received,'FROM Response_funcs module::: port2_8'
+178415,stdout,received,'Key =  RY'
+178415,Stimulus,presented,2
+178423,Stimulus,presented,19
+178531,Stimulus,presented,11
+178531,stdout,received,'BUTTON NUMBER 1 PRESSED'
+178531,stdout,received,''
+178540,Stimulus,presented,11
+178602,stdout,received,'FROM Response_funcs module::: port2_8'
+178602,stdout,received,'Key =  RY'
+178602,Stimulus,presented,2
+178606,Stimulus,presented,19
+178706,Stimulus,presented,11
+178706,stdout,received,'BUTTON NUMBER 1 PRESSED'
+178706,stdout,received,''
+178715,Stimulus,presented,11
+178782,stdout,received,'FROM Response_funcs module::: port2_8'
+178782,stdout,received,'Key =  RY'
+178782,Stimulus,presented,2
+178790,Stimulus,presented,19
+178898,Stimulus,presented,11
+178898,stdout,received,'BUTTON NUMBER 1 PRESSED'
+178898,stdout,received,''
+179098,Stimulus,played,b'./auditory_feedback/neg1.wav'
+179107,Stimulus,presented,38
+179615,Stimulus,presented,3
+179915,stdout,received,'---------------------------------------'
+179935,Stimulus,presented,4
+180440,Stimulus,presented,4
+180440,Stimulus,presented,2
+180451,Stimulus,presented,19
+180657,Stimulus,presented,4
+180840,Stimulus,presented,4
+180841,Stimulus,presented,2
+180849,Stimulus,presented,21
+181057,Stimulus,presented,4
+181240,Stimulus,presented,4
+181241,Stimulus,presented,2
+181249,Stimulus,presented,20
+181457,Stimulus,presented,4
+181640,Stimulus,presented,4
+181640,Stimulus,presented,2
+181649,Stimulus,presented,19
+181857,Stimulus,presented,4
+182040,Stimulus,presented,4
+182040,Stimulus,presented,2
+182049,Stimulus,presented,21
+182257,Stimulus,presented,4
+182440,Stimulus,presented,4
+182440,Stimulus,presented,2
+182449,Stimulus,presented,20
+182657,Stimulus,presented,4
+182840,Stimulus,presented,4
+182840,Stimulus,presented,2
+182850,Stimulus,presented,19
+183057,Stimulus,presented,4
+183240,Stimulus,presented,4
+183240,Stimulus,presented,2
+183250,Stimulus,presented,21
+183457,Stimulus,presented,4
+183644,Stimulus,presented,4
+183644,Stimulus,presented,2
+183652,Stimulus,presented,20
+183857,Stimulus,presented,4
+184040,Stimulus,presented,4
+184040,Stimulus,presented,2
+184049,Stimulus,presented,19
+184260,Stimulus,presented,4
+184443,Stimulus,presented,4
+184443,Stimulus,presented,2
+184453,Stimulus,presented,21
+184657,Stimulus,presented,4
+184840,Stimulus,presented,4
+184840,Stimulus,presented,2
+184848,Stimulus,presented,20
+185056,Stimulus,presented,4
+185435,Keyboard,received,None,wait_char
+185640,Stimulus,presented,11
+185648,Stimulus,presented,11
+191657,Stimulus,presented,39
+191657,Stimulus,played,b'./auditory_feedback/neg1.wav'
+192157,stdout,received,'no response registered'
+192157,stdout,received,'None key detected or wrong key :  None'
+192665,Stimulus,presented,3
+192965,stdout,received,'---------------------------------------'
+192965,stdout,received,'We are in the resting state break'
+192982,Stimulus,presented,40
+193491,Stimulus,presented,3
+194591,Keyboard,received,None,wait_char
+194598,Stimulus,presented,41
+201259,Keyboard,received,n,wait_char
+201265,Stimulus,presented,42
+201773,Stimulus,presented,4
+202791,Stimulus,presented,4
+203298,Stimulus,presented,4
+203298,Stimulus,presented,2
+203307,Stimulus,presented,18
+203515,Stimulus,presented,4
+203698,Stimulus,presented,4
+203698,Stimulus,presented,2
+203707,Stimulus,presented,19
+203915,Stimulus,presented,4
+204098,Stimulus,presented,4
+204098,Stimulus,presented,2
+204107,Stimulus,presented,23
+204315,Stimulus,presented,4
+204498,Stimulus,presented,4
+204498,Stimulus,presented,2
+204507,Stimulus,presented,18
+204715,Stimulus,presented,4
+204898,Stimulus,presented,4
+204898,Stimulus,presented,2
+204907,Stimulus,presented,19
+205115,Stimulus,presented,4
+205298,Stimulus,presented,4
+205298,Stimulus,presented,2
+205307,Stimulus,presented,23
+205515,Stimulus,presented,4
+205698,Stimulus,presented,4
+205698,Stimulus,presented,2
+205707,Stimulus,presented,18
+205915,Stimulus,presented,4
+206098,Stimulus,presented,4
+206098,Stimulus,presented,2
+206107,Stimulus,presented,19
+206315,Stimulus,presented,4
+206498,Stimulus,presented,4
+206499,Stimulus,presented,2
+206507,Stimulus,presented,23
+206715,Stimulus,presented,4
+206898,Stimulus,presented,4
+206898,Stimulus,presented,2
+206907,Stimulus,presented,18
+207115,Stimulus,presented,4
+207298,Stimulus,presented,4
+207298,Stimulus,presented,2
+207307,Stimulus,presented,19
+207515,Stimulus,presented,4
+207698,Stimulus,presented,4
+207698,Stimulus,presented,2
+207707,Stimulus,presented,23
+207915,Stimulus,presented,4
+208291,Keyboard,received,None,wait_char
+208498,Stimulus,presented,11
+208508,Stimulus,presented,11
+208527,stdout,received,'FROM Response_funcs module::: port2_4'
+208527,stdout,received,'Key =  RG'
+208528,Stimulus,presented,2
+208532,Stimulus,presented,20
+208640,Stimulus,presented,11
+208640,stdout,received,'BUTTON NUMBER 2 PRESSED'
+208640,stdout,received,''
+208651,Stimulus,presented,11
+208689,stdout,received,'FROM Response_funcs module::: port2_4'
+208689,stdout,received,'Key =  RG'
+208689,Stimulus,presented,2
+208703,Stimulus,presented,20
+208806,Stimulus,presented,11
+208806,stdout,received,'BUTTON NUMBER 2 PRESSED'
+208806,stdout,received,''
+208814,Stimulus,presented,11
+208846,stdout,received,'FROM Response_funcs module::: port2_4'
+208846,stdout,received,'Key =  RG'
+208846,Stimulus,presented,2
+208848,Stimulus,presented,20
+208956,Stimulus,presented,11
+208956,stdout,received,'BUTTON NUMBER 2 PRESSED'
+208956,stdout,received,''
+208964,Stimulus,presented,11
+209011,stdout,received,'FROM Response_funcs module::: port2_4'
+209011,stdout,received,'Key =  RG'
+209011,Stimulus,presented,2
+209014,Stimulus,presented,20
+209123,Stimulus,presented,11
+209123,stdout,received,'BUTTON NUMBER 2 PRESSED'
+209123,stdout,received,''
+209131,Stimulus,presented,11
+209152,stdout,received,'FROM Response_funcs module::: port2_4'
+209152,stdout,received,'Key =  RG'
+209152,Stimulus,presented,2
+209156,Stimulus,presented,20
+209264,Stimulus,presented,11
+209264,stdout,received,'BUTTON NUMBER 2 PRESSED'
+209264,stdout,received,''
+209273,Stimulus,presented,11
+209298,stdout,received,'FROM Response_funcs module::: port2_4'
+209298,stdout,received,'Key =  RG'
+209298,Stimulus,presented,2
+209306,Stimulus,presented,20
+209414,Stimulus,presented,11
+209414,stdout,received,'BUTTON NUMBER 2 PRESSED'
+209414,stdout,received,''
+209423,Stimulus,presented,11
+209445,stdout,received,'FROM Response_funcs module::: port2_4'
+209445,stdout,received,'Key =  RG'
+209445,Stimulus,presented,2
+209448,Stimulus,presented,20
+209556,Stimulus,presented,11
+209556,stdout,received,'BUTTON NUMBER 2 PRESSED'
+209556,stdout,received,''
+209564,Stimulus,presented,11
+209584,stdout,received,'FROM Response_funcs module::: port2_4'
+209584,stdout,received,'Key =  RG'
+209584,Stimulus,presented,2
+209590,Stimulus,presented,20
+209698,Stimulus,presented,11
+209698,stdout,received,'BUTTON NUMBER 2 PRESSED'
+209698,stdout,received,''
+209706,Stimulus,presented,11
+209737,stdout,received,'FROM Response_funcs module::: port2_4'
+209737,stdout,received,'Key =  RG'
+209737,Stimulus,presented,2
+209740,Stimulus,presented,20
+209848,Stimulus,presented,11
+209848,stdout,received,'BUTTON NUMBER 2 PRESSED'
+209848,stdout,received,''
+209856,Stimulus,presented,11
+209915,stdout,received,'FROM Response_funcs module::: port2_4'
+209915,stdout,received,'Key =  RG'
+209915,Stimulus,presented,2
+209923,Stimulus,presented,20
+210031,Stimulus,presented,11
+210031,stdout,received,'BUTTON NUMBER 2 PRESSED'
+210031,stdout,received,''
+210039,Stimulus,presented,11
+210087,stdout,received,'FROM Response_funcs module::: port2_4'
+210087,stdout,received,'Key =  RG'
+210087,Stimulus,presented,2
+210089,Stimulus,presented,20
+210198,Stimulus,presented,11
+210198,stdout,received,'BUTTON NUMBER 2 PRESSED'
+210198,stdout,received,''
+210206,Stimulus,presented,11
+210249,stdout,received,'FROM Response_funcs module::: port2_4'
+210249,stdout,received,'Key =  RG'
+210249,Stimulus,presented,2
+210256,Stimulus,presented,20
+210364,Stimulus,presented,11
+210364,stdout,received,'BUTTON NUMBER 2 PRESSED'
+210364,stdout,received,''
+210565,Stimulus,played,b'./auditory_feedback/neg1.wav'
+210572,Stimulus,presented,43
+211081,Stimulus,presented,3
+211381,stdout,received,'---------------------------------------'
+211398,Stimulus,presented,4
+211906,Stimulus,presented,4
+211907,Stimulus,presented,2
+211915,Stimulus,presented,20
+212123,Stimulus,presented,4
+212306,Stimulus,presented,4
+212307,Stimulus,presented,2
+212316,Stimulus,presented,18
+212523,Stimulus,presented,4
+212706,Stimulus,presented,4
+212707,Stimulus,presented,2
+212716,Stimulus,presented,22
+212923,Stimulus,presented,4
+213106,Stimulus,presented,4
+213107,Stimulus,presented,2
+213116,Stimulus,presented,20
+213323,Stimulus,presented,4
+213507,Stimulus,presented,4
+213507,Stimulus,presented,2
+213516,Stimulus,presented,18
+213723,Stimulus,presented,4
+213906,Stimulus,presented,4
+213907,Stimulus,presented,2
+213916,Stimulus,presented,22
+214123,Stimulus,presented,4
+214307,Stimulus,presented,4
+214307,Stimulus,presented,2
+214316,Stimulus,presented,20
+214523,Stimulus,presented,4
+214709,Stimulus,presented,4
+214710,Stimulus,presented,2
+214717,Stimulus,presented,18
+214923,Stimulus,presented,4
+215106,Stimulus,presented,4
+215106,Stimulus,presented,2
+215114,Stimulus,presented,22
+215323,Stimulus,presented,4
+215506,Stimulus,presented,4
+215506,Stimulus,presented,2
+215514,Stimulus,presented,20
+215722,Stimulus,presented,4
+215906,Stimulus,presented,4
+215906,Stimulus,presented,2
+215914,Stimulus,presented,18
+216114,Stimulus,presented,4
+216306,Stimulus,presented,4
+216306,Stimulus,presented,2
+216314,Stimulus,presented,22
+216522,Stimulus,presented,4
+216898,Keyboard,received,None,wait_char
+217110,Stimulus,presented,11
+217118,Stimulus,presented,11
+223132,Stimulus,presented,44
+223132,Stimulus,played,b'./auditory_feedback/neg1.wav'
+223632,stdout,received,'no response registered'
+223632,stdout,received,'None key detected or wrong key :  None'
+224143,Stimulus,presented,3
+224443,stdout,received,'---------------------------------------'
+224443,stdout,received,'We are in the resting state break'
+224456,Stimulus,presented,45
+224964,Stimulus,presented,3
+226064,Keyboard,received,None,wait_char
+226073,Stimulus,presented,46
+232587,Keyboard,received,n,wait_char
+232598,Stimulus,presented,47
+233106,Stimulus,presented,4
+234123,Stimulus,presented,4
+234631,Stimulus,presented,4
+234631,Stimulus,presented,2
+234639,Stimulus,presented,20
+234848,Stimulus,presented,4
+235031,Stimulus,presented,4
+235031,Stimulus,presented,2
+235039,Stimulus,presented,21
+235248,Stimulus,presented,4
+235431,Stimulus,presented,4
+235431,Stimulus,presented,2
+235439,Stimulus,presented,21
+235648,Stimulus,presented,4
+235831,Stimulus,presented,4
+235831,Stimulus,presented,2
+235839,Stimulus,presented,21
+236048,Stimulus,presented,4
+236235,Stimulus,presented,4
+236235,Stimulus,presented,2
+236255,Stimulus,presented,21
+236456,Stimulus,presented,4
+236631,Stimulus,presented,4
+236631,Stimulus,presented,2
+236639,Stimulus,presented,20
+236847,Stimulus,presented,4
+237031,Stimulus,presented,4
+237031,Stimulus,presented,2
+237039,Stimulus,presented,20
+237247,Stimulus,presented,4
+237431,Stimulus,presented,4
+237431,Stimulus,presented,2
+237439,Stimulus,presented,21
+237649,Stimulus,presented,4
+237831,Stimulus,presented,4
+237831,Stimulus,presented,2
+237839,Stimulus,presented,20
+238048,Stimulus,presented,4
+238231,Stimulus,presented,4
+238231,Stimulus,presented,2
+238239,Stimulus,presented,20
+238448,Stimulus,presented,4
+238631,Stimulus,presented,4
+238631,Stimulus,presented,2
+238640,Stimulus,presented,20
+238847,Stimulus,presented,4
+239031,Stimulus,presented,4
+239031,Stimulus,presented,2
+239040,Stimulus,presented,21
+239247,Stimulus,presented,4
+239623,Keyboard,received,None,wait_char
+239831,Stimulus,presented,11
+239839,Stimulus,presented,11
+241382,stdout,received,'FROM Response_funcs module::: port2_2'
+241382,stdout,received,'Key =  RR'
+241382,Stimulus,presented,2
+241389,Stimulus,presented,21
+241497,Stimulus,presented,11
+241498,stdout,received,'BUTTON NUMBER 3 PRESSED'
+241498,stdout,received,''
+241508,Stimulus,presented,11
+241536,stdout,received,'FROM Response_funcs module::: port2_2'
+241536,stdout,received,'Key =  RR'
+241537,Stimulus,presented,2
+241542,Stimulus,presented,21
+241647,Stimulus,presented,11
+241648,stdout,received,'BUTTON NUMBER 3 PRESSED'
+241648,stdout,received,''
+241658,Stimulus,presented,11
+241672,stdout,received,'FROM Response_funcs module::: port2_2'
+241672,stdout,received,'Key =  RR'
+241672,Stimulus,presented,2
+241683,Stimulus,presented,21
+241789,Stimulus,presented,11
+241789,stdout,received,'BUTTON NUMBER 3 PRESSED'
+241789,stdout,received,''
+241799,Stimulus,presented,11
+241821,stdout,received,'FROM Response_funcs module::: port2_2'
+241821,stdout,received,'Key =  RR'
+241821,Stimulus,presented,2
+241825,Stimulus,presented,21
+241931,Stimulus,presented,11
+241931,stdout,received,'BUTTON NUMBER 3 PRESSED'
+241931,stdout,received,''
+241939,Stimulus,presented,11
+241959,stdout,received,'FROM Response_funcs module::: port2_2'
+241959,stdout,received,'Key =  RR'
+241959,Stimulus,presented,2
+241965,Stimulus,presented,21
+242072,Stimulus,presented,11
+242072,stdout,received,'BUTTON NUMBER 3 PRESSED'
+242072,stdout,received,''
+242081,Stimulus,presented,11
+242117,stdout,received,'FROM Response_funcs module::: port2_2'
+242117,stdout,received,'Key =  RR'
+242117,Stimulus,presented,2
+242125,Stimulus,presented,21
+242231,Stimulus,presented,11
+242231,stdout,received,'BUTTON NUMBER 3 PRESSED'
+242231,stdout,received,''
+242240,Stimulus,presented,11
+242260,stdout,received,'FROM Response_funcs module::: port2_2'
+242260,stdout,received,'Key =  RR'
+242261,Stimulus,presented,2
+242265,Stimulus,presented,21
+242372,Stimulus,presented,11
+242372,stdout,received,'BUTTON NUMBER 3 PRESSED'
+242372,stdout,received,''
+242381,Stimulus,presented,11
+242421,stdout,received,'FROM Response_funcs module::: port2_2'
+242421,stdout,received,'Key =  RR'
+242421,Stimulus,presented,2
+242425,Stimulus,presented,21
+242531,Stimulus,presented,11
+242531,stdout,received,'BUTTON NUMBER 3 PRESSED'
+242531,stdout,received,''
+242540,Stimulus,presented,11
+242567,stdout,received,'FROM Response_funcs module::: port2_2'
+242567,stdout,received,'Key =  RR'
+242567,Stimulus,presented,2
+242573,Stimulus,presented,21
+242681,Stimulus,presented,11
+242681,stdout,received,'BUTTON NUMBER 3 PRESSED'
+242681,stdout,received,''
+242690,Stimulus,presented,11
+242692,stdout,received,'FROM Response_funcs module::: port2_2'
+242692,stdout,received,'Key =  RR'
+242692,Stimulus,presented,2
+242699,Stimulus,presented,21
+242806,Stimulus,presented,11
+242806,stdout,received,'BUTTON NUMBER 3 PRESSED'
+242806,stdout,received,''
+242815,Stimulus,presented,11
+242815,stdout,received,'FROM Response_funcs module::: port2_2'
+242815,stdout,received,'Key =  RR'
+242816,Stimulus,presented,2
+242824,Stimulus,presented,21
+242931,Stimulus,presented,11
+242931,stdout,received,'BUTTON NUMBER 3 PRESSED'
+242931,stdout,received,''
+242940,Stimulus,presented,11
+242962,stdout,received,'FROM Response_funcs module::: port2_2'
+242962,stdout,received,'Key =  RR'
+242962,Stimulus,presented,2
+242966,Stimulus,presented,21
+243072,Stimulus,presented,11
+243072,stdout,received,'BUTTON NUMBER 3 PRESSED'
+243072,stdout,received,''
+243272,Stimulus,played,b'./auditory_feedback/neg1.wav'
+243281,Stimulus,presented,48
+243789,Stimulus,presented,3
+244089,stdout,received,'---------------------------------------'
+244108,Stimulus,presented,4
+244614,Stimulus,presented,4
+244614,Stimulus,presented,2
+244625,Stimulus,presented,19
+244831,Stimulus,presented,4
+245014,Stimulus,presented,4
+245014,Stimulus,presented,2
+245023,Stimulus,presented,20
+245231,Stimulus,presented,4
+245414,Stimulus,presented,4
+245414,Stimulus,presented,2
+245423,Stimulus,presented,20
+245631,Stimulus,presented,4
+245814,Stimulus,presented,4
+245814,Stimulus,presented,2
+245823,Stimulus,presented,20
+246031,Stimulus,presented,4
+246214,Stimulus,presented,4
+246214,Stimulus,presented,2
+246223,Stimulus,presented,20
+246431,Stimulus,presented,4
+246614,Stimulus,presented,4
+246614,Stimulus,presented,2
+246623,Stimulus,presented,19
+246831,Stimulus,presented,4
+247014,Stimulus,presented,4
+247014,Stimulus,presented,2
+247022,Stimulus,presented,19
+247231,Stimulus,presented,4
+247422,Stimulus,presented,4
+247422,Stimulus,presented,2
+247430,Stimulus,presented,20
+247638,Stimulus,presented,4
+247813,Stimulus,presented,4
+247814,Stimulus,presented,2
+247822,Stimulus,presented,19
+248030,Stimulus,presented,4
+248214,Stimulus,presented,4
+248214,Stimulus,presented,2
+248222,Stimulus,presented,19
+248430,Stimulus,presented,4
+248613,Stimulus,presented,4
+248614,Stimulus,presented,2
+248622,Stimulus,presented,19
+248831,Stimulus,presented,4
+249014,Stimulus,presented,4
+249014,Stimulus,presented,2
+249022,Stimulus,presented,20
+249231,Stimulus,presented,4
+249608,Keyboard,received,None,wait_char
+249814,Stimulus,presented,11
+249822,Stimulus,presented,11
+255831,Stimulus,presented,49
+255831,Stimulus,played,b'./auditory_feedback/neg1.wav'
+256331,stdout,received,'no response registered'
+256331,stdout,received,'None key detected or wrong key :  None'
+256839,Stimulus,presented,3
+257139,stdout,received,'---------------------------------------'
+257139,stdout,received,'We are in the resting state break'
+257164,Stimulus,presented,50
+257672,Stimulus,presented,3
+258772,Keyboard,received,None,wait_char
+258781,Stimulus,presented,51
+263563,Keyboard,received,n,wait_char
+263572,Stimulus,presented,52
+264080,Stimulus,presented,4
+265098,Stimulus,presented,4
+265605,Stimulus,presented,4
+265606,Stimulus,presented,2
+265615,Stimulus,presented,22
+265822,Stimulus,presented,4
+266005,Stimulus,presented,4
+266006,Stimulus,presented,2
+266015,Stimulus,presented,20
+266222,Stimulus,presented,4
+266405,Stimulus,presented,4
+266406,Stimulus,presented,2
+266415,Stimulus,presented,20
+266622,Stimulus,presented,4
+266805,Stimulus,presented,4
+266806,Stimulus,presented,2
+266815,Stimulus,presented,20
+267022,Stimulus,presented,4
+267205,Stimulus,presented,4
+267206,Stimulus,presented,2
+267215,Stimulus,presented,20
+267422,Stimulus,presented,4
+267605,Stimulus,presented,4
+267606,Stimulus,presented,2
+267615,Stimulus,presented,22
+267822,Stimulus,presented,4
+268005,Stimulus,presented,4
+268006,Stimulus,presented,2
+268015,Stimulus,presented,22
+268222,Stimulus,presented,4
+268405,Stimulus,presented,4
+268406,Stimulus,presented,2
+268415,Stimulus,presented,20
+268622,Stimulus,presented,4
+268805,Stimulus,presented,4
+268806,Stimulus,presented,2
+268815,Stimulus,presented,22
+269022,Stimulus,presented,4
+269205,Stimulus,presented,4
+269206,Stimulus,presented,2
+269215,Stimulus,presented,22
+269422,Stimulus,presented,4
+269605,Stimulus,presented,4
+269606,Stimulus,presented,2
+269615,Stimulus,presented,22
+269822,Stimulus,presented,4
+270006,Stimulus,presented,4
+270006,Stimulus,presented,2
+270015,Stimulus,presented,20
+270222,Stimulus,presented,4
+270598,Keyboard,received,None,wait_char
+270805,Stimulus,presented,11
+270815,Stimulus,presented,11
+271246,stdout,received,'FROM Response_funcs module::: port1_2'
+271246,stdout,received,'Key =  LY'
+271246,Stimulus,presented,2
+271255,Stimulus,presented,18
+271364,Stimulus,presented,11
+271364,stdout,received,'BUTTON NUMBER 0 PRESSED'
+271364,stdout,received,''
+271373,Stimulus,presented,11
+271380,stdout,received,'FROM Response_funcs module::: port1_2'
+271380,stdout,received,'Key =  LY'
+271380,Stimulus,presented,2
+271393,Stimulus,presented,18
+271497,Stimulus,presented,11
+271497,stdout,received,'BUTTON NUMBER 0 PRESSED'
+271497,stdout,received,''
+271507,Stimulus,presented,11
+271564,stdout,received,'FROM Response_funcs module::: port1_2'
+271564,stdout,received,'Key =  LY'
+271564,Stimulus,presented,2
+271573,Stimulus,presented,18
+271680,Stimulus,presented,11
+271680,stdout,received,'BUTTON NUMBER 0 PRESSED'
+271680,stdout,received,''
+271690,Stimulus,presented,11
+271704,stdout,received,'FROM Response_funcs module::: port1_2'
+271704,stdout,received,'Key =  LY'
+271704,Stimulus,presented,2
+271714,Stimulus,presented,18
+271822,Stimulus,presented,11
+271822,stdout,received,'BUTTON NUMBER 0 PRESSED'
+271822,stdout,received,''
+271831,Stimulus,presented,11
+271836,stdout,received,'FROM Response_funcs module::: port1_2'
+271837,stdout,received,'Key =  LY'
+271837,Stimulus,presented,2
+271842,Stimulus,presented,18
+271947,Stimulus,presented,11
+271947,stdout,received,'BUTTON NUMBER 0 PRESSED'
+271947,stdout,received,''
+271957,Stimulus,presented,11
+271988,stdout,received,'FROM Response_funcs module::: port1_2'
+271988,stdout,received,'Key =  LY'
+271988,Stimulus,presented,2
+272000,Stimulus,presented,18
+272105,Stimulus,presented,11
+272105,stdout,received,'BUTTON NUMBER 0 PRESSED'
+272105,stdout,received,''
+272114,Stimulus,presented,11
+272191,stdout,received,'FROM Response_funcs module::: port1_2'
+272191,stdout,received,'Key =  LY'
+272191,Stimulus,presented,2
+272197,Stimulus,presented,18
+272305,Stimulus,presented,11
+272305,stdout,received,'BUTTON NUMBER 0 PRESSED'
+272305,stdout,received,''
+272314,Stimulus,presented,11
+272386,stdout,received,'FROM Response_funcs module::: port1_2'
+272386,stdout,received,'Key =  LY'
+272386,Stimulus,presented,2
+272389,Stimulus,presented,18
+272497,Stimulus,presented,11
+272497,stdout,received,'BUTTON NUMBER 0 PRESSED'
+272497,stdout,received,''
+272505,Stimulus,presented,11
+272566,stdout,received,'FROM Response_funcs module::: port1_2'
+272566,stdout,received,'Key =  LY'
+272567,Stimulus,presented,2
+272572,Stimulus,presented,18
+272680,Stimulus,presented,11
+272680,stdout,received,'BUTTON NUMBER 0 PRESSED'
+272680,stdout,received,''
+272691,Stimulus,presented,11
+272756,stdout,received,'FROM Response_funcs module::: port1_2'
+272756,stdout,received,'Key =  LY'
+272756,Stimulus,presented,2
+272764,Stimulus,presented,18
+272872,Stimulus,presented,11
+272872,stdout,received,'BUTTON NUMBER 0 PRESSED'
+272872,stdout,received,''
+272880,Stimulus,presented,11
+272947,stdout,received,'FROM Response_funcs module::: port1_2'
+272947,stdout,received,'Key =  LY'
+272948,Stimulus,presented,2
+272955,Stimulus,presented,18
+273063,Stimulus,presented,11
+273064,stdout,received,'BUTTON NUMBER 0 PRESSED'
+273064,stdout,received,''
+273072,Stimulus,presented,11
+273075,stdout,received,'FROM Response_funcs module::: port1_2'
+273075,stdout,received,'Key =  LY'
+273075,Stimulus,presented,2
+273080,Stimulus,presented,18
+273188,Stimulus,presented,11
+273188,stdout,received,'BUTTON NUMBER 0 PRESSED'
+273189,stdout,received,''
+273389,Stimulus,played,b'./auditory_feedback/neg1.wav'
+273397,Stimulus,presented,53
+273905,Stimulus,presented,3
+274205,stdout,received,'---------------------------------------'
+274223,Stimulus,presented,4
+274730,Stimulus,presented,4
+274730,Stimulus,presented,2
+274740,Stimulus,presented,20
+274947,Stimulus,presented,4
+275130,Stimulus,presented,4
+275130,Stimulus,presented,2
+275139,Stimulus,presented,18
+275347,Stimulus,presented,4
+275530,Stimulus,presented,4
+275530,Stimulus,presented,2
+275540,Stimulus,presented,18
+275747,Stimulus,presented,4
+275930,Stimulus,presented,4
+275930,Stimulus,presented,2
+275939,Stimulus,presented,18
+276147,Stimulus,presented,4
+276330,Stimulus,presented,4
+276330,Stimulus,presented,2
+276339,Stimulus,presented,18
+276547,Stimulus,presented,4
+276730,Stimulus,presented,4
+276730,Stimulus,presented,2
+276740,Stimulus,presented,20
+276947,Stimulus,presented,4
+277130,Stimulus,presented,4
+277131,Stimulus,presented,2
+277140,Stimulus,presented,20
+277347,Stimulus,presented,4
+277530,Stimulus,presented,4
+277530,Stimulus,presented,2
+277539,Stimulus,presented,18
+277747,Stimulus,presented,4
+277930,Stimulus,presented,4
+277930,Stimulus,presented,2
+277939,Stimulus,presented,20
+278147,Stimulus,presented,4
+278330,Stimulus,presented,4
+278330,Stimulus,presented,2
+278339,Stimulus,presented,20
+278547,Stimulus,presented,4
+278730,Stimulus,presented,4
+278730,Stimulus,presented,2
+278739,Stimulus,presented,20
+278947,Stimulus,presented,4
+279130,Stimulus,presented,4
+279130,Stimulus,presented,2
+279139,Stimulus,presented,18
+279347,Stimulus,presented,4
+279723,Keyboard,received,None,wait_char
+279930,Stimulus,presented,11
+279938,Stimulus,presented,11
+285947,Stimulus,presented,54
+285947,Stimulus,played,b'./auditory_feedback/neg1.wav'
+286447,stdout,received,'no response registered'
+286447,stdout,received,'None key detected or wrong key :  None'
+286955,Stimulus,presented,3
+287255,stdout,received,'---------------------------------------'
+287255,stdout,received,'We are in the resting state break'
+287272,Stimulus,presented,55
+287780,Stimulus,presented,3
+288880,Keyboard,received,None,wait_char
+288888,Stimulus,presented,56
+311035,Keyboard,received,n,wait_char
+311046,Stimulus,presented,57
+311555,Stimulus,presented,4
+313055,stdout,received,'END OF EXPERIMENT -- Congratulations. Remember to let out your participant !'
+313055,Experiment,ended
+313056,Data,saved
+313415,Stimulus,presented,58

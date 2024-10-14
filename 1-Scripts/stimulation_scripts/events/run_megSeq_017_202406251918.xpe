@@ -1,0 +1,121 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 19:18:08
+#sha1: 1595f8
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-107-generic', version='#117~20.04.1-Ubuntu SMP Tue Apr 30 10:35:57 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+11152,design,log,
+#design: #exp: MegSeq
+#design: #dvn: SequenceID,PresentedPositions,Mapping,MappingResponse,ProducedSequence,RTs,Score
+#design: block_cnt,block_id,trial_cnt,trial_id
+11152,design,logged,
+11152,Experiment,started
+11212,Stimulus,presented,0
+11736,Keyboard,received,13,wait
+11736,stdout,received,'Running trial number 0'
+11736,stdout,received,''
+11754,Stimulus,presented,4
+12254,stdout,received,'PRESENTING SEQUENCE'
+12255,stdout,received,'--- Presenting: stim 0 : <expyriment.stimuli._circle.Circle object at 0x7f5befabdbe0>'
+12262,Stimulus,presented,4
+12270,Stimulus,presented,23
+12478,Stimulus,presented,4
+12479,stdout,received,'207.95869827270508'
+12667,stdout,received,'------------- SOA measure -------------'
+12667,stdout,received,'411.7746353149414'
+12667,stdout,received,'------------- SOA measure -------------'
+12667,stdout,received,'--- Presenting: stim 1 : <expyriment.stimuli._circle.Circle object at 0x7f5befabd6d0>'
+12670,Stimulus,presented,4
+12678,Stimulus,presented,18
+12887,Stimulus,presented,4
+12888,stdout,received,'208.23001861572266'
+13075,stdout,received,'------------- SOA measure -------------'
+13075,stdout,received,'407.9756736755371'
+13075,stdout,received,'------------- SOA measure -------------'
+13075,stdout,received,'--- Presenting: stim 2 : <expyriment.stimuli._circle.Circle object at 0x7f5befabdbb0>'
+13079,Stimulus,presented,4
+13087,Stimulus,presented,22
+13295,Stimulus,presented,4
+13296,stdout,received,'208.28485488891602'
+13483,stdout,received,'------------- SOA measure -------------'
+13483,stdout,received,'407.96422958374023'
+13483,stdout,received,'------------- SOA measure -------------'
+13483,stdout,received,'--- Presenting: stim 3 : <expyriment.stimuli._circle.Circle object at 0x7f5befabd5e0>'
+13487,Stimulus,presented,4
+13495,Stimulus,presented,19
+13703,Stimulus,presented,4
+13703,stdout,received,'208.33778381347656'
+13890,stdout,received,'------------- SOA measure -------------'
+13890,stdout,received,'406.97693824768066'
+13890,stdout,received,'------------- SOA measure -------------'
+13890,stdout,received,'--- Presenting: stim 4 : <expyriment.stimuli._circle.Circle object at 0x7f5befabdbb0>'
+13895,Stimulus,presented,4
+13904,Stimulus,presented,22
+14112,Stimulus,presented,4
+14112,stdout,received,'208.00137519836426'
+14299,stdout,received,'------------- SOA measure -------------'
+14299,stdout,received,'408.97512435913086'
+14299,stdout,received,'------------- SOA measure -------------'
+14299,stdout,received,'--- Presenting: stim 5 : <expyriment.stimuli._circle.Circle object at 0x7f5befabd6d0>'
+14303,Stimulus,presented,4
+14312,Stimulus,presented,18
+14520,Stimulus,presented,4
+14520,stdout,received,'207.6866626739502'
+14708,stdout,received,'------------- SOA measure -------------'
+14708,stdout,received,'408.9837074279785'
+14708,stdout,received,'------------- SOA measure -------------'
+14708,stdout,received,'--- Presenting: stim 6 : <expyriment.stimuli._circle.Circle object at 0x7f5befabd5e0>'
+14712,Stimulus,presented,4
+14720,Stimulus,presented,19
+14928,Stimulus,presented,4
+14928,stdout,received,'208.33325386047363'
+15115,stdout,received,'------------- SOA measure -------------'
+15115,stdout,received,'406.9633483886719'
+15115,stdout,received,'------------- SOA measure -------------'
+15115,stdout,received,'--- Presenting: stim 7 : <expyriment.stimuli._circle.Circle object at 0x7f5befabdbe0>'
+15120,Stimulus,presented,4
+15129,Stimulus,presented,23
+15337,Stimulus,presented,4
+15337,stdout,received,'207.9920768737793'
+15525,stdout,received,'------------- SOA measure -------------'
+15525,stdout,received,'409.9853038787842'
+15525,stdout,received,'------------- SOA measure -------------'
+15525,stdout,received,'--- Presenting: stim 8 : <expyriment.stimuli._circle.Circle object at 0x7f5befabdbe0>'
+15528,Stimulus,presented,4
+15537,Stimulus,presented,23
+15745,Stimulus,presented,4
+15745,stdout,received,'208.1601619720459'
+15932,stdout,received,'------------- SOA measure -------------'
+15932,stdout,received,'406.97193145751953'
+15932,stdout,received,'------------- SOA measure -------------'
+15932,stdout,received,'--- Presenting: stim 9 : <expyriment.stimuli._circle.Circle object at 0x7f5befabd6d0>'
+15937,Stimulus,presented,4
+15945,Stimulus,presented,18
+16153,Stimulus,presented,4
+16153,stdout,received,'207.99994468688965'
+16341,stdout,received,'------------- SOA measure -------------'
+16341,stdout,received,'408.9784622192383'
+16341,stdout,received,'------------- SOA measure -------------'
+16341,stdout,received,'--- Presenting: stim 10 : <expyriment.stimuli._circle.Circle object at 0x7f5befabd5e0>'
+16345,Stimulus,presented,4
+16354,Stimulus,presented,19
+16562,Stimulus,presented,4
+16562,stdout,received,'207.48424530029297'
+16750,stdout,received,'------------- SOA measure -------------'
+16750,stdout,received,'408.96010398864746'
+16750,stdout,received,'------------- SOA measure -------------'
+16750,stdout,received,'--- Presenting: stim 11 : <expyriment.stimuli._circle.Circle object at 0x7f5befabdbb0>'
+16753,Stimulus,presented,4
+16762,Stimulus,presented,22
+16970,Stimulus,presented,4
+16970,stdout,received,'208.0988883972168'
+17157,stdout,received,'------------- SOA measure -------------'
+17157,stdout,received,'406.9821834564209'
+17157,stdout,received,'------------- SOA measure -------------'
+17157,stdout,received,'BREAK TO COMPRESS'
+17936,Experiment,paused
+17945,Stimulus,presented,26
+19000,Keyboard,received,y,wait_char
+19000,Experiment,ended
+19012,Stimulus,presented,26

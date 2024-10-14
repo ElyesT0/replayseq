@@ -1,0 +1,1279 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 15:14:55
+#sha1: 35fbbe
+#modules: response_funcs.py (625041)
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-113-generic', version='#123~20.04.1-Ubuntu SMP Wed Jun 12 17:33:13 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1643,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_block,block_sequenceName,trial_cnt,trial_id,PresentedSequence,block,sequenceName,trial
+#design: 0,0,0,Rep2,0,0,[4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2],0,Rep2,0
+#design: 0,0,0,Rep2,1,1,[2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3],0,Rep2,1
+#design: 1,1,1,Rep2,0,0,[4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0],1,Rep2,0
+#design: 1,1,1,Rep2,1,1,[0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1],1,Rep2,1
+#design: 2,2,2,CRep2,0,0,[1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0],2,CRep2,0
+#design: 2,2,2,CRep2,1,1,[2, 0, 0, 0, 0, 2, 2, 0, 2, 2, 2, 0],2,CRep2,1
+#design: 3,3,3,CRep2,0,0,[3, 4, 4, 4, 4, 3, 3, 4, 3, 3, 3, 4],3,CRep2,0
+#design: 3,3,3,CRep2,1,1,[3, 5, 5, 5, 5, 3, 3, 5, 3, 3, 3, 5],3,CRep2,1
+#design: 4,4,4,Rep3,0,0,[5, 0, 2, 5, 0, 2, 5, 0, 2, 5, 0, 2],4,Rep3,0
+#design: 4,4,4,Rep3,1,1,[2, 3, 0, 2, 3, 0, 2, 3, 0, 2, 3, 0],4,Rep3,1
+#design: 5,5,5,Rep3,0,0,[1, 5, 3, 1, 5, 3, 1, 5, 3, 1, 5, 3],5,Rep3,0
+#design: 5,5,5,Rep3,1,1,[5, 3, 0, 5, 3, 0, 5, 3, 0, 5, 3, 0],5,Rep3,1
+1644,design,logged,
+1644,Experiment,started
+1656,Stimulus,presented,26
+2091,Keyboard,received,32,wait
+2107,Stimulus,presented,4
+2615,Stimulus,presented,4
+2615,Stimulus,presented,2
+2623,Stimulus,presented,22
+2831,Stimulus,presented,4
+3015,Stimulus,presented,4
+3015,Stimulus,presented,2
+3023,Stimulus,presented,20
+3231,Stimulus,presented,4
+3415,Stimulus,presented,4
+3415,Stimulus,presented,2
+3423,Stimulus,presented,22
+3632,Stimulus,presented,4
+3815,Stimulus,presented,4
+3816,Stimulus,presented,2
+3825,Stimulus,presented,20
+4032,Stimulus,presented,4
+4215,Stimulus,presented,4
+4216,Stimulus,presented,2
+4225,Stimulus,presented,22
+4432,Stimulus,presented,4
+4615,Stimulus,presented,4
+4616,Stimulus,presented,2
+4625,Stimulus,presented,20
+4832,Stimulus,presented,4
+5015,Stimulus,presented,4
+5015,Stimulus,presented,2
+5025,Stimulus,presented,22
+5232,Stimulus,presented,4
+5415,Stimulus,presented,4
+5416,Stimulus,presented,2
+5425,Stimulus,presented,20
+5632,Stimulus,presented,4
+5815,Stimulus,presented,4
+5816,Stimulus,presented,2
+5825,Stimulus,presented,22
+6032,Stimulus,presented,4
+6215,Stimulus,presented,4
+6215,Stimulus,presented,2
+6225,Stimulus,presented,20
+6432,Stimulus,presented,4
+6615,Stimulus,presented,4
+6615,Stimulus,presented,2
+6625,Stimulus,presented,22
+6832,Stimulus,presented,4
+7015,Stimulus,presented,4
+7015,Stimulus,presented,2
+7025,Stimulus,presented,20
+7232,Stimulus,presented,4
+7607,Keyboard,received,None,wait_char
+7815,Stimulus,presented,11
+7825,Stimulus,presented,11
+8782,stdout,received,'port1_4'
+8782,stdout,received,'port_code port1_4'
+8799,stdout,received,'port1_4'
+8799,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 16)"
+8799,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+8799,stdout,received,'------------------------------------------------------'
+8799,stdout,received,'position=response_mappings[key]          4'
+8799,Stimulus,presented,2
+8809,Stimulus,presented,22
+8919,Stimulus,presented,11
+8919,stdout,received,'BUTTON NUMBER 4 PRESSED'
+8919,stdout,received,''
+8929,Stimulus,presented,11
+8934,stdout,received,'port1_4'
+8934,stdout,received,'port_code port1_4'
+8934,stdout,received,'port1_4'
+8934,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 0)"
+8934,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+8934,stdout,received,'------------------------------------------------------'
+8934,stdout,received,'position=response_mappings[key]          4'
+8934,Stimulus,presented,2
+8946,Stimulus,presented,22
+9048,Stimulus,presented,11
+9048,stdout,received,'BUTTON NUMBER 4 PRESSED'
+9048,stdout,received,''
+9056,Stimulus,presented,11
+9057,stdout,received,'port2_4'
+9057,stdout,received,'port_code port2_4'
+9071,stdout,received,'port2_4'
+9071,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 14)"
+9071,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+9071,stdout,received,'------------------------------------------------------'
+9071,stdout,received,'position=response_mappings[key]          2'
+9071,Stimulus,presented,2
+9073,Stimulus,presented,20
+9181,Stimulus,presented,11
+9181,stdout,received,'BUTTON NUMBER 2 PRESSED'
+9181,stdout,received,''
+9190,Stimulus,presented,11
+9337,stdout,received,'port1_4'
+9337,stdout,received,'port_code port1_4'
+9343,stdout,received,'port1_4'
+9343,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 6)"
+9343,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+9343,stdout,received,'------------------------------------------------------'
+9344,stdout,received,'position=response_mappings[key]          4'
+9344,Stimulus,presented,2
+9348,Stimulus,presented,22
+9456,Stimulus,presented,11
+9456,stdout,received,'BUTTON NUMBER 4 PRESSED'
+9456,stdout,received,''
+9465,Stimulus,presented,11
+9478,stdout,received,'port1_4'
+9478,stdout,received,'port_code port1_4'
+9479,stdout,received,'port1_4'
+9479,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 1)"
+9479,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+9479,stdout,received,'------------------------------------------------------'
+9479,stdout,received,'position=response_mappings[key]          4'
+9480,Stimulus,presented,2
+9481,Stimulus,presented,22
+9581,Stimulus,presented,11
+9581,stdout,received,'BUTTON NUMBER 4 PRESSED'
+9581,stdout,received,''
+9590,Stimulus,presented,11
+9590,stdout,received,'port2_4'
+9590,stdout,received,'port_code port2_4'
+9591,stdout,received,'port2_4'
+9591,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 0)"
+9591,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+9591,stdout,received,'------------------------------------------------------'
+9591,stdout,received,'position=response_mappings[key]          2'
+9591,Stimulus,presented,2
+9598,Stimulus,presented,20
+9706,Stimulus,presented,11
+9706,stdout,received,'BUTTON NUMBER 2 PRESSED'
+9706,stdout,received,''
+9715,Stimulus,presented,11
+9905,stdout,received,'port1_4'
+9905,stdout,received,'port_code port1_4'
+9915,stdout,received,'port1_4'
+9915,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 9)"
+9915,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+9915,stdout,received,'------------------------------------------------------'
+9915,stdout,received,'position=response_mappings[key]          4'
+9915,Stimulus,presented,2
+9923,Stimulus,presented,22
+10031,Stimulus,presented,11
+10031,stdout,received,'BUTTON NUMBER 4 PRESSED'
+10031,stdout,received,''
+10040,Stimulus,presented,11
+10048,stdout,received,'port1_4'
+10048,stdout,received,'port_code port1_4'
+10049,stdout,received,'port1_4'
+10049,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 1)"
+10049,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+10049,stdout,received,'------------------------------------------------------'
+10049,stdout,received,'position=response_mappings[key]          4'
+10049,Stimulus,presented,2
+10056,Stimulus,presented,22
+10156,Stimulus,presented,11
+10156,stdout,received,'BUTTON NUMBER 4 PRESSED'
+10156,stdout,received,''
+10165,Stimulus,presented,11
+10165,stdout,received,'port2_4'
+10165,stdout,received,'port_code port2_4'
+10184,stdout,received,'port2_4'
+10184,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 18)"
+10184,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+10184,stdout,received,'------------------------------------------------------'
+10184,stdout,received,'position=response_mappings[key]          2'
+10184,Stimulus,presented,2
+10190,Stimulus,presented,20
+10298,Stimulus,presented,11
+10298,stdout,received,'BUTTON NUMBER 2 PRESSED'
+10298,stdout,received,''
+10306,Stimulus,presented,11
+10491,stdout,received,'port1_4'
+10491,stdout,received,'port_code port1_4'
+10514,stdout,received,'port1_4'
+10514,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 23)"
+10514,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+10514,stdout,received,'------------------------------------------------------'
+10514,stdout,received,'position=response_mappings[key]          4'
+10515,Stimulus,presented,2
+10523,Stimulus,presented,22
+10631,Stimulus,presented,11
+10631,stdout,received,'BUTTON NUMBER 4 PRESSED'
+10631,stdout,received,''
+10640,Stimulus,presented,11
+10645,stdout,received,'port1_4'
+10645,stdout,received,'port_code port1_4'
+10648,stdout,received,'port1_4'
+10648,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 2)"
+10648,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+10648,stdout,received,'------------------------------------------------------'
+10648,stdout,received,'position=response_mappings[key]          4'
+10648,Stimulus,presented,2
+10656,Stimulus,presented,22
+10756,Stimulus,presented,11
+10756,stdout,received,'BUTTON NUMBER 4 PRESSED'
+10756,stdout,received,''
+10765,Stimulus,presented,11
+10765,stdout,received,'port2_4'
+10765,stdout,received,'port_code port2_4'
+10784,stdout,received,'port2_4'
+10784,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 18)"
+10784,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+10784,stdout,received,'------------------------------------------------------'
+10784,stdout,received,'position=response_mappings[key]          2'
+10784,Stimulus,presented,2
+10790,Stimulus,presented,20
+10899,Stimulus,presented,11
+10899,stdout,received,'BUTTON NUMBER 2 PRESSED'
+10899,stdout,received,''
+11099,Stimulus,played,b'./auditory_feedback/pos1.wav'
+11107,Stimulus,presented,28
+11607,stdout,received,'Blankscreen'
+11615,Stimulus,presented,3
+11915,stdout,received,'---------------------------------------'
+11934,Stimulus,presented,4
+12440,Stimulus,presented,4
+12440,Stimulus,presented,2
+12451,Stimulus,presented,20
+12657,Stimulus,presented,4
+12840,Stimulus,presented,4
+12840,Stimulus,presented,2
+12849,Stimulus,presented,21
+13057,Stimulus,presented,4
+13240,Stimulus,presented,4
+13240,Stimulus,presented,2
+13249,Stimulus,presented,20
+13457,Stimulus,presented,4
+13640,Stimulus,presented,4
+13640,Stimulus,presented,2
+13649,Stimulus,presented,21
+13857,Stimulus,presented,4
+14040,Stimulus,presented,4
+14040,Stimulus,presented,2
+14050,Stimulus,presented,20
+14257,Stimulus,presented,4
+14440,Stimulus,presented,4
+14440,Stimulus,presented,2
+14450,Stimulus,presented,21
+14657,Stimulus,presented,4
+14840,Stimulus,presented,4
+14840,Stimulus,presented,2
+14850,Stimulus,presented,20
+15057,Stimulus,presented,4
+15240,Stimulus,presented,4
+15240,Stimulus,presented,2
+15249,Stimulus,presented,21
+15457,Stimulus,presented,4
+15640,Stimulus,presented,4
+15640,Stimulus,presented,2
+15649,Stimulus,presented,20
+15857,Stimulus,presented,4
+16040,Stimulus,presented,4
+16040,Stimulus,presented,2
+16049,Stimulus,presented,21
+16257,Stimulus,presented,4
+16440,Stimulus,presented,4
+16440,Stimulus,presented,2
+16450,Stimulus,presented,20
+16657,Stimulus,presented,4
+16840,Stimulus,presented,4
+16840,Stimulus,presented,2
+16850,Stimulus,presented,21
+17057,Stimulus,presented,4
+17434,Keyboard,received,None,wait_char
+17640,Stimulus,presented,11
+17649,Stimulus,presented,11
+18059,stdout,received,'port2_2'
+18059,stdout,received,'port_code port2_2'
+18060,stdout,received,'port2_2'
+18060,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_2', 1)"
+18060,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RR'
+18060,stdout,received,'------------------------------------------------------'
+18060,stdout,received,'position=response_mappings[key]          3'
+18060,Stimulus,presented,2
+18065,Stimulus,presented,21
+18174,Stimulus,presented,11
+18174,stdout,received,'BUTTON NUMBER 3 PRESSED'
+18174,stdout,received,''
+18183,Stimulus,presented,11
+18381,stdout,received,'port2_4'
+18381,stdout,received,'port_code port2_4'
+18385,stdout,received,'port2_4'
+18385,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 4)"
+18385,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+18385,stdout,received,'------------------------------------------------------'
+18385,stdout,received,'position=response_mappings[key]          2'
+18385,Stimulus,presented,2
+18390,Stimulus,presented,20
+18499,Stimulus,presented,11
+18499,stdout,received,'BUTTON NUMBER 2 PRESSED'
+18499,stdout,received,''
+18509,Stimulus,presented,11
+18728,stdout,received,'port2_2'
+18728,stdout,received,'port_code port2_2'
+18738,stdout,received,'port2_2'
+18738,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_2', 10)"
+18738,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RR'
+18738,stdout,received,'------------------------------------------------------'
+18738,stdout,received,'position=response_mappings[key]          3'
+18739,Stimulus,presented,2
+18749,Stimulus,presented,21
+18857,Stimulus,presented,11
+18857,stdout,received,'BUTTON NUMBER 3 PRESSED'
+18857,stdout,received,''
+18867,Stimulus,presented,11
+19024,stdout,received,'port2_4'
+19024,stdout,received,'port_code port2_4'
+19037,stdout,received,'port2_4'
+19037,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 13)"
+19037,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+19037,stdout,received,'------------------------------------------------------'
+19038,stdout,received,'position=response_mappings[key]          2'
+19038,Stimulus,presented,2
+19040,Stimulus,presented,20
+19149,Stimulus,presented,11
+19149,stdout,received,'BUTTON NUMBER 2 PRESSED'
+19149,stdout,received,''
+19159,Stimulus,presented,11
+19343,stdout,received,'port2_2'
+19343,stdout,received,'port_code port2_2'
+19364,stdout,received,'port2_2'
+19364,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_2', 21)"
+19364,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RR'
+19364,stdout,received,'------------------------------------------------------'
+19364,stdout,received,'position=response_mappings[key]          3'
+19365,Stimulus,presented,2
+19375,Stimulus,presented,21
+19482,Stimulus,presented,11
+19482,stdout,received,'BUTTON NUMBER 3 PRESSED'
+19482,stdout,received,''
+19492,Stimulus,presented,11
+19623,stdout,received,'port2_4'
+19623,stdout,received,'port_code port2_4'
+19634,stdout,received,'port2_4'
+19634,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 10)"
+19634,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+19634,stdout,received,'------------------------------------------------------'
+19634,stdout,received,'position=response_mappings[key]          2'
+19634,Stimulus,presented,2
+19640,Stimulus,presented,20
+19751,Stimulus,presented,11
+19751,stdout,received,'BUTTON NUMBER 2 PRESSED'
+19751,stdout,received,''
+19760,Stimulus,presented,11
+19927,stdout,received,'port2_2'
+19927,stdout,received,'port_code port2_2'
+19931,stdout,received,'port2_2'
+19931,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_2', 3)"
+19931,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RR'
+19931,stdout,received,'------------------------------------------------------'
+19931,stdout,received,'position=response_mappings[key]          3'
+19931,Stimulus,presented,2
+19940,Stimulus,presented,21
+20049,Stimulus,presented,11
+20049,stdout,received,'BUTTON NUMBER 3 PRESSED'
+20049,stdout,received,''
+20059,Stimulus,presented,11
+20209,stdout,received,'port2_4'
+20209,stdout,received,'port_code port2_4'
+20234,stdout,received,'port2_4'
+20234,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 24)"
+20234,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+20234,stdout,received,'------------------------------------------------------'
+20234,stdout,received,'position=response_mappings[key]          2'
+20234,Stimulus,presented,2
+20241,Stimulus,presented,20
+20348,Stimulus,presented,11
+20349,stdout,received,'BUTTON NUMBER 2 PRESSED'
+20349,stdout,received,''
+20359,Stimulus,presented,11
+20529,stdout,received,'port2_2'
+20529,stdout,received,'port_code port2_2'
+20533,stdout,received,'port2_2'
+20534,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_2', 4)"
+20534,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RR'
+20534,stdout,received,'------------------------------------------------------'
+20534,stdout,received,'position=response_mappings[key]          3'
+20534,Stimulus,presented,2
+20540,Stimulus,presented,21
+20648,Stimulus,presented,11
+20648,stdout,received,'BUTTON NUMBER 3 PRESSED'
+20649,stdout,received,''
+20659,Stimulus,presented,11
+20813,stdout,received,'port2_4'
+20813,stdout,received,'port_code port2_4'
+20828,stdout,received,'port2_4'
+20828,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 15)"
+20828,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+20828,stdout,received,'------------------------------------------------------'
+20828,stdout,received,'position=response_mappings[key]          2'
+20829,Stimulus,presented,2
+20832,Stimulus,presented,20
+20940,Stimulus,presented,11
+20940,stdout,received,'BUTTON NUMBER 2 PRESSED'
+20940,stdout,received,''
+20950,Stimulus,presented,11
+21104,stdout,received,'port2_2'
+21104,stdout,received,'port_code port2_2'
+21130,stdout,received,'port2_2'
+21130,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_2', 26)"
+21130,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RR'
+21130,stdout,received,'------------------------------------------------------'
+21130,stdout,received,'position=response_mappings[key]          3'
+21131,Stimulus,presented,2
+21140,Stimulus,presented,21
+21248,Stimulus,presented,11
+21248,stdout,received,'BUTTON NUMBER 3 PRESSED'
+21248,stdout,received,''
+21257,Stimulus,presented,11
+21395,stdout,received,'port2_4'
+21395,stdout,received,'port_code port2_4'
+21402,stdout,received,'port2_4'
+21402,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_4', 6)"
+21402,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RG'
+21402,stdout,received,'------------------------------------------------------'
+21402,stdout,received,'position=response_mappings[key]          2'
+21402,Stimulus,presented,2
+21407,Stimulus,presented,20
+21515,Stimulus,presented,11
+21515,stdout,received,'BUTTON NUMBER 2 PRESSED'
+21515,stdout,received,''
+21715,Stimulus,played,b'./auditory_feedback/pos1.wav'
+21723,Stimulus,presented,29
+22224,stdout,received,'Blankscreen'
+22232,Stimulus,presented,3
+22532,stdout,received,'---------------------------------------'
+22532,stdout,received,'We are in the resting state break'
+22549,Stimulus,presented,30
+24557,Stimulus,presented,3
+27157,Keyboard,received,None,wait_char
+27165,Stimulus,presented,31
+32259,Keyboard,received,n,wait_char
+32265,Stimulus,presented,32
+34273,Stimulus,presented,4
+39291,Stimulus,presented,4
+39798,Stimulus,presented,4
+39798,Stimulus,presented,2
+39807,Stimulus,presented,22
+40015,Stimulus,presented,4
+40198,Stimulus,presented,4
+40199,Stimulus,presented,2
+40207,Stimulus,presented,18
+40415,Stimulus,presented,4
+40598,Stimulus,presented,4
+40598,Stimulus,presented,2
+40607,Stimulus,presented,22
+40815,Stimulus,presented,4
+40998,Stimulus,presented,4
+40998,Stimulus,presented,2
+41007,Stimulus,presented,18
+41215,Stimulus,presented,4
+41398,Stimulus,presented,4
+41398,Stimulus,presented,2
+41407,Stimulus,presented,22
+41615,Stimulus,presented,4
+41798,Stimulus,presented,4
+41798,Stimulus,presented,2
+41808,Stimulus,presented,18
+42015,Stimulus,presented,4
+42198,Stimulus,presented,4
+42198,Stimulus,presented,2
+42208,Stimulus,presented,22
+42415,Stimulus,presented,4
+42598,Stimulus,presented,4
+42598,Stimulus,presented,2
+42608,Stimulus,presented,18
+42815,Stimulus,presented,4
+42998,Stimulus,presented,4
+42998,Stimulus,presented,2
+43007,Stimulus,presented,22
+43215,Stimulus,presented,4
+43398,Stimulus,presented,4
+43398,Stimulus,presented,2
+43407,Stimulus,presented,18
+43615,Stimulus,presented,4
+43798,Stimulus,presented,4
+43798,Stimulus,presented,2
+43807,Stimulus,presented,22
+44015,Stimulus,presented,4
+44198,Stimulus,presented,4
+44198,Stimulus,presented,2
+44207,Stimulus,presented,18
+44415,Stimulus,presented,4
+44791,Keyboard,received,None,wait_char
+44998,Stimulus,presented,11
+45007,Stimulus,presented,11
+45375,stdout,received,'port1_4'
+45375,stdout,received,'port_code port1_4'
+45377,stdout,received,'port1_4'
+45377,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 2)"
+45378,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+45378,stdout,received,'------------------------------------------------------'
+45378,stdout,received,'position=response_mappings[key]          4'
+45378,Stimulus,presented,2
+45382,Stimulus,presented,22
+45490,Stimulus,presented,11
+45490,stdout,received,'BUTTON NUMBER 4 PRESSED'
+45490,stdout,received,''
+45499,Stimulus,presented,11
+45512,stdout,received,'port1_4'
+45512,stdout,received,'port_code port1_4'
+45541,stdout,received,'port1_4'
+45541,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 29)"
+45541,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+45541,stdout,received,'------------------------------------------------------'
+45541,stdout,received,'position=response_mappings[key]          4'
+45541,Stimulus,presented,2
+45551,Stimulus,presented,22
+45659,Stimulus,presented,11
+45659,stdout,received,'BUTTON NUMBER 4 PRESSED'
+45659,stdout,received,''
+45668,Stimulus,presented,11
+45770,stdout,received,'port1_2'
+45770,stdout,received,'port_code port1_2'
+45784,stdout,received,'port1_2'
+45784,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 13)"
+45784,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+45784,stdout,received,'------------------------------------------------------'
+45784,stdout,received,'position=response_mappings[key]          0'
+45784,Stimulus,presented,2
+45789,Stimulus,presented,18
+45897,Stimulus,presented,11
+45897,stdout,received,'BUTTON NUMBER 0 PRESSED'
+45897,stdout,received,''
+45906,Stimulus,presented,11
+45921,stdout,received,'port1_2'
+45921,stdout,received,'port_code port1_2'
+45947,stdout,received,'port1_2'
+45947,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 25)"
+45947,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+45947,stdout,received,'------------------------------------------------------'
+45947,stdout,received,'position=response_mappings[key]          0'
+45947,Stimulus,presented,2
+45956,Stimulus,presented,18
+46064,Stimulus,presented,11
+46064,stdout,received,'BUTTON NUMBER 0 PRESSED'
+46064,stdout,received,''
+46073,Stimulus,presented,11
+46306,stdout,received,'port1_2'
+46306,stdout,received,'port_code port1_2'
+46329,stdout,received,'port1_2'
+46329,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 22)"
+46329,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+46329,stdout,received,'------------------------------------------------------'
+46329,stdout,received,'position=response_mappings[key]          0'
+46329,Stimulus,presented,2
+46331,Stimulus,presented,18
+46439,Stimulus,presented,11
+46439,stdout,received,'BUTTON NUMBER 0 PRESSED'
+46439,stdout,received,''
+46448,Stimulus,presented,11
+46463,stdout,received,'port1_2'
+46463,stdout,received,'port_code port1_2'
+46470,stdout,received,'port1_2'
+46470,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 7)"
+46470,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+46470,stdout,received,'------------------------------------------------------'
+46470,stdout,received,'position=response_mappings[key]          0'
+46470,Stimulus,presented,2
+46473,Stimulus,presented,18
+46581,Stimulus,presented,11
+46581,stdout,received,'BUTTON NUMBER 0 PRESSED'
+46581,stdout,received,''
+46589,Stimulus,presented,11
+46666,stdout,received,'port1_4'
+46666,stdout,received,'port_code port1_4'
+46679,stdout,received,'port1_4'
+46679,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 12)"
+46679,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+46679,stdout,received,'------------------------------------------------------'
+46679,stdout,received,'position=response_mappings[key]          4'
+46679,Stimulus,presented,2
+46681,Stimulus,presented,22
+46789,Stimulus,presented,11
+46789,stdout,received,'BUTTON NUMBER 4 PRESSED'
+46789,stdout,received,''
+46798,Stimulus,presented,11
+46842,stdout,received,'port1_4'
+46842,stdout,received,'port_code port1_4'
+46845,stdout,received,'port1_4'
+46845,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 2)"
+46845,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+46845,stdout,received,'------------------------------------------------------'
+46845,stdout,received,'position=response_mappings[key]          4'
+46845,Stimulus,presented,2
+46847,Stimulus,presented,22
+46947,Stimulus,presented,11
+46947,stdout,received,'BUTTON NUMBER 4 PRESSED'
+46947,stdout,received,''
+46956,Stimulus,presented,11
+47164,stdout,received,'port1_4'
+47164,stdout,received,'port_code port1_4'
+47169,stdout,received,'port1_4'
+47169,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 5)"
+47169,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+47169,stdout,received,'------------------------------------------------------'
+47170,stdout,received,'position=response_mappings[key]          4'
+47170,Stimulus,presented,2
+47172,Stimulus,presented,22
+47272,Stimulus,presented,11
+47272,stdout,received,'BUTTON NUMBER 4 PRESSED'
+47272,stdout,received,''
+47281,Stimulus,presented,11
+47304,stdout,received,'port1_4'
+47304,stdout,received,'port_code port1_4'
+47304,stdout,received,'port1_4'
+47304,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_4', 0)"
+47305,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LR'
+47305,stdout,received,'------------------------------------------------------'
+47305,stdout,received,'position=response_mappings[key]          4'
+47305,Stimulus,presented,2
+47306,Stimulus,presented,22
+47414,Stimulus,presented,11
+47414,stdout,received,'BUTTON NUMBER 4 PRESSED'
+47414,stdout,received,''
+47423,Stimulus,presented,11
+47672,stdout,received,'port1_2'
+47672,stdout,received,'port_code port1_2'
+47685,stdout,received,'port1_2'
+47685,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 12)"
+47685,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+47685,stdout,received,'------------------------------------------------------'
+47685,stdout,received,'position=response_mappings[key]          0'
+47685,Stimulus,presented,2
+47690,Stimulus,presented,18
+47798,Stimulus,presented,11
+47798,stdout,received,'BUTTON NUMBER 0 PRESSED'
+47798,stdout,received,''
+47807,Stimulus,presented,11
+47825,stdout,received,'port1_2'
+47825,stdout,received,'port_code port1_2'
+47848,stdout,received,'port1_2'
+47848,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 23)"
+47848,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+47848,stdout,received,'------------------------------------------------------'
+47848,stdout,received,'position=response_mappings[key]          0'
+47848,Stimulus,presented,2
+47858,Stimulus,presented,18
+47965,Stimulus,presented,11
+47965,stdout,received,'BUTTON NUMBER 0 PRESSED'
+47965,stdout,received,''
+48165,Stimulus,played,b'./auditory_feedback/pos1.wav'
+48173,Stimulus,presented,33
+48673,stdout,received,'Blankscreen'
+48681,Stimulus,presented,3
+48981,stdout,received,'---------------------------------------'
+48999,Stimulus,presented,4
+49506,Stimulus,presented,4
+49506,Stimulus,presented,2
+49516,Stimulus,presented,18
+49723,Stimulus,presented,4
+49906,Stimulus,presented,4
+49906,Stimulus,presented,2
+49916,Stimulus,presented,19
+50123,Stimulus,presented,4
+50306,Stimulus,presented,4
+50306,Stimulus,presented,2
+50316,Stimulus,presented,18
+50523,Stimulus,presented,4
+50706,Stimulus,presented,4
+50706,Stimulus,presented,2
+50716,Stimulus,presented,19
+50923,Stimulus,presented,4
+51106,Stimulus,presented,4
+51106,Stimulus,presented,2
+51116,Stimulus,presented,18
+51323,Stimulus,presented,4
+51507,Stimulus,presented,4
+51507,Stimulus,presented,2
+51516,Stimulus,presented,19
+51723,Stimulus,presented,4
+51906,Stimulus,presented,4
+51906,Stimulus,presented,2
+51916,Stimulus,presented,18
+52123,Stimulus,presented,4
+52306,Stimulus,presented,4
+52306,Stimulus,presented,2
+52316,Stimulus,presented,19
+52523,Stimulus,presented,4
+52706,Stimulus,presented,4
+52706,Stimulus,presented,2
+52716,Stimulus,presented,18
+52923,Stimulus,presented,4
+53106,Stimulus,presented,4
+53106,Stimulus,presented,2
+53116,Stimulus,presented,19
+53323,Stimulus,presented,4
+53506,Stimulus,presented,4
+53506,Stimulus,presented,2
+53516,Stimulus,presented,18
+53723,Stimulus,presented,4
+53906,Stimulus,presented,4
+53906,Stimulus,presented,2
+53916,Stimulus,presented,19
+54123,Stimulus,presented,4
+54499,Keyboard,received,None,wait_char
+54706,Stimulus,presented,11
+54716,Stimulus,presented,11
+55102,stdout,received,'port1_2'
+55102,stdout,received,'port_code port1_2'
+55124,stdout,received,'port1_2'
+55124,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 22)"
+55124,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+55124,stdout,received,'------------------------------------------------------'
+55124,stdout,received,'position=response_mappings[key]          0'
+55124,Stimulus,presented,2
+55133,Stimulus,presented,18
+55241,Stimulus,presented,11
+55241,stdout,received,'BUTTON NUMBER 0 PRESSED'
+55241,stdout,received,''
+55249,Stimulus,presented,11
+55408,stdout,received,'port2_8'
+55408,stdout,received,'port_code port2_8'
+55426,stdout,received,'port2_8'
+55426,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_8', 17)"
+55426,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RY'
+55426,stdout,received,'------------------------------------------------------'
+55426,stdout,received,'position=response_mappings[key]          1'
+55426,Stimulus,presented,2
+55433,Stimulus,presented,19
+55541,Stimulus,presented,11
+55541,stdout,received,'BUTTON NUMBER 1 PRESSED'
+55541,stdout,received,''
+55549,Stimulus,presented,11
+55733,stdout,received,'port1_2'
+55733,stdout,received,'port_code port1_2'
+55751,stdout,received,'port1_2'
+55751,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 17)"
+55751,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+55751,stdout,received,'------------------------------------------------------'
+55751,stdout,received,'position=response_mappings[key]          0'
+55751,Stimulus,presented,2
+55759,Stimulus,presented,18
+55866,Stimulus,presented,11
+55866,stdout,received,'BUTTON NUMBER 0 PRESSED'
+55866,stdout,received,''
+55874,Stimulus,presented,11
+56004,stdout,received,'port2_8'
+56004,stdout,received,'port_code port2_8'
+56021,stdout,received,'port2_8'
+56021,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_8', 16)"
+56021,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RY'
+56021,stdout,received,'------------------------------------------------------'
+56021,stdout,received,'position=response_mappings[key]          1'
+56022,Stimulus,presented,2
+56034,Stimulus,presented,19
+56140,Stimulus,presented,11
+56140,stdout,received,'BUTTON NUMBER 1 PRESSED'
+56140,stdout,received,''
+56149,Stimulus,presented,11
+56396,stdout,received,'port1_2'
+56396,stdout,received,'port_code port1_2'
+56402,stdout,received,'port1_2'
+56402,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 6)"
+56402,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+56402,stdout,received,'------------------------------------------------------'
+56402,stdout,received,'position=response_mappings[key]          0'
+56403,Stimulus,presented,2
+56406,Stimulus,presented,18
+56515,Stimulus,presented,11
+56515,stdout,received,'BUTTON NUMBER 0 PRESSED'
+56515,stdout,received,''
+56524,Stimulus,presented,11
+56804,stdout,received,'port2_8'
+56804,stdout,received,'port_code port2_8'
+56836,stdout,received,'port2_8'
+56836,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_8', 31)"
+56836,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RY'
+56836,stdout,received,'------------------------------------------------------'
+56836,stdout,received,'position=response_mappings[key]          1'
+56836,Stimulus,presented,2
+56841,Stimulus,presented,19
+56948,Stimulus,presented,11
+56948,stdout,received,'BUTTON NUMBER 1 PRESSED'
+56948,stdout,received,''
+56957,Stimulus,presented,11
+57111,stdout,received,'port1_2'
+57111,stdout,received,'port_code port1_2'
+57131,stdout,received,'port1_2'
+57131,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 20)"
+57131,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+57131,stdout,received,'------------------------------------------------------'
+57131,stdout,received,'position=response_mappings[key]          0'
+57131,Stimulus,presented,2
+57142,Stimulus,presented,18
+57248,Stimulus,presented,11
+57248,stdout,received,'BUTTON NUMBER 0 PRESSED'
+57248,stdout,received,''
+57257,Stimulus,presented,11
+57436,stdout,received,'port2_8'
+57436,stdout,received,'port_code port2_8'
+57463,stdout,received,'port2_8'
+57463,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_8', 26)"
+57463,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RY'
+57463,stdout,received,'------------------------------------------------------'
+57463,stdout,received,'position=response_mappings[key]          1'
+57463,Stimulus,presented,2
+57474,Stimulus,presented,19
+57581,Stimulus,presented,11
+57581,stdout,received,'BUTTON NUMBER 1 PRESSED'
+57581,stdout,received,''
+57590,Stimulus,presented,11
+57675,stdout,received,'port1_2'
+57675,stdout,received,'port_code port1_2'
+57678,stdout,received,'port1_2'
+57678,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 3)"
+57678,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+57678,stdout,received,'------------------------------------------------------'
+57678,stdout,received,'position=response_mappings[key]          0'
+57678,Stimulus,presented,2
+57681,Stimulus,presented,18
+57789,Stimulus,presented,11
+57789,stdout,received,'BUTTON NUMBER 0 PRESSED'
+57789,stdout,received,''
+57798,Stimulus,presented,11
+58120,stdout,received,'port2_8'
+58120,stdout,received,'port_code port2_8'
+58140,stdout,received,'port2_8'
+58140,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_8', 20)"
+58140,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RY'
+58140,stdout,received,'------------------------------------------------------'
+58140,stdout,received,'position=response_mappings[key]          1'
+58140,Stimulus,presented,2
+58148,Stimulus,presented,19
+58256,Stimulus,presented,11
+58256,stdout,received,'BUTTON NUMBER 1 PRESSED'
+58256,stdout,received,''
+58265,Stimulus,presented,11
+58459,stdout,received,'port1_2'
+58459,stdout,received,'port_code port1_2'
+58468,stdout,received,'port1_2'
+58468,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port1_2', 8)"
+58468,stdout,received,'response_funcs.trigger_to_forp[port_code] =  LY'
+58468,stdout,received,'------------------------------------------------------'
+58468,stdout,received,'position=response_mappings[key]          0'
+58468,Stimulus,presented,2
+58473,Stimulus,presented,18
+58581,Stimulus,presented,11
+58581,stdout,received,'BUTTON NUMBER 0 PRESSED'
+58581,stdout,received,''
+58590,Stimulus,presented,11
+58813,stdout,received,'port2_8'
+58813,stdout,received,'port_code port2_8'
+58817,stdout,received,'port2_8'
+58817,stdout,received,"response_MEG.wait(duration=duration_maximumAllowed) ('port2_8', 4)"
+58817,stdout,received,'response_funcs.trigger_to_forp[port_code] =  RY'
+58817,stdout,received,'------------------------------------------------------'
+58817,stdout,received,'position=response_mappings[key]          1'
+58817,Stimulus,presented,2
+58823,Stimulus,presented,19
+58931,Stimulus,presented,11
+58931,stdout,received,'BUTTON NUMBER 1 PRESSED'
+58931,stdout,received,''
+59131,Stimulus,played,b'./auditory_feedback/pos1.wav'
+59139,Stimulus,presented,34
+59640,stdout,received,'Blankscreen'
+59648,Stimulus,presented,3
+59948,stdout,received,'---------------------------------------'
+59948,stdout,received,'We are in the resting state break'
+59973,Stimulus,presented,35
+61981,Stimulus,presented,3
+64581,Keyboard,received,None,wait_char
+64590,Stimulus,presented,36
+285059,Keyboard,received,n,wait_char
+285069,Stimulus,presented,37
+287078,Stimulus,presented,4
+292094,Stimulus,presented,4
+292603,Stimulus,presented,4
+292603,Stimulus,presented,2
+292611,Stimulus,presented,19
+292819,Stimulus,presented,4
+293003,Stimulus,presented,4
+293003,Stimulus,presented,2
+293011,Stimulus,presented,18
+293219,Stimulus,presented,4
+293403,Stimulus,presented,4
+293403,Stimulus,presented,2
+293411,Stimulus,presented,18
+293619,Stimulus,presented,4
+293803,Stimulus,presented,4
+293803,Stimulus,presented,2
+293811,Stimulus,presented,18
+294019,Stimulus,presented,4
+294203,Stimulus,presented,4
+294203,Stimulus,presented,2
+294211,Stimulus,presented,18
+294419,Stimulus,presented,4
+294603,Stimulus,presented,4
+294603,Stimulus,presented,2
+294612,Stimulus,presented,19
+294819,Stimulus,presented,4
+295003,Stimulus,presented,4
+295003,Stimulus,presented,2
+295011,Stimulus,presented,19
+295219,Stimulus,presented,4
+295403,Stimulus,presented,4
+295403,Stimulus,presented,2
+295411,Stimulus,presented,18
+295620,Stimulus,presented,4
+295805,Stimulus,presented,4
+295805,Stimulus,presented,2
+295812,Stimulus,presented,19
+296019,Stimulus,presented,4
+296203,Stimulus,presented,4
+296203,Stimulus,presented,2
+296211,Stimulus,presented,19
+296423,Stimulus,presented,4
+296603,Stimulus,presented,4
+296603,Stimulus,presented,2
+296612,Stimulus,presented,19
+296819,Stimulus,presented,4
+297003,Stimulus,presented,4
+297003,Stimulus,presented,2
+297011,Stimulus,presented,18
+297219,Stimulus,presented,4
+297594,Keyboard,received,None,wait_char
+297803,Stimulus,presented,11
+297811,Stimulus,presented,11
+303819,Stimulus,presented,38
+303819,Stimulus,played,b'./auditory_feedback/neg1.wav'
+304319,stdout,received,'no response registered'
+304319,stdout,received,'------------------------------------------------------'
+304319,stdout,received,'None key detected or wrong key :  None'
+304819,stdout,received,'Blankscreen'
+304827,Stimulus,presented,3
+305127,stdout,received,'---------------------------------------'
+305145,Stimulus,presented,4
+305652,Stimulus,presented,4
+305653,Stimulus,presented,2
+305661,Stimulus,presented,20
+305872,Stimulus,presented,4
+306052,Stimulus,presented,4
+306053,Stimulus,presented,2
+306061,Stimulus,presented,18
+306272,Stimulus,presented,4
+306452,Stimulus,presented,4
+306453,Stimulus,presented,2
+306461,Stimulus,presented,18
+306673,Stimulus,presented,4
+306854,Stimulus,presented,4
+306854,Stimulus,presented,2
+306861,Stimulus,presented,18
+307072,Stimulus,presented,4
+307252,Stimulus,presented,4
+307252,Stimulus,presented,2
+307261,Stimulus,presented,18
+307470,Stimulus,presented,4
+307652,Stimulus,presented,4
+307652,Stimulus,presented,2
+307661,Stimulus,presented,20
+307870,Stimulus,presented,4
+308052,Stimulus,presented,4
+308052,Stimulus,presented,2
+308061,Stimulus,presented,20
+308269,Stimulus,presented,4
+308456,Stimulus,presented,4
+308456,Stimulus,presented,2
+308464,Stimulus,presented,18
+308670,Stimulus,presented,4
+308852,Stimulus,presented,4
+308852,Stimulus,presented,2
+308861,Stimulus,presented,20
+309072,Stimulus,presented,4
+309252,Stimulus,presented,4
+309252,Stimulus,presented,2
+309261,Stimulus,presented,20
+309472,Stimulus,presented,4
+309652,Stimulus,presented,4
+309653,Stimulus,presented,2
+309661,Stimulus,presented,20
+309871,Stimulus,presented,4
+310053,Stimulus,presented,4
+310053,Stimulus,presented,2
+310064,Stimulus,presented,18
+310269,Stimulus,presented,4
+310645,Keyboard,received,None,wait_char
+310852,Stimulus,presented,11
+310861,Stimulus,presented,11
+316869,Stimulus,presented,39
+316869,Stimulus,played,b'./auditory_feedback/neg1.wav'
+317369,stdout,received,'no response registered'
+317369,stdout,received,'------------------------------------------------------'
+317369,stdout,received,'None key detected or wrong key :  None'
+317869,stdout,received,'Blankscreen'
+317877,Stimulus,presented,3
+318177,stdout,received,'---------------------------------------'
+318177,stdout,received,'We are in the resting state break'
+318194,Stimulus,presented,40
+320203,Stimulus,presented,3
+322803,Keyboard,received,None,wait_char
+322811,Stimulus,presented,41
+374475,Keyboard,received,n,wait_char
+374485,Stimulus,presented,42
+376493,Stimulus,presented,4
+381509,Stimulus,presented,4
+382017,Stimulus,presented,4
+382018,Stimulus,presented,2
+382026,Stimulus,presented,21
+382234,Stimulus,presented,4
+382417,Stimulus,presented,4
+382417,Stimulus,presented,2
+382426,Stimulus,presented,22
+382634,Stimulus,presented,4
+382817,Stimulus,presented,4
+382817,Stimulus,presented,2
+382826,Stimulus,presented,22
+383034,Stimulus,presented,4
+383217,Stimulus,presented,4
+383217,Stimulus,presented,2
+383226,Stimulus,presented,22
+383434,Stimulus,presented,4
+383618,Stimulus,presented,4
+383618,Stimulus,presented,2
+383627,Stimulus,presented,22
+383834,Stimulus,presented,4
+384018,Stimulus,presented,4
+384018,Stimulus,presented,2
+384027,Stimulus,presented,21
+384235,Stimulus,presented,4
+384418,Stimulus,presented,4
+384418,Stimulus,presented,2
+384427,Stimulus,presented,21
+384635,Stimulus,presented,4
+384818,Stimulus,presented,4
+384818,Stimulus,presented,2
+384827,Stimulus,presented,22
+385034,Stimulus,presented,4
+385218,Stimulus,presented,4
+385218,Stimulus,presented,2
+385227,Stimulus,presented,21
+385435,Stimulus,presented,4
+385618,Stimulus,presented,4
+385618,Stimulus,presented,2
+385627,Stimulus,presented,21
+385835,Stimulus,presented,4
+386018,Stimulus,presented,4
+386018,Stimulus,presented,2
+386027,Stimulus,presented,21
+386235,Stimulus,presented,4
+386418,Stimulus,presented,4
+386418,Stimulus,presented,2
+386427,Stimulus,presented,22
+386635,Stimulus,presented,4
+387010,Keyboard,received,None,wait_char
+387218,Stimulus,presented,11
+387227,Stimulus,presented,11
+393235,Stimulus,presented,43
+393235,Stimulus,played,b'./auditory_feedback/neg1.wav'
+393735,stdout,received,'no response registered'
+393735,stdout,received,'------------------------------------------------------'
+393735,stdout,received,'None key detected or wrong key :  None'
+394235,stdout,received,'Blankscreen'
+394243,Stimulus,presented,3
+394543,stdout,received,'---------------------------------------'
+394560,Stimulus,presented,4
+395068,Stimulus,presented,4
+395068,Stimulus,presented,2
+395077,Stimulus,presented,21
+395284,Stimulus,presented,4
+395468,Stimulus,presented,4
+395468,Stimulus,presented,2
+395477,Stimulus,presented,23
+395684,Stimulus,presented,4
+395868,Stimulus,presented,4
+395868,Stimulus,presented,2
+395877,Stimulus,presented,23
+396084,Stimulus,presented,4
+396268,Stimulus,presented,4
+396268,Stimulus,presented,2
+396277,Stimulus,presented,23
+396484,Stimulus,presented,4
+396668,Stimulus,presented,4
+396668,Stimulus,presented,2
+396677,Stimulus,presented,23
+396885,Stimulus,presented,4
+397068,Stimulus,presented,4
+397068,Stimulus,presented,2
+397077,Stimulus,presented,21
+397284,Stimulus,presented,4
+397468,Stimulus,presented,4
+397468,Stimulus,presented,2
+397477,Stimulus,presented,21
+397684,Stimulus,presented,4
+397868,Stimulus,presented,4
+397868,Stimulus,presented,2
+397877,Stimulus,presented,23
+398084,Stimulus,presented,4
+398268,Stimulus,presented,4
+398268,Stimulus,presented,2
+398277,Stimulus,presented,21
+398484,Stimulus,presented,4
+398668,Stimulus,presented,4
+398668,Stimulus,presented,2
+398677,Stimulus,presented,21
+398884,Stimulus,presented,4
+399068,Stimulus,presented,4
+399068,Stimulus,presented,2
+399077,Stimulus,presented,21
+399284,Stimulus,presented,4
+399468,Stimulus,presented,4
+399468,Stimulus,presented,2
+399477,Stimulus,presented,23
+399684,Stimulus,presented,4
+400060,Keyboard,received,None,wait_char
+400268,Stimulus,presented,11
+400277,Stimulus,presented,11
+406284,Stimulus,presented,44
+406285,Stimulus,played,b'./auditory_feedback/neg1.wav'
+406785,stdout,received,'no response registered'
+406785,stdout,received,'------------------------------------------------------'
+406785,stdout,received,'None key detected or wrong key :  None'
+407285,stdout,received,'Blankscreen'
+407293,Stimulus,presented,3
+407593,stdout,received,'---------------------------------------'
+407593,stdout,received,'We are in the resting state break'
+407609,Stimulus,presented,45
+409618,Stimulus,presented,3
+412218,Keyboard,received,None,wait_char
+412226,Stimulus,presented,46
+418603,Keyboard,received,n,wait_char
+418608,Stimulus,presented,47
+420617,Stimulus,presented,4
+425634,Stimulus,presented,4
+426142,Stimulus,presented,4
+426142,Stimulus,presented,2
+426150,Stimulus,presented,23
+426359,Stimulus,presented,4
+426542,Stimulus,presented,4
+426542,Stimulus,presented,2
+426550,Stimulus,presented,18
+426759,Stimulus,presented,4
+426942,Stimulus,presented,4
+426942,Stimulus,presented,2
+426950,Stimulus,presented,20
+427159,Stimulus,presented,4
+427342,Stimulus,presented,4
+427342,Stimulus,presented,2
+427350,Stimulus,presented,23
+427559,Stimulus,presented,4
+427742,Stimulus,presented,4
+427742,Stimulus,presented,2
+427751,Stimulus,presented,18
+427959,Stimulus,presented,4
+428143,Stimulus,presented,4
+428143,Stimulus,presented,2
+428151,Stimulus,presented,20
+428359,Stimulus,presented,4
+428542,Stimulus,presented,4
+428542,Stimulus,presented,2
+428551,Stimulus,presented,23
+428759,Stimulus,presented,4
+428942,Stimulus,presented,4
+428942,Stimulus,presented,2
+428951,Stimulus,presented,18
+429159,Stimulus,presented,4
+429342,Stimulus,presented,4
+429342,Stimulus,presented,2
+429351,Stimulus,presented,20
+429559,Stimulus,presented,4
+429746,Stimulus,presented,4
+429746,Stimulus,presented,2
+429764,Stimulus,presented,23
+429967,Stimulus,presented,4
+430142,Stimulus,presented,4
+430142,Stimulus,presented,2
+430150,Stimulus,presented,18
+430359,Stimulus,presented,4
+430542,Stimulus,presented,4
+430542,Stimulus,presented,2
+430550,Stimulus,presented,20
+430759,Stimulus,presented,4
+431134,Keyboard,received,None,wait_char
+431342,Stimulus,presented,11
+431350,Stimulus,presented,11
+437359,Stimulus,presented,48
+437359,Stimulus,played,b'./auditory_feedback/neg1.wav'
+437859,stdout,received,'no response registered'
+437859,stdout,received,'------------------------------------------------------'
+437859,stdout,received,'None key detected or wrong key :  None'
+438359,stdout,received,'Blankscreen'
+438367,Stimulus,presented,3
+438667,stdout,received,'---------------------------------------'
+438684,Stimulus,presented,4
+439192,Stimulus,presented,4
+439192,Stimulus,presented,2
+439200,Stimulus,presented,20
+439410,Stimulus,presented,4
+439592,Stimulus,presented,4
+439592,Stimulus,presented,2
+439603,Stimulus,presented,21
+439809,Stimulus,presented,4
+439992,Stimulus,presented,4
+439992,Stimulus,presented,2
+440000,Stimulus,presented,18
+440209,Stimulus,presented,4
+440392,Stimulus,presented,4
+440392,Stimulus,presented,2
+440400,Stimulus,presented,20
+440608,Stimulus,presented,4
+440792,Stimulus,presented,4
+440792,Stimulus,presented,2
+440800,Stimulus,presented,21
+441008,Stimulus,presented,4
+441192,Stimulus,presented,4
+441192,Stimulus,presented,2
+441200,Stimulus,presented,18
+441408,Stimulus,presented,4
+441592,Stimulus,presented,4
+441592,Stimulus,presented,2
+441600,Stimulus,presented,20
+441809,Stimulus,presented,4
+441992,Stimulus,presented,4
+441992,Stimulus,presented,2
+442000,Stimulus,presented,21
+442209,Stimulus,presented,4
+442392,Stimulus,presented,4
+442392,Stimulus,presented,2
+442400,Stimulus,presented,18
+442609,Stimulus,presented,4
+442792,Stimulus,presented,4
+442792,Stimulus,presented,2
+442801,Stimulus,presented,20
+443009,Stimulus,presented,4
+443192,Stimulus,presented,4
+443192,Stimulus,presented,2
+443200,Stimulus,presented,21
+443409,Stimulus,presented,4
+443592,Stimulus,presented,4
+443592,Stimulus,presented,2
+443600,Stimulus,presented,18
+443812,Stimulus,presented,4
+444184,Keyboard,received,None,wait_char
+444392,Stimulus,presented,11
+444400,Stimulus,presented,11
+450408,Stimulus,presented,49
+450408,Stimulus,played,b'./auditory_feedback/neg1.wav'
+450908,stdout,received,'no response registered'
+450908,stdout,received,'------------------------------------------------------'
+450908,stdout,received,'None key detected or wrong key :  None'
+451408,stdout,received,'Blankscreen'
+451417,Stimulus,presented,3
+451717,stdout,received,'---------------------------------------'
+451717,stdout,received,'We are in the resting state break'
+451744,Stimulus,presented,50
+453750,Stimulus,presented,3
+456350,Keyboard,received,None,wait_char
+456358,Stimulus,presented,51
+515382,stderr,received,'Traceback (most recent call last):'
+515382,stderr,received,'  File "run_megSeq.py", line 498, in <module>'
+515382,stderr,received,"    control.end('Ending experiment')"
+515382,stderr,received,'  File "/home/neurostim/.pyenv/versions/3.8.19/envs/replayseq/lib/python3.8/site-packages/expyriment/io/_keyboard.py", line 384, in wait_char'
+515382,stderr,received,'    for event in pygame.event.get([pygame.KEYUP, pygame.KEYDOWN]):'
+515382,stderr,received,'KeyboardInterrupt'
+515383,Data,saved

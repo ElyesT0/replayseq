@@ -1,0 +1,85 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 19:15:08
+#sha1: d35fa4
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-107-generic', version='#117~20.04.1-Ubuntu SMP Tue Apr 30 10:35:57 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+11071,design,log,
+#design: #exp: MegSeq
+#design: #dvn: SequenceID,PresentedPositions,Mapping,MappingResponse,ProducedSequence,RTs,Score
+#design: block_cnt,block_id,trial_cnt,trial_id
+11071,design,logged,
+11071,Experiment,started
+11126,Stimulus,presented,0
+11919,Keyboard,received,13,wait
+11919,stdout,received,'Running trial number 0'
+11919,stdout,received,''
+11934,Stimulus,presented,4
+12434,stdout,received,'PRESENTING SEQUENCE'
+12435,stdout,received,'--- Presenting: stim 0 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1d6d0>'
+12442,Stimulus,presented,4
+12451,Stimulus,presented,18
+12659,Stimulus,presented,4
+12660,stdout,received,'207.93437957763672'
+12848,stdout,received,'--- Presenting: stim 1 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1db20>'
+12851,Stimulus,presented,4
+12859,Stimulus,presented,20
+13067,Stimulus,presented,4
+13068,stdout,received,'208.38594436645508'
+13255,stdout,received,'--- Presenting: stim 2 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1d5e0>'
+13259,Stimulus,presented,4
+13268,Stimulus,presented,19
+13475,Stimulus,presented,4
+13476,stdout,received,'207.5824737548828'
+13664,stdout,received,'--- Presenting: stim 3 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1dbe0>'
+13668,Stimulus,presented,4
+13675,Stimulus,presented,23
+13884,Stimulus,presented,4
+13884,stdout,received,'208.35185050964355'
+14071,stdout,received,'--- Presenting: stim 4 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1d6d0>'
+14076,Stimulus,presented,4
+14084,Stimulus,presented,18
+14292,Stimulus,presented,4
+14292,stdout,received,'207.92627334594727'
+14480,stdout,received,'--- Presenting: stim 5 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1db20>'
+14484,Stimulus,presented,4
+14493,Stimulus,presented,20
+14700,Stimulus,presented,4
+14701,stdout,received,'207.57389068603516'
+14889,stdout,received,'--- Presenting: stim 6 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1d5e0>'
+14892,Stimulus,presented,4
+14900,Stimulus,presented,19
+15109,Stimulus,presented,4
+15109,stdout,received,'208.45341682434082'
+15296,stdout,received,'--- Presenting: stim 7 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1dbe0>'
+15300,Stimulus,presented,4
+15309,Stimulus,presented,23
+15517,Stimulus,presented,4
+15517,stdout,received,'207.93676376342773'
+15705,stdout,received,'--- Presenting: stim 8 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1d6d0>'
+15709,Stimulus,presented,4
+15717,Stimulus,presented,18
+15925,Stimulus,presented,4
+15925,stdout,received,'208.3415985107422'
+16112,stdout,received,'--- Presenting: stim 9 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1db20>'
+16117,Stimulus,presented,4
+16126,Stimulus,presented,20
+16334,Stimulus,presented,4
+16334,stdout,received,'207.95822143554688'
+16522,stdout,received,'--- Presenting: stim 10 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1d5e0>'
+16526,Stimulus,presented,4
+16534,Stimulus,presented,19
+16742,Stimulus,presented,4
+16742,stdout,received,'208.2996368408203'
+16929,stdout,received,'--- Presenting: stim 11 : <expyriment.stimuli._circle.Circle object at 0x7f9795e1dbe0>'
+16934,Stimulus,presented,4
+16942,Stimulus,presented,23
+17150,Stimulus,presented,4
+17150,stdout,received,'207.87453651428223'
+17338,stdout,received,'BREAK TO COMPRESS'
+18151,Experiment,paused
+18159,Stimulus,presented,26
+19199,Keyboard,received,y,wait_char
+19199,Experiment,ended
+19209,Stimulus,presented,26

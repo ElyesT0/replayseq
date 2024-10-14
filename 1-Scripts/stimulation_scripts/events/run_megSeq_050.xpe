@@ -1,0 +1,774 @@
+#Expyriment 0.11.dev2 (Python 3.8.19), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 16:06:19
+#sha1: 62de54
+#modules: response_funcs.py (7cb4cd)
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='meg-stim', release='5.15.0-113-generic', version='#123~20.04.1-Ubuntu SMP Wed Jun 12 17:33:13 UTC 2024', machine='x86_64', processor='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1475,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_block,block_sequenceName,trial_cnt,trial_id,PresentedSequence,block,sequenceName,trial
+#design: 0,0,0,CRep2,0,0,[5, 4, 4, 4, 4, 5, 5, 4, 5, 5, 5, 4],0,CRep2,0
+#design: 0,0,0,CRep2,1,1,[2, 4, 4, 4, 4, 2, 2, 4, 2, 2, 2, 4],0,CRep2,1
+#design: 1,1,1,CRep2,0,0,[3, 5, 5, 5, 5, 3, 3, 5, 3, 3, 3, 5],1,CRep2,0
+#design: 1,1,1,CRep2,1,1,[3, 5, 5, 5, 5, 3, 3, 5, 3, 3, 3, 5],1,CRep2,1
+#design: 2,2,2,Rep2,0,0,[0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4],2,Rep2,0
+#design: 2,2,2,Rep2,1,1,[1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],2,Rep2,1
+#design: 3,3,3,Rep2,0,0,[2, 5, 2, 5, 2, 5, 2, 5, 2, 5, 2, 5],3,Rep2,0
+#design: 3,3,3,Rep2,1,1,[1, 5, 1, 5, 1, 5, 1, 5, 1, 5, 1, 5],3,Rep2,1
+#design: 4,4,4,Rep3,0,0,[1, 0, 2, 1, 0, 2, 1, 0, 2, 1, 0, 2],4,Rep3,0
+#design: 4,4,4,Rep3,1,1,[5, 0, 1, 5, 0, 1, 5, 0, 1, 5, 0, 1],4,Rep3,1
+#design: 5,5,5,Rep3,0,0,[3, 2, 5, 3, 2, 5, 3, 2, 5, 3, 2, 5],5,Rep3,0
+#design: 5,5,5,Rep3,1,1,[3, 2, 4, 3, 2, 4, 3, 2, 4, 3, 2, 4],5,Rep3,1
+1475,design,logged,
+1475,Experiment,started
+1487,Stimulus,presented,26
+1810,Keyboard,received,32,wait
+1820,Stimulus,presented,4
+2328,Stimulus,presented,4
+2328,Stimulus,presented,2
+2337,Stimulus,presented,23
+2545,Stimulus,presented,4
+2728,Stimulus,presented,4
+2728,Stimulus,presented,2
+2737,Stimulus,presented,22
+2945,Stimulus,presented,4
+3128,Stimulus,presented,4
+3128,Stimulus,presented,2
+3137,Stimulus,presented,22
+3346,Stimulus,presented,4
+3529,Stimulus,presented,4
+3529,Stimulus,presented,2
+3538,Stimulus,presented,22
+3746,Stimulus,presented,4
+3929,Stimulus,presented,4
+3929,Stimulus,presented,2
+3938,Stimulus,presented,22
+4146,Stimulus,presented,4
+4329,Stimulus,presented,4
+4329,Stimulus,presented,2
+4338,Stimulus,presented,23
+4546,Stimulus,presented,4
+4729,Stimulus,presented,4
+4729,Stimulus,presented,2
+4738,Stimulus,presented,23
+4946,Stimulus,presented,4
+5129,Stimulus,presented,4
+5129,Stimulus,presented,2
+5138,Stimulus,presented,22
+5346,Stimulus,presented,4
+5529,Stimulus,presented,4
+5529,Stimulus,presented,2
+5538,Stimulus,presented,23
+5746,Stimulus,presented,4
+5929,Stimulus,presented,4
+5929,Stimulus,presented,2
+5938,Stimulus,presented,23
+6146,Stimulus,presented,4
+6329,Stimulus,presented,4
+6329,Stimulus,presented,2
+6338,Stimulus,presented,23
+6546,Stimulus,presented,4
+6729,Stimulus,presented,4
+6729,Stimulus,presented,2
+6738,Stimulus,presented,22
+6946,Stimulus,presented,4
+7320,Keyboard,received,None,wait_char
+7529,Stimulus,presented,11
+7538,Stimulus,presented,11
+8035,stdout,received,'FROM Response_funcs module::: port1_8'
+8035,stdout,received,'Key =  LG'
+8035,Stimulus,presented,2
+8038,Stimulus,presented,23
+8146,Stimulus,presented,11
+8146,stdout,received,'BUTTON NUMBER 5 PRESSED'
+8146,stdout,received,''
+8155,Stimulus,presented,11
+8177,stdout,received,'FROM Response_funcs module::: port1_8'
+8177,stdout,received,'Key =  LG'
+8177,Stimulus,presented,2
+8190,Stimulus,presented,23
+8296,Stimulus,presented,11
+8296,stdout,received,'BUTTON NUMBER 5 PRESSED'
+8296,stdout,received,''
+8305,Stimulus,presented,11
+8316,stdout,received,'FROM Response_funcs module::: port1_8'
+8316,stdout,received,'Key =  LG'
+8316,Stimulus,presented,2
+8321,Stimulus,presented,23
+8429,Stimulus,presented,11
+8429,stdout,received,'BUTTON NUMBER 5 PRESSED'
+8429,stdout,received,''
+8438,Stimulus,presented,11
+8490,stdout,received,'FROM Response_funcs module::: port1_8'
+8490,stdout,received,'Key =  LG'
+8490,Stimulus,presented,2
+8499,Stimulus,presented,23
+8604,Stimulus,presented,11
+8604,stdout,received,'BUTTON NUMBER 5 PRESSED'
+8604,stdout,received,''
+8613,Stimulus,presented,11
+8675,stdout,received,'FROM Response_funcs module::: port1_8'
+8675,stdout,received,'Key =  LG'
+8675,Stimulus,presented,2
+8679,Stimulus,presented,23
+8787,Stimulus,presented,11
+8787,stdout,received,'BUTTON NUMBER 5 PRESSED'
+8787,stdout,received,''
+8796,Stimulus,presented,11
+8797,stdout,received,'FROM Response_funcs module::: port1_8'
+8797,stdout,received,'Key =  LG'
+8797,Stimulus,presented,2
+8804,Stimulus,presented,23
+8912,Stimulus,presented,11
+8912,stdout,received,'BUTTON NUMBER 5 PRESSED'
+8912,stdout,received,''
+8921,Stimulus,presented,11
+8931,stdout,received,'FROM Response_funcs module::: port1_8'
+8931,stdout,received,'Key =  LG'
+8931,Stimulus,presented,2
+8937,Stimulus,presented,23
+9045,Stimulus,presented,11
+9045,stdout,received,'BUTTON NUMBER 5 PRESSED'
+9045,stdout,received,''
+9054,Stimulus,presented,11
+9058,stdout,received,'FROM Response_funcs module::: port1_8'
+9058,stdout,received,'Key =  LG'
+9059,Stimulus,presented,2
+9063,Stimulus,presented,23
+9170,Stimulus,presented,11
+9170,stdout,received,'BUTTON NUMBER 5 PRESSED'
+9170,stdout,received,''
+9179,Stimulus,presented,11
+9229,stdout,received,'FROM Response_funcs module::: port1_8'
+9229,stdout,received,'Key =  LG'
+9230,Stimulus,presented,2
+9238,Stimulus,presented,23
+9345,Stimulus,presented,11
+9345,stdout,received,'BUTTON NUMBER 5 PRESSED'
+9345,stdout,received,''
+9354,Stimulus,presented,11
+9361,stdout,received,'FROM Response_funcs module::: port1_8'
+9361,stdout,received,'Key =  LG'
+9361,Stimulus,presented,2
+9371,Stimulus,presented,23
+9479,Stimulus,presented,11
+9479,stdout,received,'BUTTON NUMBER 5 PRESSED'
+9479,stdout,received,''
+9488,Stimulus,presented,11
+9495,stdout,received,'FROM Response_funcs module::: port1_8'
+9495,stdout,received,'Key =  LG'
+9495,Stimulus,presented,2
+9504,Stimulus,presented,23
+9612,Stimulus,presented,11
+9612,stdout,received,'BUTTON NUMBER 5 PRESSED'
+9612,stdout,received,''
+9621,Stimulus,presented,11
+9631,stdout,received,'FROM Response_funcs module::: port1_8'
+9631,stdout,received,'Key =  LG'
+9631,Stimulus,presented,2
+9638,Stimulus,presented,23
+9745,Stimulus,presented,11
+9745,stdout,received,'BUTTON NUMBER 5 PRESSED'
+9745,stdout,received,''
+9946,Stimulus,played,b'./auditory_feedback/neg1.wav'
+9954,Stimulus,presented,28
+10462,Stimulus,presented,3
+10762,stdout,received,'---------------------------------------'
+10780,Stimulus,presented,4
+11287,Stimulus,presented,4
+11287,Stimulus,presented,2
+11296,Stimulus,presented,20
+11504,Stimulus,presented,4
+11687,Stimulus,presented,4
+11687,Stimulus,presented,2
+11697,Stimulus,presented,22
+11904,Stimulus,presented,4
+12087,Stimulus,presented,4
+12087,Stimulus,presented,2
+12096,Stimulus,presented,22
+12304,Stimulus,presented,4
+12487,Stimulus,presented,4
+12487,Stimulus,presented,2
+12496,Stimulus,presented,22
+12704,Stimulus,presented,4
+12887,Stimulus,presented,4
+12887,Stimulus,presented,2
+12897,Stimulus,presented,22
+13104,Stimulus,presented,4
+13287,Stimulus,presented,4
+13287,Stimulus,presented,2
+13296,Stimulus,presented,20
+13509,Stimulus,presented,4
+13687,Stimulus,presented,4
+13687,Stimulus,presented,2
+13695,Stimulus,presented,20
+13903,Stimulus,presented,4
+14087,Stimulus,presented,4
+14087,Stimulus,presented,2
+14095,Stimulus,presented,22
+14303,Stimulus,presented,4
+14487,Stimulus,presented,4
+14487,Stimulus,presented,2
+14495,Stimulus,presented,20
+14703,Stimulus,presented,4
+14887,Stimulus,presented,4
+14887,Stimulus,presented,2
+14895,Stimulus,presented,20
+15103,Stimulus,presented,4
+15287,Stimulus,presented,4
+15287,Stimulus,presented,2
+15295,Stimulus,presented,20
+15504,Stimulus,presented,4
+15687,Stimulus,presented,4
+15687,Stimulus,presented,2
+15695,Stimulus,presented,22
+15904,Stimulus,presented,4
+16280,Keyboard,received,None,wait_char
+16487,Stimulus,presented,11
+16495,Stimulus,presented,11
+22504,Stimulus,presented,29
+22504,Stimulus,played,b'./auditory_feedback/neg1.wav'
+23004,stdout,received,'no response registered'
+23004,stdout,received,'None key detected or wrong key :  None'
+23512,Stimulus,presented,3
+23812,stdout,received,'---------------------------------------'
+23812,stdout,received,'We are in the resting state break'
+23829,Stimulus,presented,30
+24337,Stimulus,presented,3
+25437,Keyboard,received,None,wait_char
+25445,Stimulus,presented,31
+28091,Keyboard,received,n,wait_char
+28095,Stimulus,presented,32
+28603,Stimulus,presented,4
+29621,Stimulus,presented,4
+30129,Stimulus,presented,4
+30129,Stimulus,presented,2
+30138,Stimulus,presented,21
+30345,Stimulus,presented,4
+30529,Stimulus,presented,4
+30529,Stimulus,presented,2
+30538,Stimulus,presented,23
+30745,Stimulus,presented,4
+30929,Stimulus,presented,4
+30929,Stimulus,presented,2
+30938,Stimulus,presented,23
+31145,Stimulus,presented,4
+31329,Stimulus,presented,4
+31329,Stimulus,presented,2
+31338,Stimulus,presented,23
+31545,Stimulus,presented,4
+31729,Stimulus,presented,4
+31729,Stimulus,presented,2
+31738,Stimulus,presented,23
+31945,Stimulus,presented,4
+32129,Stimulus,presented,4
+32129,Stimulus,presented,2
+32138,Stimulus,presented,21
+32345,Stimulus,presented,4
+32529,Stimulus,presented,4
+32529,Stimulus,presented,2
+32538,Stimulus,presented,21
+32746,Stimulus,presented,4
+32929,Stimulus,presented,4
+32929,Stimulus,presented,2
+32938,Stimulus,presented,23
+33145,Stimulus,presented,4
+33329,Stimulus,presented,4
+33329,Stimulus,presented,2
+33338,Stimulus,presented,21
+33545,Stimulus,presented,4
+33729,Stimulus,presented,4
+33729,Stimulus,presented,2
+33738,Stimulus,presented,21
+33945,Stimulus,presented,4
+34129,Stimulus,presented,4
+34129,Stimulus,presented,2
+34138,Stimulus,presented,21
+34345,Stimulus,presented,4
+34529,Stimulus,presented,4
+34529,Stimulus,presented,2
+34538,Stimulus,presented,23
+34745,Stimulus,presented,4
+35121,Keyboard,received,None,wait_char
+35329,Stimulus,presented,11
+35338,Stimulus,presented,11
+35346,stdout,received,'FROM Response_funcs module::: port1_4'
+35346,stdout,received,'Key =  LR'
+35346,Stimulus,presented,2
+35354,Stimulus,presented,22
+35462,Stimulus,presented,11
+35462,stdout,received,'BUTTON NUMBER 4 PRESSED'
+35462,stdout,received,''
+35471,Stimulus,presented,11
+35559,stdout,received,'FROM Response_funcs module::: port1_4'
+35559,stdout,received,'Key =  LR'
+35559,Stimulus,presented,2
+35562,Stimulus,presented,22
+35670,Stimulus,presented,11
+35670,stdout,received,'BUTTON NUMBER 4 PRESSED'
+35670,stdout,received,''
+35680,Stimulus,presented,11
+35751,stdout,received,'FROM Response_funcs module::: port1_4'
+35751,stdout,received,'Key =  LR'
+35751,Stimulus,presented,2
+35754,Stimulus,presented,22
+35862,Stimulus,presented,11
+35862,stdout,received,'BUTTON NUMBER 4 PRESSED'
+35862,stdout,received,''
+35871,Stimulus,presented,11
+35953,stdout,received,'FROM Response_funcs module::: port1_4'
+35953,stdout,received,'Key =  LR'
+35953,Stimulus,presented,2
+35962,Stimulus,presented,22
+36070,Stimulus,presented,11
+36070,stdout,received,'BUTTON NUMBER 4 PRESSED'
+36070,stdout,received,''
+36079,Stimulus,presented,11
+36122,stdout,received,'FROM Response_funcs module::: port1_4'
+36122,stdout,received,'Key =  LR'
+36122,Stimulus,presented,2
+36130,Stimulus,presented,22
+36237,Stimulus,presented,11
+36237,stdout,received,'BUTTON NUMBER 4 PRESSED'
+36237,stdout,received,''
+36246,Stimulus,presented,11
+36280,stdout,received,'FROM Response_funcs module::: port1_4'
+36280,stdout,received,'Key =  LR'
+36280,Stimulus,presented,2
+36290,Stimulus,presented,22
+36395,Stimulus,presented,11
+36395,stdout,received,'BUTTON NUMBER 4 PRESSED'
+36395,stdout,received,''
+36404,Stimulus,presented,11
+36455,stdout,received,'FROM Response_funcs module::: port1_4'
+36455,stdout,received,'Key =  LR'
+36455,Stimulus,presented,2
+36465,Stimulus,presented,22
+36570,Stimulus,presented,11
+36570,stdout,received,'BUTTON NUMBER 4 PRESSED'
+36570,stdout,received,''
+36579,Stimulus,presented,11
+36623,stdout,received,'FROM Response_funcs module::: port1_4'
+36623,stdout,received,'Key =  LR'
+36623,Stimulus,presented,2
+36629,Stimulus,presented,22
+36737,Stimulus,presented,11
+36737,stdout,received,'BUTTON NUMBER 4 PRESSED'
+36737,stdout,received,''
+36745,Stimulus,presented,11
+36791,stdout,received,'FROM Response_funcs module::: port1_4'
+36791,stdout,received,'Key =  LR'
+36791,Stimulus,presented,2
+36795,Stimulus,presented,22
+36903,Stimulus,presented,11
+36903,stdout,received,'BUTTON NUMBER 4 PRESSED'
+36903,stdout,received,''
+36912,Stimulus,presented,11
+36976,stdout,received,'FROM Response_funcs module::: port1_4'
+36976,stdout,received,'Key =  LR'
+36976,Stimulus,presented,2
+36978,Stimulus,presented,22
+37087,Stimulus,presented,11
+37087,stdout,received,'BUTTON NUMBER 4 PRESSED'
+37087,stdout,received,''
+37095,Stimulus,presented,11
+37129,stdout,received,'FROM Response_funcs module::: port1_4'
+37129,stdout,received,'Key =  LR'
+37129,Stimulus,presented,2
+37137,Stimulus,presented,22
+37245,Stimulus,presented,11
+37245,stdout,received,'BUTTON NUMBER 4 PRESSED'
+37245,stdout,received,''
+37254,Stimulus,presented,11
+37297,stdout,received,'FROM Response_funcs module::: port1_4'
+37297,stdout,received,'Key =  LR'
+37298,Stimulus,presented,2
+37303,Stimulus,presented,22
+37412,Stimulus,presented,11
+37412,stdout,received,'BUTTON NUMBER 4 PRESSED'
+37412,stdout,received,''
+37612,Stimulus,played,b'./auditory_feedback/neg1.wav'
+37620,Stimulus,presented,33
+38128,Stimulus,presented,3
+38428,stdout,received,'---------------------------------------'
+38446,Stimulus,presented,4
+38954,Stimulus,presented,4
+38954,Stimulus,presented,2
+38963,Stimulus,presented,21
+39170,Stimulus,presented,4
+39353,Stimulus,presented,4
+39354,Stimulus,presented,2
+39363,Stimulus,presented,23
+39570,Stimulus,presented,4
+39753,Stimulus,presented,4
+39754,Stimulus,presented,2
+39763,Stimulus,presented,23
+39970,Stimulus,presented,4
+40154,Stimulus,presented,4
+40154,Stimulus,presented,2
+40163,Stimulus,presented,23
+40370,Stimulus,presented,4
+40554,Stimulus,presented,4
+40554,Stimulus,presented,2
+40563,Stimulus,presented,23
+40770,Stimulus,presented,4
+40954,Stimulus,presented,4
+40954,Stimulus,presented,2
+40963,Stimulus,presented,21
+41172,Stimulus,presented,4
+41360,Stimulus,presented,4
+41360,Stimulus,presented,2
+41375,Stimulus,presented,21
+41583,Stimulus,presented,4
+41754,Stimulus,presented,4
+41754,Stimulus,presented,2
+41762,Stimulus,presented,23
+41970,Stimulus,presented,4
+42153,Stimulus,presented,4
+42154,Stimulus,presented,2
+42162,Stimulus,presented,21
+42371,Stimulus,presented,4
+42553,Stimulus,presented,4
+42554,Stimulus,presented,2
+42562,Stimulus,presented,21
+42770,Stimulus,presented,4
+42953,Stimulus,presented,4
+42954,Stimulus,presented,2
+42962,Stimulus,presented,21
+43170,Stimulus,presented,4
+43354,Stimulus,presented,4
+43354,Stimulus,presented,2
+43362,Stimulus,presented,23
+43570,Stimulus,presented,4
+43946,Keyboard,received,None,wait_char
+44154,Stimulus,presented,11
+44162,Stimulus,presented,11
+50170,Stimulus,presented,34
+50170,Stimulus,played,b'./auditory_feedback/neg1.wav'
+50670,stdout,received,'no response registered'
+50670,stdout,received,'None key detected or wrong key :  None'
+51178,Stimulus,presented,3
+51478,stdout,received,'---------------------------------------'
+51478,stdout,received,'We are in the resting state break'
+51503,Stimulus,presented,35
+52012,Stimulus,presented,3
+53112,Keyboard,received,None,wait_char
+53123,Stimulus,presented,36
+233763,Keyboard,received,n,wait_char
+233767,Stimulus,presented,37
+234276,Stimulus,presented,4
+235293,Stimulus,presented,4
+235801,Stimulus,presented,4
+235801,Stimulus,presented,2
+235810,Stimulus,presented,18
+236017,Stimulus,presented,4
+236201,Stimulus,presented,4
+236201,Stimulus,presented,2
+236210,Stimulus,presented,22
+236417,Stimulus,presented,4
+236601,Stimulus,presented,4
+236601,Stimulus,presented,2
+236610,Stimulus,presented,18
+236817,Stimulus,presented,4
+237001,Stimulus,presented,4
+237001,Stimulus,presented,2
+237010,Stimulus,presented,22
+237217,Stimulus,presented,4
+237401,Stimulus,presented,4
+237401,Stimulus,presented,2
+237410,Stimulus,presented,18
+237617,Stimulus,presented,4
+237801,Stimulus,presented,4
+237801,Stimulus,presented,2
+237810,Stimulus,presented,22
+238017,Stimulus,presented,4
+238201,Stimulus,presented,4
+238201,Stimulus,presented,2
+238210,Stimulus,presented,18
+238417,Stimulus,presented,4
+238601,Stimulus,presented,4
+238601,Stimulus,presented,2
+238610,Stimulus,presented,22
+238817,Stimulus,presented,4
+239001,Stimulus,presented,4
+239001,Stimulus,presented,2
+239010,Stimulus,presented,18
+239217,Stimulus,presented,4
+239401,Stimulus,presented,4
+239401,Stimulus,presented,2
+239410,Stimulus,presented,22
+239617,Stimulus,presented,4
+239801,Stimulus,presented,4
+239801,Stimulus,presented,2
+239810,Stimulus,presented,18
+240017,Stimulus,presented,4
+240201,Stimulus,presented,4
+240201,Stimulus,presented,2
+240210,Stimulus,presented,22
+240417,Stimulus,presented,4
+240793,Keyboard,received,None,wait_char
+241001,Stimulus,presented,11
+241010,Stimulus,presented,11
+242678,stdout,received,'FROM Response_funcs module::: port2_8'
+242678,stdout,received,'Key =  RY'
+242678,Stimulus,presented,2
+242684,Stimulus,presented,19
+242792,Stimulus,presented,11
+242792,stdout,received,'BUTTON NUMBER 1 PRESSED'
+242792,stdout,received,''
+242803,Stimulus,presented,11
+242808,stdout,received,'FROM Response_funcs module::: port2_8'
+242808,stdout,received,'Key =  RY'
+242808,Stimulus,presented,2
+242822,Stimulus,presented,19
+242926,Stimulus,presented,11
+242926,stdout,received,'BUTTON NUMBER 1 PRESSED'
+242926,stdout,received,''
+242938,Stimulus,presented,11
+242938,stdout,received,'FROM Response_funcs module::: port1_2'
+242938,stdout,received,'Key =  LY'
+242938,Stimulus,presented,2
+242947,Stimulus,presented,18
+243051,Stimulus,presented,11
+243051,stdout,received,'BUTTON NUMBER 0 PRESSED'
+243051,stdout,received,''
+243061,Stimulus,presented,11
+243061,stdout,received,'FROM Response_funcs module::: port2_4'
+243061,stdout,received,'Key =  RG'
+243062,Stimulus,presented,2
+243070,Stimulus,presented,20
+243175,Stimulus,presented,11
+243175,stdout,received,'BUTTON NUMBER 2 PRESSED'
+243175,stdout,received,''
+243184,Stimulus,presented,11
+243186,stdout,received,'FROM Response_funcs module::: port2_4'
+243186,stdout,received,'Key =  RG'
+243186,Stimulus,presented,2
+243193,Stimulus,presented,20
+243300,Stimulus,presented,11
+243300,stdout,received,'BUTTON NUMBER 2 PRESSED'
+243300,stdout,received,''
+243309,Stimulus,presented,11
+243310,stdout,received,'FROM Response_funcs module::: port1_8'
+243310,stdout,received,'Key =  LG'
+243310,Stimulus,presented,2
+243318,Stimulus,presented,23
+243425,Stimulus,presented,11
+243425,stdout,received,'BUTTON NUMBER 5 PRESSED'
+243425,stdout,received,''
+243434,Stimulus,presented,11
+243449,stdout,received,'FROM Response_funcs module::: port1_8'
+243449,stdout,received,'Key =  LG'
+243449,Stimulus,presented,2
+243459,Stimulus,presented,23
+243567,Stimulus,presented,11
+243567,stdout,received,'BUTTON NUMBER 5 PRESSED'
+243567,stdout,received,''
+243576,Stimulus,presented,11
+243576,stdout,received,'FROM Response_funcs module::: port2_2'
+243576,stdout,received,'Key =  RR'
+243576,Stimulus,presented,2
+243585,Stimulus,presented,21
+243692,Stimulus,presented,11
+243692,stdout,received,'BUTTON NUMBER 3 PRESSED'
+243692,stdout,received,''
+243701,Stimulus,presented,11
+243716,stdout,received,'FROM Response_funcs module::: port2_2'
+243716,stdout,received,'Key =  RR'
+243716,Stimulus,presented,2
+243727,Stimulus,presented,21
+243834,Stimulus,presented,11
+243834,stdout,received,'BUTTON NUMBER 3 PRESSED'
+243834,stdout,received,''
+243843,Stimulus,presented,11
+243843,stdout,received,'FROM Response_funcs module::: port1_4'
+243843,stdout,received,'Key =  LR'
+243843,Stimulus,presented,2
+243852,Stimulus,presented,22
+243959,Stimulus,presented,11
+243959,stdout,received,'BUTTON NUMBER 4 PRESSED'
+243959,stdout,received,''
+243968,Stimulus,presented,11
+244104,stdout,received,'FROM Response_funcs module::: port2_4'
+244104,stdout,received,'Key =  RG'
+244104,Stimulus,presented,2
+244109,Stimulus,presented,20
+244217,Stimulus,presented,11
+244217,stdout,received,'BUTTON NUMBER 2 PRESSED'
+244217,stdout,received,''
+244226,Stimulus,presented,11
+244227,stdout,received,'FROM Response_funcs module::: port2_4'
+244227,stdout,received,'Key =  RG'
+244227,Stimulus,presented,2
+244235,Stimulus,presented,20
+244342,Stimulus,presented,11
+244342,stdout,received,'BUTTON NUMBER 2 PRESSED'
+244342,stdout,received,''
+244542,Stimulus,played,b'./auditory_feedback/neg1.wav'
+244550,Stimulus,presented,38
+245059,Stimulus,presented,3
+245359,stdout,received,'---------------------------------------'
+245378,Stimulus,presented,4
+245884,Stimulus,presented,4
+245884,Stimulus,presented,2
+245895,Stimulus,presented,19
+246101,Stimulus,presented,4
+246284,Stimulus,presented,4
+246284,Stimulus,presented,2
+246293,Stimulus,presented,18
+246500,Stimulus,presented,4
+246684,Stimulus,presented,4
+246684,Stimulus,presented,2
+246693,Stimulus,presented,19
+246900,Stimulus,presented,4
+247084,Stimulus,presented,4
+247084,Stimulus,presented,2
+247093,Stimulus,presented,18
+247300,Stimulus,presented,4
+247484,Stimulus,presented,4
+247484,Stimulus,presented,2
+247493,Stimulus,presented,19
+247700,Stimulus,presented,4
+247884,Stimulus,presented,4
+247884,Stimulus,presented,2
+247893,Stimulus,presented,18
+248100,Stimulus,presented,4
+248284,Stimulus,presented,4
+248284,Stimulus,presented,2
+248293,Stimulus,presented,19
+248500,Stimulus,presented,4
+248684,Stimulus,presented,4
+248684,Stimulus,presented,2
+248693,Stimulus,presented,18
+248900,Stimulus,presented,4
+249084,Stimulus,presented,4
+249084,Stimulus,presented,2
+249093,Stimulus,presented,19
+249301,Stimulus,presented,4
+249484,Stimulus,presented,4
+249484,Stimulus,presented,2
+249493,Stimulus,presented,18
+249700,Stimulus,presented,4
+249884,Stimulus,presented,4
+249884,Stimulus,presented,2
+249893,Stimulus,presented,19
+250100,Stimulus,presented,4
+250284,Stimulus,presented,4
+250284,Stimulus,presented,2
+250293,Stimulus,presented,18
+250500,Stimulus,presented,4
+250878,Keyboard,received,None,wait_char
+251084,Stimulus,presented,11
+251093,Stimulus,presented,11
+252330,stdout,received,'FROM Response_funcs module::: port2_8'
+252330,stdout,received,'Key =  RY'
+252330,Stimulus,presented,2
+252334,Stimulus,presented,19
+252442,Stimulus,presented,11
+252442,stdout,received,'BUTTON NUMBER 1 PRESSED'
+252442,stdout,received,''
+252453,Stimulus,presented,11
+252469,stdout,received,'FROM Response_funcs module::: port1_2'
+252469,stdout,received,'Key =  LY'
+252469,Stimulus,presented,2
+252478,Stimulus,presented,18
+252584,Stimulus,presented,11
+252584,stdout,received,'BUTTON NUMBER 0 PRESSED'
+252584,stdout,received,''
+252594,Stimulus,presented,11
+252594,stdout,received,'FROM Response_funcs module::: port2_8'
+252594,stdout,received,'Key =  RY'
+252594,Stimulus,presented,2
+252603,Stimulus,presented,19
+252709,Stimulus,presented,11
+252709,stdout,received,'BUTTON NUMBER 1 PRESSED'
+252709,stdout,received,''
+252719,Stimulus,presented,11
+252719,stdout,received,'FROM Response_funcs module::: port1_8'
+252719,stdout,received,'Key =  LG'
+252719,Stimulus,presented,2
+252728,Stimulus,presented,23
+252834,Stimulus,presented,11
+252834,stdout,received,'BUTTON NUMBER 5 PRESSED'
+252834,stdout,received,''
+252844,Stimulus,presented,11
+252845,stdout,received,'FROM Response_funcs module::: port1_8'
+252845,stdout,received,'Key =  LG'
+252845,Stimulus,presented,2
+252853,Stimulus,presented,23
+252959,Stimulus,presented,11
+252959,stdout,received,'BUTTON NUMBER 5 PRESSED'
+252959,stdout,received,''
+252969,Stimulus,presented,11
+252969,stdout,received,'FROM Response_funcs module::: port2_4'
+252969,stdout,received,'Key =  RG'
+252969,Stimulus,presented,2
+252978,Stimulus,presented,20
+253083,Stimulus,presented,11
+253083,stdout,received,'BUTTON NUMBER 2 PRESSED'
+253083,stdout,received,''
+253092,Stimulus,presented,11
+253093,stdout,received,'FROM Response_funcs module::: port1_4'
+253093,stdout,received,'Key =  LR'
+253093,Stimulus,presented,2
+253101,Stimulus,presented,22
+253208,Stimulus,presented,11
+253208,stdout,received,'BUTTON NUMBER 4 PRESSED'
+253208,stdout,received,''
+253218,Stimulus,presented,11
+253245,stdout,received,'FROM Response_funcs module::: port2_2'
+253245,stdout,received,'Key =  RR'
+253245,Stimulus,presented,2
+253250,Stimulus,presented,21
+253359,Stimulus,presented,11
+253359,stdout,received,'BUTTON NUMBER 3 PRESSED'
+253359,stdout,received,''
+253367,Stimulus,presented,11
+253372,stdout,received,'FROM Response_funcs module::: port1_8'
+253372,stdout,received,'Key =  LG'
+253372,Stimulus,presented,2
+253376,Stimulus,presented,23
+253483,Stimulus,presented,11
+253483,stdout,received,'BUTTON NUMBER 5 PRESSED'
+253483,stdout,received,''
+253492,Stimulus,presented,11
+253522,stdout,received,'FROM Response_funcs module::: port2_4'
+253522,stdout,received,'Key =  RG'
+253522,Stimulus,presented,2
+253528,Stimulus,presented,20
+253634,Stimulus,presented,11
+253634,stdout,received,'BUTTON NUMBER 2 PRESSED'
+253634,stdout,received,''
+253642,Stimulus,presented,11
+253695,stdout,received,'FROM Response_funcs module::: port1_2'
+253695,stdout,received,'Key =  LY'
+253695,Stimulus,presented,2
+253700,Stimulus,presented,18
+253808,Stimulus,presented,11
+253808,stdout,received,'BUTTON NUMBER 0 PRESSED'
+253808,stdout,received,''
+253817,Stimulus,presented,11
+253818,stdout,received,'FROM Response_funcs module::: port2_8'
+253818,stdout,received,'Key =  RY'
+253818,Stimulus,presented,2
+253826,Stimulus,presented,19
+253933,Stimulus,presented,11
+253933,stdout,received,'BUTTON NUMBER 1 PRESSED'
+253933,stdout,received,''
+254133,Stimulus,played,b'./auditory_feedback/neg1.wav'
+254142,Stimulus,presented,39
+254650,Stimulus,presented,3
+254950,stdout,received,'---------------------------------------'
+254950,stdout,received,'We are in the resting state break'
+254967,Stimulus,presented,40
+255475,Stimulus,presented,3
+256575,Keyboard,received,None,wait_char
+256584,Stimulus,presented,41
+261915,Experiment,paused
+261925,Stimulus,presented,42
+262915,Keyboard,received,y,wait_char
+262915,Experiment,ended
+262916,Data,saved
+263314,Stimulus,presented,42

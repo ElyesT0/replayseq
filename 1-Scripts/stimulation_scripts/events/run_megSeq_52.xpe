@@ -1,0 +1,496 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 19:13:05
+#sha1: da2ea1
+#modules: response_funcs.py (7176c3)
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+1768,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_sequenceName,block_block,trial_cnt,trial_id,sequenceName,block,trial,PresentedSequence
+#design: 0,0,Rep2,0,0,0,Rep2,0,0,[4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2]
+#design: 0,0,Rep2,0,1,1,Rep2,0,1,[1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
+#design: 1,1,Rep2,1,0,0,Rep2,1,0,[2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0]
+#design: 1,1,Rep2,1,1,1,Rep2,1,1,[2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3]
+#design: 2,2,CRep2,2,0,0,CRep2,2,0,[1, 2, 2, 2, 2, 1, 1, 2, 1, 1, 1, 2]
+#design: 2,2,CRep2,2,1,1,CRep2,2,1,[0, 2, 2, 2, 2, 0, 0, 2, 0, 0, 0, 2]
+#design: 3,3,CRep2,3,0,0,CRep2,3,0,[2, 4, 4, 4, 4, 2, 2, 4, 2, 2, 2, 4]
+#design: 3,3,CRep2,3,1,1,CRep2,3,1,[1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0]
+#design: 4,4,Rep3,4,0,0,Rep3,4,0,[1, 0, 3, 1, 0, 3, 1, 0, 3, 1, 0, 3]
+#design: 4,4,Rep3,4,1,1,Rep3,4,1,[1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
+#design: 5,5,Rep3,5,0,0,Rep3,5,0,[4, 1, 0, 4, 1, 0, 4, 1, 0, 4, 1, 0]
+#design: 5,5,Rep3,5,1,1,Rep3,5,1,[2, 4, 1, 2, 4, 1, 2, 4, 1, 2, 4, 1]
+1768,design,logged,
+1768,Experiment,started
+1775,Stimulus,presented,26
+3866,Keyboard,received,32,wait
+3871,Stimulus,presented,4
+4373,Stimulus,presented,4
+4373,Stimulus,presented,2
+4373,Stimulus,presented,22
+4373,stdout,received,'presented_sequence[k] 4'
+4573,Stimulus,presented,4
+4772,Stimulus,presented,4
+4772,Stimulus,presented,2
+4772,Stimulus,presented,20
+4772,stdout,received,'presented_sequence[k] 2'
+4973,Stimulus,presented,4
+5172,Stimulus,presented,4
+5172,Stimulus,presented,2
+5172,Stimulus,presented,22
+5172,stdout,received,'presented_sequence[k] 4'
+5373,Stimulus,presented,4
+5575,Stimulus,presented,4
+5575,Stimulus,presented,2
+5575,Stimulus,presented,20
+5575,stdout,received,'presented_sequence[k] 2'
+5776,Stimulus,presented,4
+5972,Stimulus,presented,4
+5972,Stimulus,presented,2
+5973,Stimulus,presented,22
+5973,stdout,received,'presented_sequence[k] 4'
+6174,Stimulus,presented,4
+6372,Stimulus,presented,4
+6372,Stimulus,presented,2
+6373,Stimulus,presented,20
+6373,stdout,received,'presented_sequence[k] 2'
+6574,Stimulus,presented,4
+6772,Stimulus,presented,4
+6772,Stimulus,presented,2
+6772,Stimulus,presented,22
+6772,stdout,received,'presented_sequence[k] 4'
+6973,Stimulus,presented,4
+7172,Stimulus,presented,4
+7172,Stimulus,presented,2
+7173,Stimulus,presented,20
+7173,stdout,received,'presented_sequence[k] 2'
+7374,Stimulus,presented,4
+7572,Stimulus,presented,4
+7572,Stimulus,presented,2
+7573,Stimulus,presented,22
+7573,stdout,received,'presented_sequence[k] 4'
+7774,Stimulus,presented,4
+7972,Stimulus,presented,4
+7972,Stimulus,presented,2
+7972,Stimulus,presented,20
+7972,stdout,received,'presented_sequence[k] 2'
+8173,Stimulus,presented,4
+8374,Stimulus,presented,4
+8375,Stimulus,presented,2
+8375,Stimulus,presented,22
+8375,stdout,received,'presented_sequence[k] 4'
+8579,Stimulus,presented,4
+8773,Stimulus,presented,4
+8774,Stimulus,presented,2
+8774,Stimulus,presented,20
+8774,stdout,received,'presented_sequence[k] 2'
+8978,Stimulus,presented,4
+9371,Keyboard,received,None,wait_char
+9572,Stimulus,presented,11
+9572,Stimulus,presented,11
+15573,Keyboard,received,None,wait_char
+15573,stdout,received,'None key detected or wrong key :  None'
+15578,Stimulus,presented,11
+21579,Keyboard,received,None,wait_char
+21579,stdout,received,'None key detected or wrong key :  None'
+21582,Stimulus,presented,11
+27583,Keyboard,received,None,wait_char
+27583,stdout,received,'None key detected or wrong key :  None'
+27590,Stimulus,presented,11
+33591,Keyboard,received,None,wait_char
+33591,stdout,received,'None key detected or wrong key :  None'
+33593,Stimulus,presented,11
+39594,Keyboard,received,None,wait_char
+39594,stdout,received,'None key detected or wrong key :  None'
+39598,Stimulus,presented,11
+45599,Keyboard,received,None,wait_char
+45599,stdout,received,'None key detected or wrong key :  None'
+45606,Stimulus,presented,11
+49211,Keyboard,received,j,wait_char
+49212,Stimulus,presented,2
+49217,Stimulus,presented,20
+49317,Stimulus,presented,11
+49317,stdout,received,'BUTTON NUMBER 2 PRESSED'
+49317,stdout,received,''
+49318,Stimulus,presented,11
+49731,Keyboard,received,j,wait_char
+49733,Stimulus,presented,2
+49735,Stimulus,presented,20
+49838,Stimulus,presented,11
+49838,stdout,received,'BUTTON NUMBER 2 PRESSED'
+49838,stdout,received,''
+49838,Stimulus,presented,11
+49926,Keyboard,received,j,wait_char
+49926,Stimulus,presented,2
+49927,Stimulus,presented,20
+50028,Stimulus,presented,11
+50028,stdout,received,'BUTTON NUMBER 2 PRESSED'
+50028,stdout,received,''
+50028,Stimulus,presented,11
+50097,Keyboard,received,j,wait_char
+50097,Stimulus,presented,2
+50098,Stimulus,presented,20
+50199,Stimulus,presented,11
+50199,stdout,received,'BUTTON NUMBER 2 PRESSED'
+50199,stdout,received,''
+50199,Stimulus,presented,11
+50258,Keyboard,received,j,wait_char
+50258,Stimulus,presented,2
+50259,Stimulus,presented,20
+50360,Stimulus,presented,11
+50360,stdout,received,'BUTTON NUMBER 2 PRESSED'
+50360,stdout,received,''
+50360,Stimulus,presented,11
+50411,Keyboard,received,j,wait_char
+50411,Stimulus,presented,2
+50412,Stimulus,presented,20
+50513,Stimulus,presented,11
+50513,stdout,received,'BUTTON NUMBER 2 PRESSED'
+50513,stdout,received,''
+50713,Stimulus,played,b'./auditory_feedback/neg1.wav'
+50716,Stimulus,presented,28
+51219,Stimulus,presented,3
+51519,stdout,received,'---------------------------------------'
+51521,Stimulus,presented,4
+52023,Stimulus,presented,4
+52023,Stimulus,presented,2
+52023,Stimulus,presented,19
+52023,stdout,received,'presented_sequence[k] 1'
+52224,Stimulus,presented,4
+52422,Stimulus,presented,4
+52422,Stimulus,presented,2
+52422,Stimulus,presented,20
+52422,stdout,received,'presented_sequence[k] 2'
+52623,Stimulus,presented,4
+52822,Stimulus,presented,4
+52822,Stimulus,presented,2
+52822,Stimulus,presented,19
+52822,stdout,received,'presented_sequence[k] 1'
+53023,Stimulus,presented,4
+53222,Stimulus,presented,4
+53222,Stimulus,presented,2
+53222,Stimulus,presented,20
+53222,stdout,received,'presented_sequence[k] 2'
+53423,Stimulus,presented,4
+53622,Stimulus,presented,4
+53622,Stimulus,presented,2
+53622,Stimulus,presented,19
+53622,stdout,received,'presented_sequence[k] 1'
+53823,Stimulus,presented,4
+54022,Stimulus,presented,4
+54022,Stimulus,presented,2
+54022,Stimulus,presented,20
+54022,stdout,received,'presented_sequence[k] 2'
+54223,Stimulus,presented,4
+54422,Stimulus,presented,4
+54422,Stimulus,presented,2
+54423,Stimulus,presented,19
+54423,stdout,received,'presented_sequence[k] 1'
+54624,Stimulus,presented,4
+54822,Stimulus,presented,4
+54822,Stimulus,presented,2
+54822,Stimulus,presented,20
+54822,stdout,received,'presented_sequence[k] 2'
+55023,Stimulus,presented,4
+55223,Stimulus,presented,4
+55223,Stimulus,presented,2
+55223,Stimulus,presented,19
+55223,stdout,received,'presented_sequence[k] 1'
+55424,Stimulus,presented,4
+55622,Stimulus,presented,4
+55622,Stimulus,presented,2
+55622,Stimulus,presented,20
+55622,stdout,received,'presented_sequence[k] 2'
+55823,Stimulus,presented,4
+56022,Stimulus,presented,4
+56022,Stimulus,presented,2
+56022,Stimulus,presented,19
+56023,stdout,received,'presented_sequence[k] 1'
+56224,Stimulus,presented,4
+56422,Stimulus,presented,4
+56422,Stimulus,presented,2
+56422,Stimulus,presented,20
+56422,stdout,received,'presented_sequence[k] 2'
+56623,Stimulus,presented,4
+57021,Keyboard,received,None,wait_char
+57221,Stimulus,presented,11
+57222,Stimulus,presented,11
+58383,Keyboard,received,j,wait_char
+58385,Stimulus,presented,2
+58387,Stimulus,presented,20
+58488,Stimulus,presented,11
+58488,stdout,received,'BUTTON NUMBER 2 PRESSED'
+58488,stdout,received,''
+58488,Stimulus,presented,11
+58541,Keyboard,received,j,wait_char
+58542,Stimulus,presented,2
+58542,Stimulus,presented,20
+58643,Stimulus,presented,11
+58643,stdout,received,'BUTTON NUMBER 2 PRESSED'
+58643,stdout,received,''
+58643,Stimulus,presented,11
+58703,Keyboard,received,j,wait_char
+58703,Stimulus,presented,2
+58703,Stimulus,presented,20
+58804,Stimulus,presented,11
+58804,stdout,received,'BUTTON NUMBER 2 PRESSED'
+58804,stdout,received,''
+58804,Stimulus,presented,11
+58843,Keyboard,received,j,wait_char
+58843,Stimulus,presented,2
+58844,Stimulus,presented,20
+58945,Stimulus,presented,11
+58945,stdout,received,'BUTTON NUMBER 2 PRESSED'
+58945,stdout,received,''
+58946,Stimulus,presented,11
+59004,Keyboard,received,j,wait_char
+59004,Stimulus,presented,2
+59005,Stimulus,presented,20
+59106,Stimulus,presented,11
+59106,stdout,received,'BUTTON NUMBER 2 PRESSED'
+59106,stdout,received,''
+59106,Stimulus,presented,11
+59176,Keyboard,received,j,wait_char
+59176,Stimulus,presented,2
+59177,Stimulus,presented,20
+59278,Stimulus,presented,11
+59278,stdout,received,'BUTTON NUMBER 2 PRESSED'
+59278,stdout,received,''
+59278,Stimulus,presented,11
+59324,Keyboard,received,j,wait_char
+59324,Stimulus,presented,2
+59324,Stimulus,presented,20
+59425,Stimulus,presented,11
+59425,stdout,received,'BUTTON NUMBER 2 PRESSED'
+59425,stdout,received,''
+59425,Stimulus,presented,11
+59494,Keyboard,received,j,wait_char
+59494,Stimulus,presented,2
+59495,Stimulus,presented,20
+59596,Stimulus,presented,11
+59596,stdout,received,'BUTTON NUMBER 2 PRESSED'
+59596,stdout,received,''
+59596,Stimulus,presented,11
+59611,Keyboard,received,j,wait_char
+59611,Stimulus,presented,2
+59612,Stimulus,presented,20
+59713,Stimulus,presented,11
+59713,stdout,received,'BUTTON NUMBER 2 PRESSED'
+59713,stdout,received,''
+59713,Stimulus,presented,11
+59812,Keyboard,received,j,wait_char
+59812,Stimulus,presented,2
+59813,Stimulus,presented,20
+59914,Stimulus,presented,11
+59914,stdout,received,'BUTTON NUMBER 2 PRESSED'
+59914,stdout,received,''
+59914,Stimulus,presented,11
+59995,Keyboard,received,j,wait_char
+59995,Stimulus,presented,2
+59996,Stimulus,presented,20
+60097,Stimulus,presented,11
+60097,stdout,received,'BUTTON NUMBER 2 PRESSED'
+60097,stdout,received,''
+60097,Stimulus,presented,11
+60181,Keyboard,received,j,wait_char
+60182,Stimulus,presented,2
+60183,Stimulus,presented,20
+60284,Stimulus,presented,11
+60284,stdout,received,'BUTTON NUMBER 2 PRESSED'
+60284,stdout,received,''
+60484,Stimulus,played,b'./auditory_feedback/neg1.wav'
+60486,Stimulus,presented,29
+60986,Stimulus,presented,3
+61286,stdout,received,'---------------------------------------'
+61286,stdout,received,'We are in the resting state break'
+61291,Stimulus,presented,30
+61792,Stimulus,presented,3
+62893,Keyboard,received,None,wait_char
+62900,Stimulus,presented,31
+66927,Keyboard,received,n,wait_char
+66935,Stimulus,presented,32
+67438,Stimulus,presented,4
+68441,Stimulus,presented,4
+68942,Stimulus,presented,4
+68942,Stimulus,presented,2
+68942,Stimulus,presented,20
+68942,stdout,received,'presented_sequence[k] 2'
+69143,Stimulus,presented,4
+69342,Stimulus,presented,4
+69342,Stimulus,presented,2
+69343,Stimulus,presented,18
+69343,stdout,received,'presented_sequence[k] 0'
+69544,Stimulus,presented,4
+69742,Stimulus,presented,4
+69742,Stimulus,presented,2
+69743,Stimulus,presented,20
+69743,stdout,received,'presented_sequence[k] 2'
+69944,Stimulus,presented,4
+70142,Stimulus,presented,4
+70142,Stimulus,presented,2
+70142,Stimulus,presented,18
+70142,stdout,received,'presented_sequence[k] 0'
+70343,Stimulus,presented,4
+70542,Stimulus,presented,4
+70542,Stimulus,presented,2
+70542,Stimulus,presented,20
+70542,stdout,received,'presented_sequence[k] 2'
+70743,Stimulus,presented,4
+70942,Stimulus,presented,4
+70942,Stimulus,presented,2
+70942,Stimulus,presented,18
+70942,stdout,received,'presented_sequence[k] 0'
+71143,Stimulus,presented,4
+71342,Stimulus,presented,4
+71342,Stimulus,presented,2
+71342,Stimulus,presented,20
+71342,stdout,received,'presented_sequence[k] 2'
+71543,Stimulus,presented,4
+71742,Stimulus,presented,4
+71742,Stimulus,presented,2
+71742,Stimulus,presented,18
+71742,stdout,received,'presented_sequence[k] 0'
+71944,Stimulus,presented,4
+72143,Stimulus,presented,4
+72143,Stimulus,presented,2
+72144,Stimulus,presented,20
+72144,stdout,received,'presented_sequence[k] 2'
+72347,Stimulus,presented,4
+72543,Stimulus,presented,4
+72543,Stimulus,presented,2
+72544,Stimulus,presented,18
+72544,stdout,received,'presented_sequence[k] 0'
+72746,Stimulus,presented,4
+72947,Stimulus,presented,4
+72947,Stimulus,presented,2
+72947,Stimulus,presented,20
+72948,stdout,received,'presented_sequence[k] 2'
+73148,Stimulus,presented,4
+73342,Stimulus,presented,4
+73342,Stimulus,presented,2
+73342,Stimulus,presented,18
+73342,stdout,received,'presented_sequence[k] 0'
+73543,Stimulus,presented,4
+73942,Keyboard,received,None,wait_char
+74143,Stimulus,presented,11
+74143,Stimulus,presented,11
+80144,Keyboard,received,None,wait_char
+80144,stdout,received,'None key detected or wrong key :  None'
+80146,Stimulus,presented,11
+86147,Keyboard,received,None,wait_char
+86147,stdout,received,'None key detected or wrong key :  None'
+86148,Stimulus,presented,11
+92149,Keyboard,received,None,wait_char
+92149,stdout,received,'None key detected or wrong key :  None'
+92151,Stimulus,presented,11
+98152,Keyboard,received,None,wait_char
+98152,stdout,received,'None key detected or wrong key :  None'
+98157,Stimulus,presented,11
+104158,Keyboard,received,None,wait_char
+104158,stdout,received,'None key detected or wrong key :  None'
+104160,Stimulus,presented,11
+110161,Keyboard,received,None,wait_char
+110161,stdout,received,'None key detected or wrong key :  None'
+110165,Stimulus,presented,11
+116166,Keyboard,received,None,wait_char
+116166,stdout,received,'None key detected or wrong key :  None'
+116170,Stimulus,presented,11
+122171,Keyboard,received,None,wait_char
+122171,stdout,received,'None key detected or wrong key :  None'
+122173,Stimulus,presented,11
+128173,Keyboard,received,None,wait_char
+128174,stdout,received,'None key detected or wrong key :  None'
+128180,Stimulus,presented,11
+134182,Keyboard,received,None,wait_char
+134182,stdout,received,'None key detected or wrong key :  None'
+134189,Stimulus,presented,11
+140190,Keyboard,received,None,wait_char
+140190,stdout,received,'None key detected or wrong key :  None'
+140192,Stimulus,presented,11
+146193,Keyboard,received,None,wait_char
+146193,stdout,received,'None key detected or wrong key :  None'
+146393,Stimulus,played,b'./auditory_feedback/neg1.wav'
+146396,Stimulus,presented,33
+146897,Stimulus,presented,3
+147197,stdout,received,'---------------------------------------'
+147199,Stimulus,presented,4
+147700,Stimulus,presented,4
+147701,Stimulus,presented,2
+147701,Stimulus,presented,20
+147701,stdout,received,'presented_sequence[k] 2'
+147902,Stimulus,presented,4
+148100,Stimulus,presented,4
+148100,Stimulus,presented,2
+148100,Stimulus,presented,21
+148100,stdout,received,'presented_sequence[k] 3'
+148302,Stimulus,presented,4
+148499,Stimulus,presented,4
+148500,Stimulus,presented,2
+148500,Stimulus,presented,20
+148500,stdout,received,'presented_sequence[k] 2'
+148701,Stimulus,presented,4
+148900,Stimulus,presented,4
+148900,Stimulus,presented,2
+148900,Stimulus,presented,21
+148900,stdout,received,'presented_sequence[k] 3'
+149101,Stimulus,presented,4
+149300,Stimulus,presented,4
+149300,Stimulus,presented,2
+149300,Stimulus,presented,20
+149300,stdout,received,'presented_sequence[k] 2'
+149500,Stimulus,presented,4
+149700,Stimulus,presented,4
+149701,Stimulus,presented,2
+149701,Stimulus,presented,21
+149701,stdout,received,'presented_sequence[k] 3'
+149902,Stimulus,presented,4
+150100,Stimulus,presented,4
+150100,Stimulus,presented,2
+150100,Stimulus,presented,20
+150100,stdout,received,'presented_sequence[k] 2'
+150301,Stimulus,presented,4
+150499,Stimulus,presented,4
+150499,Stimulus,presented,2
+150500,Stimulus,presented,21
+150500,stdout,received,'presented_sequence[k] 3'
+150700,Stimulus,presented,4
+150900,Stimulus,presented,4
+150900,Stimulus,presented,2
+150901,Stimulus,presented,20
+150901,stdout,received,'presented_sequence[k] 2'
+151102,Stimulus,presented,4
+151300,Stimulus,presented,4
+151300,Stimulus,presented,2
+151300,Stimulus,presented,21
+151300,stdout,received,'presented_sequence[k] 3'
+151500,Stimulus,presented,4
+151699,Stimulus,presented,4
+151699,Stimulus,presented,2
+151700,Stimulus,presented,20
+151700,stdout,received,'presented_sequence[k] 2'
+151900,Stimulus,presented,4
+152099,Stimulus,presented,4
+152099,Stimulus,presented,2
+152100,Stimulus,presented,21
+152100,stdout,received,'presented_sequence[k] 3'
+152300,Stimulus,presented,4
+152699,Keyboard,received,None,wait_char
+152899,Stimulus,presented,11
+152902,Stimulus,presented,11
+158903,Keyboard,received,None,wait_char
+158903,stdout,received,'None key detected or wrong key :  None'
+158910,Stimulus,presented,11
+164911,Keyboard,received,None,wait_char
+164911,stdout,received,'None key detected or wrong key :  None'
+164912,Stimulus,presented,11
+170913,Keyboard,received,None,wait_char
+170913,stdout,received,'None key detected or wrong key :  None'
+170916,Stimulus,presented,11
+172133,stderr,received,'Traceback (most recent call last):'
+172133,stderr,received,'  File "/Users/et/Documents/UNICOG/2-b-MEG_experiments/MegSeq/code_megSeq/run_megSeq.py", line 406, in <module>'
+172133,stderr,received,'    '
+172133,stderr,received,'  File "/opt/anaconda3/envs/meg_exp/lib/python3.11/site-packages/expyriment/io/_keyboard.py", line 425, in wait_char'
+172135,stderr,received,'    time.sleep(0.0005)'
+172135,stderr,received,'KeyboardInterrupt'
+172136,Data,saved

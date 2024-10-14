@@ -1,0 +1,25 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 16:06:26
+#sha1: fd8036
+#modules: 
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro-9.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+15246,design,log,
+#design: #exp: MegSeq
+#design: #dvn: SequenceID,PresentedPositions,Mapping,MappingResponse,ProducedSequence,RTs,Score
+#design: block_cnt,block_id,trial_cnt,trial_id
+15246,design,logged,
+15246,Experiment,started
+15266,Stimulus,presented,0
+16760,Keyboard,received,32,wait
+16760,stdout,received,'Running trial number 0'
+16760,stdout,received,''
+16771,Stimulus,presented,4
+17273,Stimulus,presented,4
+17316,Stimulus,presented,22
+17316,stderr,received,'Traceback (most recent call last):'
+17316,stderr,received,'  File "/Users/et/Documents/UNICOG/2-b-MEG_experiments/MegSeq/code_megStim/run_megSeq.py", line 226, in <module>'
+17316,stderr,received,"    trigger = Trigger_codes[trial.get_factor('SequenceID')] + presented_sequence[k] + 1"
+17316,stderr,received,'              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+17316,stderr,received,"KeyError: np.str_('Rep3')"

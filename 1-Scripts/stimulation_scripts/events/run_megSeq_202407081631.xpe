@@ -1,0 +1,17 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Mon Jul 08 2024 16:31:50
+#sha1: cf44b3
+#modules: response_funcs.py (7176c3)
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-9.local', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+2877,stderr,received,'Traceback (most recent call last):'
+2877,stderr,received,'  File "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/3-stimulation_scripts/code_stim/run_megSeq.py", line 235, in <module>'
+2878,stderr,received,'    response_MEG = response_funcs.response_in_MEG(exp,port_0,port_1,port_2)'
+2878,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2878,stderr,received,'  File "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/3-stimulation_scripts/code_stim/response_funcs.py", line 48, in __init__'
+2878,stderr,received,'    self.port1 = io.ParallelPort(port1Num)'
+2878,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^'
+2878,stderr,received,'  File "/opt/anaconda3/envs/meg_exp/lib/python3.11/site-packages/expyriment/io/_parallelport/__init__.py", line 140, in __init__'
+2879,stderr,received,'    raise ImportError(message)'
+2879,stderr,received,'ImportError: ParallelPort cannot be initialized! Not available on your computer.'

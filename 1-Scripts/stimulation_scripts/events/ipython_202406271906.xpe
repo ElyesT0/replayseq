@@ -1,0 +1,65 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Thu Jun 27 2024 19:06:50
+#sha1: None
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+541,Stimulus,presented,26
+6693,Keyboard,received,32,wait
+6700,Stimulus,presented,4
+7207,Stimulus,presented,4
+7207,Stimulus,presented,2
+7207,Stimulus,presented,22
+7410,Stimulus,presented,4
+7602,Stimulus,presented,4
+7602,Stimulus,presented,2
+7602,Stimulus,presented,23
+7805,Stimulus,presented,4
+8005,Stimulus,presented,4
+8006,Stimulus,presented,2
+8006,Stimulus,presented,21
+8206,Stimulus,presented,4
+8400,Stimulus,presented,4
+8400,Stimulus,presented,2
+8401,Stimulus,presented,22
+8601,Stimulus,presented,4
+8800,Stimulus,presented,4
+8801,Stimulus,presented,2
+8801,Stimulus,presented,23
+9001,Stimulus,presented,4
+9200,Stimulus,presented,4
+9200,Stimulus,presented,2
+9201,Stimulus,presented,21
+9402,Stimulus,presented,4
+9601,Stimulus,presented,4
+9601,Stimulus,presented,2
+9601,Stimulus,presented,22
+9802,Stimulus,presented,4
+10000,Stimulus,presented,4
+10000,Stimulus,presented,2
+10001,Stimulus,presented,23
+10202,Stimulus,presented,4
+10401,Stimulus,presented,4
+10401,Stimulus,presented,2
+10401,Stimulus,presented,21
+10601,Stimulus,presented,4
+10801,Stimulus,presented,4
+10801,Stimulus,presented,2
+10802,Stimulus,presented,22
+11003,Stimulus,presented,4
+11201,Stimulus,presented,4
+11201,Stimulus,presented,2
+11202,Stimulus,presented,23
+11402,Stimulus,presented,4
+11601,Stimulus,presented,4
+11601,Stimulus,presented,2
+11602,Stimulus,presented,21
+11802,Stimulus,presented,4
+12201,Keyboard,received,None,wait_char
+12403,Stimulus,presented,11
+12403,Stimulus,presented,11
+17474,Experiment,paused
+17481,Stimulus,presented,27
+17849,Keyboard,received,y,wait_char
+17849,Experiment,ended

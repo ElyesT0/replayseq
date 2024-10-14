@@ -1,0 +1,18 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 17:38:51
+#sha1: b81bc5
+#modules: 
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro-9.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+2822,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x1096b4360>'
+2822,stderr,received,'Traceback (most recent call last):'
+2822,stderr,received,'  File "/opt/anaconda3/envs/meg_exp/lib/python3.11/site-packages/expyriment/stimuli/_visual.py", line 270, in __del__'
+2824,stderr,received,'    if self._compression_filename is not None:'
+2824,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2824,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+2824,stderr,received,'Traceback (most recent call last):'
+2824,stderr,received,'  File "/Users/et/Documents/UNICOG/2-b-MEG_experiments/MegSeq/code_megStim/run_megSeq.py", line 111, in <module>'
+2824,stderr,received,'    instructions = stimuli.TextScreen('
+2824,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^'
+2824,stderr,received,"TypeError: TextScreen.__init__() missing 1 required positional argument: 'text'"

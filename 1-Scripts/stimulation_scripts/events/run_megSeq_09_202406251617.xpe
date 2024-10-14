@@ -1,0 +1,149 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 16:17:17
+#sha1: 9315c5
+#modules: 
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro-9.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+14419,design,log,
+#design: #exp: MegSeq
+#design: #dvn: SequenceID,PresentedPositions,Mapping,MappingResponse,ProducedSequence,RTs,Score
+#design: block_cnt,block_id,trial_cnt,trial_id
+14419,design,logged,
+14419,Experiment,started
+14438,Stimulus,presented,0
+15258,Keyboard,received,13,wait
+15259,stdout,received,'Running trial number 0'
+15259,stdout,received,''
+15270,Stimulus,presented,4
+15770,stdout,received,'PRESENTING SEQUENCE'
+15773,Stimulus,presented,4
+15775,Stimulus,presented,21
+15978,Stimulus,presented,4
+16175,Stimulus,presented,4
+16178,Stimulus,presented,23
+16380,Stimulus,presented,4
+16577,Stimulus,presented,4
+16580,Stimulus,presented,21
+16782,Stimulus,presented,4
+16980,Stimulus,presented,4
+16982,Stimulus,presented,23
+17185,Stimulus,presented,4
+17382,Stimulus,presented,4
+17384,Stimulus,presented,21
+17586,Stimulus,presented,4
+17784,Stimulus,presented,4
+17787,Stimulus,presented,23
+17989,Stimulus,presented,4
+18186,Stimulus,presented,4
+18188,Stimulus,presented,21
+18390,Stimulus,presented,4
+18587,Stimulus,presented,4
+18589,Stimulus,presented,23
+18791,Stimulus,presented,4
+18988,Stimulus,presented,4
+18991,Stimulus,presented,21
+19193,Stimulus,presented,4
+19390,Stimulus,presented,4
+19393,Stimulus,presented,23
+19595,Stimulus,presented,4
+19793,Stimulus,presented,4
+19796,Stimulus,presented,21
+19998,Stimulus,presented,4
+20195,Stimulus,presented,4
+20198,Stimulus,presented,23
+20401,Stimulus,presented,4
+20596,stdout,received,'BREAK TO COMPRESS'
+21196,Keyboard,received,None,wait_char
+21197,stdout,received,'RESPONSE SCREEN'
+21208,Stimulus,presented,26
+25209,Keyboard,received,None,wait_char
+25216,Stimulus,presented,4
+25216,stdout,received,'WAIT FOR RESPONSE'
+25221,Stimulus,presented,11
+30307,Keyboard,received,o,wait_char
+30309,stdout,received,'BUTTON NUMBER 1 PRESSED'
+30309,stdout,received,''
+30553,Keyboard,received,e,wait_char
+30554,stdout,received,'BUTTON NUMBER 2 PRESSED'
+30554,stdout,received,''
+30700,Keyboard,received,o,wait_char
+30700,stdout,received,'BUTTON NUMBER 1 PRESSED'
+30700,stdout,received,''
+32068,Keyboard,received,o,wait_char
+32068,stdout,received,'BUTTON NUMBER 1 PRESSED'
+32068,stdout,received,''
+33775,Keyboard,received,a,wait_char
+33775,stdout,received,'BUTTON NUMBER 5 PRESSED'
+33775,stdout,received,''
+33858,Keyboard,received,o,wait_char
+33858,stdout,received,'BUTTON NUMBER 1 PRESSED'
+33858,stdout,received,''
+33945,Keyboard,received,e,wait_char
+33945,stdout,received,'BUTTON NUMBER 2 PRESSED'
+33945,stdout,received,''
+34293,Keyboard,received,o,wait_char
+34293,stdout,received,'BUTTON NUMBER 1 PRESSED'
+34293,stdout,received,''
+34318,Keyboard,received,e,wait_char
+34319,stdout,received,'BUTTON NUMBER 2 PRESSED'
+34319,stdout,received,''
+34414,Keyboard,received,t,wait_char
+34415,stdout,received,'BUTTON NUMBER 0 PRESSED'
+34415,stdout,received,''
+34430,Keyboard,received,u,wait_char
+34430,stdout,received,'BUTTON NUMBER 4 PRESSED'
+34430,stdout,received,''
+36386,Keyboard,received,o,wait_char
+36386,stdout,received,'BUTTON NUMBER 1 PRESSED'
+36386,stdout,received,''
+36386,stdout,received,'COMPUTE SCORE + FEEDBACK'
+36593,Stimulus,presented,39
+37097,Stimulus,presented,1
+38097,stdout,received,'Running trial number 1'
+38097,stdout,received,''
+38103,Stimulus,presented,4
+38603,stdout,received,'PRESENTING SEQUENCE'
+38605,Stimulus,presented,4
+38607,Stimulus,presented,22
+38810,Stimulus,presented,4
+39007,Stimulus,presented,4
+39010,Stimulus,presented,19
+39213,Stimulus,presented,4
+39411,Stimulus,presented,4
+39415,Stimulus,presented,22
+39618,Stimulus,presented,4
+39815,Stimulus,presented,4
+39817,Stimulus,presented,19
+40019,Stimulus,presented,4
+40217,Stimulus,presented,4
+40219,Stimulus,presented,22
+40421,Stimulus,presented,4
+40619,Stimulus,presented,4
+40622,Stimulus,presented,19
+40825,Stimulus,presented,4
+41023,Stimulus,presented,4
+41025,Stimulus,presented,22
+41227,Stimulus,presented,4
+41424,Stimulus,presented,4
+41426,Stimulus,presented,19
+41629,Stimulus,presented,4
+41826,Stimulus,presented,4
+41828,Stimulus,presented,22
+42030,Stimulus,presented,4
+42227,Stimulus,presented,4
+42229,Stimulus,presented,19
+42431,Stimulus,presented,4
+42628,Stimulus,presented,4
+42630,Stimulus,presented,22
+42832,Stimulus,presented,4
+43029,Stimulus,presented,4
+43031,Stimulus,presented,19
+43233,Stimulus,presented,4
+43428,stdout,received,'BREAK TO COMPRESS'
+43627,Experiment,paused
+43631,Stimulus,presented,40
+44687,Keyboard,received,y,wait_char
+44687,Experiment,ended
+44691,Data,saved
+44697,Stimulus,presented,40

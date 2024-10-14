@@ -1,0 +1,121 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue Jun 25 2024 16:12:44
+#sha1: 7aad1d
+#modules: 
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='macbook-pro-9.home', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+12025,design,log,
+#design: #exp: MegSeq
+#design: #dvn: SequenceID,PresentedPositions,Mapping,MappingResponse,ProducedSequence,RTs,Score
+#design: block_cnt,block_id,trial_cnt,trial_id
+12025,design,logged,
+12025,Experiment,started
+12045,Stimulus,presented,0
+12815,Keyboard,received,13,wait
+12816,stdout,received,'Running trial number 0'
+12816,stdout,received,''
+12825,Stimulus,presented,4
+13329,Stimulus,presented,4
+13332,Stimulus,presented,22
+13332,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+13332,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+13332,stdout,received,'_------------------------_'
+13332,stdout,received,'C1RepEmbed-5'
+13332,stdout,received,'_------------------------_'
+13535,Stimulus,presented,4
+13733,Stimulus,presented,4
+13736,Stimulus,presented,22
+13736,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+13736,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+13736,stdout,received,'_------------------------_'
+13736,stdout,received,'C1RepEmbed-5'
+13736,stdout,received,'_------------------------_'
+13938,Stimulus,presented,4
+14135,Stimulus,presented,4
+14137,Stimulus,presented,19
+14137,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+14137,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+14137,stdout,received,'_------------------------_'
+14137,stdout,received,'C1RepEmbed-2'
+14137,stdout,received,'_------------------------_'
+14339,Stimulus,presented,4
+14536,Stimulus,presented,4
+14538,Stimulus,presented,19
+14538,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+14538,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+14538,stdout,received,'_------------------------_'
+14538,stdout,received,'C1RepEmbed-2'
+14538,stdout,received,'_------------------------_'
+14741,Stimulus,presented,4
+14938,Stimulus,presented,4
+14940,Stimulus,presented,20
+14940,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+14940,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+14940,stdout,received,'_------------------------_'
+14940,stdout,received,'C1RepEmbed-3'
+14940,stdout,received,'_------------------------_'
+15143,Stimulus,presented,4
+15340,Stimulus,presented,4
+15343,Stimulus,presented,20
+15343,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+15343,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+15343,stdout,received,'_------------------------_'
+15343,stdout,received,'C1RepEmbed-3'
+15343,stdout,received,'_------------------------_'
+15545,Stimulus,presented,4
+15742,Stimulus,presented,4
+15744,Stimulus,presented,19
+15744,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+15745,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+15745,stdout,received,'_------------------------_'
+15745,stdout,received,'C1RepEmbed-2'
+15745,stdout,received,'_------------------------_'
+15947,Stimulus,presented,4
+16144,Stimulus,presented,4
+16146,Stimulus,presented,19
+16146,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+16146,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+16146,stdout,received,'_------------------------_'
+16146,stdout,received,'C1RepEmbed-2'
+16146,stdout,received,'_------------------------_'
+16348,Stimulus,presented,4
+16545,Stimulus,presented,4
+16548,Stimulus,presented,22
+16548,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+16548,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+16548,stdout,received,'_------------------------_'
+16548,stdout,received,'C1RepEmbed-5'
+16548,stdout,received,'_------------------------_'
+16750,Stimulus,presented,4
+16948,Stimulus,presented,4
+16950,Stimulus,presented,22
+16950,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+16950,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+16950,stdout,received,'_------------------------_'
+16950,stdout,received,'C1RepEmbed-5'
+16950,stdout,received,'_------------------------_'
+17152,Stimulus,presented,4
+17349,Stimulus,presented,4
+17352,Stimulus,presented,20
+17352,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+17352,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+17352,stdout,received,'_------------------------_'
+17352,stdout,received,'C1RepEmbed-3'
+17352,stdout,received,'_------------------------_'
+17555,Stimulus,presented,4
+17752,Stimulus,presented,4
+17754,Stimulus,presented,20
+17754,stdout,received,"trial.get_factor('SequenceID') :  C1RepEmbed"
+17754,stdout,received,"Trigger_codes =  {'fixation': 5, 'Rep2-1': 6, 'Rep2-2': 7, 'Rep2-3': 8, 'Rep2-4': 9, 'Rep2-5': 10, 'Rep2-6': 11, 'CRep2-1': 12, 'CRep2-2': 13, 'CRep2-3': 14, 'CRep2-4': 15, 'CRep2-5': 16, 'CRep2-6': 17, 'Rep3-1': 18, 'Rep3-2': 19, 'Rep3-3': 20, 'Rep3-4': 21, 'Rep3-5': 22, 'Rep3-6': 23, 'CRep3-1': 24, 'CRep3-2': 25, 'CRep3-3': 26, 'CRep3-4': 27, 'CRep3-5': 28, 'CRep3-6': 29, 'Rep4-1': 30, 'Rep4-2': 31, 'Rep4-3': 32, 'Rep4-4': 33, 'Rep4-5': 34, 'Rep4-6': 35, 'CRep4-1': 36, 'CRep4-2': 37, 'CRep4-3': 38, 'CRep4-4': 39, 'CRep4-5': 40, 'CRep4-6': 41, 'RepEmbed-1': 42, 'RepEmbed-2': 43, 'RepEmbed-3': 44, 'RepEmbed-4': 45, 'RepEmbed-5': 46, 'RepEmbed-6': 47, 'C1RepEmbed-1': 48, 'C1RepEmbed-2': 49, 'C1RepEmbed-3': 50, 'C1RepEmbed-4': 51, 'C1RepEmbed-5': 52, 'C1RepEmbed-6': 53, 'C2RepEmbed-1': 54, 'C2RepEmbed-2': 55, 'C2RepEmbed-3': 56, 'C2RepEmbed-4': 57, 'C2RepEmbed-5': 58, 'C2RepEmbed-6': 59}"
+17754,stdout,received,'_------------------------_'
+17754,stdout,received,'C1RepEmbed-3'
+17754,stdout,received,'_------------------------_'
+17959,Stimulus,presented,4
+18754,Keyboard,received,None,wait_char
+18763,Stimulus,presented,26
+20379,Experiment,paused
+20387,Stimulus,presented,39
+21446,Keyboard,received,y,wait_char
+21446,Experiment,ended
+21456,Stimulus,presented,39

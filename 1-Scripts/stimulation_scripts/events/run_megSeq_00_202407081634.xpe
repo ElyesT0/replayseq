@@ -1,0 +1,561 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Mon Jul 08 2024 16:34:32
+#sha1: 2f9e2d
+#modules: response_funcs.py (7176c3)
+#display: size=(1512, 982), window_mode=False, open_gl=2
+#os: uname_result(system='Darwin', node='MacBook-Pro-9.local', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:12:58 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T6000', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+13040,design,log,
+#design: #exp: MegSeq
+#design: #dvn: block,sequenceName,trial,PresentedSequence,ProducedSequence,RTs,Performance
+#design: block_cnt,block_id,block_sequenceName,block_block,trial_cnt,trial_id,trial,sequenceName,block,PresentedSequence
+#design: 0,0,C1RepEmbed,0,0,0,0,C1RepEmbed,0,[1, 1, 0, 0, 3, 3, 0, 0, 1, 1, 3, 3]
+#design: 0,0,C1RepEmbed,0,1,1,1,C1RepEmbed,0,[3, 3, 1, 1, 5, 5, 1, 1, 3, 3, 5, 5]
+#design: 0,0,C1RepEmbed,0,2,2,2,C1RepEmbed,0,[1, 1, 4, 4, 3, 3, 4, 4, 1, 1, 3, 3]
+#design: 0,0,C1RepEmbed,0,3,3,3,C1RepEmbed,0,[2, 2, 4, 4, 1, 1, 4, 4, 2, 2, 1, 1]
+#design: 0,0,C1RepEmbed,0,4,4,4,C1RepEmbed,0,[4, 4, 5, 5, 3, 3, 5, 5, 4, 4, 3, 3]
+#design: 0,0,C1RepEmbed,0,5,5,5,C1RepEmbed,0,[5, 5, 3, 3, 0, 0, 3, 3, 5, 5, 0, 0]
+#design: 0,0,C1RepEmbed,0,6,6,6,C1RepEmbed,0,[0, 0, 1, 1, 2, 2, 1, 1, 0, 0, 2, 2]
+#design: 0,0,C1RepEmbed,0,7,7,7,C1RepEmbed,0,[0, 0, 4, 4, 3, 3, 4, 4, 0, 0, 3, 3]
+#design: 0,0,C1RepEmbed,0,8,8,8,C1RepEmbed,0,[4, 4, 2, 2, 1, 1, 2, 2, 4, 4, 1, 1]
+#design: 0,0,C1RepEmbed,0,9,9,9,C1RepEmbed,0,[3, 3, 0, 0, 4, 4, 0, 0, 3, 3, 4, 4]
+#design: 0,0,C1RepEmbed,0,10,10,10,C1RepEmbed,0,[3, 3, 4, 4, 5, 5, 4, 4, 3, 3, 5, 5]
+#design: 0,0,C1RepEmbed,0,11,11,11,C1RepEmbed,0,[0, 0, 1, 1, 3, 3, 1, 1, 0, 0, 3, 3]
+#design: 0,0,C1RepEmbed,0,12,12,12,C1RepEmbed,0,[5, 5, 0, 0, 2, 2, 0, 0, 5, 5, 2, 2]
+#design: 0,0,C1RepEmbed,0,13,13,13,C1RepEmbed,0,[4, 4, 0, 0, 3, 3, 0, 0, 4, 4, 3, 3]
+#design: 0,0,C1RepEmbed,0,14,14,14,C1RepEmbed,0,[1, 1, 0, 0, 2, 2, 0, 0, 1, 1, 2, 2]
+#design: 1,1,C1RepEmbed,1,0,0,0,C1RepEmbed,1,[1, 1, 5, 5, 3, 3, 5, 5, 1, 1, 3, 3]
+#design: 1,1,C1RepEmbed,1,1,1,1,C1RepEmbed,1,[0, 0, 1, 1, 3, 3, 1, 1, 0, 0, 3, 3]
+#design: 1,1,C1RepEmbed,1,2,2,2,C1RepEmbed,1,[4, 4, 1, 1, 0, 0, 1, 1, 4, 4, 0, 0]
+#design: 1,1,C1RepEmbed,1,3,3,3,C1RepEmbed,1,[0, 0, 4, 4, 5, 5, 4, 4, 0, 0, 5, 5]
+#design: 1,1,C1RepEmbed,1,4,4,4,C1RepEmbed,1,[1, 1, 0, 0, 2, 2, 0, 0, 1, 1, 2, 2]
+#design: 1,1,C1RepEmbed,1,5,5,5,C1RepEmbed,1,[4, 4, 1, 1, 0, 0, 1, 1, 4, 4, 0, 0]
+#design: 1,1,C1RepEmbed,1,6,6,6,C1RepEmbed,1,[4, 4, 3, 3, 2, 2, 3, 3, 4, 4, 2, 2]
+#design: 1,1,C1RepEmbed,1,7,7,7,C1RepEmbed,1,[5, 5, 0, 0, 4, 4, 0, 0, 5, 5, 4, 4]
+#design: 1,1,C1RepEmbed,1,8,8,8,C1RepEmbed,1,[5, 5, 3, 3, 2, 2, 3, 3, 5, 5, 2, 2]
+#design: 1,1,C1RepEmbed,1,9,9,9,C1RepEmbed,1,[3, 3, 2, 2, 4, 4, 2, 2, 3, 3, 4, 4]
+#design: 1,1,C1RepEmbed,1,10,10,10,C1RepEmbed,1,[1, 1, 4, 4, 2, 2, 4, 4, 1, 1, 2, 2]
+#design: 1,1,C1RepEmbed,1,11,11,11,C1RepEmbed,1,[0, 0, 5, 5, 4, 4, 5, 5, 0, 0, 4, 4]
+#design: 1,1,C1RepEmbed,1,12,12,12,C1RepEmbed,1,[4, 4, 3, 3, 1, 1, 3, 3, 4, 4, 1, 1]
+#design: 1,1,C1RepEmbed,1,13,13,13,C1RepEmbed,1,[5, 5, 1, 1, 0, 0, 1, 1, 5, 5, 0, 0]
+#design: 1,1,C1RepEmbed,1,14,14,14,C1RepEmbed,1,[5, 5, 4, 4, 0, 0, 4, 4, 5, 5, 0, 0]
+#design: 2,2,Rep3,2,0,0,0,Rep3,2,[1, 5, 3, 1, 5, 3, 1, 5, 3, 1, 5, 3]
+#design: 2,2,Rep3,2,1,1,1,Rep3,2,[0, 5, 3, 0, 5, 3, 0, 5, 3, 0, 5, 3]
+#design: 2,2,Rep3,2,2,2,2,Rep3,2,[2, 3, 4, 2, 3, 4, 2, 3, 4, 2, 3, 4]
+#design: 2,2,Rep3,2,3,3,3,Rep3,2,[0, 2, 4, 0, 2, 4, 0, 2, 4, 0, 2, 4]
+#design: 2,2,Rep3,2,4,4,4,Rep3,2,[2, 4, 1, 2, 4, 1, 2, 4, 1, 2, 4, 1]
+#design: 2,2,Rep3,2,5,5,5,Rep3,2,[5, 2, 1, 5, 2, 1, 5, 2, 1, 5, 2, 1]
+#design: 2,2,Rep3,2,6,6,6,Rep3,2,[2, 1, 4, 2, 1, 4, 2, 1, 4, 2, 1, 4]
+#design: 2,2,Rep3,2,7,7,7,Rep3,2,[1, 3, 4, 1, 3, 4, 1, 3, 4, 1, 3, 4]
+#design: 2,2,Rep3,2,8,8,8,Rep3,2,[5, 2, 4, 5, 2, 4, 5, 2, 4, 5, 2, 4]
+#design: 2,2,Rep3,2,9,9,9,Rep3,2,[0, 5, 4, 0, 5, 4, 0, 5, 4, 0, 5, 4]
+#design: 2,2,Rep3,2,10,10,10,Rep3,2,[4, 0, 1, 4, 0, 1, 4, 0, 1, 4, 0, 1]
+#design: 2,2,Rep3,2,11,11,11,Rep3,2,[2, 3, 5, 2, 3, 5, 2, 3, 5, 2, 3, 5]
+#design: 2,2,Rep3,2,12,12,12,Rep3,2,[5, 2, 1, 5, 2, 1, 5, 2, 1, 5, 2, 1]
+#design: 2,2,Rep3,2,13,13,13,Rep3,2,[4, 3, 1, 4, 3, 1, 4, 3, 1, 4, 3, 1]
+#design: 2,2,Rep3,2,14,14,14,Rep3,2,[4, 0, 2, 4, 0, 2, 4, 0, 2, 4, 0, 2]
+#design: 3,3,Rep3,3,0,0,0,Rep3,3,[0, 3, 4, 0, 3, 4, 0, 3, 4, 0, 3, 4]
+#design: 3,3,Rep3,3,1,1,1,Rep3,3,[3, 1, 5, 3, 1, 5, 3, 1, 5, 3, 1, 5]
+#design: 3,3,Rep3,3,2,2,2,Rep3,3,[4, 0, 3, 4, 0, 3, 4, 0, 3, 4, 0, 3]
+#design: 3,3,Rep3,3,3,3,3,Rep3,3,[5, 0, 2, 5, 0, 2, 5, 0, 2, 5, 0, 2]
+#design: 3,3,Rep3,3,4,4,4,Rep3,3,[2, 3, 4, 2, 3, 4, 2, 3, 4, 2, 3, 4]
+#design: 3,3,Rep3,3,5,5,5,Rep3,3,[4, 5, 3, 4, 5, 3, 4, 5, 3, 4, 5, 3]
+#design: 3,3,Rep3,3,6,6,6,Rep3,3,[0, 5, 1, 0, 5, 1, 0, 5, 1, 0, 5, 1]
+#design: 3,3,Rep3,3,7,7,7,Rep3,3,[2, 0, 3, 2, 0, 3, 2, 0, 3, 2, 0, 3]
+#design: 3,3,Rep3,3,8,8,8,Rep3,3,[2, 1, 4, 2, 1, 4, 2, 1, 4, 2, 1, 4]
+#design: 3,3,Rep3,3,9,9,9,Rep3,3,[3, 4, 1, 3, 4, 1, 3, 4, 1, 3, 4, 1]
+#design: 3,3,Rep3,3,10,10,10,Rep3,3,[2, 1, 5, 2, 1, 5, 2, 1, 5, 2, 1, 5]
+#design: 3,3,Rep3,3,11,11,11,Rep3,3,[0, 4, 5, 0, 4, 5, 0, 4, 5, 0, 4, 5]
+#design: 3,3,Rep3,3,12,12,12,Rep3,3,[1, 4, 3, 1, 4, 3, 1, 4, 3, 1, 4, 3]
+#design: 3,3,Rep3,3,13,13,13,Rep3,3,[1, 0, 2, 1, 0, 2, 1, 0, 2, 1, 0, 2]
+#design: 3,3,Rep3,3,14,14,14,Rep3,3,[4, 0, 5, 4, 0, 5, 4, 0, 5, 4, 0, 5]
+#design: 4,4,RepEmbed,4,0,0,0,RepEmbed,4,[4, 4, 1, 1, 0, 0, 4, 4, 1, 1, 0, 0]
+#design: 4,4,RepEmbed,4,1,1,1,RepEmbed,4,[0, 0, 4, 4, 2, 2, 0, 0, 4, 4, 2, 2]
+#design: 4,4,RepEmbed,4,2,2,2,RepEmbed,4,[1, 1, 0, 0, 5, 5, 1, 1, 0, 0, 5, 5]
+#design: 4,4,RepEmbed,4,3,3,3,RepEmbed,4,[2, 2, 1, 1, 5, 5, 2, 2, 1, 1, 5, 5]
+#design: 4,4,RepEmbed,4,4,4,4,RepEmbed,4,[3, 3, 4, 4, 0, 0, 3, 3, 4, 4, 0, 0]
+#design: 4,4,RepEmbed,4,5,5,5,RepEmbed,4,[2, 2, 4, 4, 1, 1, 2, 2, 4, 4, 1, 1]
+#design: 4,4,RepEmbed,4,6,6,6,RepEmbed,4,[3, 3, 5, 5, 1, 1, 3, 3, 5, 5, 1, 1]
+#design: 4,4,RepEmbed,4,7,7,7,RepEmbed,4,[2, 2, 5, 5, 0, 0, 2, 2, 5, 5, 0, 0]
+#design: 4,4,RepEmbed,4,8,8,8,RepEmbed,4,[1, 1, 0, 0, 2, 2, 1, 1, 0, 0, 2, 2]
+#design: 4,4,RepEmbed,4,9,9,9,RepEmbed,4,[4, 4, 5, 5, 3, 3, 4, 4, 5, 5, 3, 3]
+#design: 4,4,RepEmbed,4,10,10,10,RepEmbed,4,[2, 2, 3, 3, 0, 0, 2, 2, 3, 3, 0, 0]
+#design: 4,4,RepEmbed,4,11,11,11,RepEmbed,4,[1, 1, 5, 5, 0, 0, 1, 1, 5, 5, 0, 0]
+#design: 4,4,RepEmbed,4,12,12,12,RepEmbed,4,[1, 1, 4, 4, 5, 5, 1, 1, 4, 4, 5, 5]
+#design: 4,4,RepEmbed,4,13,13,13,RepEmbed,4,[0, 0, 3, 3, 1, 1, 0, 0, 3, 3, 1, 1]
+#design: 4,4,RepEmbed,4,14,14,14,RepEmbed,4,[0, 0, 4, 4, 2, 2, 0, 0, 4, 4, 2, 2]
+#design: 5,5,RepEmbed,5,0,0,0,RepEmbed,5,[0, 0, 4, 4, 3, 3, 0, 0, 4, 4, 3, 3]
+#design: 5,5,RepEmbed,5,1,1,1,RepEmbed,5,[0, 0, 4, 4, 1, 1, 0, 0, 4, 4, 1, 1]
+#design: 5,5,RepEmbed,5,2,2,2,RepEmbed,5,[0, 0, 5, 5, 2, 2, 0, 0, 5, 5, 2, 2]
+#design: 5,5,RepEmbed,5,3,3,3,RepEmbed,5,[5, 5, 3, 3, 2, 2, 5, 5, 3, 3, 2, 2]
+#design: 5,5,RepEmbed,5,4,4,4,RepEmbed,5,[5, 5, 0, 0, 1, 1, 5, 5, 0, 0, 1, 1]
+#design: 5,5,RepEmbed,5,5,5,5,RepEmbed,5,[1, 1, 4, 4, 5, 5, 1, 1, 4, 4, 5, 5]
+#design: 5,5,RepEmbed,5,6,6,6,RepEmbed,5,[0, 0, 3, 3, 2, 2, 0, 0, 3, 3, 2, 2]
+#design: 5,5,RepEmbed,5,7,7,7,RepEmbed,5,[3, 3, 5, 5, 0, 0, 3, 3, 5, 5, 0, 0]
+#design: 5,5,RepEmbed,5,8,8,8,RepEmbed,5,[0, 0, 3, 3, 1, 1, 0, 0, 3, 3, 1, 1]
+#design: 5,5,RepEmbed,5,9,9,9,RepEmbed,5,[4, 4, 3, 3, 5, 5, 4, 4, 3, 3, 5, 5]
+#design: 5,5,RepEmbed,5,10,10,10,RepEmbed,5,[3, 3, 0, 0, 1, 1, 3, 3, 0, 0, 1, 1]
+#design: 5,5,RepEmbed,5,11,11,11,RepEmbed,5,[3, 3, 4, 4, 1, 1, 3, 3, 4, 4, 1, 1]
+#design: 5,5,RepEmbed,5,12,12,12,RepEmbed,5,[0, 0, 1, 1, 4, 4, 0, 0, 1, 1, 4, 4]
+#design: 5,5,RepEmbed,5,13,13,13,RepEmbed,5,[3, 3, 0, 0, 2, 2, 3, 3, 0, 0, 2, 2]
+#design: 5,5,RepEmbed,5,14,14,14,RepEmbed,5,[5, 5, 1, 1, 2, 2, 5, 5, 1, 1, 2, 2]
+#design: 6,6,C2RepEmbed,6,0,0,0,C2RepEmbed,6,[2, 4, 0, 4, 2, 0, 2, 4, 0, 4, 2, 0]
+#design: 6,6,C2RepEmbed,6,1,1,1,C2RepEmbed,6,[1, 0, 2, 0, 1, 2, 1, 0, 2, 0, 1, 2]
+#design: 6,6,C2RepEmbed,6,2,2,2,C2RepEmbed,6,[5, 4, 0, 4, 5, 0, 5, 4, 0, 4, 5, 0]
+#design: 6,6,C2RepEmbed,6,3,3,3,C2RepEmbed,6,[4, 5, 3, 5, 4, 3, 4, 5, 3, 5, 4, 3]
+#design: 6,6,C2RepEmbed,6,4,4,4,C2RepEmbed,6,[0, 4, 5, 4, 0, 5, 0, 4, 5, 4, 0, 5]
+#design: 6,6,C2RepEmbed,6,5,5,5,C2RepEmbed,6,[3, 4, 0, 4, 3, 0, 3, 4, 0, 4, 3, 0]
+#design: 6,6,C2RepEmbed,6,6,6,6,C2RepEmbed,6,[3, 2, 4, 2, 3, 4, 3, 2, 4, 2, 3, 4]
+#design: 6,6,C2RepEmbed,6,7,7,7,C2RepEmbed,6,[4, 0, 1, 0, 4, 1, 4, 0, 1, 0, 4, 1]
+#design: 6,6,C2RepEmbed,6,8,8,8,C2RepEmbed,6,[2, 4, 5, 4, 2, 5, 2, 4, 5, 4, 2, 5]
+#design: 6,6,C2RepEmbed,6,9,9,9,C2RepEmbed,6,[4, 1, 3, 1, 4, 3, 4, 1, 3, 1, 4, 3]
+#design: 6,6,C2RepEmbed,6,10,10,10,C2RepEmbed,6,[1, 2, 4, 2, 1, 4, 1, 2, 4, 2, 1, 4]
+#design: 6,6,C2RepEmbed,6,11,11,11,C2RepEmbed,6,[0, 2, 3, 2, 0, 3, 0, 2, 3, 2, 0, 3]
+#design: 6,6,C2RepEmbed,6,12,12,12,C2RepEmbed,6,[1, 0, 3, 0, 1, 3, 1, 0, 3, 0, 1, 3]
+#design: 6,6,C2RepEmbed,6,13,13,13,C2RepEmbed,6,[1, 0, 4, 0, 1, 4, 1, 0, 4, 0, 1, 4]
+#design: 6,6,C2RepEmbed,6,14,14,14,C2RepEmbed,6,[1, 4, 3, 4, 1, 3, 1, 4, 3, 4, 1, 3]
+#design: 7,7,C2RepEmbed,7,0,0,0,C2RepEmbed,7,[4, 2, 5, 2, 4, 5, 4, 2, 5, 2, 4, 5]
+#design: 7,7,C2RepEmbed,7,1,1,1,C2RepEmbed,7,[2, 5, 3, 5, 2, 3, 2, 5, 3, 5, 2, 3]
+#design: 7,7,C2RepEmbed,7,2,2,2,C2RepEmbed,7,[0, 1, 4, 1, 0, 4, 0, 1, 4, 1, 0, 4]
+#design: 7,7,C2RepEmbed,7,3,3,3,C2RepEmbed,7,[1, 3, 5, 3, 1, 5, 1, 3, 5, 3, 1, 5]
+#design: 7,7,C2RepEmbed,7,4,4,4,C2RepEmbed,7,[2, 3, 0, 3, 2, 0, 2, 3, 0, 3, 2, 0]
+#design: 7,7,C2RepEmbed,7,5,5,5,C2RepEmbed,7,[3, 1, 5, 1, 3, 5, 3, 1, 5, 1, 3, 5]
+#design: 7,7,C2RepEmbed,7,6,6,6,C2RepEmbed,7,[3, 2, 4, 2, 3, 4, 3, 2, 4, 2, 3, 4]
+#design: 7,7,C2RepEmbed,7,7,7,7,C2RepEmbed,7,[1, 2, 3, 2, 1, 3, 1, 2, 3, 2, 1, 3]
+#design: 7,7,C2RepEmbed,7,8,8,8,C2RepEmbed,7,[5, 2, 1, 2, 5, 1, 5, 2, 1, 2, 5, 1]
+#design: 7,7,C2RepEmbed,7,9,9,9,C2RepEmbed,7,[2, 3, 1, 3, 2, 1, 2, 3, 1, 3, 2, 1]
+#design: 7,7,C2RepEmbed,7,10,10,10,C2RepEmbed,7,[5, 4, 1, 4, 5, 1, 5, 4, 1, 4, 5, 1]
+#design: 7,7,C2RepEmbed,7,11,11,11,C2RepEmbed,7,[4, 1, 2, 1, 4, 2, 4, 1, 2, 1, 4, 2]
+#design: 7,7,C2RepEmbed,7,12,12,12,C2RepEmbed,7,[3, 5, 1, 5, 3, 1, 3, 5, 1, 5, 3, 1]
+#design: 7,7,C2RepEmbed,7,13,13,13,C2RepEmbed,7,[3, 5, 4, 5, 3, 4, 3, 5, 4, 5, 3, 4]
+#design: 7,7,C2RepEmbed,7,14,14,14,C2RepEmbed,7,[2, 0, 3, 0, 2, 3, 2, 0, 3, 0, 2, 3]
+#design: 8,8,Rep4,8,0,0,0,Rep4,8,[4, 1, 3, 0, 4, 1, 3, 0, 4, 1, 3, 0]
+#design: 8,8,Rep4,8,1,1,1,Rep4,8,[3, 1, 0, 4, 3, 1, 0, 4, 3, 1, 0, 4]
+#design: 8,8,Rep4,8,2,2,2,Rep4,8,[3, 0, 4, 1, 3, 0, 4, 1, 3, 0, 4, 1]
+#design: 8,8,Rep4,8,3,3,3,Rep4,8,[3, 2, 5, 4, 3, 2, 5, 4, 3, 2, 5, 4]
+#design: 8,8,Rep4,8,4,4,4,Rep4,8,[0, 4, 1, 2, 0, 4, 1, 2, 0, 4, 1, 2]
+#design: 8,8,Rep4,8,5,5,5,Rep4,8,[0, 5, 1, 4, 0, 5, 1, 4, 0, 5, 1, 4]
+#design: 8,8,Rep4,8,6,6,6,Rep4,8,[2, 0, 3, 5, 2, 0, 3, 5, 2, 0, 3, 5]
+#design: 8,8,Rep4,8,7,7,7,Rep4,8,[0, 1, 3, 5, 0, 1, 3, 5, 0, 1, 3, 5]
+#design: 8,8,Rep4,8,8,8,8,Rep4,8,[4, 0, 5, 2, 4, 0, 5, 2, 4, 0, 5, 2]
+#design: 8,8,Rep4,8,9,9,9,Rep4,8,[5, 4, 3, 0, 5, 4, 3, 0, 5, 4, 3, 0]
+#design: 8,8,Rep4,8,10,10,10,Rep4,8,[5, 2, 4, 0, 5, 2, 4, 0, 5, 2, 4, 0]
+#design: 8,8,Rep4,8,11,11,11,Rep4,8,[1, 2, 4, 0, 1, 2, 4, 0, 1, 2, 4, 0]
+#design: 8,8,Rep4,8,12,12,12,Rep4,8,[0, 5, 2, 1, 0, 5, 2, 1, 0, 5, 2, 1]
+#design: 8,8,Rep4,8,13,13,13,Rep4,8,[1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
+#design: 8,8,Rep4,8,14,14,14,Rep4,8,[5, 4, 1, 0, 5, 4, 1, 0, 5, 4, 1, 0]
+#design: 9,9,Rep4,9,0,0,0,Rep4,9,[5, 1, 2, 4, 5, 1, 2, 4, 5, 1, 2, 4]
+#design: 9,9,Rep4,9,1,1,1,Rep4,9,[3, 5, 1, 0, 3, 5, 1, 0, 3, 5, 1, 0]
+#design: 9,9,Rep4,9,2,2,2,Rep4,9,[4, 1, 2, 0, 4, 1, 2, 0, 4, 1, 2, 0]
+#design: 9,9,Rep4,9,3,3,3,Rep4,9,[5, 4, 3, 0, 5, 4, 3, 0, 5, 4, 3, 0]
+#design: 9,9,Rep4,9,4,4,4,Rep4,9,[4, 3, 5, 0, 4, 3, 5, 0, 4, 3, 5, 0]
+#design: 9,9,Rep4,9,5,5,5,Rep4,9,[3, 0, 2, 4, 3, 0, 2, 4, 3, 0, 2, 4]
+#design: 9,9,Rep4,9,6,6,6,Rep4,9,[3, 1, 5, 4, 3, 1, 5, 4, 3, 1, 5, 4]
+#design: 9,9,Rep4,9,7,7,7,Rep4,9,[4, 3, 0, 2, 4, 3, 0, 2, 4, 3, 0, 2]
+#design: 9,9,Rep4,9,8,8,8,Rep4,9,[5, 3, 0, 2, 5, 3, 0, 2, 5, 3, 0, 2]
+#design: 9,9,Rep4,9,9,9,9,Rep4,9,[2, 5, 1, 0, 2, 5, 1, 0, 2, 5, 1, 0]
+#design: 9,9,Rep4,9,10,10,10,Rep4,9,[3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0]
+#design: 9,9,Rep4,9,11,11,11,Rep4,9,[0, 5, 3, 4, 0, 5, 3, 4, 0, 5, 3, 4]
+#design: 9,9,Rep4,9,12,12,12,Rep4,9,[0, 4, 5, 1, 0, 4, 5, 1, 0, 4, 5, 1]
+#design: 9,9,Rep4,9,13,13,13,Rep4,9,[4, 5, 0, 2, 4, 5, 0, 2, 4, 5, 0, 2]
+#design: 9,9,Rep4,9,14,14,14,Rep4,9,[0, 5, 4, 2, 0, 5, 4, 2, 0, 5, 4, 2]
+#design: 10,10,CRep2,10,0,0,0,CRep2,10,[2, 5, 5, 5, 5, 2, 2, 5, 2, 2, 2, 5]
+#design: 10,10,CRep2,10,1,1,1,CRep2,10,[4, 3, 3, 3, 3, 4, 4, 3, 4, 4, 4, 3]
+#design: 10,10,CRep2,10,2,2,2,CRep2,10,[1, 4, 4, 4, 4, 1, 1, 4, 1, 1, 1, 4]
+#design: 10,10,CRep2,10,3,3,3,CRep2,10,[3, 0, 0, 0, 0, 3, 3, 0, 3, 3, 3, 0]
+#design: 10,10,CRep2,10,4,4,4,CRep2,10,[3, 0, 0, 0, 0, 3, 3, 0, 3, 3, 3, 0]
+#design: 10,10,CRep2,10,5,5,5,CRep2,10,[0, 2, 2, 2, 2, 0, 0, 2, 0, 0, 0, 2]
+#design: 10,10,CRep2,10,6,6,6,CRep2,10,[1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0]
+#design: 10,10,CRep2,10,7,7,7,CRep2,10,[3, 0, 0, 0, 0, 3, 3, 0, 3, 3, 3, 0]
+#design: 10,10,CRep2,10,8,8,8,CRep2,10,[4, 2, 2, 2, 2, 4, 4, 2, 4, 4, 4, 2]
+#design: 10,10,CRep2,10,9,9,9,CRep2,10,[1, 4, 4, 4, 4, 1, 1, 4, 1, 1, 1, 4]
+#design: 10,10,CRep2,10,10,10,10,CRep2,10,[3, 5, 5, 5, 5, 3, 3, 5, 3, 3, 3, 5]
+#design: 10,10,CRep2,10,11,11,11,CRep2,10,[0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1]
+#design: 10,10,CRep2,10,12,12,12,CRep2,10,[4, 0, 0, 0, 0, 4, 4, 0, 4, 4, 4, 0]
+#design: 10,10,CRep2,10,13,13,13,CRep2,10,[3, 2, 2, 2, 2, 3, 3, 2, 3, 3, 3, 2]
+#design: 10,10,CRep2,10,14,14,14,CRep2,10,[0, 3, 3, 3, 3, 0, 0, 3, 0, 0, 0, 3]
+#design: 11,11,CRep2,11,0,0,0,CRep2,11,[2, 5, 5, 5, 5, 2, 2, 5, 2, 2, 2, 5]
+#design: 11,11,CRep2,11,1,1,1,CRep2,11,[2, 1, 1, 1, 1, 2, 2, 1, 2, 2, 2, 1]
+#design: 11,11,CRep2,11,2,2,2,CRep2,11,[3, 0, 0, 0, 0, 3, 3, 0, 3, 3, 3, 0]
+#design: 11,11,CRep2,11,3,3,3,CRep2,11,[4, 5, 5, 5, 5, 4, 4, 5, 4, 4, 4, 5]
+#design: 11,11,CRep2,11,4,4,4,CRep2,11,[3, 2, 2, 2, 2, 3, 3, 2, 3, 3, 3, 2]
+#design: 11,11,CRep2,11,5,5,5,CRep2,11,[3, 2, 2, 2, 2, 3, 3, 2, 3, 3, 3, 2]
+#design: 11,11,CRep2,11,6,6,6,CRep2,11,[3, 4, 4, 4, 4, 3, 3, 4, 3, 3, 3, 4]
+#design: 11,11,CRep2,11,7,7,7,CRep2,11,[3, 0, 0, 0, 0, 3, 3, 0, 3, 3, 3, 0]
+#design: 11,11,CRep2,11,8,8,8,CRep2,11,[3, 5, 5, 5, 5, 3, 3, 5, 3, 3, 3, 5]
+#design: 11,11,CRep2,11,9,9,9,CRep2,11,[4, 3, 3, 3, 3, 4, 4, 3, 4, 4, 4, 3]
+#design: 11,11,CRep2,11,10,10,10,CRep2,11,[0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1]
+#design: 11,11,CRep2,11,11,11,11,CRep2,11,[1, 3, 3, 3, 3, 1, 1, 3, 1, 1, 1, 3]
+#design: 11,11,CRep2,11,12,12,12,CRep2,11,[2, 3, 3, 3, 3, 2, 2, 3, 2, 2, 2, 3]
+#design: 11,11,CRep2,11,13,13,13,CRep2,11,[5, 2, 2, 2, 2, 5, 5, 2, 5, 5, 5, 2]
+#design: 11,11,CRep2,11,14,14,14,CRep2,11,[1, 5, 5, 5, 5, 1, 1, 5, 1, 1, 1, 5]
+#design: 12,12,Rep2,12,0,0,0,Rep2,12,[0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3]
+#design: 12,12,Rep2,12,1,1,1,Rep2,12,[4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5]
+#design: 12,12,Rep2,12,2,2,2,Rep2,12,[0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3]
+#design: 12,12,Rep2,12,3,3,3,Rep2,12,[5, 1, 5, 1, 5, 1, 5, 1, 5, 1, 5, 1]
+#design: 12,12,Rep2,12,4,4,4,Rep2,12,[3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0]
+#design: 12,12,Rep2,12,5,5,5,Rep2,12,[3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0]
+#design: 12,12,Rep2,12,6,6,6,Rep2,12,[0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3]
+#design: 12,12,Rep2,12,7,7,7,Rep2,12,[2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4]
+#design: 12,12,Rep2,12,8,8,8,Rep2,12,[3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4]
+#design: 12,12,Rep2,12,9,9,9,Rep2,12,[3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2]
+#design: 12,12,Rep2,12,10,10,10,Rep2,12,[0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5]
+#design: 12,12,Rep2,12,11,11,11,Rep2,12,[2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3]
+#design: 12,12,Rep2,12,12,12,12,Rep2,12,[2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3]
+#design: 12,12,Rep2,12,13,13,13,Rep2,12,[4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2]
+#design: 12,12,Rep2,12,14,14,14,Rep2,12,[5, 2, 5, 2, 5, 2, 5, 2, 5, 2, 5, 2]
+#design: 13,13,Rep2,13,0,0,0,Rep2,13,[5, 1, 5, 1, 5, 1, 5, 1, 5, 1, 5, 1]
+#design: 13,13,Rep2,13,1,1,1,Rep2,13,[4, 1, 4, 1, 4, 1, 4, 1, 4, 1, 4, 1]
+#design: 13,13,Rep2,13,2,2,2,Rep2,13,[0, 4, 0, 4, 0, 4, 0, 4, 0, 4, 0, 4]
+#design: 13,13,Rep2,13,3,3,3,Rep2,13,[5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4]
+#design: 13,13,Rep2,13,4,4,4,Rep2,13,[2, 5, 2, 5, 2, 5, 2, 5, 2, 5, 2, 5]
+#design: 13,13,Rep2,13,5,5,5,Rep2,13,[0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2]
+#design: 13,13,Rep2,13,6,6,6,Rep2,13,[3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4]
+#design: 13,13,Rep2,13,7,7,7,Rep2,13,[0, 3, 0, 3, 0, 3, 0, 3, 0, 3, 0, 3]
+#design: 13,13,Rep2,13,8,8,8,Rep2,13,[2, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 0]
+#design: 13,13,Rep2,13,9,9,9,Rep2,13,[4, 1, 4, 1, 4, 1, 4, 1, 4, 1, 4, 1]
+#design: 13,13,Rep2,13,10,10,10,Rep2,13,[4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3]
+#design: 13,13,Rep2,13,11,11,11,Rep2,13,[5, 0, 5, 0, 5, 0, 5, 0, 5, 0, 5, 0]
+#design: 13,13,Rep2,13,12,12,12,Rep2,13,[5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4]
+#design: 13,13,Rep2,13,13,13,13,Rep2,13,[5, 3, 5, 3, 5, 3, 5, 3, 5, 3, 5, 3]
+#design: 13,13,Rep2,13,14,14,14,Rep2,13,[2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4]
+#design: 14,14,CRep3,14,0,0,0,CRep3,14,[1, 4, 2, 1, 2, 4, 4, 2, 1, 4, 1, 2]
+#design: 14,14,CRep3,14,1,1,1,CRep3,14,[2, 1, 3, 2, 3, 1, 1, 3, 2, 1, 2, 3]
+#design: 14,14,CRep3,14,2,2,2,CRep3,14,[0, 3, 4, 0, 4, 3, 3, 4, 0, 3, 0, 4]
+#design: 14,14,CRep3,14,3,3,3,CRep3,14,[0, 1, 3, 0, 3, 1, 1, 3, 0, 1, 0, 3]
+#design: 14,14,CRep3,14,4,4,4,CRep3,14,[2, 1, 0, 2, 0, 1, 1, 0, 2, 1, 2, 0]
+#design: 14,14,CRep3,14,5,5,5,CRep3,14,[1, 4, 0, 1, 0, 4, 4, 0, 1, 4, 1, 0]
+#design: 14,14,CRep3,14,6,6,6,CRep3,14,[5, 3, 4, 5, 4, 3, 3, 4, 5, 3, 5, 4]
+#design: 14,14,CRep3,14,7,7,7,CRep3,14,[5, 1, 3, 5, 3, 1, 1, 3, 5, 1, 5, 3]
+#design: 14,14,CRep3,14,8,8,8,CRep3,14,[1, 2, 5, 1, 5, 2, 2, 5, 1, 2, 1, 5]
+#design: 14,14,CRep3,14,9,9,9,CRep3,14,[2, 5, 4, 2, 4, 5, 5, 4, 2, 5, 2, 4]
+#design: 14,14,CRep3,14,10,10,10,CRep3,14,[4, 1, 2, 4, 2, 1, 1, 2, 4, 1, 4, 2]
+#design: 14,14,CRep3,14,11,11,11,CRep3,14,[5, 3, 0, 5, 0, 3, 3, 0, 5, 3, 5, 0]
+#design: 14,14,CRep3,14,12,12,12,CRep3,14,[3, 5, 2, 3, 2, 5, 5, 2, 3, 5, 3, 2]
+#design: 14,14,CRep3,14,13,13,13,CRep3,14,[3, 0, 4, 3, 4, 0, 0, 4, 3, 0, 3, 4]
+#design: 14,14,CRep3,14,14,14,14,CRep3,14,[5, 2, 0, 5, 0, 2, 2, 0, 5, 2, 5, 0]
+#design: 15,15,CRep3,15,0,0,0,CRep3,15,[5, 3, 2, 5, 2, 3, 3, 2, 5, 3, 5, 2]
+#design: 15,15,CRep3,15,1,1,1,CRep3,15,[2, 3, 4, 2, 4, 3, 3, 4, 2, 3, 2, 4]
+#design: 15,15,CRep3,15,2,2,2,CRep3,15,[0, 5, 2, 0, 2, 5, 5, 2, 0, 5, 0, 2]
+#design: 15,15,CRep3,15,3,3,3,CRep3,15,[4, 3, 0, 4, 0, 3, 3, 0, 4, 3, 4, 0]
+#design: 15,15,CRep3,15,4,4,4,CRep3,15,[2, 5, 4, 2, 4, 5, 5, 4, 2, 5, 2, 4]
+#design: 15,15,CRep3,15,5,5,5,CRep3,15,[4, 2, 5, 4, 5, 2, 2, 5, 4, 2, 4, 5]
+#design: 15,15,CRep3,15,6,6,6,CRep3,15,[1, 2, 3, 1, 3, 2, 2, 3, 1, 2, 1, 3]
+#design: 15,15,CRep3,15,7,7,7,CRep3,15,[0, 2, 5, 0, 5, 2, 2, 5, 0, 2, 0, 5]
+#design: 15,15,CRep3,15,8,8,8,CRep3,15,[1, 0, 4, 1, 4, 0, 0, 4, 1, 0, 1, 4]
+#design: 15,15,CRep3,15,9,9,9,CRep3,15,[4, 3, 0, 4, 0, 3, 3, 0, 4, 3, 4, 0]
+#design: 15,15,CRep3,15,10,10,10,CRep3,15,[3, 4, 0, 3, 0, 4, 4, 0, 3, 4, 3, 0]
+#design: 15,15,CRep3,15,11,11,11,CRep3,15,[2, 4, 0, 2, 0, 4, 4, 0, 2, 4, 2, 0]
+#design: 15,15,CRep3,15,12,12,12,CRep3,15,[1, 3, 4, 1, 4, 3, 3, 4, 1, 3, 1, 4]
+#design: 15,15,CRep3,15,13,13,13,CRep3,15,[0, 4, 3, 0, 3, 4, 4, 3, 0, 4, 0, 3]
+#design: 15,15,CRep3,15,14,14,14,CRep3,15,[2, 4, 5, 2, 5, 4, 4, 5, 2, 4, 2, 5]
+#design: 16,16,CRep4,16,0,0,0,CRep4,16,[0, 3, 2, 1, 2, 3, 1, 0, 0, 3, 1, 2]
+#design: 16,16,CRep4,16,1,1,1,CRep4,16,[0, 2, 1, 5, 1, 2, 5, 0, 0, 2, 5, 1]
+#design: 16,16,CRep4,16,2,2,2,CRep4,16,[5, 4, 1, 0, 1, 4, 0, 5, 5, 4, 0, 1]
+#design: 16,16,CRep4,16,3,3,3,CRep4,16,[1, 3, 5, 0, 5, 3, 0, 1, 1, 3, 0, 5]
+#design: 16,16,CRep4,16,4,4,4,CRep4,16,[4, 0, 3, 5, 3, 0, 5, 4, 4, 0, 5, 3]
+#design: 16,16,CRep4,16,5,5,5,CRep4,16,[0, 5, 3, 1, 3, 5, 1, 0, 0, 5, 1, 3]
+#design: 16,16,CRep4,16,6,6,6,CRep4,16,[2, 5, 0, 1, 0, 5, 1, 2, 2, 5, 1, 0]
+#design: 16,16,CRep4,16,7,7,7,CRep4,16,[0, 4, 3, 2, 3, 4, 2, 0, 0, 4, 2, 3]
+#design: 16,16,CRep4,16,8,8,8,CRep4,16,[5, 4, 1, 2, 1, 4, 2, 5, 5, 4, 2, 1]
+#design: 16,16,CRep4,16,9,9,9,CRep4,16,[0, 4, 5, 2, 5, 4, 2, 0, 0, 4, 2, 5]
+#design: 16,16,CRep4,16,10,10,10,CRep4,16,[4, 5, 3, 0, 3, 5, 0, 4, 4, 5, 0, 3]
+#design: 16,16,CRep4,16,11,11,11,CRep4,16,[0, 3, 2, 1, 2, 3, 1, 0, 0, 3, 1, 2]
+#design: 16,16,CRep4,16,12,12,12,CRep4,16,[1, 3, 2, 5, 2, 3, 5, 1, 1, 3, 5, 2]
+#design: 16,16,CRep4,16,13,13,13,CRep4,16,[3, 2, 5, 0, 5, 2, 0, 3, 3, 2, 0, 5]
+#design: 16,16,CRep4,16,14,14,14,CRep4,16,[5, 4, 2, 0, 2, 4, 0, 5, 5, 4, 0, 2]
+#design: 17,17,CRep4,17,0,0,0,CRep4,17,[5, 2, 0, 1, 0, 2, 1, 5, 5, 2, 1, 0]
+#design: 17,17,CRep4,17,1,1,1,CRep4,17,[4, 0, 2, 5, 2, 0, 5, 4, 4, 0, 5, 2]
+#design: 17,17,CRep4,17,2,2,2,CRep4,17,[0, 5, 2, 4, 2, 5, 4, 0, 0, 5, 4, 2]
+#design: 17,17,CRep4,17,3,3,3,CRep4,17,[3, 4, 5, 1, 5, 4, 1, 3, 3, 4, 1, 5]
+#design: 17,17,CRep4,17,4,4,4,CRep4,17,[2, 3, 5, 4, 5, 3, 4, 2, 2, 3, 4, 5]
+#design: 17,17,CRep4,17,5,5,5,CRep4,17,[0, 2, 4, 1, 4, 2, 1, 0, 0, 2, 1, 4]
+#design: 17,17,CRep4,17,6,6,6,CRep4,17,[3, 1, 4, 2, 4, 1, 2, 3, 3, 1, 2, 4]
+#design: 17,17,CRep4,17,7,7,7,CRep4,17,[4, 5, 1, 2, 1, 5, 2, 4, 4, 5, 2, 1]
+#design: 17,17,CRep4,17,8,8,8,CRep4,17,[3, 5, 1, 2, 1, 5, 2, 3, 3, 5, 2, 1]
+#design: 17,17,CRep4,17,9,9,9,CRep4,17,[4, 0, 2, 1, 2, 0, 1, 4, 4, 0, 1, 2]
+#design: 17,17,CRep4,17,10,10,10,CRep4,17,[2, 4, 0, 1, 0, 4, 1, 2, 2, 4, 1, 0]
+#design: 17,17,CRep4,17,11,11,11,CRep4,17,[3, 2, 0, 5, 0, 2, 5, 3, 3, 2, 5, 0]
+#design: 17,17,CRep4,17,12,12,12,CRep4,17,[1, 0, 3, 2, 3, 0, 2, 1, 1, 0, 2, 3]
+#design: 17,17,CRep4,17,13,13,13,CRep4,17,[2, 5, 3, 0, 3, 5, 0, 2, 2, 5, 0, 3]
+#design: 17,17,CRep4,17,14,14,14,CRep4,17,[0, 1, 3, 4, 3, 1, 4, 0, 0, 1, 4, 3]
+13042,design,logged,
+13042,Experiment,started
+13061,Stimulus,presented,26
+13855,Keyboard,received,13,wait
+13865,Stimulus,presented,4
+14367,Stimulus,presented,4
+14373,Stimulus,presented,19
+14574,Stimulus,presented,4
+14766,Stimulus,presented,4
+14769,Stimulus,presented,19
+14970,Stimulus,presented,4
+15167,Stimulus,presented,4
+15171,Stimulus,presented,18
+15372,Stimulus,presented,4
+15566,Stimulus,presented,4
+15568,Stimulus,presented,18
+15769,Stimulus,presented,4
+15966,Stimulus,presented,4
+15968,Stimulus,presented,21
+16169,Stimulus,presented,4
+16367,Stimulus,presented,4
+16371,Stimulus,presented,21
+16572,Stimulus,presented,4
+16767,Stimulus,presented,4
+16771,Stimulus,presented,18
+16973,Stimulus,presented,4
+17167,Stimulus,presented,4
+17170,Stimulus,presented,18
+17371,Stimulus,presented,4
+17567,Stimulus,presented,4
+17571,Stimulus,presented,19
+17772,Stimulus,presented,4
+17966,Stimulus,presented,4
+17969,Stimulus,presented,19
+18171,Stimulus,presented,4
+18366,Stimulus,presented,4
+18370,Stimulus,presented,21
+18571,Stimulus,presented,4
+18766,Stimulus,presented,4
+18769,Stimulus,presented,21
+18971,Stimulus,presented,4
+25165,Keyboard,received,None,wait_char
+25171,Stimulus,presented,11
+25183,Stimulus,presented,11
+27051,Keyboard,received,j,wait_char
+27057,Stimulus,presented,20
+27158,Stimulus,presented,11
+27158,stdout,received,'BUTTON NUMBER 2 PRESSED'
+27158,stdout,received,''
+27159,Stimulus,presented,11
+27201,Keyboard,received,j,wait_char
+27202,Stimulus,presented,20
+27303,Stimulus,presented,11
+27303,stdout,received,'BUTTON NUMBER 2 PRESSED'
+27303,stdout,received,''
+27304,Stimulus,presented,11
+27354,Keyboard,received,j,wait_char
+27355,Stimulus,presented,20
+27456,Stimulus,presented,11
+27456,stdout,received,'BUTTON NUMBER 2 PRESSED'
+27456,stdout,received,''
+27458,Stimulus,presented,11
+27505,Keyboard,received,j,wait_char
+27506,Stimulus,presented,20
+27607,Stimulus,presented,11
+27607,stdout,received,'BUTTON NUMBER 2 PRESSED'
+27607,stdout,received,''
+27609,Stimulus,presented,11
+27629,Keyboard,received,j,wait_char
+27629,Stimulus,presented,20
+27730,Stimulus,presented,11
+27730,stdout,received,'BUTTON NUMBER 2 PRESSED'
+27730,stdout,received,''
+27732,Stimulus,presented,11
+28092,Keyboard,received,j,wait_char
+28096,Stimulus,presented,20
+28197,Stimulus,presented,11
+28197,stdout,received,'BUTTON NUMBER 2 PRESSED'
+28197,stdout,received,''
+28199,Stimulus,presented,11
+28239,Keyboard,received,j,wait_char
+28240,Stimulus,presented,20
+28341,Stimulus,presented,11
+28341,stdout,received,'BUTTON NUMBER 2 PRESSED'
+28341,stdout,received,''
+28343,Stimulus,presented,11
+28392,Keyboard,received,j,wait_char
+28393,Stimulus,presented,20
+28494,Stimulus,presented,11
+28494,stdout,received,'BUTTON NUMBER 2 PRESSED'
+28494,stdout,received,''
+28496,Stimulus,presented,11
+28555,Keyboard,received,j,wait_char
+28555,Stimulus,presented,20
+28656,Stimulus,presented,11
+28656,stdout,received,'BUTTON NUMBER 2 PRESSED'
+28656,stdout,received,''
+28658,Stimulus,presented,11
+28712,Keyboard,received,j,wait_char
+28713,Stimulus,presented,20
+28814,Stimulus,presented,11
+28814,stdout,received,'BUTTON NUMBER 2 PRESSED'
+28814,stdout,received,''
+28816,Stimulus,presented,11
+28886,Keyboard,received,j,wait_char
+28887,Stimulus,presented,20
+28988,Stimulus,presented,11
+28988,stdout,received,'BUTTON NUMBER 2 PRESSED'
+28988,stdout,received,''
+28990,Stimulus,presented,11
+29063,Keyboard,received,j,wait_char
+29064,Stimulus,presented,20
+29165,Stimulus,presented,11
+29165,stdout,received,'BUTTON NUMBER 2 PRESSED'
+29165,stdout,received,''
+29366,Stimulus,played,b'./auditory_feedback/neg1.wav'
+29369,Stimulus,presented,29
+29870,Stimulus,presented,3
+30870,stdout,received,'---------------------------------------'
+30877,Stimulus,presented,4
+31378,Stimulus,presented,4
+31381,Stimulus,presented,21
+31582,Stimulus,presented,4
+31778,Stimulus,presented,4
+31780,Stimulus,presented,21
+31982,Stimulus,presented,4
+32179,Stimulus,presented,4
+32181,Stimulus,presented,19
+32383,Stimulus,presented,4
+32578,Stimulus,presented,4
+32581,Stimulus,presented,19
+32783,Stimulus,presented,4
+32978,Stimulus,presented,4
+32981,Stimulus,presented,23
+33182,Stimulus,presented,4
+33379,Stimulus,presented,4
+33381,Stimulus,presented,23
+33582,Stimulus,presented,4
+33778,Stimulus,presented,4
+33780,Stimulus,presented,19
+33982,Stimulus,presented,4
+34178,Stimulus,presented,4
+34181,Stimulus,presented,19
+34383,Stimulus,presented,4
+34579,Stimulus,presented,4
+34581,Stimulus,presented,21
+34782,Stimulus,presented,4
+34978,Stimulus,presented,4
+34980,Stimulus,presented,21
+35181,Stimulus,presented,4
+35378,Stimulus,presented,4
+35383,Stimulus,presented,23
+35584,Stimulus,presented,4
+35778,Stimulus,presented,4
+35780,Stimulus,presented,23
+35981,Stimulus,presented,4
+42178,Keyboard,received,None,wait_char
+42183,Stimulus,presented,11
+42195,Stimulus,presented,11
+45589,Keyboard,received,j,wait_char
+45595,Stimulus,presented,20
+45696,Stimulus,presented,11
+45696,stdout,received,'BUTTON NUMBER 2 PRESSED'
+45696,stdout,received,''
+45698,Stimulus,presented,11
+45764,Keyboard,received,j,wait_char
+45765,Stimulus,presented,20
+45866,Stimulus,presented,11
+45866,stdout,received,'BUTTON NUMBER 2 PRESSED'
+45866,stdout,received,''
+45868,Stimulus,presented,11
+45925,Keyboard,received,j,wait_char
+45926,Stimulus,presented,20
+46027,Stimulus,presented,11
+46027,stdout,received,'BUTTON NUMBER 2 PRESSED'
+46027,stdout,received,''
+46029,Stimulus,presented,11
+46084,Keyboard,received,j,wait_char
+46085,Stimulus,presented,20
+46186,Stimulus,presented,11
+46186,stdout,received,'BUTTON NUMBER 2 PRESSED'
+46186,stdout,received,''
+46189,Stimulus,presented,11
+46243,Keyboard,received,j,wait_char
+46244,Stimulus,presented,20
+46345,Stimulus,presented,11
+46345,stdout,received,'BUTTON NUMBER 2 PRESSED'
+46345,stdout,received,''
+46347,Stimulus,presented,11
+46415,Keyboard,received,j,wait_char
+46416,Stimulus,presented,20
+46517,Stimulus,presented,11
+46517,stdout,received,'BUTTON NUMBER 2 PRESSED'
+46517,stdout,received,''
+46519,Stimulus,presented,11
+46595,Keyboard,received,j,wait_char
+46596,Stimulus,presented,20
+46697,Stimulus,presented,11
+46697,stdout,received,'BUTTON NUMBER 2 PRESSED'
+46697,stdout,received,''
+46699,Stimulus,presented,11
+46747,Keyboard,received,j,wait_char
+46748,Stimulus,presented,20
+46849,Stimulus,presented,11
+46849,stdout,received,'BUTTON NUMBER 2 PRESSED'
+46849,stdout,received,''
+46851,Stimulus,presented,11
+46915,Keyboard,received,j,wait_char
+46916,Stimulus,presented,20
+47017,Stimulus,presented,11
+47017,stdout,received,'BUTTON NUMBER 2 PRESSED'
+47017,stdout,received,''
+47020,Stimulus,presented,11
+47106,Keyboard,received,j,wait_char
+47107,Stimulus,presented,20
+47208,Stimulus,presented,11
+47208,stdout,received,'BUTTON NUMBER 2 PRESSED'
+47208,stdout,received,''
+47210,Stimulus,presented,11
+47279,Keyboard,received,j,wait_char
+47280,Stimulus,presented,20
+47381,Stimulus,presented,11
+47381,stdout,received,'BUTTON NUMBER 2 PRESSED'
+47381,stdout,received,''
+47383,Stimulus,presented,11
+47476,Keyboard,received,j,wait_char
+47478,Stimulus,presented,20
+47579,Stimulus,presented,11
+47579,stdout,received,'BUTTON NUMBER 2 PRESSED'
+47579,stdout,received,''
+47779,Stimulus,played,b'./auditory_feedback/neg1.wav'
+47781,Stimulus,presented,30
+48283,Stimulus,presented,3
+49283,stdout,received,'---------------------------------------'
+49292,Stimulus,presented,4
+49793,Stimulus,presented,4
+49795,Stimulus,presented,19
+49996,Stimulus,presented,4
+50193,Stimulus,presented,4
+50196,Stimulus,presented,19
+50397,Stimulus,presented,4
+50594,Stimulus,presented,4
+50597,Stimulus,presented,22
+50798,Stimulus,presented,4
+50993,Stimulus,presented,4
+50997,Stimulus,presented,22
+51199,Stimulus,presented,4
+51393,Stimulus,presented,4
+51396,Stimulus,presented,21
+51597,Stimulus,presented,4
+51793,Stimulus,presented,4
+51796,Stimulus,presented,21
+51997,Stimulus,presented,4
+52194,Stimulus,presented,4
+52196,Stimulus,presented,22
+52398,Stimulus,presented,4
+52594,Stimulus,presented,4
+52597,Stimulus,presented,22
+52799,Stimulus,presented,4
+52994,Stimulus,presented,4
+52996,Stimulus,presented,19
+53197,Stimulus,presented,4
+53394,Stimulus,presented,4
+53397,Stimulus,presented,19
+53598,Stimulus,presented,4
+53793,Stimulus,presented,4
+53795,Stimulus,presented,21
+53996,Stimulus,presented,4
+54194,Stimulus,presented,4
+54197,Stimulus,presented,21
+54399,Stimulus,presented,4
+60592,Keyboard,received,None,wait_char
+60598,Stimulus,presented,11
+60604,Stimulus,presented,11
+67586,Experiment,paused
+67596,Stimulus,presented,31
+70298,Keyboard,received,y,wait_char
+70298,Experiment,ended
+70319,Data,saved
+70327,Stimulus,presented,31
