@@ -59,7 +59,7 @@ import response_funcs
 
 
 debugging=False
-MEG = True
+MEG = False
 
 if debugging:
     control.set_develop_mode(on=True)
