@@ -2,8 +2,8 @@ import mne
 
 
 # Boolean that indicates if script is ran on neurospin server or personnal computer
-server=True
-hard_drive=False
+server=False
+hard_drive=True
 pc_id="pc_id"
 
 if server:
@@ -18,12 +18,15 @@ study_name = "REPLAYSEQ"
 
 bids_root = path_root+"BIDS"
 deriv_root = path_root+"derivatives/fixation"
+# deriv_root="/Volumes/T5_EVO/1-experiments/REPLAYSEQ/0-archives/test_mne_bids_pipeline"
 
-task = "reproduction"
+task = "fixation"
 
 runs = 'all'
 exclude_subjects = ['01','02']
-exclude_subjects.extend([]) # subject that don't have bad channels annotated yet
+# subject that don't have bad channels annotated yet
+exclude_subjects.extend(['03','04','05','06','07','08','09','10','11','12','15','16','17']) 
+
 
 find_flat_channels_meg = True
 find_noisy_channels_meg = True

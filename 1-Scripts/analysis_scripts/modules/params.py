@@ -9,7 +9,7 @@ from mne.preprocessing import ICA, corrmap, create_ecg_epochs, create_eog_epochs
 
 # Original paths
 path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/raw"
-path_json_file = '/Users/et/Documents/UNICOG/2-Experiments/replayseq/1-Scripts/analysis_scripts/modules/objects/bad_channels.json'
+path_json_file = '/Users/elyestabbane/Documents/UNICOG/2-Experiments/replayseq/1-Scripts/analysis_scripts/modules/objects/bad_channels.json'
 
 # Check if the OS is Linux
 if platform.system() == 'Linux':
