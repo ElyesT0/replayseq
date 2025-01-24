@@ -1,5 +1,7 @@
 
 from modules.params import *
+from fpdf import FPDF
+
 
 def extract_events_and_event_IDs_neurospin(raw,event_dict=event_dict):
     events_presentation=mne.find_events(raw,mask_type = "not_and",mask = 2**6+2**7+2**8+2**9+2**10+2**11+2**12+2**13+2**14+2**15, verbose=False, min_duration=0.1)
@@ -107,7 +109,7 @@ def prepare_data_for_mne_bids_pipeline(sub,path_exp = "/Volumes/T5_EVO/1-experim
         write_meg_calibration(calibration=cal_fname,bids_path=bids_path)
         write_meg_crosstalk(fname=ct_fname,bids_path=bids_path)
 
-def inspect_raw(sub_nb, run, path_root=path_root,verbose=False,bad_channels_test=[]):
+def inspect_raw(sub_nb, run, path_root=root_path,verbose=False,bad_channels_test=[]):
     # bad_channels_test : enter group of usually recognized bad channels. Makes it easier to check if they are still bad accross runs.
     
     # Open JSON bad_channels object
@@ -175,4 +177,45 @@ def prepare_json_bad_channels(path_json_file, sub):
         
 
 
+# Function to generate the BIDS report
+def generate_bids_report(subject_id, run, raw, annot_muscle, bids_path, output_path):
+    # Ensure participant's directory exists
+    participant_path = os.path.join(output_path, f"sub-{subject_id:02}")
+    if not os.path.exists(participant_path):
+        os.makedirs(participant_path)
 
+    # Create a PDF object
+    pdf = FPDF()
+    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.add_page()
+    pdf.set_font("Arial", size=12)
+
+    # Header
+    pdf.set_font("Arial", style="B", size=14)
+    pdf.cell(200, 10, txt=f"BIDS Processing Report: sub-{subject_id:02} run-{run:02}", ln=True, align='C')
+    pdf.ln(10)
+
+    # File Information
+    pdf.set_font("Arial", size=12)
+    pdf.cell(200, 10, txt=f"Raw file: {path_raw}/run{run}_raw.fif", ln=True)
+    pdf.cell(200, 10, txt=f"BIDS path: {path_BIDS}", ln=True)
+    pdf.ln(5)
+
+    # Annotations
+    pdf.set_font("Arial", style="B", size=12)
+    pdf.cell(200, 10, txt="Annotations:", ln=True)
+    pdf.set_font("Arial", size=12)
+    pdf.cell(200, 10, txt=f"Total annotations: {len(raw.annotations)}", ln=True)
+    pdf.cell(200, 10, txt=f"Types: {set(annot['description'] for annot in raw.annotations)}", ln=True)
+    pdf.cell(200, 10, txt=f"Total duration: {sum(annot['duration'] for annot in raw.annotations)} seconds", ln=True)
+
+    # Plot raw data with annotations
+    fig = raw.plot(show=False)
+    fig.savefig(f"{participant_path}/sub-{subject_id:02}_run-{run:02}_annotations.png")
+    pdf.image(f"{participant_path}/sub-{subject_id:02}_run-{run:02}_annotations.png", x=10, y=None, w=180)
+    pdf.ln(5)
+
+    # Save the PDF report
+    report_file = os.path.join(participant_path, f"sub-{subject_id:02}_run-{run:02}_BIDS_report.pdf")
+    pdf.output(report_file)
+    print(f"Report saved to {report_file}")

@@ -7,13 +7,19 @@ import os
 import json
 from mne.preprocessing import ICA, corrmap, create_ecg_epochs, create_eog_epochs
 
-# Original paths
-path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/raw"
-path_json_file = '/Users/elyestabbane/Documents/UNICOG/2-Experiments/replayseq/1-Scripts/analysis_scripts/modules/objects/bad_channels.json'
+# # Original paths
+# path_root = "/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data/raw"
+# path_json_file = '/Users/elyestabbane/Documents/UNICOG/2-Experiments/replayseq/1-Scripts/analysis_scripts/modules/objects/bad_channels.json'
+
+# Path to BIDS directory
+root_path="/Volumes/T5_EVO/1-experiments/REPLAYSEQ/2-Data"
+path_BIDS =os.path.join(root_path,"BIDS")
+path_raw=os.path.join(root_path,"raw")
+path_reports=os.path.join(path_BIDS,'reports')
 
 # Check if the OS is Linux
 if platform.system() == 'Linux':
-    path_root = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/REPLAYSEQ/2-Data/raw"
+    root_path = "/neurospin/meg/meg_tmp/2024_ReplaySeq_Elyes/REPLAYSEQ/2-Data/raw"
 
 
 event_dict={'fixation_blue': 4,
@@ -73,4 +79,5 @@ event_dict={'fixation_blue': 4,
 'SequenceID-C2RepEmbed/Position-5': 58,
 'SequenceID-C2RepEmbed/Position-6': 59,
 'win': 60,
-'loss': 61}
+'loss': 61,
+'BAD_muscle':62}
